@@ -1,0 +1,21 @@
+"Gives you a boost of happiness and achievement."
+
+From a recent comment to a quizchain block.
+
+While I like seeing people feeling happy and achieved, in the context I am not quite sure what the person was feeling happy and proud about. They were boasting about having solved almost all the blocks with running a script. And telling me that my countermeasures are not sufficient, since over 90 percent of the blocks are solved by brute force.
+
+If you let a script run to find a solution, you are getting an advantage over people who only rely on their brains. It may be of dubious moral value to do that. If you were caught with some intelligence enhancing tool in a controlled environment quiz, you would be kicked out of the competition and banned from further play.
+
+And if you let a script run to find a solution for you, you are depriving yourself of the fun and challenge that is the point of doing a quiz in the first place. Would you let a robot solve a crossword or a sudoku puzzle for you? Of course not, you are only trying to claim the prizes, by getting an unfair advantage over other players.
+
+On the other hand, if you are lacking the intellectual firepower to challenge the quiz questions on your own, you won't have a choice but settle for getting that "boost of happiness and achievement" from watching a script running.
+
+And there is not much I can do about this. I do try, of course. But whatever I do to make it harder for brute forcing also makes it harder for humans. So I am not going into full overkill mode just to shut out cheating.
+
+My goal is only to delay brute forcing long enough that human players get a chance to think about the solution. If I suspect that outside cracking bots may get a solution without even knowing about the quizchain, I will include a link shutting them out completely. And if I suspect that without a TOMI field our smart and well-equipped cheating fraction would get their "boost of happiness" in a minute or two, I include one.
+
+I also learned in that discussion that some players would first think themselves and then maybe in a later stage use a script to clear the last hurdles. An interesting point. This means there are at least three categories of players. Add the other category of bots running around without even knowing about the quizchain experiment, and you get four possible categories.
+
+And also human players not running scripts are not completely limited to their own brains. For the very least, they can run a Wikipedia search and find a clue that way. And once they find the right answer, they will rely on a computer to hash the answer and to find the private key over the Coleman tool. All humans are already part gods compared to our ancestors 500 years ago.
+
+One other point. If you win a block and post about in comments to that block, I would be interested in hearing if you found it with or without scripts. Of course any such comment may be not quite truthful, since cheaters may be reluctant to admit their shameful behavior. But it still would be better than hearing nothing about this point.

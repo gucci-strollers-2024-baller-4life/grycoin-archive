@@ -1,0 +1,2 @@
+base=1549 bytes, 1197 alpha positions
+k=3 done

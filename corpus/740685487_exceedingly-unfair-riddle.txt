@@ -1,0 +1,70 @@
+
+I just did a block with a classic theme in block 26 of the second run. The first time I did that was in block 30 of the first run, where I used the Sphinx riddle for a block that was rather challenging to solve without hints.
+
+This one has its own Wikipedia entry. It is a story about Samson, found in the Bible. Goes like this.
+
+Samson walks around the country to arrange his marriage. He meets a young lion. Kills the lion. Comes back later and finds a bee hive in the lion carcass. Takes out some honey.
+
+Then at his wedding, he makes a riddle out of the experience. "Out of the eater, something to eat; out of the strong, something sweet" (Judges 14:14)
+
+If the 30 guests solve the riddle in a week, he will pay them an agreed amount, if not, he will get paid.
+
+No one is able to find the solution, which is "What is sweeter than honey? What is stronger than a lion?" (Judges 14:18).
+
+The guests then use his new wife as a spy. She asks about the solution, he provides that solution. She tells the guests.
+
+They then present the solution, but Samson does not pay up. Instead he complains that they could only have found the solution by hearing it from the wife.
+
+He then proceeds to kill 30 random strangers, takes their money and uses that to pay his debt to the solvers.
+
+When I used this for the block, it went like this:
+
+"Question: Magical Crypto Friends
+
+Format: [solution] TOMI Extremely unfair riddle"
+
+I had to give one hint until players understood that the Friend in question was Samson Mow. Knowing that and the lion he uses, players found the classic theme quickly. After that it was only a question of finding the phrasing of the solution.
+
+The "Extremely unfair riddle" was a reference to the classic, not to this block.
+
+Let's count the ways in which that classic riddle was unfair.
+
+One. Meeting a lion, killing it, and finding a bee hive in the carcass later is a very unusual experience. If you were not present for that, there is no way you could find the answer to the riddle.
+
+Two. Samson himself acknowledged that there was no way to solve the riddle without a little help from his wife.
+
+Three. There may be some possible doubt about whether it is fair to kill 30 random strangers in this situation. Even if the riddle had been fair and the solvers where wrong in using the wife as a spy, why not kill them if you are going to kill anyone over a riddle?
+
+So I for one think that Samson was long on physical strength but short on morals. And I think this particular riddle may well be the most unfair in history.
+
+In contrast, I try to keep my puzzles as fair as possible.
+
+I am not going to kill anybody over a block in this quizchain, in contrast to Samson and the Sphinx.
+
+I am never going to collect any money from anyone. Each block will have a winner eventually. None of those winners will be me.
+
+And I am never going to use secret knowledge as a key for solving a block. That is the difference between the quizchain and a secret brain wallet used in an adversarial situation. If you need to flee your country with your wealth in your head, of course you are going to use the bees in the lion no one else ever heard about and avoid anything found in public knowledge. 
+
+But with the quizchain, it is the other way around. While some of the blocks may be difficult to solve without hints, all of the resistance to solving will come from not knowing the method and none will come from not knowing some fact or other. I think it would be extremely unfair to have the key to a solution be based on something only I know.
+
+And if I am not mistaken, there was no block in the over 100 I have written until now where you needed a secret only known to me, or where you needed to use a spy to find the solution.
+
+In contrast, it is of course possible to say that some of the blocks are unfair since they are difficult to solve. I have seen comments like that.
+
+But blocks being difficult to solve is the whole point. I recall my first block in the first run. It went like this:
+
+"Solve this multiple choice question:
+
+a) Satoshi is CEO of Bitcoin and holds the Bitcoin patent.
+
+b) Satoshi is an anonymous cypherpunk and the first one to succeed building private Internet cash.
+
+Hint: The correct answer is b)."
+
+This is trivially solved at sight. Which makes it pointless as a puzzle.
+
+When writing a block, I need to avoid both unfairly easy questions, which will lead to a race to confirmation of the prize claiming transaction decided mainly by luck, and unfairly difficult questions that no one can solve.
+
+The important point to understand: In the latter case I can always adjust difficulty down with hints. In the former case the prize is gone and there is nothing left I can do about it.
+
+That in turn makes it advisable to aim for a more difficult block as a general rule.

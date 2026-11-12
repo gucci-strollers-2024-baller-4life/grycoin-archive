@@ -1,0 +1,22 @@
+One of the purposes of this experiment was to find ways for me to make mistakes. And then try to make sure that any mistake that happens will not be repeated.
+
+Looking back, there were a couple of different ways to screw up.
+
+The first one affected blocks 9 and 10. I did not notice an extra line break when copypasting my string for hashing. An extra line break or an extra space completely messes up the hash. That is difficult to see if one is not looking for such a mistake. That's because the space or line break may not show on the screen.
+
+Once I made that experience, it was relatively easy to avoid falling for that trap again. Just make absolutely sure there is nothing before or after the string you are hashing.
+
+The next trap was unintended change of hashing algo to MD5. That happened because I restarted my tablet and the hashing tool I use switched back to the default (MD5). Affected two blocks before I noticed that error.
+
+I avoid this by the simple strategy of changing all hashes to MD5, the default of the hashing tool. As long as I do not deliberately choose SHA 256 or some other algorithm, such a mistake is not likely to happen again.
+Another mistake affected block 44 (still unsolved now). I managed to forget including the link to block 43 when hashing. I now have countermeasures in place against that happening again, mostly working from the format I publish in the block when building the string for hashing. Since I have the field [link] in the format, it is difficult to forget if I have that in the line above the one I am building.
+
+Still another mistake affected several blocks. When I changed the name of the TOMI field to the present name, I did not notice that I had already hashed with the old name and that this would mess up all hashes. This is unlikely to happen again since there will be no name changes in the future and I have learned from that experience.
+
+Another mistake that has affected various blocks is just taking the wrong link for hashing. Preventing that from happening requires organizing the draft file for the blocks in a way that helps avoiding such mistakes. But this is probably still one thing that may happen again if I am not very careful. I don't like these mistakes happening and try to avoid them. This point is probably the most likely to result in another mistake in the future.
+
+If some mistake or other happens, it should affect all players in the same way. That in turn means that disclosing it should always be done as fast as possible and over public channels (comment to the block in question and announcement over Twitter feed).
+
+All these mistakes have made me change my mind. My original intention was to race to 77 and then close the experiment. Now the plan is to go for one more round from 1 to 77 after the first experimental round is finished.
+
+I certainly hope to be able to avoid any such mistakes in the future. Sorry again for all that already happened. 

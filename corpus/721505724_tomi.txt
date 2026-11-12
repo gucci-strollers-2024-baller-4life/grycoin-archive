@@ -1,0 +1,36 @@
+When I introduced the BFUB field, I got some criticism. Not everyone was happy with that format.
+
+That is only natural. It introduces extra complexity for human players. There is a cost for blocking brute force users.
+
+On the other hand, having no such measure in place reduces the space of possible solutions to everyting that is not easily solved by brute force. That in turn actually serves to make finding the solution more difficult in some cases. Or one could say that having a BFUB field helps with the solution.
+
+It helps because it shows that the solution is short or in a password cracking list, like "James Bond", the solution to block 27 that prompted the change in the first place. That in turn narrows the search for the solution down a lot.
+
+And if I don't need brute force protection, I can just have a friendly word of encouragement in that field.
+So I want to keep this for the time being. But I want to change the name. I am getting annoyed by the FU in the field name. Was fun for some time, but it is, after all, bad manners not suited to a Japanese lady.
+
+I would like to take the exact opposite approach and call it TOMI.
+
+I need to explain that a bit. First the TOM part.
+
+That is just short for "Thinking Only Method", which means solving the block without resorting to running a brute forcing script. Instead of saying "block brute force" it says "only thinking". Same thing, but said in a different way.
+
+The I is just a nonce. It has no special meaning, except making the thing four letters. And giving it a nice meaning, because TOMI means "wealth" in Japanese. It also sounds better and is another Japanese name, mostly female.
+
+So I plan to keep the field, but change the name. May be confusing for some players, but I feel that this first run to 77 is still very experimental and all sorts of things should be tried.
+
+I had some problems with this change. That is because I had already written a three block new post hashed with the old format. When I changed the text to the new one, I forgot that this would not work. I would need to hash with TOMI again.
+
+I realized this once a user reported that hashing with the rather obvious solution for this did not work. Then I answered the comment in question, which was posted in public also in public.
+
+There were different opinions on whether that was appropriate. I tend to agree with the view that mistakes like this one should be shared widely in public as soon as possible, especially with an easy block as the one in question, where survival depended on people not being aware of this twist I added without even knowing it. I would have been unable to solve that block myself until I saw the flaw.
+
+Anyway, another mistake made in this quizchain. I now go ahead and declare this version zero. With all the mistakes I am always making, I don't feel comfortable going ahead with the original plan, which was to race to block 77 fast and post that as a 777 mbtc block, then close the experiment. 
+
+Instead I will treat this first run as a test run, where I try to find any mistake I can possibly make and make them all. And then start over at 1, for the real quizchain.
+
+Part of my motivation is just the fact that I am having way too much fun doing this. I don't want it to end after 77 of this test run. I also already have some ideas for specific block numbers in the next run. They work because there is a first run. For example I have a really interesting idea to top the "42" twist. 
+
+Not an easy thing to do, since I got away in that one with posting the exact solution before the quiz was even posted.
+
+Anyway, sorry, there will not be a 777 mbtc block in this round of the quizchain. But I will certainly close it with such a block.

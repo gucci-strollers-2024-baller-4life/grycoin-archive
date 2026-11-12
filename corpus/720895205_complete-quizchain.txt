@@ -1,0 +1,1635 @@
+
+First Round
+
+Block 1
+
+Solve this multiple choice question:
+
+a) Satoshi is CEO of Bitcoin and holds the Bitcoin patent.
+
+b) Satoshi is an anonymous cypherpunk and the first one to succeed building private Internet cash.
+
+Hint: The correct answer is b).
+
+Add the last 3 digits of my favorite Bitcoin address to the text of alternative b). For example, if that address ends in "abc" take the string "Satoshi is an anonymous cypherpunk and the first one to succed building private Internet cash.abc".
+
+Take a SHA 256 hash of that and use it as entropy in the Ian Coleman BIP 39 tool. Find the private key in the first address of that wallet at the bottom.
+
+Good luck finding my favorite Bitcoin address.
+
+Solved after about 14 hours.
+
+Block 2
+
+Question: The following sentence is the first in the top post of a certain subreddit I am following. One of the letters in the family name of the author is changed from lower to upper case. Change the other letters in his name in the same way for the solution. Then append the last three digits from the private key of the solution to block 1. Do a SHA 256 hash on that and use as entropy in the Ian Coleman brain wallet tool. Sentence:
+
+I posted A similar message to the Basecamp, but had to also come visit you all here on Reddit.
+
+Solved in 30 minutes.
+
+Block 3
+
+First part: Pick a random 3 digit number.
+
+Second part: Last three digits of the private key of block 2.
+
+Combine both parts, take SHA 256 hash of that and input the result as entropy in the Ian Coleman brain wallet tool.
+
+Solved immediately with prize claimed in block after funding transaction.
+
+Block 4
+
+Do you know two words? They are in the word "know". 
+
+As always, take the solution string (no space between the two words), append the last three digits from the private key of the third block, run a SHA 256 hash on that and then use as entropy for brain wallet.
+
+This one is difficult, so here is one extra hint. Look at my handle name.
+
+I expect the prize money to survive for a bit longer this time. I will post the solution in about an hour.
+
+Solved in 90 minutes.
+
+Block 5
+
+On this day ten years ago, how many bitcoins would you mine on average?
+
+I skip explaining the format this time, if you don't know it, look at one of the previous "Quizchain" posts.
+
+This one is fairly easy again. Should not take too long.
+
+Solved in 90 minutes.
+
+Block 6
+
+Do you know another two words?
+
+The two words I want need to be input in normal capitalization and a space between them. And there should be a space between the second word and the last three digits of the private key for block 5.
+
+I think this is fairly difficult. No hints for this one and this will be the last one I am posting for a while. Good luck and have fun :)
+
+Solved in 17 hours. Next three blocks all started with the two words I asked for.
+
+Block 7
+
+First big prize block (77 mbtc).
+
+First phase:
+
+Four words and a period at the end.
+
+Stay tuned for the updates...
+
+Solved after 12.5 hours and three hints. 
+
+Block 8
+
+How many mbtc do I plan to offer as the prize for block 77?
+
+Solved after 3.5 hours.
+
+Block 9
+
+I am an evil AI robot ruling the world. I have captured a human (you) and give you a choice. You have to reply with one sentence of six words. If that sentence is a lie, I will torture you to death. If in contrast you say the truth, I will kill you in a swift and merciful way. As a robot, I am completely unable to break one of those promises. What is your answer?
+
+Answer in the format of a six word sentence like this one: This is a six word sentence.HwX
+
+Solved after 11 hours. First major mistake on my part, not noticing that I copypasted a line break when hashing.
+
+Block 10
+
+Question: Four words within Einstein. Format: "word1 word2 word3 word4.fnw". The last three digits from the broken link in block 9 are set as fnw for this block. German words allowed.
+
+Solved after 25 hours. Line break mistake of block 9 also in this block.
+
+Block 11
+
+Can you find the solution with absolutely no hint whatsoever?
+
+Solved after 40 minutes.
+
+Block 12
+
+Two words in harmony. Format: word1 word2 gFm (last block private key link).
+
+Solved after 30 minutes.
+
+Block 13
+
+I hate the number 13. Fortunately it will come up only once on our way to 77. So the question for this one will be impossible to solve until I post the hint for the answer to block 77 much later.
+
+Question: What are the first seven words in the hint to block 77? Format: word1 word2 word3 word4 word5 word6 word7 xXJ.
+
+I am NOT going to give any hints for this, since I fully intend for this block to stay unsolved until the hint to block 77 is posted. It will take some time to get there. But to keep the chain going, here are the last three digits of the private key for this block: xhm.
+
+Impossible to solve until end of experiment.
+
+Block 14
+
+Question: Two words with harmony. Format: word 1 word 2 xhm.
+
+Hint: This has been big news in Japan about a week ago.
+
+Solved after 12 hours.
+
+Block 15
+
+I had a similar theme in an earlier block. I give a sentence and you need to edit it slightly for the solution.
+
+The sentence is 
+
+The longest chain not only serves as proof of the sequence of the events witnessed
+
+Remove certain letters from that sentence for the solution, then append the last three digits of the private key of the previous block, with a space between the solution and the linking three digits.
+
+Solved after 12 hours. Another block with failed hash. Switched to MD5 hash without noticing.
+
+Block 16
+
+40 is an illegal number. Fix it. Format for the answer: [solution] [linking three digits from block 15]. Exactly one space between solution and chain link.
+
+Solved after 16 hours. Hashing failure mistake of block 15 also in this one.
+
+Block 17
+
+Welcome to special block 17, a lucky number. For this occasion, I add both digits for a prize of 8 mbtc. Funding transaction below. I also note that it is 7 days on Reddit for me, so this is another reason to celebrate with an extremely hard block.
+
+No hint. And no, "No hint" is not the answer this time. Format: [solution] [link], with exactly one space between them.
+
+Solved after 6 hours.
+
+Block 18
+
+Question: Start with "offs". Add the missing letters to get the solution string. Format: [solution] [link]. with exactly one space between them.
+
+Solved after 5 hours.
+
+Block 19
+
+This is obvious at first sight. Once the previous block is solved, it will survive only for a second. Or maybe for a second second after that. I still post it here for reasons that will become apparent later on.
+
+Question: Multiple choice, two alternatives.
+
+a) second
+
+b) Second
+
+First alternative is second, and second alternative is Second. Hint: I don't think the first alternative is correct in this case, the second one looks much more promising. Format [solution] [link] with exactly one space between them.
+
+Solved immediately.
+
+Block 20
+
+Question: 132
+
+Format: [solution] [link] with exactly one space between them and no period anywhere. First letter of solution is capitalized.
+
+Solved in 45 hours after two hints.
+
+Block 21
+
+Question: Can you find the solution with absolutely no hint whatsoever?
+
+Solved in 5 hours after one hint.
+
+Block 22
+
+Question: You start out with A O I. Which three words do you expand that to (only English words allowed, all words starting with capital letter). 
+
+Format: [word1 word2 word3] [link] with exactly one space between three words and link.
+
+Solved in 3.5 hours. Needed Wattpad story as reference.
+
+Block 23
+
+Question: Complete the following sentence.
+
+We found out that this is the second [6 words and period missing].
+
+Format: [word1 word2 word3 word4 word5 word6.] [link] with exactly one space between solution and link.
+
+Impossible to solve until final version of chapter 2 of Wattpad story is revealed.
+
+Block 24
+
+Question: Read backwards.
+
+Format: [solution] [link] with exactly one space between.
+
+Solved in 50 minutes.
+
+Block 25
+
+Question: Wait, but why?
+
+Solved immediately, prize claimed in next block after funding transaction.
+
+Block 26
+
+This block was a test case to see if someone was alert enough to see where the next block was going before I even posted it here.
+
+There was someone. The prize from this funding transaction was claimed in less than a minute. Good job, winner, anticipating what the next block would be. I have to admit it was really easy to anticipate this time. But it was not obvious when this would happen, or to wait for it even before I posted this block on Reddit...
+
+Answer for this one was Z, as this is the last occasion to do a single letter answer.
+
+Format: [solution] [link] with exactly one space between them.
+
+Solved immediately, prize claimed in same block as funding transaction.
+
+Block 27
+
+Block with increased prize, cross sum of 27 for 9 mbtc.
+
+Question: I am looking for the name of a gambler.
+
+Format: [first name] [family name] [link] with one space between each.
+
+Solved in 20 minutes, brute forcing suspected, which resulted in adding brute force block field.
+
+Block 28
+
+Question: What is BFU?
+
+Format: [solution] [link] with one space between.
+
+Solved in 5 hours. Failed block because of wrong link.
+
+Block 29
+
+Question: Second version.
+
+Format: [solution] [link] with exactly one space between them. Have fun solving this one and thank you for playing.
+
+(You need to look at Chapter 3 of this story for solving this.)
+
+Solved in 80 minutes.
+
+Block 30
+
+Question: 4231
+
+Format: [solution] BotFU [BotFU] [link], see example above. Hint: BotFU for this is two words, both starting with capital letters.
+
+Difficult. Solved in 39 hours
+
+Block 31
+
+Question: Bitcoin Second
+
+Format: [solution] BFUB [BFUB] [link] with exactly one space between them and all words in answer capitalized.
+
+Block 32
+
+Satoshi Nakamoto is
+
+a) human
+
+b) AI
+
+c) no way to know
+
+Format: [solution] BFUB [BFUB text] [link]
+
+BFUB text first word only capitalized. 4 words in BFUB field.
+
+Needs chapter 3 text as reference.
+
+Solved in 7 hours.
+
+Block 33
+
+Question: An easy math problem. 4231 minus 132.
+
+Format: [solution] BFUB [BFUB text] [link].
+
+Solved in 27 hours.
+
+Block 34
+
+Question: Zhang Yingyu 1617
+
+Format: [solution] BFUB [BFUB text] [link].
+
+Solution is one word, capitalization will be evident. BFUB text is my favorite Bitcoin address.
+
+Needed context from previous block funding address.
+
+Block 35
+
+Question: Think
+
+Format: [solution] [link] with exactly one space between them.
+
+Solution is a string of three words, second one of them Yang.
+
+Solved in 5 hours.
+
+Block 36
+
+Question:
+
+How are you this morning, Ms. Nakamoto?
+
+Thank you, I am good.
+
+Format: [word1 word2 word3 word4] [link] with exactly one space between them.
+
+Solved immediately, with prize claiming transaction in same block as funding transaction.
+
+Block 37
+
+Block with increased prize, 10 mbtc.
+
+Question: James Bond
+
+Format: [solution] BFUB [BFUB string] [link] with exactly one space between them.
+
+Solved in 3 hours.
+
+Block 38
+
+Question: Villain in the first James Bond novel
+
+Format: [solution] BFUB [BFUB] [link]
+
+BFUB for this are two letters, the second letter of each of the parts of the name. For example, if the solution was James Bond, BFUB would be ao. This defeats any dictionary search that tries only the "James Bond" string, as long as the script is not adapted to include this.
+
+Solved immediately, with prize claiming transaction in next block after funding transaction.
+
+Block 39
+
+Question: Second
+
+Format: [solution] BFUB [BFUB] [link]
+
+BFUB is like last block, second letter of the words in solution. For example, last block's solution was Le Chiffre, so BFUB was eh for that one.
+
+Solved in one hour.
+
+Block 40
+
+Question: three letter word starting with h and ending with t.
+
+Format: [solution] BFUB [BFUB] [link] with exactly one space between.
+
+BFUB is three capital letters. If you found the solution the correct way, you will find those three letters easily.
+
+(Solution needed context from private key of previous block).
+
+Solved in one hour.
+
+Block 41
+
+Question:Can you find the solution with absolutely no hint whatsoever?
+
+Format: [solution] BFUB [BFUB] [link] with exactly one space between.
+
+Looking for one single capital letter in the solution. BFUB format is [word1] [word2] [word3].
+
+Solved in four hours.
+
+Block 42
+
+Question: Of course you all knew the solution to this for a long time. But do you guess the slight twist on it?
+Format: [solution] BFUB [BFUB] [link]
+
+BFUB is in the format [word1] [word2] both in lowercase, with one space in between. If you guess the twist on the solution, BFUB should be easy.
+
+Solved after three days and seven hours.
+
+Block 43
+
+Question: Year of first Internet scam
+
+Format: [solution] BFUB [BFUB] [link]
+
+Resistance to immediate solving for this comes only from finding BFUB, so no hints for BFUB in this block. Should still be relatively easy.
+
+Solved after two and a half hours.
+
+Block 44
+
+Failed block, forgot including link in hash. Failure disclosed soon.
+
+Question: Relax. Listen to some nice music. Wait for the idea to come. Have fun, even if the idea fails to show up.
+
+https://youtu.be/W3q8Od5qJio
+
+Format: [solution]BFUB [BFUB]
+
+No link provided here, you need to solve previous block.
+
+Not solved until decisive hint provided 24 days later.
+
+Block 45
+
+Question: Bitcoin Second
+
+Format: [solution] BFUB Have fun with this block Da6Sn4J
+
+Link for this is set to Da6Sn4J.
+
+Solved after nineteen hours.
+
+Block 46
+
+Question:
+
+Looking for another Bitcoin address, starting with 1A1. Not mentioned by me before here or elsewhere. I do NOT own this address.
+
+Format: [solution] BFUB Think. Think harder. [link]
+
+Find solution, which is the Bitcoin address I am looking for, leave BFUB unchanged and use last 7 digits of previous private key for link.
+
+Solved after 16 hours. Solution of this was the puzzle for block 77.
+
+Block 47
+
+Block with increased prize, 11 mbtc.
+
+Question: Another difficult math problem. 1231
+
+Format; [solution] BFUB [BFUB] [link]
+
+BFUB will be four or less words, all of them lower case and seperated by one space, if there are two or more.
+
+Solved after five days.
+
+Block 48
+
+Failed block. Changed name of BFUB field to TOMI and hashed with old name (same failure in next blocks 49 and 50).
+
+Question: Like in that story, you want to send me a bribe. But you want to use Bitcoin. What amount in mbtc do you send to what address?
+
+Format: [solution] TOMI This one is really easy. No need to bribe anyone to get it. [link]
+
+Format for the solution is [amount in mbtc] for example 0.7 mbtc and then a Bitcoin address. One space between amount and address.
+
+"Story" is the one about the Chinese Bribe Scam in chapter one above.
+
+Solved in seven hours.
+
+Block 49
+
+Failed block, same mistake as with 48.
+
+Question: You are looking for three words. Those three words are all lowercase. And they must be in the correct order.
+
+Format: [word1 word2 word3] TOMI Good luck with this block [link]
+
+Solved after 14 hours.
+
+Block 50
+
+Failed block, same mistake as with 48 and 49.
+
+Question: Multiple choice
+
+a) blue
+
+b) green
+
+c) red
+
+d) yellow
+
+Format: [solution] TOMI [TOMI] [link]
+
+Format for solution is only answer, leave out leading a). For example, if you think a) is the answer, write blue as solution, not a) blue. 
+
+TOMI format is [word1 word2 word3], with all words lower case.
+
+Solved after 14 hours.
+
+Block 51
+
+Question: What is my favorite block?
+
+Format: [solution] TOMI [TOMI] [link]
+
+[solution] is not number of block, but [solution] of that block. TOMI field is necessary to stop people from just brute forcing with all 50 solutions, which I assume to be in a script cracking list somewhere. It has the format [word1 word2 word3], with all words in lower case. Unsolved blocks are not possible solutions for this.
+
+Solved after two hours.
+
+Block 52
+
+Question: Six three letter words. They need to be in the right order.
+
+Format: [solution] TOMI means wealth. I hope you find it. [link]
+
+Solved after fifteen hours.
+
+Block 53
+
+Failed block. Managed to make two mistakes at the same time. Felt like giving up the whole thing...
+
+Question: You are looking for one word and one name. The word is contained in the name.
+
+Format: [solution] TOMI I hope you like this block. [link]
+
+[solution] is [name word], with the word lower case and the name in normal capitalization.
+
+Block 54
+
+Question: I am looking for 4 four letter words. Most relevant first. No words of dubious moral value in this list.
+
+Format: [word1 word2 word3 word 4] TOMI Thank you for playing. NRqEsd7
+
+Solved after nine hours.
+
+Block 55
+
+Question: Do you know another four letter word?
+
+Format: [solution] TOMI No, not that kind of four letter word. [link]
+
+Solved after about one hour, even while I messed up the hash for this block by not including the string "TOMI".
+
+Block 56
+
+Failed block.
+
+Question: AOI Second
+
+Format: [Solution] TOMI [TOMI] [link]
+
+Solved after 19 days, once I noted my mistake and corrected it.
+
+Block 57
+
+Question: I am looking for conclusive proof that someone named Craig (I am not telling you which one, don't want to be sued by the dude) is Satoshi. Also I don't want to mention the full name, since he does not deserve ANY attention.
+
+Format: [solution] TOMI [TOMI] link
+
+[solution] format is two capital letters. TOMI format is [word1 word2 word3], all words in lower case and no period at the end.
+
+Solved after nine hours.
+
+Block 58
+
+Question: You all know this three letter word.
+
+Format: [solution] TOMI [TOMI] PojFPus
+
+[solution] is one three letter word in lower case.
+
+[TOMI] is the name of the method used to get it, one word in upper case (only first letter capital).
+
+Solved after thirty minutes.
+
+Block 59
+
+Question: God
+
+Format: [solution] TOMI [TOMI] [link]
+
+Needed context from private key of previous block.
+
+Solved after about five hours.
+
+Block 60
+
+Question: Satoshi's real identity (don't tell anyone if you found it).
+
+Format [solution] TOMI [TOMI] [link]
+
+Format for [TOMI] is six words, normal capitalization, no period at end.
+
+Solved after 12 hours.
+
+Block 61
+
+Question: Beautiful four letter word.
+
+Format: [solution] TOMI Atbash [link]
+
+Solution word is capital letter first letter only.
+
+Solved at sight and prize claimed in next block.
+
+Block 62
+
+Question: Six letter word.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Word in solution is lower case.
+
+Solved in two hours.
+
+Block 63
+
+How should I call you, darling?
+
+Format: [solution] TOMI If you don't get this, sorry, it is hard [link]
+
+Solved in eight hours.
+
+Block 64
+
+Question: Looking for one capital letter out of two.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved in 28 hours.
+
+Block 65
+
+Question: I am looking for the time of the day.
+
+Format: [solution] TOMI [word1 word2 number] [link]
+
+Format for solution is like this: For example for half past six pm time: 18:30:27, last two digits are seconds.
+
+Both words in TOMI are lower case.
+
+Solved in 80 minutes.
+
+Block 66
+
+Question: Multiple choice.
+
+a) Second
+
+b) SECOND
+
+Hint: The SECOND solution is much more promising, since it is the actual capitalization on the story title. As always with multiple choice, do not include leading letter in solution. If you think a) is the right answer (it is not), you would write "Second" and not "a) Second" in the solution field.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved immediately after release of TOMI. Experiment with this lottery format showed that I should avoid it.
+
+Block 67
+
+Big prize block, 67 mbtc for this one.
+
+Question: Why Nakamoto?
+
+Format: [solution] TOMI Try your best shot first [link]
+
+[solution] is three words, all upper case, in alphabetical order.
+
+Solved soon after private key to previous block was available.
+
+Block 68
+
+Question: Looking for a 10 digit password.
+
+Format: [solution] TOMI Will use puzzle by Satoshi for block 77 [link]
+
+Solved in one hour.
+
+Block 69
+
+When I posted the last block asking for 10 random characters, I did not expect that so little time would pass until the smart and talented wizards here find them.
+
+Question: Upside down.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Format of TOMI is [word1 word2] with capitalization obvious from the solution method.
+
+Solved in two days after first hint.
+
+Block 70
+
+Question: Looking for yet another Bitcoin address.
+
+Format: [solution] TOMI Anyone find Satoshi's puzzle yet? [link]
+
+Solved after 12 hours.
+
+Block 71
+
+Increased prize block, 8 mbtc.
+
+Question: merry idea
+
+Format [solution] TOMI [TOMI] [link]
+
+Solved in 14 hours after first hint.
+
+Block 72
+
+Increased prize block, 9 mbtc.
+
+Question: After the block
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved in one and a half days after repeated hints.
+
+Block 73
+
+Increased prize block, 10 mbtc.
+
+Question: Looking for a 10 digit number.
+
+Format:[solution] TOMI [TOMI] [link]
+
+Solved in 26 hours after one hint.
+
+Block 74
+
+Increased prize block, 11 mbtc.
+
+Question: Victim of the perfect murder.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved in two days after second hint.
+
+Block 75
+
+Increased prize block, 12 mbtc.
+
+Question: No one knows how to pronounce this four letter word.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved after two and a half days, a couple of minutes before first hint.
+
+Block 76
+
+Big prize block, 76 mbtc for this one.
+
+Question: Jesus
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved after three and a half days and one hint.
+
+Block 77
+
+Failed block, made subtle hashing mistake, but corrected that way before anyone came close to the solution.
+
+As announced earlier, this puzzle is written by Satoshi. I think it is beautiful, a much higher level than the second rate stuff I came up with in previous blocks.
+
+Question: The solution is the puzzle.
+
+Format: [solution] TOMI omit TOMI [link]
+
+Solution format is eight items in two sets of four. Two items ciphertext and two items plaintext each, 44 read from left and 44 read from right.
+
+Hints
+
+Block 7
+
+Hint 1: Four words and a period at the end.
+
+Hint 2: Second clue. My handle name is Aoi Nakamoto.
+
+Hint 3: Third and last clue: Why did I choose that handle name?
+
+Block 10
+
+Google "with Einstein".
+
+Block 14
+
+Hope someone sees the light soon.
+
+Block 18
+
+Solution is name of a famous person with distant relation to Bitcoin.
+
+Block 20
+
+Hint 1: Cool Japan.
+
+Hint 2: We are looking for a list of items related to Cool Japan, which is not a list of kanji. Must have at least 132 items on it, but actually has 812 at last count.
+
+Hint 3: Another Satoshi involved in this one.
+
+Block 21
+
+The block is an obvious reference to another one ten blocks before.
+
+Block 28
+
+Hint 1: I wonder what FU alone might mean. May have some meaning like "thank you for attacking my chain, I really appreciate that" :-) #132 #notMetamon
+
+Hint 2: Let's wrap up 28, which was posted in anger and half asleep. B is Brute and FU is just FU. Almost there now...
+
+Hint 3: BruteFU would be right if I thought brute forcers deserved only one FU...
+
+Block 29
+
+Hint 1: Same method as in block 2. I am lazy, have changed only two letters...
+
+Hint 2: block 2 good match to second changing only two letters good match to second
+
+Block 30
+
+Hint 1: 423 1 
+
+still very hard to see this very old pattern.
+
+Hint 2: kill your father if you want kill
+
+Block 31
+
+B Second
+
+
+
+Round 2 of the Quizchain
+
+Block 1
+
+Big prize (77 mbtc) block because of mistake in block 56 of first round.
+
+Question: A rather famous naMe.
+
+Format: [solution] TOMI [TOMI] [link]
+
+Solved in three days soon after second hint.
+
+Block 2
+
+Another big prize (77 mbtc) block because of mistake in block 77 of first round.
+
+Format: [solution]
+
+Needs context from Wattpad story.
+
+Solved in two hours without hint.
+
+Block 3
+
+Question: dirty word with XA
+
+Format: [solution] TOMI [TOMI] [link]
+
+Needed context from Bitcoin news of the day.
+
+Solved in two and a half hours without hint.
+
+Block 4
+
+Question: Looking for a four letter word. Yes, quite safe for work.
+
+Format: [solution] TOMI [TOMI]
+
+Needed context from previous block private key.
+
+Solved in 90 minutes.
+
+Block 5
+
+Question: Five words.
+
+Format: [word1 word2 word3 word4 word5]
+
+Solved at sight and prize claiming transaction included in same block as funding transaction.
+
+Block 6
+
+Question: Six words.
+
+Format: [word1 word2 word3 word4 word5 word6]
+
+Solved without hint in 26 hours.
+
+Block 7
+
+Big prize (77 mbtc) block.
+
+The question is to find the name for that altcoin, starting out from the name "Bitcoin".
+
+Format: [solution] TOMI [TOMI]
+
+I do not need a link, since the entropy of this is sufficient to block outside brute forcing.
+
+[solution] is capitalized like "Bitcoin", which means only first letter in capitals.
+
+[Tomi] are three words in alphabetical order [word1 word2 word3], with one of them starting with a capital letter like the solution and the other two in all lower case.
+
+Solved in 38 hours soon after first hint.
+
+Block 8
+
+Question: Eight words.
+
+Format: [word1 word2 word3 word4 word5 word6 word7 word8] [link]
+
+Solved after 28 hours without hint.
+
+Block 9
+
+Thank you for playing the quizchain. Another normal 7 mbtc block now. Or that is what I had in mind.
+
+This should be pretty easy for both bots and humans. Maybe belongs in the category "solved at sight". If so, this is an advantage for human players.
+
+Running a script does take a bit of time for setting it up, which may be already too much if a human player gets this idea immediately.
+
+Funding transaction below.
+
+https://www.smartbit.com.au/tx/b876a070c9dc65105b08bf11c179e9083656670852e4a5a8ca9c787aaf90ceca
+
+And another funding transaction below:
+
+https://www.smartbit.com.au/tx/6f3e16265734581839c82d1660505f0dcd42f04a62c10f2c8bb7d754f966ec0f
+
+Yes. I managed to mess up slightly again. I did a funding transaction already when I wrote this block yesterday. And just did another one today, having forgotten about the previous one. Very sad mistake, which means that whoever solves this block walks away with 14 mbtc instead of 7.
+
+But I prefer this kind of mistake to the one that happened in the first round at block 9, where I included a line break in the hash, leading to the first failed block of the round.
+
+I also recall having written somewhere in the Wattpad story that I will under no circumstances take back a prize for myself, once I have sent it.
+
+Question: 11-9
+
+Format: [solution] TOMI [TOMI]
+
+First three digits of MD5 hash are 923.
+
+First digit of solution only MD5 hash is 0.
+
+First digit of TOMI field only MD5 hash is 6.
+
+Have fun solving this easy block. I expect some of the smart human wizards attacking this block to solve it on sight and give the brute force users not even enough time to set up their scripts.
+
+Hint 1 (after 24 hours): Found the idea for this block in a related Wikipedia article.
+
+Hint 2 (after 48 hours): Relevant article is on number 9.
+
+Solved soon after this second hint by multiple players, which induced a lottery element on which prize claiming transaction gets confirmation first. Good job everyone solving it, and congratulations to the lucky winner.
+
+
+
+
+
+
+Solutions of Round 1
+
+Block 1
+
+The answer to the mulitple choice question is obviously b), so the first part of the string is
+
+"Satoshi is an anonymous cypherpunk and the first one to succed building private Internet cash."
+
+My favorite Bitcoin address is of course 1AndrewYangForPresident2o2o6zmPzd, as is apparent from my posting history here.
+
+So the whole string is "Satoshi is an anonymous cypherpunk and the first one to succed building private Internet cash.Pzd".
+
+Block 2
+
+I posted A similar messaGe to the Basecamp, but had to also come visit You all here oN Reddit.
+
+(family name Yang)
+
+Block 3
+
+Random number was 777, and last block private key last three digits was hBF.
+
+Block 4
+
+Solution was arrowmouth83S, with 83S the last digits of the private key from block 3 and arrow and mouth the two words contained in "know". Explanation: The Chinese symbol (Kanji) for "know" is composed of the two elements "arrow" (to the left) and "mouth" (to the right). 
+
+Block 5
+
+Satoshi answered this question on bitcointalk in 2009 like this:
+
+"Typically a few hundred right now." Add last three digits of previous private key 6TX to claim the funds.
+
+Block 6
+
+Solved now, though it took some time. The two words I was looking for were "Thank you". Please note that these two words are the first in all blocks from 7 on, so I actually got away with disclosing the answer right in the next block question. :)
+
+Block 7
+
+Stay tuned for the updates...
+
+Update 1: Second clue. My handle name is Aoi Nakamoto.
+
+Update 2: Third and last clue: Why did I choose that handle name?
+
+Update 3: Someone has claimed the prize. Solution was "Satoshi without the consonants."
+
+Block 8
+
+As will surprise exactly no one, the correct answer for this is 777.
+
+Block 9
+
+The correct answer was "You will torture me to death.HwX".
+
+Block 10
+
+Solution was "Moonwalking with ein Stein.fnw"
+
+Explanation: Four words within is two words with and two words in. The two words with are those from the famous book titile that shows up in a Google search, the two words in are just "ein Stein" (a stone in German).
+
+Block 11
+
+Actually it was pretty easy. Just take the question as it was and add the previous block private key digits, which results in "Can you find the solution with absolutely no hint whatsover?peH" as the string to hash.
+
+Block 12
+
+The two words were "rice" and "mouth", which form the kanji 和. This has the three core meanings "harmony", "peace", and "Japan". The reason for that is that if you have rice to eat, it is easy to keep peace and harmony. It looks very similar to the other one used in a previous block, 知 for "know".
+
+Block 13
+
+Impossible to solve without final version of Chapter 2 of this story.
+
+Block 14
+
+The solution for this block was luminous command. The reason is that the Showa era used the kanji 昭 together with harmony and the Reiwa era is using 令 together with harmony. Two words with harmony. Once you see the light on the two era names connection, it only becomes a question of finding the core meanings of those kanji in English.
+
+Block 15
+
+The lngest chn nt nly serves s prf f the sequence f the events wtnessed ZNb
+
+The letters removed are A, O, and I, as in my handle name. Hint on my twitter feed was the "Satoshi without the consonants" tagline at the top. This time without the vowels...
+
+Block 16
+
+Solution was derived from the handle name of my 16th follower at the Twitter feed, which is HE4OBEK.
+
+The "4O" in the middle is illegal in the Bitcoin address space, since people may be unable to distinguish "0" from "O". To fix it, replace it with lowercase o, for a solution string "HE4oBEK".
+
+Block 17
+
+Actually there was a hint already in this post. I said above "I also note that it is 7 days on Reddit for me". The correct solution was to go back in my posting history to the first post, which was a link to this Bitcoin address:
+
+1AndrewYangForPresident2o2ozm6Pzd
+
+That is already the solution string. That in turn is a hint for block 16, since in that burn address "2020" is changed to "2o2o" because "0" is illegal in Bitcoin addresses.
+
+Block 18
+
+Kerckhoffs
+
+He is most famous for the Kerckhoffs principle, which says that the security of a cipher may not depend on its method being unknown. All security must come from the password and none from obscurity.
+
+I bring him up here because when I think of a puzzle almost all of the resistance against solving comes from the method not being known. Maybe I should have used sffohkcreK as a solution, this would fit the general idea even better. Many of the blocks are easily solved once the method is understood. Most obviously in block 11 and 6 (some of my favorites until now).
+
+Block 19
+
+Second.
+
+Block 20
+
+Solution was Metamon, which is the Japanese name of the Pokemon Ditto, as can be seen here
+
+https://m.bulbapedia.bulbagarden.net/wiki/Ditto_(Pokémon)
+
+also if you don't speak Japanese. The obvious connection to this quizchain is that I do lot of meta stuff, like in the next block.
+
+It was clear from the start that you were looking for a list of at least 132 items not kanji. What other items in long lists come to mind when thinking of Japan? 
+
+Block 21
+
+The method for this was pointing to block 11 with the question (since that question was identical to the question in this block) and then expecting the leap back another 10 blocks to the first block, then use the solution to that after fixing the spelling mistake it had.
+
+Solution as noted in comments was "Satoshi was an anonymous cypherpunk and the first one to succeed building private Internet cash."
+
+Block 22
+
+Artificial Overlord Intelligence. AI is obvious, but I noticed after posting that Omnipotent would be an even better fit.
+
+Block 23
+
+Solution impossible until final version of Chapter 2 is posted later.
+
+Block 24
+
+The block number 24 backwards is 42, which in turn will be the answer to block 42 as well.
+
+Block 25
+
+Solution was Y, as the 25th letter in the alphabet, chosen for block 25. Can't do that much longer, so I squeezed it in now.
+
+Block 26
+
+Answer for this one was Z, as this is the last occasion to do a single letter answer.
+
+Block 27
+
+James Bond.
+
+This was an unfortunate choice, since that name is in password cracking lists and therefore the solution is wide open to brute forcing. I introduced countermeasures to brute force solutions as a reaction to this block.
+
+Block 28
+
+Solution was BruteFUFUFUFUFUFUFUFUFU
+
+Context: I thought that someone had brute forced block 27, which was weak against such an attempt since the solution was sure to be found in password cracker lists. That suspicion may have been wrong, but at the time I was angry, could not sleep, had the idea to give some FUs to the attacker. The number is nine, because I wanted to have one for each of the mbtc in the block 27 prize money.
+
+In hindsight, this was wrong in multiple ways. For one, I might have been mistaken in assuming brute force. This may have simply been just a good player and a well deserved win. On the other hand, the winner did not come out, so I have actually no way of knowing.
+
+More importantly, having people try to brute force solutions is a good thing.
+
+If they succeed, obviously the format is too weak and needs improvement. And if they do not succeed, that is actually the only way to prove strength against attack. Any system is only as strong as the best attack that failed against it. It follows that there is zero strength for any system no one bothers to attack.
+
+In hindsight, I would use BotFU as a solution string, since I have no reason to be angry about humans using all tools at their disposal. I only want that the blocks get solved by human players as opposed to bots.
+
+Another failure was that half asleep I actually managed somehow to mess up the link from the previous block, the first time that happened. Obviously not a good idea to post in the middle of the night and in angry mood.
+
+But if the result of these failures is getting a system stronger against bot attacks, that is a good thing.
+
+Again, thanks for playing everyone, including people using bots to attack. And good job, winner, figuring out how many FUs I thought appropriate in the situation.
+
+Block 29
+
+Solution: just change the o and i in "voice" in the second sentence to "O" and "I", same method as in Block 2. Only two letters changed is good match to title "second" as well as to method from block 2.
+
+Background: My first experiment with using larger textfiles. Someone in comments kindly pointed out the site dropmefiles.com, which seems to work better as a delivery format than Reddit or Wattpad. With Wattpad people have to jump through hoops to copy the text. With Reddit, line breaks disappear, making the text difficult to read.
+
+One reason to try this now was that no password cracker file will have a solution with 235 words, and certainly not this one, so this seemed to be pretty secure against brute force.
+
+Block 30
+
+423 was a reference to one of the oldest puzzles in history. I wanted to include a classic in this one. It resolves to roughtly "human". 1 is just first and also a reference to block 1 and in turn to the campaign slogan "Humanity First" as the solution. BFUB is "Sphinx Yang", for a complete answer string of "Humanity First BotFU Sphinx Yang JRu"
+
+Block 31
+
+A. (one capital letter).
+
+Method: Look at first letter of Bitcoin, disregard others for B Second. A is first in alphabet, B second.
+
+Finding BFUB: working from solution, develop hint. In this case Before B.
+
+Discussion: Looking at the prize address, we see that this survived about 4 hours. Much longer than the other one letter blocks 25 and 26. Those were solved immediately. I find that this method is efficient to slow down bots. It makes solving for humans more difficult as a cost, though.
+
+Block 32
+
+Solution: human
+
+BUFB Before artificial intelligence explosion
+
+Discussion: Obviously a) is the right answer. At least 10 years ago there was no AI capable of doing what Satoshi did. "Before artificial intelligence explosion" is a good reason to choose the solution.
+
+Background: A multiple quiz question like this one is trivially brute forced even without using a script. Do three MD5 hashes worst case and you're done. That in turn means as a quiz author I can't do a multiple choice question like this one without some form of brute force user block.
+
+For this question, it was just a problem of finding a string of words that would be a hint to the right solution. If you tried with the wrong solutions b) and c) you were doing it wrong. The question is still honestly which of the three alternatives is correct. If you choose c) as correct alternative, the only explanation is that the whole world is a simulation now, which does not make much sense.
+
+Block 33
+
+Solution was "Think harder BFUB Yang hat".
+
+The substraction problem was Hoax and misdirection, the only word that mattered here was "math". And the problem was about the word "math", which is supposed to mean either Make America Think or Make America Think Harder. Very hard to solve, I don't know how I thought this should be [Medium] difficulty.
+
+If you made up your mind on a) as a solution, the remaining step is only finding words that point to a) out of the potential candidates. It is going from the solution to the hint, in exactly the opposite direction of usual quiz solving. I think that fact makes it interesting, even if rather hard to solve.
+
+Block 34
+
+Hoax (word contained in prize funding address for block 33).
+
+Block 35
+
+Solution: MATH Yang hat BFUB no BFUB for this block.
+
+Background: The Yang campaign uses hats like the Trump MAGA hats with the last two letters changed to TH, which reads MATH at first glance but also has the idea "Make America Think" or "Make America Think Harder" associated.
+
+Block 36
+
+Solution for this was "Google only one way", which is a new phrase I mentioned in my hint post. Relation to the question was that the answer from me would be rephrased as "Thank you, I am goof." in a Twitter conversation. Said conversation already happened, and thank you to the friendly people who took part in it.
+
+Block 37
+
+The only point here to find the solution was to replace the 0 in 007 for o, since 0 is not allowed in Bitcoin addresses. From there on my BFUB hint was simply 0o, meaning replace 0 for o.
+
+I am still not sure that this was a good BFUB. Its format was not announced from the start on and it actually is not something that comes to mind immediately. So while this may have succeeded in keeping bots from winning, we really don't know, since I have no idea if there is anyone running scripts to find solutions and if so, what resources they devote to getting one of the meager prizes in this chain.
+
+Block 38
+
+Le Chiffre BFUB eh.
+
+Block 39
+
+Mr Big BFUB ri.
+
+Block 40
+
+The solution was the word "hit", since I noticed again that this word turned up in the private key of block 40. If I want to use that, I need brute force protection, since you could easily exhaust the three possibilities here, even without bothering to fire up a script.
+
+Block 41
+
+Solution for this was P, the method behind it was taking the obvious first step "no" and then noticing that the letters in "no" are following each other in the alphabet, which makes P the next one. And "next to no" a fairly obvious BFUB field.
+
+Block 42
+
+"42" BFUB quotation marks
+
+Block 43
+
+1604 BFUB Book of Swindles
+
+Block 44
+
+As noted in the last hint, solution was to leave the solution field blank. Since there was no link for this, the only thing to find out was the BFUB field.
+
+I chose the line in the song lyrics that made me use this video in the first place:
+
+and I have said nothing
+
+That is the BFUB field. It is one of the lines in my last hint as well, so after that hint, it should not be too difficult.
+
+One other idea for the BFUB was to use
+
+and I have said
+
+leaving the "nothing" out, but I wanted to use the more easily found alternative.
+
+Block 45
+
+Someone in comments remarked that the same question was used before and had a different answer. I do not agree with that. This block has no BFUB field, which means that the solution can not be "A" as the last time I used this idea.
+
+That is because this time the solution is shifting ALL letters in "Bitcoin" to the letter before in the alphabet, as opposed to shifing only the first in the other block.
+
+Block 46
+
+1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa (Genesis block address, also puzzle for block 77).
+
+Block 47
+
+The solution was rather simple. Only one digit, the number 7, as the cross sum of the number posted in the question. And the words cross sum as BFUB field. One reason was because this was a block including 7. One other reason was that this time the Hoax was making people think this is again about the MATH hats (like in previous blocks) while it was actually exactly what the question said, though the part of it being "difficult" was another piece of misdirection.
+
+Block 48
+
+Solution was 0.777 mbtc 1AndrewYangforPresident2o2ozm6Pzd.
+
+Block 49
+
+Solution: hat hot hit
+
+Block 50
+
+Solution: blue BFUB key on cover
+
+Block 51
+
+Second TOMI title on cover
+
+Block 52
+
+hat hot hit bat bot bit
+
+Block 53
+
+Satoshi's stash
+
+Block 54
+
+hint hunt bent bunt
+
+Block 55
+
+Hoax TOMI No, not that kind of four letter word
+
+Block 56
+
+AOH TOMI I after H
+
+Block 57
+
+Solution was "AI" and TOMI was "in both names". I am sure you will all agree this is absolutely conclusive evidence for the claim that Satoshi must be someone named Craig. At least that is probably the best evidence for that particular claim that will ever be available.
+
+Block 58
+
+Solution method was the Atbash cipher, which substitutes the letter opposing in the alphabet. The three letter word in the question was "all", using the Atbash on that gives "zoo". Actually there are not ever so many words that result in a valid word when encoded with Atbash. And since TOMI is the method, the word "Atbash" goes there.
+
+This method is one of the oldest cipher systems in history, older than the bible, where it is used in several places. It is every easy to solve which makes it an attractive option for building an easy block.
+
+Block 59
+
+Solution was another find in the link from the previous block. The private key of 58 was KxgvXT1LidEhei6XizyCpR5zgPbALFYYxT6R1tANmSgPKZeuhs51.
+
+Note the last seven digits. They start almost with the name of Zeus, one of the Greek gods. And in the Atbash cipher I had as a method in block 58, actually h resolves to s. Also, the 51 at the end might be read as "move letter 5 one letter to the left". Anyway, once you see those seven digits, the solution is quite obvious, even without the extra Atbash or 51 element. And TOMI for this was just these seven digits.
+
+Block 60
+
+Tom Marvolo Riddle TOMI He who must not be named
+
+Block 61
+
+Solution was Love, since that word can be made from two Atbash pairs, LO and EV. Not many words share that quality, and the other one I noticed is much less beautiful.
+
+Block 62
+
+The hint to the Wattpad story was relevant because of the word I was looking for was wizard. But the TOMI field was exactly the same as in block 61. This word is unique in connection with Atbash. I found it in the Wikipedia article about Atbash. It is composed entirely of Atbash pairs, WD IR and AZ. As a beautiful result of this, the word results in itself spelled backwards in Atbash cipher. The previous block (Love) is a four letter word from two Atbash pairs (LO and EV). There are not many of these around.
+
+This was extremely easy once you restricted your search to the Atbash method, which was not so difficult to think of since the previous block also used it.
+
+Block 63
+
+The "darling" I was looking for was the Chancellor at the time of the Bitcoin Genesis Block. And the correct way to address him as noted in his Wikipedia article was the solution.
+
+I have written a longer discussion of this block and how I imagine it was solved at the Wattpad story.
+
+Block 64
+
+Y TOMI Atbash 2
+
+Hoax on this was reading it as one capital letter out of two letters, as opposed to one capital letter out of 2. 2 as second in alphabet points to B and recent massive use of Atbash to solution Y. If one of the items in TOMI is Atbash, 2 seems a logical choice for the second one.
+
+Block 65
+
+Solution was found in the timestamp of "blockchain block 65", which was 21:55:03, and the TOMI field was what I just put in quotation marks.
+
+Block 66
+
+SECOND
+
+Block 67
+
+Block solved and prize claimed not much after it was open for claiming (that is after I posted TOMI for previous block). Congrats to the winner and thank you for playing. Winner has posted his reasoning in comments. I have a couple of comments to add.
+
+The idea behind this is that I think N aka M oto is based on the MN letter pair of the Atbash cipher. That in turn is right in the middle of the alphabet, the 13th and last letter pair in a foldover of the alphabet.
+
+As explained by winner in comments, Naka means middle and Moto means origin, among other things. So the idea here is that the name's origin comes from the Atbash pair in the middle.
+
+Since I am NOT Satoshi I have no idea if that is actually true, but I liked the idea.
+
+(Winner's explanation):
+
+The solution was "Atbash Middle Origin". From the question, "Why Nakamoto?", I first tried to answer the question with many different three word explanations, but hit a bunch of dead ends.
+
+Then I decided to look at the words separately, disregarding the meaning of the question. So the two parts are "Why" and "Nakamoto"?
+
+The word "Why" sounds like the letter "Y", and because there were a number of recent puzzles relating to the Atbash cipher, I decided to try "Atbash".
+
+For "Nakamoto", I looked up explanations why this name was chosen, including the the Kanji Etymology. Nakamoto is 中本. 中 is middle, so I went with that. 本 is book, main, origin, etc. I tried all of these, and it was origin!
+
+Block 68
+
+As the winner explains in comments, the 10 digits password was taken from the private key of the previous block. Only two things to add:
+
+For one, I did not take any 10 digits, but the 10 following the first "p" in the private key, with the "p" standing for "password" in my mind.
+
+Block 69
+
+Solution was WM and TOMI was "When them", which were the first and last words in the second sentence above. The paragraph started with W and ended with m, which was the method for finding WM. Would have been slightly too obvious to write theM there...
+
+When I posted this, I actually did not notice that the block number 69 was a good Hoax. Once you try capital letters instead of numbers, the solution is not difficult to find. After that it is a question of noticing the first and last letter in the sentence above.
+
+Block 70
+
+As already explained in comments, solution was the coinbase funding address of the other chain block 70. I did a similar thing before, asking for the timestamp of the parallel block.
+
+Block 71
+
+(Explanation from winner):
+
+The solution was "Mellon TOMI Gandalf". Mellon is the password for the Doors of Durin in Lord of the Rings. It was the hobbit Merry that gave wizard Gandalf the Grey the idea for the password.
+
+Solved after first hint. This one is very easy once you narrow the search down to the Lord of the Ring story and close to impossible without that. WIthout hint you would need to read "merry" as a name and then find the right wizard story (multiple players had the basic idea right but went with a Harry Potter wizard, coming close to solving it without hint.
+
+Giving a hint for this without giving it completely away was not easy either, especially since I gave the hint narrowed down to the TOMI field. Maybe I should have tried the 12th Atbash pair (LO) first, which would be the first half of "LOTR".
+
+Block 72
+
+Solution was "clock", TOMI was "c after b" to indicate that only one letter is replaced with the one after it in the alphabet.
+
+Block 73
+
+Solution was the Fibonacci sequence 1123581321. I took this from the book "The Da Vinci Code" where it is used as the number of a bank vault storing the keystone. Similar method to 71 which used a puzzle from LOTR. You will find some Fibonacci numbers in the last block 77 as well...
+
+Block 74
+
+This was solved after the first hint "Queen of crime", which pointed to a novel by Agatha Christie. There are several stories where the murderer gets away with it, for example the Orient Express plot. But in that one, Poirot finds the solution and just chooses not to disclose it to the authorities. The perfect murder is the one in "Curtain", where Poirot is the murderer.
+
+Second clue was "Who would be smart enough to pull off the perfect murder?" And the answer to that is "Poirot". The story I was looking for is one where only the murderer knew what was going on and discloses that only after his death, which came from natural causes shortly after the murder project was complete.
+
+The victim in that novel is Norton (the solution for this block), and the TOMI field is one of the hints Poirot left, which was Othello.
+
+Block 75
+
+Solution has been posted to comments. It was YHWH and the TOMI field was Tetragrammaton.
+
+I liked the connection to Lord Voldemort, which I used in the hint for this. He who must not be named applies to this, which actually is the reason no one now knows how this is pronounced, even if it comes up lots of times in the Bible. I also note that block 76 is sort of a hint for the solution as well.
+
+Tetragrammaton is Greek and means only four letter word. I think it is the most natural hint for the solution, being a decisive hint as well as connected to the question. If you found the solution from the hint, it should not be too difficult to find that TOMI field.
+
+Block 76
+
+Solution was Easter, TOMI field was Second Life. This was rather easy once you realized where exactly the hint was in the Wattpad story. And it does stand out there, as the winner pointed out in comments below, where he described his solving process.
+
+(Winner's comment):
+
+I tried everything I could think of related to Jesus, from many religious phrases to Bitcoin Jesus. I even skimmed the Wattpad story recently for any clues, but it wasn't apparent to me until the latest hint referencing the Wattpad story, so I took another look!
+
+This time, I realized that there was always a page that stuck out, about "Second Life", which I didn't understand. But connect that with Jesus, and...
+
+The solution is "Easter TOMI Second Life"!
+
+I had even tried various terms related to the resurrection of Jesus before but the last hint finally led me to the specific phrase.
+
+That was a lot of fun and pretty difficult.
+
+Block 77
+
+Stay tuned...
+
+Round 2
+
+Block 1
+
+Solved fast after second hint. Congrats to the winner of this big block and thank you to everyone for playing. As the winner has explained in comments, solution was U2 (a rather famous band name). And it was derived from the hint by reading M upside down and then W as UU, which is one step away from the solution. TOMI field was just "upside down".
+
+I think it is an interesting coincidence that this name can actually be reduced to one single letter and that said letter has an upside down partner in the alphabet.
+
+Block 2
+
+Winner also explained his solution in detail in comments below. Thank you for that feedback and congrats for winning one of the big blocks.
+
+I have not much to add to the explanation. This was just using the puzzle string in the latest Wattpad chapter on quizchain as a password manager in exactly the way it was described there and then pick the second private key under that puzzle string.
+
+Second private key because this was block 2, or the second block.
+
+Resistance to solving this depended mainly on people not realizing the connection to the Wattpad chapter, once you got that it was only a question of choosing the right private key with not ever so many plausible candidates.
+
+(Winner's explanation):
+
+The key is the wattpad chapter about "Quizchain as a Password Manager" [link]. If one uses the example master key from that chapter to do the outlined procedure, one finds the 2nd private key from that brainwallet is the solution to this puzzle.
+
+IOW the steps are:
+
+Start with "BaSCifCatfAaa1i"Metamon from the wattpadMD5 hash that to get 2941774a2abec9f30c7d6777d1d53d91Generate BIP39 wallet using that entropyTake the 2nd private key from that wallet as the "strong password" solution to this block: L5Z66qPmUkTAsWQywjRNHDxHrX6J1X1SQedp6V8QsbaXR7rGd6exMD5 hash that to get 7b44cc11c866ab85b7078c43ad6795e1Generate BIP39 wallet using that entropyPrivate key for this block is KzFB7hBGmLBqm8nqVCVLBmgyd1NxnoJXZUhE377QL4T2iy5rw4Wz
+
+In step 4, we use the 2nd private key because the 1st one is used for something else according to the wattpad story (I hope it actually is not used as someone's twitter password...)
+
+Block 3
+
+Solution was "reorg" and TOMI field was "CZ Binance". This used the recent news on the Binance hack and the discussion on doing a BItcoin chain reorg. CZ apologized for using this "dirty word".
+
+I have not much to add, except that the "XA" in the question was "CZ" in Atbash code. Would have been just slightly too obvious without that twist. And if I had wanted a slightly more difficult puzzle, I might have used "Atbash CZ" as the TOMI field.
+
+(Winner's explanation):
+
+VICTORY IS MINE
+
+The solve that I decided going with was: "reorg TOMI CZ Binance L2e6gPSXnq7KJBfkoD7cHGVZuhRUDARJz2Cc9JcSNLsKRZhH552F"
+
+This was for a few reasons. First, I knew it wasn't a "dirty word" in the traditional sense from this: " No, not that kind of dirty word, this is safe for work." Second, I knew it was going to be related to the crypto community because of this reference: "It may hurt your feelings thinking of that." With this information, I remembered an article I read recently about the CEO of Binance, who apologized for using the "dirty word" reorg. Plugging it into an MD5 converter, it spits out an MD5 hash starting with 1. At this point, I know the TOMI was going to be something related to him, so I ran a few different ideas through. Eventually, I decided to try to run his twitter handle through, CZ Binance, and to my surprise, everything was going to plan! Now, armed with my completed solve, I ran that through the MD5 generator, and I actually freaked out when it spit out 5f6 as the first three digits lmao. From there, I followed the rest of the instructions for claiming my prize, which ended up taking me more time to figure out than it took to solve the problem. I had to set up an emergency wallet because my bitcoin wallet was installed at home, not on my work laptop. I clearly must have gotten lucky lol. Cheers to Aoi Nakamoto for setting this up, it was my first puzzle and really enjoyable!
+
+Block 4
+
+Once you see the word in the previous block private key, it becomes easy. That is the reason I did not include a link, since it would become too obvious. Another word in a private key, like Hoax and hit earlier. And another one related to our topic, since Bitcoin's original purpose was to keep privacy intact after migrating payments to the Internet. I feel lucky to find these words.
+
+(Winner's explanation):
+
+Solved, thanks! solution is "MasK TOMI previous block private key". The PK from the previous block was L488KiS3jUut79rDM6gwxUdg7Qm1SXwQnMasKLpzFzb6KrNLsFpT which contains the word MasK. First obvious thing then to try is the actual PK for the TOMI because the twist would be that it actually included a link. But that did not work so you had to try a few more things.
+
+Block 5
+
+Solution was "bat bot bit bet but". As winner posted in comments, a similar concept was tried in a block of the first run. I think it is fun to note that the "bit" in Bitcoin is a word with almost all vowels, with Y the only exception.
+
+Block 6
+
+Solution method was to look in the coleman tool wordlist of the previous block solution, then use the first six words from that word list. The hoax was having a five word bat bot bit bet but puzzle in the block before, getting people to search in that wrong direction.
+
+Block 7
+
+(Explanation by winner):
+
+Solved by human thinking. Beep boop! :D
+
+"Grycoin TOMI angry Atbash hungry"
+
+Finally got it after the hint! Atbash of BIT is YRG. YRG can be rearranged to GRY. Gry is the name of a popular word puzzle (https://en.wikipedia.org/wiki/-gry_puzzle). Gry is also an archaic word that means small amount.
+
+For the TOMI, the two words that end in -gry are angry and hungry. Since I got to Gry using Atbash, I tried the word Atbash as well, and I organized these words in alphabetical order.
+
+Block 8
+
+I used the famous passphrase "correct horse battery staple" for this one as a challenge to the players that rely on scripts to get their solution. I wanted to see if they catch that and the block is claimed immediately.
+
+As it turns out the bot players here did not catch it immediately, which left at least a fair chance for human players to think of the solution. That is all I want to achieve with brute force blocking methods.
+
+I did add a slight twist by repeating that passphrase, but I am pretty sure that outside crackers have that covered already, which is why I shut them out by including a link.
+
+Block 9
+
+Solution was K-9, TOMI field was police dog. Method was replacing the "K" by the number 11 because that is the place of K in the alphabet. K-9 is pronounced like "canine", which is why this code is used in many police forces.
+
+Block 10
+
+Solution was ghost, method was to look in the mnemonic of the previous block, which was also used in block 6 of this second run. TOMI field was previous block mnemonic. And the method to take the solution from the previous block was first used in block 68, where I took a 10 digits password from the previous block private key.
+
+The twist was not taking the obvious choice (third word from the beginning), but the third word from the end of the list.
+
+This turned out to be a very unpopular block, maybe the worst received in the whole experiment until now. I got some angry comments.
+
+Block 11
+
+Solved and prize claimed, unfortunately with zero feedback from winner. For all I know some outside bot has grabbed this prize. That is quite possible since I did not protect the block with a link.
+
+The method for this was similar to block 11 of the first round. In that block, I added nothing to the question. In this block, the solution is close to nothing (similar to block 44 of the first round).
+
+Starting from nothing, the two alternatives are one space and one line break. For this block I chose the first alternative, with "one space" as the TOMI field. May have been lacking in entropy against outside bots and against script players. Maybe right now some lucky outside bot artist is wondering why he just scored 7 mbtc...
+
+Block 12
+
+The three words in brackets are one of the meanings for the word "coy" I found online. I thought that was a nice match for a puzzle. The words "coy ring" resolve as an anagram to Grycoin. So solution was Grycoin, TOMI field was coy ring anagram.
+
+I really need to try harder making easier puzzles. Next one coming up tomorrow 10 pm should for the very least be easier than this one.
+
+Update:. As noted in comments, solution was grycoin, not Grycoin. First mistake of this round. Sorry for that. Big 77 mbtc block coming up for 14.
+
+(I made a mistake in answering a question in comments about the capitalization).
+
+Block 13
+
+I was right for a change, this was an easy block, solved within minutes. Method was using Atbash on the solution Pizza (for Bitcoin Pizza day today). The most difficult part was getting the spelling of the name Laszlo Hanyecz right, which went into the TOMI field. Congrats to the winner and thank you everyone for playing. Stay tuned for the next big 77 mbtc block coming up tomorrow at 5 pm Japanese time.
+
+Block 14
+
+Solved soon after this second hint. As indicated by the winner, who is totally not me, solution was the first and the last seven digits of the genesis block address, not counting the prefix 1. A1zP1eP7DivfNa. Congrats to the winner, who is definitely not me, and thank you everyone for playing. 
+
+Block 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

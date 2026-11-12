@@ -1,0 +1,11 @@
+sweep complete at Wed Oct 28 04:09:16 UTC 2026, total hits: 2092544
+130784 unique hit md5s from boundary sweep so far
+deriving in popcount order...
+  20000/130784 derived (22s, 917/s), eta 2.0 min
+  40000/130784 derived (44s, 916/s), eta 1.7 min
+  60000/130784 derived (88s, 678/s), eta 1.7 min
+  80000/130784 derived (164s, 487/s), eta 1.7 min
+  100000/130784 derived (246s, 406/s), eta 1.3 min
+  120000/130784 derived (317s, 378/s), eta 0.5 min
+no escrow match yet in current hits
+FINAL DERIVE DONE Wed Oct 28 04:15:11 UTC 2026

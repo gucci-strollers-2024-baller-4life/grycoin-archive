@@ -1,0 +1,8 @@
+DONE words: 0 texts, 0 derives, 0s (0 derives/s)
+no match in stage words
+stride44: patterns up to 2 residues
+stride44-k1: 0 texts, 0 derives, 0s (0 derives/s)
+stride44-k2: 22208 texts, 22208 derives, 62s (357 derives/s)
+DONE stride44: 22208 texts, 22208 derives, 62s (357 derives/s)
+no match in stage stride44
+pairs: 106 base sets

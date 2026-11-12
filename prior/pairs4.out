@@ -1,0 +1,5 @@
+  done LF '' cumulative 37128
+  done LF '\n' cumulative 74256
+  done CRLF '' cumulative 111384
+  done CRLF '\n' cumulative 148512
+finished 148512

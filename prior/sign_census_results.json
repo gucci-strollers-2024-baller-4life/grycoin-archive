@@ -1,0 +1,176 @@
+{
+ "prose_paragraphs": 244,
+ "sentences": 627,
+ "acts": {
+  "I": {
+   "paras": 83,
+   "sentences": 205,
+   "strict": 2,
+   "stem": 2,
+   "recog": 2
+  },
+  "II": {
+   "paras": 68,
+   "sentences": 193,
+   "strict": 0,
+   "stem": 0,
+   "recog": 0
+  },
+  "III": {
+   "paras": 58,
+   "sentences": 137,
+   "strict": 10,
+   "stem": 11,
+   "recog": 6
+  },
+  "IV": {
+   "paras": 35,
+   "sentences": 92,
+   "strict": 6,
+   "stem": 7,
+   "recog": 5
+  }
+ },
+ "sentences_by_act": {
+  "I": [
+   {
+    "para": 20,
+    "sentence": "I recognize the signs.",
+    "class": "live"
+   },
+   {
+    "para": 42,
+    "sentence": "Did anyone recognize the signs?\"",
+    "class": "live"
+   }
+  ],
+  "II": [],
+  "III": [
+   {
+    "para": 206,
+    "sentence": "If you create a new currency and have \"Satoshi\" as its smallest unit, it makes sense to use a sockpuppet name that makes using the dollar sign natural.",
+    "class": "false-positive"
+   },
+   {
+    "para": 206,
+    "sentence": "And the question \"what does the S stand for\" would have the double meaning of asking why exactly the dollar sign uses the letter S, which is not contained in the word \"dollar\".",
+    "class": "false-positive"
+   },
+   {
+    "para": 220,
+    "sentence": "And it will become very easy to recognize the signs.",
+    "class": "live"
+   },
+   {
+    "para": 222,
+    "sentence": "I've had the good fortune to know many brilliant people over the course of my life, so I recognize the signs.\"",
+    "class": "quotation"
+   },
+   {
+    "para": 223,
+    "sentence": "There is the somewhat strange point of saying \"recognize the signs.\"",
+    "class": "analysis"
+   },
+   {
+    "para": 225,
+    "sentence": "So what's up with that \"I recognize the signs\" part?",
+    "class": "analysis"
+   },
+   {
+    "para": 226,
+    "sentence": "Maybe that should be read as the reader should try to \"recognize the signs\" to decode the hidden meaning, as opposed to where to look for signs of intelligence?",
+    "class": "analysis"
+   },
+   {
+    "para": 227,
+    "sentence": "That reading would mean look at \"the signs seen before.\"",
+    "class": "analysis"
+   },
+   {
+    "para": 228,
+    "sentence": "Turns out, there are some signs we recognize from the Satoshi anagram.",
+    "class": "analysis"
+   },
+   {
+    "para": 230,
+    "sentence": "Having seen the signs before, we are directed to look at those four paragraphs, the only ones where we don't recognize the signs.",
+    "class": "analysis"
+   }
+  ],
+  "IV": [
+   {
+    "para": 236,
+    "sentence": "Because we are directed by the fact that the \"recognize the signs\" instruction comes last in the paragraph.",
+    "class": "analysis"
+   },
+   {
+    "para": 240,
+    "sentence": "And it dovetails nicely with \"Nm ST\" as a way used to sign in the genesis block.",
+    "class": "false-positive"
+   },
+   {
+    "para": 244,
+    "sentence": "\"I recognize the signs.\"",
+    "class": "quotation"
+   },
+   {
+    "para": 246,
+    "sentence": "Take the next three words together and you get \"Satoshi's real identity, recognize the signs\".",
+    "class": "analysis"
+   },
+   {
+    "para": 246,
+    "sentence": "Like, \"if you want to know Satoshi's real identity, recognize the signs (at the end of the relevant paragraphs).",
+    "class": "analysis"
+   },
+   {
+    "para": 273,
+    "sentence": "At least for those of us who are able to recognize the signs.",
+    "class": "live"
+   }
+  ]
+ },
+ "live_uses": [
+  20,
+  42,
+  220,
+  273
+ ],
+ "case_odd": {
+  "ppM": [
+   73
+  ],
+  "WorldWideAbsoluteCarbonBudget": [
+   106,
+   112
+  ],
+  "FUCKFuckFUCKFuckFUCKFuckFUCKX": [
+   107
+  ],
+  "AndrewYangForPresident": [
+   107
+  ],
+  "oXXX": [
+   107
+  ],
+  "abcdefghijkLmnopqruvwxyz": [
+   126
+  ],
+  "abcdefghijkLmnopqrstuvwxyz": [
+   126
+  ],
+  "VIrgin": [
+   128
+  ],
+  "BItcoin": [
+   136
+  ]
+ },
+ "totals": {
+  "strict": 18,
+  "stem": 20,
+  "recog": 13,
+  "paras": 244,
+  "sentences": 627
+ }
+}

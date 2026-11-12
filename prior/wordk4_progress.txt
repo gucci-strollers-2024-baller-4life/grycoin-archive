@@ -1,0 +1,4 @@
+base=1549 bytes, 548 positions, kmax=4
+k=1 done: 548 combos
+k=2 done: 149878 combos
+k=3 done: 27277796 combos

@@ -1,0 +1,1514 @@
+[
+ {
+  "tag": "BASE-LF",
+  "n": 273,
+  "set": "-",
+  "md5": "48d318202691ffb873e00b63196eaf36",
+  "addrs": {
+   "0": "14isnRimk9qAzpm85qwiFgLjzxL1387TXL",
+   "1": "12TMDt5MSYxKfiKfAJyhtDppRwWVR49vds",
+   "2": "1BEiGXCq6HeHmw8h6YkTgB5qEJ3WpzCU7F",
+   "5": "1M4Eo6SnBsepE8wXkWt1QtB7fE51H1C4CB",
+   "6": "1DN5go8VFTvQHXfeoyDJpM35cUCziUpb99",
+   "7": "1E3p9sRmBhjjaFrWLokV3PkdrQnaEZcaC9",
+   "44": "112JXxPDnRaYmqwFbB4C918vnEF6o61hSp",
+   "76": "1Y7KPvUic2yh2ypGWtSEUB3aYo4CwU5fb",
+   "77": "1KAt45y88h8E4TRTWhW45zehFdtma2VrkN"
+  },
+  "hits": []
+ },
+ {
+  "tag": "BASE-LF+t",
+  "n": 273,
+  "set": "-",
+  "md5": "0f9090ec09549e7d1f9d185bb3c31bba",
+  "addrs": {
+   "0": "1KRigTPfvxXMiuTefFEhZJxmhWGSXGv96Y",
+   "1": "19TUrMdPoDzKC8NjJTe6eqyf3cKY93ufA4",
+   "2": "1AMzzuSdCZAG76RDQ895dk9BNf1Bn2K69p",
+   "5": "164K3AK5XgUeDGe1PpiTV6tRcgbxiFGhmt",
+   "6": "1A9wMug3MGXLGa1yAevyiKqPX9gxzaGu4Q",
+   "7": "18vdG4SX9zFAKnjUgUqNqEQNXp6TSKJMdC",
+   "44": "1B21B66srUpmhpM2fTTgRd7zzd5ibTigtf",
+   "76": "1Jq3hoM1ZPwhmove4EpMkn3oo7EhkCZ2Ut",
+   "77": "1qtK3sXeUEaeEmcxWH9eA1Ra2nYuYrBjj"
+  },
+  "hits": []
+ },
+ {
+  "tag": "BASE-CRLF",
+  "n": 273,
+  "set": "-",
+  "md5": "f74e8e0122e114fe13c89a3bba25294a",
+  "addrs": {
+   "0": "1D1Scxy6rZYV34Xr1SFRLTsMBHeUiTJbHK",
+   "1": "1J3J3UwwwxU9F31tkSE2xSpzHoVjd6qAGH",
+   "2": "1JwmKoBYoM1DdCeWqeVEVecKjpqj8hfmoU",
+   "5": "16vgPL9NRz71et4qfBcczqFAxuVhaPnycy",
+   "6": "1C8RCDCvTaJaf4d3Z4xK5ZBN3td5GpezLz",
+   "7": "146GdDAaAMtZd6LD3jZGzRpAPWvKqoDBRx",
+   "44": "1Kpcqd1pf2QWEVk9uWNk7mav5XQFhoPgwT",
+   "76": "1LpcKk4vKC3P5AjK9oVkQrWfKgTbmbek3q",
+   "77": "18aV7RxEQS2naEagFZsEoDnnqdi6ayn2oA"
+  },
+  "hits": []
+ },
+ {
+  "tag": "BASE-CRLF+t",
+  "n": 273,
+  "set": "-",
+  "md5": "5eefdba549ba8c1f40a02e4f0df0197b",
+  "addrs": {
+   "0": "1Gj4s6mi4euu3ce1ZXyqLUHCzTqCZkwDEP",
+   "1": "1M44rmdtjEd5ivsJUDuhE8ajFmZvoKjoLA",
+   "2": "1KV5x23PNUsDtkAXYqr2AJzSmiPUZaDVDV",
+   "5": "1BjQAUDGAfYMV58LUMM4n9JqmyH6MaJCu1",
+   "6": "1P8ZR9juDwbBxDZnA8n3xMQ6UDyytYin3c",
+   "7": "1A44QENo1kZCcoPqXJvHTgY49aJPpaCdwB",
+   "44": "1N3o5Q3uqAGzwpFCdCxpR1devCpab4sHcg",
+   "76": "1KHPrA1bRXuC3GGPE7iFfCxKJQ8CTJhF8L",
+   "77": "1FScNJMrFV1TaGJbiYq6V6oJEb7RSR1rQH"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both/LF",
+  "n": 126,
+  "set": "S1",
+  "md5": "d2218d4253139560517a1991450e1763",
+  "addrs": {
+   "0": "1G4k1zBtARZbqDnCug5V5nJNM3F5UQz6dY",
+   "1": "1N1Lhhx6MtShtP7mDSDHephsoY8nfiomvt",
+   "2": "1mj6tejunEcjSydg7pDzaUq3qjwhjsKV3",
+   "5": "1FNQ13p3a9vYqPN5u76Pjt3NXwqeqiK4Ty",
+   "6": "19Bzs5qEvHQ1HZXaFBVdy53R3PpYph5ie1",
+   "7": "1JdR5NXAF3LoReRzyDLXo8DphcVorfF9KP",
+   "44": "1KmK9FEZ5r5LmELJPedLdT1yeUuEyftniV",
+   "76": "1FSHowKA9xA1w3J4NMBKAYu3xzkmYfArGM",
+   "77": "1Gefeay5VZ8e5mw4GvXvyKmYEHrrC6p4NV"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both/LF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "025b6bccf794bbd330a67fbed8bccb10",
+  "addrs": {
+   "0": "1HomHA6xFWsa3eYKYqPDrfR7z9LgNPFWXq",
+   "1": "1HRphqKSfGeH75MQMgWahvqgYpsJuYBX9L",
+   "2": "1FbaK5ApC6Gn7ha7pCqwW4tpYpgyk7ZHp5",
+   "5": "1JmJZT3uR4kZjPKhmdyMTyGe5N6ogUEERj",
+   "6": "1GDAPPQiu44rRJPNkAXKHkEg4DYcpTKahn",
+   "7": "13bMnrjyfYocMjCu9WrADSaD6HixTjP5nJ",
+   "44": "1En4f5FrDv3grBrpCeWgrxjSFfMApqedvF",
+   "76": "1HJhsrjXmtMehcXDZjvdYF5Cv7gu2Ufqj9",
+   "77": "1Ccgc6DyKiQPh5p2QedcQGTjx7WE1R1wgD"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both/CRLF",
+  "n": 126,
+  "set": "S1",
+  "md5": "2838953a7684b7738331e85c15196883",
+  "addrs": {
+   "0": "1FchvGfq5vorL2bEHdAaZxHNXdZXyHuDu5",
+   "1": "1Gi1WRLavWquwB35DZGHR7fQBtyC5RL8Xn",
+   "2": "14sbDvvEJZ36kFTA4PDTxjFWM1eVLLwjDT",
+   "5": "174JTfsszy6qtABkaFCZEoDh27vKGqTu1E",
+   "6": "16ZS9ifJ8yXuvFZe78xxykbExYrm7muDBh",
+   "7": "1Cdksomcpc6J3uWrmCBTpquQWpCGozuWhF",
+   "44": "1GQLseABhc4ZoCzrfaa65bPfraUW49C4f2",
+   "76": "1FqHZABYmaAtvFwBV3JWh8wug6zFQm8aPH",
+   "77": "1PNWckmEG2pnzj2GsZGoeCWsXJ9iqZFKNX"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both/CRLF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "82a87d6f4d599a62bfcd524fd9f830f1",
+  "addrs": {
+   "0": "19sVtEr1SaJc641KyLTmZDyVu5HzJufhzc",
+   "1": "1JWVNPWdiHgUXd1Dq2GnrTJQQ9xRZerka1",
+   "2": "1G5PvE4uHpd9sjJUKCQbevvhJXoQHACZKv",
+   "5": "1HR577WWxTrrnXD3fV2jk4AxU4RGBmHDr9",
+   "6": "1G2KyHxfRo9Mj49YPVahAeDi8R6uoQjnj9",
+   "7": "1Gxmk7K91UwK9hu3QX5kyLZ5eK1JCtxQFT",
+   "44": "13MwG2x78GQ7tSK1QZ68coiazS4cioFMBA",
+   "76": "1NX25G5nR2nXoNbHzEUDRB6oqsmYYMSM2u",
+   "77": "13EYTVvbS9Tj4PJaFeNY6N2eLRjeXwVEWv"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/down/LF",
+  "n": 126,
+  "set": "S1",
+  "md5": "833015501857a8719c08b4e3b53ebcf7",
+  "addrs": {
+   "0": "1A4X88SLm39fgAQK9tiUgMN3dG8Jv7cGH",
+   "1": "1AhPePcB2muCDyW4HP3MiPoLewEBjgJ9A",
+   "2": "1AuT24SUCr5efenKLDe1YTqwwXyjkHDhDH",
+   "5": "1E3Rbe2oTdQFEmNisCWvHQUH6SU5d3Pmq5",
+   "6": "1BKTZUyphdhnXfCN7ogoxHKRtqy4earWic",
+   "7": "1Au8tmmXKQcZW8JyeUh7ZqsVDFCKARW4vp",
+   "44": "12XR6EeKXF6fhbmnecZjHhhymeWDMGWumU",
+   "76": "15cBGwGooZVrkzRXrqHCSkRsJgZYRAMWAk",
+   "77": "1EDcwUgqRtVSgiNAAQMsprL9FhH3sTygAL"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/down/LF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "55fd7be78081046756a75ed81f2802e1",
+  "addrs": {
+   "0": "1HqwgkrqGWEENWmMNJn9UXndL5nX18LAuD",
+   "1": "1PQLyGovn9xDPLKHEUpEPpoaGyKpjTPnPB",
+   "2": "16LcY4cvxvxiuiHYmY1gV3bAs6AKiPjeJV",
+   "5": "1sW7Sa7hkQA8chu9uYVLNHUxjATLcQZfJ",
+   "6": "1GbDmFuhNKactUwYfENAYc5rLn8CUxWXdp",
+   "7": "1PBCnka74mcdPAVYrbZcBh1Mjio5vXAmMB",
+   "44": "1Lm3pstZkCgF3Z5aVtb5zDfSC9G79R8p3c",
+   "76": "1Af6PrwGfq8Fj4estgRrBKDyJiwyn7rxSY",
+   "77": "19fTa2QRWs3jPD9LwkaxssLHjXnax7HhuN"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/down/CRLF",
+  "n": 126,
+  "set": "S1",
+  "md5": "fea0bdb38098390e533cdd6633430a6b",
+  "addrs": {
+   "0": "1LB7TdJSXNDv2WdouRhLGwt4E5NkNeTLws",
+   "1": "1CLP1hx2N69a9yQnHX4RGorwCDpbUpEqXR",
+   "2": "1FqKhac9gJHfwkvMNkdDsW6UjNna4vRmWR",
+   "5": "136zth8vd7KG8a91XSLvogvgWkAsGwRikZ",
+   "6": "1FQQAREv1gAyZatTqRM7JcWFhcAHbNXz7F",
+   "7": "1N5MJuCvMqWdSsfCK4h8neUfLtK6NF3DHL",
+   "44": "1Fe74gGJhgNdVPtu5U7p2WGg6ARbKeu8hA",
+   "76": "191RhRM17RTe7gGRrX6tjM6npEpRZrzRRt",
+   "77": "1JidLLZF1zYT5aQXKkhnbnsdWWQr9Y5dgE"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/down/CRLF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "76c4798b96dfdade082bf7247e473323",
+  "addrs": {
+   "0": "1PpK5G2PxhueaxqvtdeZRY5fK1RdjytnAi",
+   "1": "1Dm2fGe71vYEhwwsuceEodET3yCyG2bvUZ",
+   "2": "141gBFb3qpr9t7YugXmHVTdRmsF1JdFaTu",
+   "5": "18h78hT7hzCSrEoBsU8eo3f8GUnSAq8oDA",
+   "6": "1NDnjihqV8qMnhr4yT43trVjWjEvVrRjME",
+   "7": "1Q36tMFd7HeH7tLsM173VxoS3tGEnW6dUJ",
+   "44": "1JP3CZmAQe92YWEyuKbmhQxkupRCcKBH2t",
+   "76": "15HyqADSrBUTqRyaAU5ooEa5YKSUQx64L1",
+   "77": "1eExzqmCkmixKJF5goBP1TYrJ57qeCM2f"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/up/LF",
+  "n": 126,
+  "set": "S1",
+  "md5": "6ca7e2017c863e7e24215e23665776d5",
+  "addrs": {
+   "0": "1HEL89xpRwJoyCLA8u78dDbX1vNup3QLR5",
+   "1": "1HEWwKPwT7Jf9aKG8PCv1JHzatRrG868D9",
+   "2": "1445cZ2Jehp9zhghLPhAMuvaGtztusm9cN",
+   "5": "1L7JHMB3Q5nDchUBF4A9RKj7up1rpv5hnQ",
+   "6": "13d5TCoADduhMxcQZFiRwmBm9g4BvX4j5E",
+   "7": "1BZgNaSqVRoCAQQ4s9D3dhsprx1rm5svDa",
+   "44": "1N15QMsftbPci85gD2sKmkT8DrH9Nf3E5z",
+   "76": "1Cu6VG3umTozRub5eXvpSvtEL3Pc8z3UX1",
+   "77": "15yCNLePQky1sbJZMVqo77HRVU9PMaPC5A"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/up/LF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "a787fc9a3785a1cc483d62c6b3322689",
+  "addrs": {
+   "0": "1AfDZ9BGYjsvJzSn8D3hXmQhQZ8W3zKiTQ",
+   "1": "1CFoNNj7jJZcCrzEatvpjtYrrSN3x4vDf9",
+   "2": "1Fr2xiSrCshvFELKRy6TCnZDEaARr7MM89",
+   "5": "14WMUiWDUshiEVPPcuQTM4aNcc13L4hV7u",
+   "6": "18oi7ib7PJCifURq4meeBZaZPmiCQgaZxr",
+   "7": "17DUKQTL5CozSKX34ZVxd7DrBqL1nPGRVs",
+   "44": "1PoT7Nbqb35DPi4MSVrCefTzLkQ1uMdXai",
+   "76": "17SbK9C3FN1dPUcQECU2aj3CUha5ZLTjC2",
+   "77": "1BuLdv9aZEVcsczeKytbNTSg2oYXNYhT7z"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/up/CRLF",
+  "n": 126,
+  "set": "S1",
+  "md5": "abc100949bae00561ba3fd36c1961aff",
+  "addrs": {
+   "0": "19MAZqXRCE4Qf3eCa3tVDbpwNDhhgMA3hV",
+   "1": "1DghKxjV4cMBuMB98ucC2GfqNCceZLkZW4",
+   "2": "18SWB3D3Yrwh5XAh9bMbQ7KD6Dswi1BNe5",
+   "5": "1DKdzzrvzcvskXhJSiP7NFsKAfAgM2qejy",
+   "6": "1D7iDEr15CCFuv6Rtxj7Dq4EHaP1KiRqVc",
+   "7": "1FWLn88MkWpzQ4GnVtxNwvmSXgJ8TLLqah",
+   "44": "1MbpwoMhzWVzc5NUuSoYQKF3WrSXFss1E4",
+   "76": "12sfJwoRBtUGEoVcKUWYiC8eGj3EAgQmGo",
+   "77": "1EjWXn5mJbQsRy4KrhvU6PjsidiL4FTPG3"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/up/CRLF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "fe192b14661f149b9a31bb776412719a",
+  "addrs": {
+   "0": "1Hk4p83yLiwG7zM1m98BoEALoh6k7tm6w3",
+   "1": "16L3WxAvdDMDzNPqSYox7N3XwRCecqS9cD",
+   "2": "15STHnuLyyCksiF2yScP6T4Sej5aEaVcVg",
+   "5": "1Fj87VvzfNxkS6nJ6sVVsienUD8Qjh3yqe",
+   "6": "15CXQ2dysx3edrpgScQ6JenRPQHpURbV5r",
+   "7": "1AinskxUvQJrMnwLUpXg5Dmw4xZRVP6is3",
+   "44": "1CUC2AHhoPBfFZokAjmSBPg18zbfYsigMU",
+   "76": "1KHCVe22vr3zWXEH9NAVcZYbn44Aexg5P5",
+   "77": "1Nwfbv8ZUM59vYxpW3y4gq7jwwFF3vnZrT"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both_para/LF",
+  "n": 126,
+  "set": "S1",
+  "md5": "49476082336ae8b6d2b836a94e16cbbd",
+  "addrs": {
+   "0": "1KvsJ21jA1mBvHgYrY8vWZqpvab2RrL2vP",
+   "1": "129hy1T1TYvFMpuEBmiYm2x7KbsVmXr33k",
+   "2": "15V4bU4SuTX3pAqUTybYShmmDjNMMWkDZS",
+   "5": "14dDYFXWVMdGvaNrkazJqWCNTE3QXLETMs",
+   "6": "1TFKLcSursMfw91vZLqxu8TbrEmHRMWA6",
+   "7": "1793tU1UJQMMBukQKwjdA8B6wGkQ9Nxten",
+   "44": "1PN6P64xtZBA7NCKsuUbKinFcMww8a6Z2T",
+   "76": "19CTd4B5NBojYPivkFYB2BtX3hoZLaXfV3",
+   "77": "1BGWDEEpTyFTVCvahW1dhndMB5ZqJbHKqd"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both_para/LF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "9dbba0ea6b2cef71136deb9dd57549d2",
+  "addrs": {
+   "0": "1EX5CKEJ1mXCba2SGUs777SxiB5yMU4ftG",
+   "1": "1EDhtABkd4yPS6Nex8ZarToBwhKr43qsSJ",
+   "2": "1HmCQZb7pJox6RbxfpsiXWFpmb3trqcfGY",
+   "5": "1Af6xrLD3dzQ2xvsJJiX5ytSXCV6NCqBQK",
+   "6": "1JiqrErBcwgPPQxDWCAeJVPMwVikuaA536",
+   "7": "1AWfsPbkDgbGSc8ChgXCbXwkMJnYsneVxM",
+   "44": "1KkD9VQgbzmNPs32DEKgMGvzj9TsXKBB6S",
+   "76": "12Jk7U5p7G5QobpKsQkpZcY88dyQDGH1oD",
+   "77": "15TCo8QR3QYZGVRqvMpppYh9ZVuaxD4czU"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both_para/CRLF",
+  "n": 126,
+  "set": "S1",
+  "md5": "3b08611b9b9f4c157c527ff793d3f315",
+  "addrs": {
+   "0": "1GjQ4m77N2rWKvdKoBHEhmixBFDBX4QeEG",
+   "1": "1GvyeTFXsbfEjsHfZyP2swMqhyJMB6SDRD",
+   "2": "13h49uwBCAt3tj4XLWWR94zt3k9AoM8ix9",
+   "5": "13Q7jwpXjEnBoSN1pow6Wem6tWdiAGkmix",
+   "6": "1222YZYyxiYq44DoeyxdMJ3gSrzamgrjf2",
+   "7": "1Lb91J9nJQMNKepYSh6djJ61Fmmu1sbyKb",
+   "44": "1ArwrtBaLCbZfQKEjJtDY1rYe4fmZpHQFf",
+   "76": "1LJ3XDfMaR2xQovu8B186whkMhaLZgQioy",
+   "77": "1NToWdFU1rehgG7ZCBSjYpofpg2N1zWzFy"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S1/both_para/CRLF+t",
+  "n": 126,
+  "set": "S1",
+  "md5": "28b0809d289300a8612bb4f94139454d",
+  "addrs": {
+   "0": "1DEruMhHnp7mSMg59V2d1bmkD2xPJSoiM9",
+   "1": "1GisJ7fwqDXw2BXRCSv9W4TgPZ5zqMuyyU",
+   "2": "13ts2UEssziVBrhsHX14LRb3Cp7X9zu6PY",
+   "5": "1GG4QT6LVBK5GRo9CbEyGF6h6j9pBbrvAE",
+   "6": "1DvaEhS81jFu231xveKpFypYkCMjuE2bLf",
+   "7": "1Mq8QmutKmMsvqKeNKTwbLBCtASW4Q3Wgb",
+   "44": "19AFX3iyrSctLfJdQfx36hFYC9dXLoK5Mn",
+   "76": "1PiEn6UWQ5voKdzwTYFcAW3wCk6H3aj17d",
+   "77": "1Mu2Pnj3JtimYt9VPtNurUfdvm2LP3Q2r2"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both/LF",
+  "n": 154,
+  "set": "S2",
+  "md5": "b893b812e3434ddd75523ce7d638b382",
+  "addrs": {
+   "0": "1UxCTZekwprmXhBtpUxibGdUr6MwqSHJ7",
+   "1": "16sFzmBdwnSzeR5qtPoSic4MFTB7BTCNKZ",
+   "2": "1EacbRfgxr8imuv2rNx6SBWodTpyz9o3C6",
+   "5": "13VztFZx2A8Jgkt5qBJ8rG64QwuwR2oBG9",
+   "6": "1ByvRZA9j1zyazPz4feoSpe21tUXfC3XHg",
+   "7": "13maUmB5zhcmaJBr25V3os4UyKJgq4VqJS",
+   "44": "133je5eUREpiPRCnj7Z5gdHsNfojtfJxtT",
+   "76": "1BhjUJnHAZBaQs2oYFSbCyY7HbzH3tiRXU",
+   "77": "1LjWfokABgR4R7zrENv6btH5exPWR5wdPe"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both/LF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "09045cbf24a069c26ac39ff98cd3d127",
+  "addrs": {
+   "0": "1HiGhFMBQBUPCiS7FHWZ9H9fQtudfXHYk5",
+   "1": "1ASeSn1Utabb9zFqt1nLmvSce4JNUAhpDP",
+   "2": "14giAseDyzc8V9ztcY2gvi8JN71zYFeb1B",
+   "5": "1Dc358gYxvxstBhjVW2CEwYiLPFXX45y6M",
+   "6": "1C6182HDUvWGxcTL5uxvqtVgmGWhxjj9e5",
+   "7": "1JSXTKrL23zTvmAs5GRSUsg8YEtt97Temz",
+   "44": "1CaqTETA4sDJu9Dd6zgmQyGu7CNAiTKnZA",
+   "76": "14MFJoMvHjShraU84aZNgmfPeJ5Ad6CE1w",
+   "77": "12NnrUHFA5XZq2hWgJf6MLJUAGkQdk9xko"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both/CRLF",
+  "n": 154,
+  "set": "S2",
+  "md5": "743d5fd1bfce9a4f57225ea8e90262eb",
+  "addrs": {
+   "0": "198rsJrWgP4qvywkkfBdxWgijCZ9Kxxcmi",
+   "1": "19E5bvQF3Z258P1pe5A1yoV3N1wDvN55n2",
+   "2": "1MfVFQZY7a1z4TYpQc5LQ8E48RbUvyFR4u",
+   "5": "1GuHGD7eLZ87cxRGDuEQ6i6dyuayfu6PRY",
+   "6": "1B29vVL4UcU8LkAugPHDmpoCFrVjvnjP1U",
+   "7": "1JQUTTCUi5c74g3tQkNZjxjanmbqPoqcuh",
+   "44": "18SveNibWKJWbcdhEMr247vhdvwDWTKEYA",
+   "76": "1GU2dXqJ1a2aWRd8tHDAUUftAa6qWkWmWt",
+   "77": "1FG2CYVefDT58NWC6bYGnDM67Eh4WKyiHX"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both/CRLF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "7d550242d6d3aa53f1011ceda62f5231",
+  "addrs": {
+   "0": "1GPjYmcipGkPdegd8S5LLDW2rs716PipYr",
+   "1": "15WtL8rsieLMqycV37ry1Apr7ujJsqPWzP",
+   "2": "1H15f7RxTgoyg3bSfQ6ztdnRnEUFfTbMEo",
+   "5": "1JW2153kQWoVFcBJHNJv1R4XA7NJmEMyzc",
+   "6": "18vNwTxQgLQAELtNYSDwx76zSCofrTsaN5",
+   "7": "1A2KC9u4dG9EpwhBoULC1eudSUA5qub3dp",
+   "44": "16VHcNAtoD2ei8i6xztDSKvspuSijCXMkR",
+   "76": "1MbXWpfRDvTNQLfVovQixxC7iFQS9i3mgx",
+   "77": "1EyR3hDe3xmJsQQC4BTaRTipEuNatHiiHb"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/down/LF",
+  "n": 154,
+  "set": "S2",
+  "md5": "9d0614a30a430fe2bb38bc01541c8e1c",
+  "addrs": {
+   "0": "1P3ccZW53BgrFs3xEwR9fkDgEacdnXvnRi",
+   "1": "14CfBcxRv99S6XSZhgRpZiJHWprc2zWSuo",
+   "2": "1zzcan1vvervQagqtQaymdS9mwhFgkksK",
+   "5": "1MRBkSspmrQHtFJB3XgGdvwefqnmhyyZA4",
+   "6": "1FoPuTa8Cu5TNYykjSp4mBU43u4chURbsY",
+   "7": "1MLNLqD2TyrmcgRXWUGt1EtNp17ionp3UQ",
+   "44": "1LYjy4oRgHrFtp5Fde6kcwtng9iwgfYZTp",
+   "76": "1LMso3Er3653rfSAakCES4Eq5wiVWvgBoi",
+   "77": "1ErNGAKu9JjdF7gCdQAH7aZN2PetAeTCUW"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/down/LF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "22ba18aba908bfeccf61e362f302a454",
+  "addrs": {
+   "0": "17Scmh2P9E9DWS5cQz7eWAw18M7289WsJp",
+   "1": "14XaArNZBzsUYfdt3drDEcHvzAmGD3CSJv",
+   "2": "1JP5ApDaPpuasw6CnttiQeJXhv3WBnJz2f",
+   "5": "1EbF6yTye4zZtVb1jEx2ASHGV4HfwdcgxT",
+   "6": "1Htvb3pYgQmb87KNdMAnoEkm7WxrPxNU9b",
+   "7": "1GSzYxyre6m41vD7TzdfHyRVWt7e8mBUt2",
+   "44": "1KiRU9Y3HRGRAABxMurSQr657AzhETqFyw",
+   "76": "1JNM7WGGeEpkynUH1q2rXre99u2NbXQwxg",
+   "77": "15h3VuJFJAM55i2epQEGDgr7zFJCV7EPsR"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/down/CRLF",
+  "n": 154,
+  "set": "S2",
+  "md5": "47c555185b96c050b5d399296f5bdf42",
+  "addrs": {
+   "0": "1MXLjqnLDGrKqVz7U5vMDdzyp6HcfiGcR8",
+   "1": "1NmuSn9bedLtXPq9ySavFYm9YZzUJnw4Xn",
+   "2": "1Gu5KGPGBqpGaoHE25dvGHSRMpVTirfV6Q",
+   "5": "1GdhANjrupRG4Nfh2cT8to4XbAW1PxjSU9",
+   "6": "1GNn3158ZkM3nwMgxE9JEgcgKxBhuxAGtc",
+   "7": "1GweCAToyYW14gFjQtC31Y12TsZHbAFDxx",
+   "44": "13Zvzzax74CSjzRNXA4sY69EL6BCxp9tuy",
+   "76": "1PKftq3a8zKN3tAiMsbXEyr6o21YKdUdmy",
+   "77": "1GANunFNmKeYRzb4yir5R8ATs5Jaj17mHx"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/down/CRLF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "4b66210c8021855802b6b17eb3ca66d0",
+  "addrs": {
+   "0": "1PybzkNKx8jDyk1GahPqt7CEWwbsS4eWv7",
+   "1": "1Go1f4NRzYuCpaV7XZisMQ77HUYFcWvjam",
+   "2": "1HwUnqN7tKbAjH9zt7PxTLLSZFgXrKztHy",
+   "5": "1482NiFBKzVSnAe4NzkdpKY5oWgSeK3CoG",
+   "6": "113uWF3UeZKuUbzLAU7cwVhyJjXy2BaGCm",
+   "7": "1D2QfHZ6b7tUL46EaCFuMqT7EBM4bknB3U",
+   "44": "1Ni6ev3wEo7GDspCmrxtLPrYCcJFA9nqr3",
+   "76": "1Mnnv98hhgbU2i2tphw5TvkWZoiHboQ4Td",
+   "77": "19RciHWrS5g77XnMWqNQQsyQtxk3f5RZCb"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/up/LF",
+  "n": 154,
+  "set": "S2",
+  "md5": "f1ec6c8874685657fc99eb23182ab44b",
+  "addrs": {
+   "0": "1F7ZKvro4xCoJ4m735aQi4k4HfvHcJVaw",
+   "1": "1LuBwLmddmyzg8UFaubpTRawRPsCjgRJx5",
+   "2": "13RQrU9wi6uXcwqTJaNW6d2FjRc4MkkG4R",
+   "5": "1LeDAzYsDEM7ts1kefgR9EDZZwRiPqTmMP",
+   "6": "1DzGfXrh8mv1F4JKxXshiisuU7sPQ7b49B",
+   "7": "1NLef5m2NBTQQC2CqLzsJjx1oTbYoj6sw8",
+   "44": "1QFk4T22wUmgWFxDaQF7hev7cdYYwRyLL6",
+   "76": "1PnyVaVkzsV4P1cac54r7upnG5gBnewuuD",
+   "77": "1Nyu2AywDhG2aZSP36YnC4L2CTaYgXuBmK"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/up/LF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "d7bc6be07906cae398a5c01eff2c40ae",
+  "addrs": {
+   "0": "1BJF2UJC7RxDyPLfBaWs2q37cKKaXpT7nX",
+   "1": "1PDVTjPcL1rjWPooxHtbBPmLKsaxAqoym9",
+   "2": "1KDfzxtfMP8SZ72yoynN8pkAKe7ofGup8a",
+   "5": "1JFgjnEpV7ES6P7rmEHLHt5samrkVucjmL",
+   "6": "1Ng5EN1bozNWLLHaRrnjyP9kDBUkVkWRSW",
+   "7": "1KQPxXd5VqjQm5mpPm8omBMTcSzNn58MBM",
+   "44": "1NQfhBv7U1YDuBZvc8Qm8jxKBsN6Jeabpb",
+   "76": "1Lx5exRHa6Vie266G6P3UDEG7AKKcCzM9R",
+   "77": "1EyWFCcV4jRbsckB57JMEW29mxz9XrRy1P"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/up/CRLF",
+  "n": 154,
+  "set": "S2",
+  "md5": "35e0441b13f8e5e5bf2adb0051c07e38",
+  "addrs": {
+   "0": "1H9dhTw6f4opY27JnxkK1dBS5jEdJJhdLk",
+   "1": "1QBoKghJEuUzMFDQqBZdm5nU81RRDuuJRk",
+   "2": "1HhkvhsGb83rn6ygU4nXjeYH3MXMrjgkcD",
+   "5": "1EMvgvEpvhgv5jo4TfB7UjtCRopzVUVkCV",
+   "6": "18j9Sqwa9ys4khouGUKmNrikYWU7eDXBYA",
+   "7": "12SNg1w7kV13duaooX4Jm4uJ38W7N6L6b3",
+   "44": "1Mp52NG2EX947geWoYqitDv5GycFkHsWVV",
+   "76": "17YubPX9KnebBCHAnZz8LnJ5oQr1Wva8uM",
+   "77": "1NwJcfPJNGXmZ3faegVaWnLQ9kAerGKoj8"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/up/CRLF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "58a09eefe0f1b2e12c0808ef9696cb36",
+  "addrs": {
+   "0": "17qqy2aoKWpL3vqC32VvajLAVExSy6oKbD",
+   "1": "1Cf64CrR7hwdocJsNHkZtRP7UfyUnNGpMb",
+   "2": "1GrKyes3xaoKh6uQJ8ZrUMKiGRRRGSgi19",
+   "5": "18s2LXtKSc8Q854nnuqAESwPvKNTNx62z4",
+   "6": "1DiEDCCrjxA7gVefiA9XJEWphuem4Y7QQP",
+   "7": "1GoLapBaCtAgPzgqMVf1m4AcH8eLU54QWU",
+   "44": "1Go8pLdqaHgGrWcs4BoTiRA3gkvSzEaCU7",
+   "76": "1CpxnXqB8KDmPspRVTqobLPRKCTvTmu5Ag",
+   "77": "1CEP29BRa5qNpt3PmAxahE6Gr3Wing3qFT"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both_para/LF",
+  "n": 154,
+  "set": "S2",
+  "md5": "30afbf659c0f9ca1c2e8b98166820b6d",
+  "addrs": {
+   "0": "1NTgF8rFNEkNPhU7VGqFJLGt9Y6BtfiFvx",
+   "1": "1P56pDeg5YKFzGowm2MyDpsPqyXreocrpM",
+   "2": "1Pd9eqWZLg4nK1hG2VRHHCzpFEWZTqo2p6",
+   "5": "158PPrKM92SHHyHwjtcy7hfWqNYUoWGq1Y",
+   "6": "1NKC5fp7kJ9UDaKL39S3hSZYhMmT8u4q6P",
+   "7": "17dztrFmoomZFhgEHuxVU5RAgg4gYwXXmq",
+   "44": "177u1vqVgX9Nq2oWcMSRgngKYDDFp3AWgA",
+   "76": "19DDpb8SkykLM7CxTNZxR3EBoCfrNgRPqZ",
+   "77": "1PCpkG1qTgPjhU7LrnzGS2y1F9j7JEYpnM"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both_para/LF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "1d974dc8cbfe3bab37c567f6df6c1038",
+  "addrs": {
+   "0": "1Q5Z1DRXBK6ddyP2P2UMynohYBRpUdFNex",
+   "1": "173JCVC4aqW446EbR4HU7Tj1ktdN6quWa6",
+   "2": "1EPt24MDFnnNqatSCVtisi65usMGqdjU5w",
+   "5": "1waxqYoDKkcxCJNviGYgXP25cNFw96Gmi",
+   "6": "16KpEM4EJzQuMK4nWRZCSaauuTqvneG4Ri",
+   "7": "192VsewRLMFVmMtXLgbEwNU4DodyD1xbDk",
+   "44": "1D9XP5zdQopUoeQkSdveGmLUAVpqq22tm9",
+   "76": "16XFk6GpkCAMXVLuVUzhmgLQVDpR6DYzYc",
+   "77": "1JdrezkWq6W8fBYHwfGAAjgbLLzXejLjdA"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both_para/CRLF",
+  "n": 154,
+  "set": "S2",
+  "md5": "97ec25dbe611fc1d7161cb28afa7895b",
+  "addrs": {
+   "0": "14JUddAMahmFD8nGWWzEgFGzvkEEAFjnSV",
+   "1": "17rCC3cRWYuDRYrrAocN6rsy9LFdNKRfHr",
+   "2": "1NCHk5L5DufhjQ53hEYBJJF8cgnJGtBRzu",
+   "5": "1EJuRdQ95yoSEHwLEbbkDeuE4vP9Wn2x7M",
+   "6": "1MkZtmPzbJp5ayg9pCRkP7H9K6TAVou6YR",
+   "7": "14B691RzeEZkdxgf6enZy3dzhWFXvUexxz",
+   "44": "17bNQ5YAHNYCmU1WGwdwNRF3VPerF5ekRM",
+   "76": "1C18ZzcrFHVVaTrWXXZu6qyhBY6qXcJCPH",
+   "77": "1GYG19GJjF76joWPVDc1Ng4E4pn2jCLUfW"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S2/both_para/CRLF+t",
+  "n": 154,
+  "set": "S2",
+  "md5": "f06ca76e970f4757faaa99114c990f9f",
+  "addrs": {
+   "0": "19FFUbW8JQWVgrvkvxkH54EumfwKzBXKeQ",
+   "1": "1Lk52p6f8oKgaab2mKKNzqCWEiEucj96n6",
+   "2": "17P22k6LaLf9JnJpjBtGCPnbsRv9vfMT78",
+   "5": "1KJvuWw6Lbr8Bc7g9VUMSkcgWMAvHVr9Rs",
+   "6": "171KAZsz6aomaMo43f3D5hWiqD4UVW59UV",
+   "7": "1EazwfTsGcGjxsYa7ET4fKNwgdC5eTHNXL",
+   "44": "1E3pBpxXFhoe3MjqB2HJswWQEmiBDGLMBB",
+   "76": "1JtnDeXKgJEYstShQNX9o6RdJG9zDFMvZt",
+   "77": "155UHUr235nAoKcPrx3Tq51V8saTgAybdK"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both/LF",
+  "n": 12,
+  "set": "S3",
+  "md5": "5d78315b79ea6eecc50e656cf1ab194f",
+  "addrs": {
+   "0": "13igTZTEwZxohk75nBWFWSjV4edosTeGFh",
+   "1": "1LzkZFsMqZARxH2N8QYnznhRmf8ZqF4BA6",
+   "2": "1PXPW1WKGqFXWUUffEha2jPAZx2J6u8ion",
+   "5": "1NxPrJH4TF523DVFSyUiFe9GSMuecXTfZw",
+   "6": "115ENMTZmbnew2ZanseNwRuQKWmkSwkK6F",
+   "7": "1FgzLrr5g3b7tXLedc3ASDQP28MXFd6zHA",
+   "44": "187R2dwHXx9EbetnbqkgCnwwQmu5tewesE",
+   "76": "1CwHSnNGjRtibUu3V1SwXqqvXeEzA4jjpN",
+   "77": "1K8FaAXqJ9ev9vSW67M2oCSAiCZKsQ45Zc"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both/LF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "0f71c511d849cbbb7a90ca4e4f6cc133",
+  "addrs": {
+   "0": "1Q5gyPL6GnzuKU6oN55d9EiKrduF1Ws7fd",
+   "1": "1CjFdqvpHkLeMzxzg3mnU2DBsogmkgHUvt",
+   "2": "1AdwM5eFChjZdhgggMzCmP9vWMNYnkCnGq",
+   "5": "12pecNJCW6yQXWxsg7AuoZ15m1Z3qXq8jd",
+   "6": "1BihYquyqm174TKYqj5bu8SxNrNbqhg1RD",
+   "7": "1DkyZMFS2Y3Tfc2ZDx1wfhQiNyC3zPLpc1",
+   "44": "19A7jd6pf1gwbtT18DyAHsLPK4m5bSkwiR",
+   "76": "1HnNZ6VwpZHnHTYYJBZZ34gz7GGj6KrAFw",
+   "77": "1KuUdhrEEZaohp2AvjyApGy58ZpirkkPw1"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both/CRLF",
+  "n": 12,
+  "set": "S3",
+  "md5": "5b27634eecf41192c291b62f84e4fc53",
+  "addrs": {
+   "0": "19RHm75DAkLZPXqhEv5ugSQGkQRFpKfiMw",
+   "1": "145FNpvnCkvQ5DY1qZMaaEjMbiXX52ksWo",
+   "2": "1QG2GYfxXmVZDeoEkuEjZXymsBeExeJWxi",
+   "5": "1Ax1fAMsW4bYUubxmFhJWPE1GZkSK3NEu3",
+   "6": "1ARDbBgwEmqF788ifHiwNKVbzqPsLMZTmd",
+   "7": "15eQpbfyJtwGkSi8PtgwvsB4worYW64atr",
+   "44": "1DuUTGCuXf6dJmYV8xUNV4fhb5uC3NjzD7",
+   "76": "1Hb7zSvPBZXQAhHJu1Z2WVcM3Vk6FKC9Vu",
+   "77": "13QfukkeZYviY3fF9VkTtpusLUsvWc91oS"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both/CRLF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "af40d35904b4f67fd0b7a561d33b4073",
+  "addrs": {
+   "0": "1FFzWi31J86yBuWTvqkjanLQasmYt7PaiW",
+   "1": "15wmegtzwunRSHuaqPK6cNqdjJkn42vpv2",
+   "2": "1NRKa5hAGqP24Y82nh2m9w3WEhZjcUC2Vz",
+   "5": "1FYjK1dEFhUsD7Zyv5519Ww564Nqx7T83b",
+   "6": "18sHNRh4DafXGuxCWnuF91uoZRZt7HEHav",
+   "7": "159cGgFpeqEzzjXLmDersKrjub2FVrrdVK",
+   "44": "1LMLgwcrz1TvPtMBQW3u39WsnfGExNFDoT",
+   "76": "1Kjzar3yxLx2vaxeZfLG3Q3Zh6fSFBnnW9",
+   "77": "1ECHw8b6EdxWh85Y5UVh9q53nKPYCpPccK"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/down/LF",
+  "n": 12,
+  "set": "S3",
+  "md5": "92fe906553448eecf398b15a0499abc0",
+  "addrs": {
+   "0": "1DXSQNnw1XqvrzzwGB757MaSvvbMHuoS14",
+   "1": "1MdRrvqykA9PeT7QHzU8muXX6JiXzspH8C",
+   "2": "1Q5gpCH5pFp1KBFhLVZCydG4aaq3Na8UaT",
+   "5": "1L3Gfo9s351APtuRUangw6iW2gxa549enp",
+   "6": "1Ld3ExiYm1AxfhrHxrgB86Vy4ZcrTiUrEi",
+   "7": "1ABosmSo83pY65rUsApbNozP5UdBQdZaVB",
+   "44": "1PGTpKiYzrUEHb8cqaoKYwPcGTAsGN3a6u",
+   "76": "1BCSkmkeCnm6Um3oJHu6F1kxFArAAZRj82",
+   "77": "19otcrCUnUNyXMYj5u2Z6ZMSRevC2k9Fhi"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/down/LF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "2ff27e254c86f41cdc7c268ea8e4ab99",
+  "addrs": {
+   "0": "16aSeMEsMgrnAjCYah47Z5RrLcp8GuXtLM",
+   "1": "1MfBzyJ7uMyLFVXNpDQP3LBnUWssasn8Gy",
+   "2": "1NtQKCKtxSx9Eye5HcJcfFaVfAB9uEYyZy",
+   "5": "18StAa2qriPoW7SkLvQuE5CTAwS5jddhRR",
+   "6": "132pn4kkSdNJEybiATbFtAxCXPoiHELBAE",
+   "7": "17Jv67p1CAgoqwDnXGVoYpwxWkC4emUcEE",
+   "44": "1AWmiuVNghi1x4abUwndyyJD3F2R3MnjtW",
+   "76": "18FTjEoCSsrYAGLH8rV1qtszYGgNJzzDZS",
+   "77": "15N1mHay96DbNtFoJq4CpA7oYZFLAEFinC"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/down/CRLF",
+  "n": 12,
+  "set": "S3",
+  "md5": "66c9a147c646a9ae901207825df1b9d8",
+  "addrs": {
+   "0": "16UpVXMqfgcxdywiRxPE3taHjeApgBtbEX",
+   "1": "16tQP8rBHoS67vtnHNTce8De5EmJW9QkA3",
+   "2": "1K1YknM55Pv6fzqHzUUEzjkfhYQsVdjy1E",
+   "5": "1BoDMpC5Pm1yPeGFMufN4e41uouUDWqTaZ",
+   "6": "19hLsAqNqNrkDMKS7BaJdZ2NgeS1SDCsEZ",
+   "7": "1MFDD4XYbBBvybCtxoRmivD5DLXsE58zjS",
+   "44": "15bcQbzEnMG3wvfBzJZTEqzVwM9BUQ77fU",
+   "76": "1C6UHVJe9kek4aAKumtJH57tzFfjgxKUFC",
+   "77": "13RnBU3BbTpZwYqRG8XTFMvBnhJQPVUpCZ"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/down/CRLF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "703b8bd14fd69ba6c3a13deeddb987e8",
+  "addrs": {
+   "0": "1Dg9z5SgfPN17S79b9CWko63dsA221zoT2",
+   "1": "1MhChh6rXT2hBEBGuKqMVjMZmodmaAPzpN",
+   "2": "1NECpv7i8UowQbdAaD4Q7moTn5GsgMraEy",
+   "5": "1HSyNCgXdgKr14MqwLp9ZncWbRLfEoJgPi",
+   "6": "1DNcXUon3Q7go4DybTEJVNgHMGdvwhmMTH",
+   "7": "1GaLfsjsiPrihoe87jCgLcHXgt71Rt1372",
+   "44": "1BaH2h8HZisbzkfy5No3sYrc9SWbXSzPYp",
+   "76": "15SdhySDnTseQF1pt2gyqpQD7rCufwi7W6",
+   "77": "18crtm6CFnPTNvWdBjtufdtmzQjiFh7QSo"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/up/LF",
+  "n": 12,
+  "set": "S3",
+  "md5": "c27a92b1e39b1805ae6ea41b4b2ba176",
+  "addrs": {
+   "0": "1GqWLBC1c1AWbsCX3M9ierKeXMsUqkrzhY",
+   "1": "13TEFagxC4YFvQYvtntof3gGtKDPtoTgRz",
+   "2": "1Fj2hp6eaQfp4UjqTzkkPaG4ZZz6n7Xudo",
+   "5": "1Q3X2kKyF73iRBW7gB4WXVxF2qbLpfg4nt",
+   "6": "16ciV5Kp3s4Dp81kL53KpBECWHCz5XrVv4",
+   "7": "17GJrZhyqDmTvjFHQq8PKLEPX94oySG7zT",
+   "44": "1DJBMn5r8Zi5qr6JvAiX3NKFMABAR51Pqv",
+   "76": "1BeS86saRX3ksj3R9ayrFUHait1xXNx9yQ",
+   "77": "1BU5SEKWKSbSfnUGMCdVm6CWJHQBomEYbk"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/up/LF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "b440d3aef22bf6983f2dff8d23a0ea18",
+  "addrs": {
+   "0": "1ANCDNLEa8WL8Asjnw5gKQSWtPaPeDyt3F",
+   "1": "1Y5Lgh51tVkPZi9CvqtAL92XFDnBfjh2V",
+   "2": "1N9qpGzvdSHyjtTThMqQM2cu8PjnZYSC6r",
+   "5": "14BwzzXxNh5n3mak1heVXKVWa5FkYCJdb2",
+   "6": "1Enp2iAkz5QcXmLbaSMtQA55utKNDbQHGk",
+   "7": "155Zmd8bLUJMr3ULUYGxsrnLSd1U9uDaeD",
+   "44": "1A678qPkvnrPkUXr7hMBsdreczkE3cqbLs",
+   "76": "1AuLEKPpZbpUdhragqSLnmCGKUWKT7i2EJ",
+   "77": "1G41RboKcbWovKkYw8BgV91fP1ofjaLg2Q"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/up/CRLF",
+  "n": 12,
+  "set": "S3",
+  "md5": "9da9d30a2a2bef29249f0b8cec2b6c2a",
+  "addrs": {
+   "0": "1EMaCHVvi9cgSo3bsYg93vzWcfF3mYiVbf",
+   "1": "1HFsPnjog1syoUStNDpktLKCnaiMi8yNBi",
+   "2": "1PFVnnzoifHnT6KAtuKnwNukPvyDxX31Aa",
+   "5": "112PBDHyGnimviR3aDQbC81ZSZ9oAB3fZQ",
+   "6": "13SBsNj8bKH36szZVrW72oS5i2YukHAnm4",
+   "7": "1FVc3bhoZBuq1yjWRqRWFMmEXTV6QjLdmW",
+   "44": "192SbXZnM7SDsqjGZdRaLXYXVcxHztQK6G",
+   "76": "1EF3KqLpjfcSRChVcQGejwf257aeND197N",
+   "77": "13j9wQN6LzqmWQeugdz7NThVc88GQ9UEHJ"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/up/CRLF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "6d4b684ba966c454db104d174777bebb",
+  "addrs": {
+   "0": "1F1Nvm9pkxhmdQ5ddCcPV2eWAdAm7GMVQK",
+   "1": "1RP4xcFn3D2JALvwYzTdcBfqxJzbtdwpw",
+   "2": "1AZFpBLMjKW696meQMt3phsZpMvyDErTWj",
+   "5": "1FhNpHjf3638NSTEqpwKu6L16ZHxBMWaNv",
+   "6": "1N7C3AcoDhNHY4FtfBeijT4y78N7RfVjtP",
+   "7": "18QzzXEnucSLDifCAqUvSS4yJD4FRAirav",
+   "44": "1EwX7CVP6tEgMay2VDwRiNBwVBTr49EKud",
+   "76": "1MYWZRzkDBvUXQZk6tfzv9h4Y2Lsqd5uGd",
+   "77": "1Q6zu8wPoXqLZF3s3okJhNu9LuRA26YnDi"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both_para/LF",
+  "n": 12,
+  "set": "S3",
+  "md5": "c9bc79d06c5524e18dc9f6e1091072c2",
+  "addrs": {
+   "0": "18YR29tjUe3MKENQeBL4UrU9hXXcP2YR59",
+   "1": "1Gq6uCP8XD7mpLNzUtNnyZmZtubjuXAbma",
+   "2": "1EHh48S4zwidHbW4DsvTN72sKwoyrXgkvW",
+   "5": "17QMuuACwQvCccNRcvo7qyppaT144TPyBq",
+   "6": "199Pp4ze2Gw8HVC65sRgdatLgFeuJ7eYHt",
+   "7": "12q5oMJyqMpWeNhD8Yv2JdbJUZSxi7Wywi",
+   "44": "15p9FEzP5CxSe3X9Q6gYezeR2hbA8WJ2N9",
+   "76": "1M8s6YR5HfCqXMACwbci5XdR7Tg2Y6VMhq",
+   "77": "1Hyuq2Q22rns8H4Gqzz6zp2KFjxfPP357u"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both_para/LF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "4f0a094695fa97913656ced8fc79979f",
+  "addrs": {
+   "0": "13tbzkpruVLVpxuQM4ARQpAj7SKWcGqEEb",
+   "1": "13Fyv8Mr3FdWX3XtyAPytxvqijBYV3uqnC",
+   "2": "1FEMnnbLsQQJZFzQ2U2nt8fmVew5hAuisj",
+   "5": "1LBvxaJhK9GVfKKyeswYSQEEHNMZb8K1jT",
+   "6": "18JKma4BqH3qzvsZ1jCroqfG1beky7T3Hm",
+   "7": "19V9MeueXtWuciHcWLFkNn7AnzSLTNTux7",
+   "44": "18A6Po1qibs8AMh3CA4knMN5zUaRbFq72r",
+   "76": "1GzvW1KWXN1e8MfF6z6wgnyHVeH2VoxN5R",
+   "77": "1MyTrv7VBezRQEiCDqeMRnz7p1VX6M4Vte"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both_para/CRLF",
+  "n": 12,
+  "set": "S3",
+  "md5": "0735717c1d9c3f3c9c334860353e1604",
+  "addrs": {
+   "0": "1K7UEiBSH1yCogu6qDYy3tp6t7YAEhkysg",
+   "1": "15AZyBuJyc7Lf3mxBXpotpybUNW6hXrBze",
+   "2": "1JCGSiM3w6AybgwgyEybVqhuFDsGcVawXv",
+   "5": "1B9SKQukLQa9N3JvxgKQs6LL8qa4EazXEp",
+   "6": "1uw5Wnf3pFgbA1gr4VzF1qpw443PZGWmj",
+   "7": "1Kfo4aLr53bFJ3T7rTtw3e78ZDp9MjUwam",
+   "44": "18D8xtnkeffVXUZhrRhoJhmDwsYdytbHTg",
+   "76": "1AZDcfRao95uQNYpES1m6PmMve61b5CXtH",
+   "77": "17KVkDBiCjFyTF1YTvKDVhz798SMK78Log"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S3/both_para/CRLF+t",
+  "n": 12,
+  "set": "S3",
+  "md5": "68021ab3d8977eb2080f4487474cef8c",
+  "addrs": {
+   "0": "1AmhkBXgEkfBorSvWpkas3dLiKL3kHEuBV",
+   "1": "1JzWtmuNcU3hfig8hAQyVUYuNE8udU8nV8",
+   "2": "16pTSMRyfREPonM2acv7pqTL2R622A1EDd",
+   "5": "125adF2YqXddh2roza1vjwP6ZDg5ZDi6Fm",
+   "6": "1PoG8PjL5TfrKAEEo4PVTZCxyJ1UDDhW65",
+   "7": "1AmVd9WatSFXr8gv91fJ2TysfFJ9mFQTJe",
+   "44": "173xMPRsuCfVTMFgU2Hgkuv6XSXBMYHMBi",
+   "76": "1PGFSaT6vyaVMN5fSr39d9vqYU2Q1FPeH",
+   "77": "18SR5cfPtwyGsbohj81mrwdb6Yf3kKEdP6"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both/LF",
+  "n": 12,
+  "set": "S4",
+  "md5": "502f0923cb8ea1982080f0ed3c3146fa",
+  "addrs": {
+   "0": "17Wu5RPmfYQTDUmVn6seoYS2T9zXUZhcXU",
+   "1": "1HEgn6jMxrFwVGUeDocPQUWQqgsMAoVwv7",
+   "2": "15Fkr97wBkogTAyirM3ud8cpAKenKyeJfx",
+   "5": "15xGFGxVWc59rQVAZ4jFBmRit7jBfPkRSi",
+   "6": "1AfhUCCXDgXywWxC9wFVBzRaBjLLrvHymz",
+   "7": "1Amz3Ybv1gbcK7YzyhsSBBJaMoJnUQynxB",
+   "44": "13QwE7RNH59xEdRcQBvw1E6kQgATJXX4Yo",
+   "76": "1GxbvLwB6eC4VWSNxPxxyfHaygJBd271L",
+   "77": "12auSuew6eMsi5eKVUvVEAbeTSx9rRmFA9"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both/LF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "002887dc5492f9e927c677bca4635262",
+  "addrs": {
+   "0": "1Nwk6ftQiwWLgumtpv42jmZxGfDF5k1Jiw",
+   "1": "19738Bmc185RN94jG8JHQKvEoH9MDsktMv",
+   "2": "1GJThz1dJ5zVaav5igCB94n1B9TdwghNBd",
+   "5": "1Fef42D5u8NotyYEM61ekwnKWE7G75TnZL",
+   "6": "12s1YJbrQX8g8hbf5HNoXGLZh2sYVLFy3q",
+   "7": "1HyktyjYsvkEKa2vibpRJRPaB9B9pxUbox",
+   "44": "1C1Pk8Gwj64T6oYLuqJTTQyJJ7khwFwmyS",
+   "76": "1AtLk5Pgq61vxPcMr8k4djrUPYF1Z3PjyQ",
+   "77": "1MHoyiqUnzqmzvDXZUsREihyGHb1HPKhcZ"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both/CRLF",
+  "n": 12,
+  "set": "S4",
+  "md5": "0bf7cd6a9015203e3f70bdaf7740f032",
+  "addrs": {
+   "0": "1BAhtw8y5Gd9FCGXmfc9NCPGSwEwEHfh4x",
+   "1": "19RfPPvNVWuYgfNv4oN65tnT6oogCyh6Ze",
+   "2": "1CsVL7D6Xxt4z2LY7uK3FEFqHFsL1yd9r6",
+   "5": "1K5MtFKNuYdL2AHVqwwwRGSd7q6YoH9c6",
+   "6": "1FMEai4LrAEpYSKWgyUbGnzL44gjeUaiUw",
+   "7": "14ZifViDuvBdCffrUEdBAnLj917yLW73YD",
+   "44": "16rqnLKrmoXaA2YFE4zpDKn5FapbPUbFRA",
+   "76": "1JjKaDPQVaruxuMTfDr5dJMJ3aAmsj7dYj",
+   "77": "1QC2hvfMaQ8kEhmJCbSZ1X2JcY6VtbPv7M"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both/CRLF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "8bb531d45ff56bfe372982066fc55635",
+  "addrs": {
+   "0": "15WpeBTHjKbuEe1exsT53JBj6q3wUzkfXb",
+   "1": "1HMGBBUNP6U5hhFTrDYkYgMFdzhqqcsUp1",
+   "2": "1HzBxqAAvW49h1kHQ9uibisdUbfmYPMwAA",
+   "5": "1LuzXyJEnVpZCpJBN5s1T9H5vif6SXSZv1",
+   "6": "1Jd641cBMwDHcb5KGWcB4aFSBNA72quNbK",
+   "7": "1AcnznY1q3pVb7eEDfD4d5x5S57WuwA18S",
+   "44": "15R2nEBxrbZafKrCf6Vk9u8VY186sUTno4",
+   "76": "19eCJFgUzTX3MgbJPgnoje33HHkt7spLUz",
+   "77": "1BTDau2krriCXXqQAV1FJYGZ2CbBznU1W6"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/down/LF",
+  "n": 12,
+  "set": "S4",
+  "md5": "e55f2112c501e306b542d32f441f0d43",
+  "addrs": {
+   "0": "142oh2GoxPTAKvRcNRE7F7UoZVGhUMWsBu",
+   "1": "1CTJRAD9Mc8miJfiVgRUAksig8ZkVz5bfo",
+   "2": "1LKLfC5L1G4AUJ2jXeCvSgMvV9x8oQhQ67",
+   "5": "18hFEPcF7adioopL9rxbfdShJERSFHNEYC",
+   "6": "1MnxTnew6yjRvWwE6aUioHsHAn5xVm6TJV",
+   "7": "1BPrqu7FtrsX2YdPeZmmc7CKLtwFgkwRvH",
+   "44": "1MdimubNbbS1DD5gZjMKhH6QAyFBWzexfL",
+   "76": "15YErdissLXwJXQ9VztVf6yLPwuqhQjxp4",
+   "77": "16JC8GBs5HGgDgvugaLH1S5tuegiE39gbY"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/down/LF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "80003b03c7ccadf594d0d945cda7623e",
+  "addrs": {
+   "0": "18JxJ7e35VnQygQ491zViZAeM85zsJ15Xt",
+   "1": "13wo5vPsT9S49v4ZdMQ6SHH2Fm5WpPP7QW",
+   "2": "1MwYXvBAp1jJewzzRTgyQuJ4YTqDS43MvD",
+   "5": "14eJAUQAJrkznCyN6tFsKSkmM2Y2fbncLt",
+   "6": "17jf71KH5n6aQVdMRuWnXTJrg2AczjvJTD",
+   "7": "13b3yYAPVLPbWe6a5KrAvqxbqByZv3tNDq",
+   "44": "1BT9bbXXKRPRG4AtwtpGK7DEJXKPikXzri",
+   "76": "1Hwv74riBa2eweq2rKZtvf1d1faqMczof3",
+   "77": "17mhhfYVHGY3LRy7d2csuVMZZBjVmUrL2B"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/down/CRLF",
+  "n": 12,
+  "set": "S4",
+  "md5": "5e2671fb3d94c706191f1b0531170e95",
+  "addrs": {
+   "0": "1FWYKmaZNWzk4ijbL9bxeSwjCeudju6Npf",
+   "1": "13nR2e4RXZjhz1KkgziEik97TPJ8pqg7L8",
+   "2": "18zu1cBwVa1PZUHBEScrCNZ4Pszqwnko2P",
+   "5": "1ETzmCGvvnUmqe1UfYGXZVXVGng2arJp1M",
+   "6": "14rzoVAm43j8896ttb6fFXgJkieN79zdyJ",
+   "7": "18vWphojLQ2Y73HQEPZaCLf3ad3AG1gVUG",
+   "44": "1DXEenhxWBYrnL9ge8Yo7f7f1p1MUgP1Wh",
+   "76": "14LsH4ebfiUeop3wgJS4YBqE2zzvQeA9gA",
+   "77": "17xrCrm9g4BBgfLU3oP144VXqqLLr9CzP9"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/down/CRLF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "e355fa6d0832369b840eaec4ec44f19c",
+  "addrs": {
+   "0": "1Nrqh5vJ4LkKWBkveZk2R4fTsYmVw2Lv6W",
+   "1": "1NCjtuyVei2qLy8vwtRbxvfMUWib2aTWhE",
+   "2": "1GK2R4D6vbdWV3zz8QUj3NGBoM7Qbg3jKf",
+   "5": "1F1S9dHxPrduA7J3hXQTFr2X5oFBPbQxrK",
+   "6": "1CfZg7mcvroryooz3MXFtU2X7iDc6PxTPf",
+   "7": "17CKm9AWb2C2ocowkChX6jMJuLm9tSYkPN",
+   "44": "1Cj2LTdMz2AUivpSt2dpaDsDKMdEmVoYWY",
+   "76": "18c1TWHUk1Wy4V25VbkTGHtL1sdHy21Nds",
+   "77": "15X6qrQrRqsXn26eoSCUw7sQdogh8YXTBB"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/up/LF",
+  "n": 12,
+  "set": "S4",
+  "md5": "6faa5f3ff02f26b0aec01deac4f65e48",
+  "addrs": {
+   "0": "15nF5Edo7njxSKmR2U8251P3QYTANbJCmp",
+   "1": "14C3oKAuaocvLbtpaRxj11cFutAkg94oVP",
+   "2": "19tqBWNPmxd9y7B9seo4U5txGZ2aTbnVvS",
+   "5": "166jqa7CaUTbbAtPuMfZF3r2LbsbJPazNv",
+   "6": "1KD4JMwpWLDV7PFMX4sWrj41jEzrev9qZJ",
+   "7": "1ED8MhVkR1pxTeapeesz5wnnDYZUGL7KNX",
+   "44": "15XQDaiz4LpdZsM2DSXUNn2zKXR85kApQm",
+   "76": "1LSe1AyM7bytXtx7AzYj7bzCnp2fyikMaM",
+   "77": "1QAydHTLSCLMFDHuijXpThC1NhQ4vjKRKX"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/up/LF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "499f550b436116f4876c05733d719e43",
+  "addrs": {
+   "0": "1P9DAxrfkpSVVfx7Y1dHFcw55iN1muWuFP",
+   "1": "1B3EeZUU4RrVjvuB5CF3eE9mfXURj9hDHo",
+   "2": "1GFPZ6c9Uj8wYqTfFGWJ1hR3eQcg1HSqBx",
+   "5": "1F9HiwKWnhcdXomAR1njQ8vZiJyVK7WquC",
+   "6": "1FkkRgJBpEUvnzNCxqHAvpcxPiSoZWsnuN",
+   "7": "1TVseX4rd8PqH7nUQEnHanThHU3sN1aXJ",
+   "44": "1NmSjUHmEizs6P5QAqMNo68bVvL27osXtJ",
+   "76": "1KFNyVz8kTdo8zPgLGgLVD1jCYwJ1TPNs8",
+   "77": "1CPAfWbBtpLH8ufe5g3BmmF57EPMjKqALM"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/up/CRLF",
+  "n": 12,
+  "set": "S4",
+  "md5": "8ab971427b6d37ecc184bb518ad6b09c",
+  "addrs": {
+   "0": "18Q7Rz3PqD8kzU4pfsaJovgXK9wRoNQz21",
+   "1": "1EgHuTfNpCc4MX6P73wrjZCY6dGgnj3c98",
+   "2": "1BqrQMkp29Ru4w5KZ4fmj1wqTtZA13AKBo",
+   "5": "14rPemRYetYykrM9q1jn89fAKQNJDEw4k8",
+   "6": "1CWW7bCd8LLE9mBCoRnPskm9sQ3q4DUfrd",
+   "7": "1Ce77dcPNhxc68jbZBysSqrAxmqwd8MTQT",
+   "44": "17oVSgJF34KEjkRk4Go3ZAbgXcqSzaxbKi",
+   "76": "1EBeeJLYH2f4WRcHB7U6F7nMuEMts7YAa7",
+   "77": "1MUwGfwfuYsRewFkRvptcYWsNCtxZnXYyJ"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/up/CRLF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "55d29db3b56135783e1dc244f9d7ce7f",
+  "addrs": {
+   "0": "12Aekuo6a6LvTpApZmaFJ756ps9mdx8EeF",
+   "1": "1Cs6DhCYbMovXquyDWeJoRcLS7ErPcJBsL",
+   "2": "179ZXnXrVNmNkQrASyRf7kknQpLAKxugGQ",
+   "5": "19NDMygc2vrgWXLqmyfDcx7CdJLFLTFxYq",
+   "6": "1KqoxCqatG9LREW5APEJh8J2rSenSnLgVL",
+   "7": "1JC1PdLdmCeFYH6JjD1LUWe2HCA9xkxdmG",
+   "44": "15qa3EDrkQiQkFD4UEsCVfZGYqEq9B9xaA",
+   "76": "16Lz8axucPRdtApwSpZwz8vfVCsyxsbAnM",
+   "77": "19SREvm6TVyEsFfQnCeELmKzhNrKxwzsad"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both_para/LF",
+  "n": 12,
+  "set": "S4",
+  "md5": "e4ec7577e9a80d66a06196f2c6e1182f",
+  "addrs": {
+   "0": "17eAJEosbfgS2B4aqK9SvuACja2YvWqRkJ",
+   "1": "1CP2DV836VQd9XvXcffqLaPELnxgF6iwBW",
+   "2": "17Z8C3FXS1TW6ja8ZcQHHyB7taYX3MSCWx",
+   "5": "19ZykcMtf4AAwM6zmvpQzALqyvnWgcbo4z",
+   "6": "15eBVPXqJbxqvsbY4RpKRVP9SCgoP5Q7bd",
+   "7": "1LMv9JTq7uSX7cAS7LcpAxBiptW9ZTvwR2",
+   "44": "1Ns2ohqL8mZZ6dGcdop99Ffg52StwCcDTD",
+   "76": "18myXxZBYFrPQnmR9DiVLW2AhDHrhgbSXX",
+   "77": "17S3mnifU9yozw56dAgYQMe6thPdK8VEmE"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both_para/LF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "1eaab5fd452aaa60dfc1a20ae41af3ff",
+  "addrs": {
+   "0": "1PKfFJpT1oJgxfE9kGF6LauHHuppextnum",
+   "1": "1BUG3kiyY3NLbUdsSEShv3QtWGv4zKvKPr",
+   "2": "13Bcpra2HSLXcYThoHGawdRoZ5DTGGMF3J",
+   "5": "1P4KZJNmHEa6ixG4jqpen9HSrNJ8cpxDLw",
+   "6": "1Ltnmjn6m284KFrN166VSGxMM8QAPV8RAF",
+   "7": "1MK1n37ABj9sMomvzy4hJL9yXsTLC1Dsgt",
+   "44": "1MkK3Er8ZMRfvQDhzp9hujsmnfTceiJZo3",
+   "76": "1MKgHFoPS5xjVWPn9ENaHmCNwJgrb3JPu3",
+   "77": "18ni8sDXi6JR19GoyVGGUHvBxdbpEdDVVN"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both_para/CRLF",
+  "n": 12,
+  "set": "S4",
+  "md5": "e0ef4e5ad41596a16e82e1c9201b67a6",
+  "addrs": {
+   "0": "1AhkUFKAz5jr6LGDtvVqeh9epCU8sRtoQ",
+   "1": "19nvg12uKw6sC5iUFtxAARijyvhUtUph4j",
+   "2": "1KRcidDjPgLCz7kH98YcnMasWPzK8iuUWZ",
+   "5": "13ptxTtXnWLAHmGmF1pgN43dkjzEuLxoeJ",
+   "6": "1DQCX4ME1NhzcTBkgwJZBVRBzuvJ8VweBu",
+   "7": "19ZcFo3g6nrn19xf7eEzg7juTLApfuKfWt",
+   "44": "148VKs2LydDZygRWqaubGRqKkwoGcw9Kxz",
+   "76": "1D1wTjzVvN4uq4N3cLos48FGh8N58xgqQE",
+   "77": "19ptRga7rymozZnidb92YptxQpnAMiur96"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S4/both_para/CRLF+t",
+  "n": 12,
+  "set": "S4",
+  "md5": "f6e1502d0d959b1e8a35d5c79b263744",
+  "addrs": {
+   "0": "1DKfAdPd7vYBu6mwoErTqZYs1Do9v1aehc",
+   "1": "1CudDvjbwprmWXaBqBFY4trSxNTtM84HS3",
+   "2": "1LYs5ycX49U8E1LTUmdcf7mTCg67Qy4Gig",
+   "5": "113SS9x8tVHcuYTLaugtTbGvWtmrx4MTPm",
+   "6": "1PQSmnqdbxLMpXwhhdRYedwHovxKwkj4Cc",
+   "7": "1MPRYBHCWaLYpjgweVjUkkXH6jd424CeY2",
+   "44": "1NCoAYyHLAWkh9QzAMBkKxEKCHpXZVWceb",
+   "76": "16sGP3j1y676cF8mWQtob2gtPe5i2fJgK7",
+   "77": "18XHRVQdxf5MpmZoaV9p5CrzSeLVS1YZAS"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both/LF",
+  "n": 6,
+  "set": "S5",
+  "md5": "cefce219da5a32a5b7af4f591ac061a1",
+  "addrs": {
+   "0": "1JBkEC9hpWjFHosh69gLEyd25dEvfH3Jxx",
+   "1": "1FHdn3ecKaY3bPYxZpmuAyNjEx8TysU7AN",
+   "2": "128VLb3QN2gfEEn27xcczWnhzzGv5aCEkF",
+   "5": "1LCTVqtbfgqjWcy2KzRcwoM3HVdShRC6Cb",
+   "6": "1Pwy1JfmpjWNwEyNwVxSjiEFSnTNZgMXBE",
+   "7": "17VnhvfALmbK3FpS76w98qigBsuV6iJYgn",
+   "44": "1Aotv3FZmvxkb3dFW8AJe2HCe8pNrCkH9H",
+   "76": "1Fug3HUxHYeW1bp8AXttyjJRpR83LvJ9uZ",
+   "77": "1A1BsHvwkp1VbmU6LrZxsNcvVhnv3aHLGa"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both/LF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "a4014f95b6123d279cfc3120979860ce",
+  "addrs": {
+   "0": "1HZkNYXpmivw6tGbHWUvagEoe9Yyvhfjwj",
+   "1": "19aksFQd6VKHo9vRR7tnEzTppbV5hcm1v1",
+   "2": "1A1BYJ2naSnLs3LNGHyWSchj2KYgwXkr63",
+   "5": "1Mot7D7RPrJpEKRgSiY8mvV6anLRUx2KoH",
+   "6": "1AQkrvPwa9SrsoEnjZjZ4o2sQ4TKFxXb7",
+   "7": "1mP6Wu8NomJDnb1sntNiAmVKK3Vtw6ZRH",
+   "44": "15XMXCV63TRprhb4J42NsstXMr6qp3kjb7",
+   "76": "1EWzYN1BQdYHLuVNj76ZRBRddmwxtiikDD",
+   "77": "1MVQpzdm26MCxu1AKUV3hFXxvL8Dukxz3i"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both/CRLF",
+  "n": 6,
+  "set": "S5",
+  "md5": "04e3eb314426a15cdcc9ad0866ee2b76",
+  "addrs": {
+   "0": "1DVkKMGJwMqATkiDeenQVQV77xHUfkzZQV",
+   "1": "1MjsXe2jGNXxTvMZhhJhTAZNnh3nJEkYAQ",
+   "2": "1ExYKtWVoC32dQooq725GUH83xi3r63H8V",
+   "5": "193Uwxy4VsSHpfDk1zNKajwK4H5bL51qYN",
+   "6": "1159gzrrPGxXCd6KQoAn3jPwTfnfCDGgrf",
+   "7": "1BAGgutMmaRjxcyp5oZDTSSL2SJZvaXHb",
+   "44": "1CsXhHrZoKDvgcLtKWdCjrc8pvDa8i6S9g",
+   "76": "1MPXqArTbaQ96WL6HABpZXFf5S7qMjfZJH",
+   "77": "1F3ZLctLW2Kq3eMRsuHc2jJfxiNDgnUP4y"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both/CRLF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "551c53b5667b54c7016083a3a7248242",
+  "addrs": {
+   "0": "1BLoP2YYNtxaxyuTyAy4a75ZNco1Bnmfsr",
+   "1": "152KKE4Txw54gysAKNuQPLaHsR3vEmpgH2",
+   "2": "13cuNoJYatoTSrvsoVbJK3zpGyznN3sj7t",
+   "5": "1KW7heGG92Z7bvBjTSbAnqefSAXbJ7rcUN",
+   "6": "13TaRqCCrMixrNH2dQBdQ25LwYqYaT4UmH",
+   "7": "16CVvwdPvs8BXYJAcJ47bE4PRkLb7DssXA",
+   "44": "1LfqTgjDWJF1kymJMr37tMFRPtVHWKWMcK",
+   "76": "1DTTUyZAr3YscC6MfiYtDoAptwpqU34QSG",
+   "77": "15yNvbjswzhDWCb7f6tftqY2pDR1pKas4x"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/down/LF",
+  "n": 6,
+  "set": "S5",
+  "md5": "5dd5d5033215ba8a541f5234679c407c",
+  "addrs": {
+   "0": "1FsYZCtVejHkoW5qKwJZPKjXBWEw3WEe7b",
+   "1": "13RKANr593nve7Ft1wZVbGkXJ77XtGzpQt",
+   "2": "1AgZubf9xMA5mZCeVPCp9QihWBjQEqav9s",
+   "5": "1P6QaBAPUVLNudunE94cSRVmgGqKyrYtZ5",
+   "6": "14HRvAXiug5FTDadbKHSjLLfXLCnSR8puP",
+   "7": "1Q1rYKo5GJajrAmZAWYjfVU59MkZALpP7N",
+   "44": "15UhCFBC4bq57AJ29r7fiBJxbijKSDcFQf",
+   "76": "1KXBMn1Q9eXtSYq2iEr9pk2DTZ7qJUtFQN",
+   "77": "1DqfG4L1ucz5BMUch2Cr2r1iDYR6bJHm1i"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/down/LF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "00bf46a312b67b5cd073a15af9cdb06c",
+  "addrs": {
+   "0": "12mn2gBeAh8WYzWg4ntCQW3HsFMpPsbEZ2",
+   "1": "14nFacZevpYTZBe1tqL5hbRK2HBjzgCC1h",
+   "2": "1NLMKFEiagdfh6ejgbrR3jo9NG1mCJVphW",
+   "5": "1JRCdJHLm7dTiKBMv3e3ES2mvVeiX2nnib",
+   "6": "18bSgYs27A4cx3JPkc3GDDfhb9GtkqS5Tp",
+   "7": "1TwSLekCumaikKf7kmqxnkyqwreRrR1MN",
+   "44": "19Gf1ekhc7sc3rh1xiJXZjiN2h6NYtNecB",
+   "76": "1Dcht2E9Cc8sLug7Z8rDgaKW36EWACtDM7",
+   "77": "1J15x8Ytepu1Pjd1AaQH6t88i9dTsaXmc5"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/down/CRLF",
+  "n": 6,
+  "set": "S5",
+  "md5": "2be9042baaaa2061485e11295f03930f",
+  "addrs": {
+   "0": "1PHvUBzkedohb99irMuXpjVEn7F5mSjkGC",
+   "1": "14d17zEerSyCnmNYKQxAtU9zhjyn4fNAYf",
+   "2": "1CGemYp4soiGqNMkV7asLev5SUmaPDmicY",
+   "5": "17UUrCVmZNT8bmpFVxeu8FpompPzjUedBG",
+   "6": "17R7TBtmVVwxdAGy8QRDCuJXq1jnrTrapA",
+   "7": "1PAAjgPmuGdGhSL61fw7DFvhHstYQ7L79T",
+   "44": "1CycAvtZw8MFcJUfN8W8fhqxK5CcrXsrQC",
+   "76": "1FnsAA2HCdUTyha1voZXuZTDnjVKfU3BZ2",
+   "77": "1Mgjg7jthN8uEWjcxY6saoQhk4Dfvnktpx"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/down/CRLF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "8b05e28f8c974530b64a55cb57c3959b",
+  "addrs": {
+   "0": "1DZyijm9G8xnmzTjpK6jGv3XF6wd4SPSet",
+   "1": "1FyRYX8HHS148QsSQriA68hYLoc8AHnoPp",
+   "2": "15YvZbQYjVEq81S8pbgMrwhZn2F9kqjM5Y",
+   "5": "1AUC765bnCcAz34wsdpcsdtHf2JnFEm3ji",
+   "6": "1F2MauvEC25ouLgcoQAhAZWfvW7ppoVGUw",
+   "7": "14yj3FbPgKKYBitPTL2CK6QhrEvAtBmk7q",
+   "44": "1ktviNCqhMYexDCHNScz53zSUYr2UGeka",
+   "76": "1Pix1qcBvSrZbSL8oFVtbTp5usBcjd8ihD",
+   "77": "1EAueGmveZ6jRdfP7wSJCUu5mURzRUqray"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/up/LF",
+  "n": 6,
+  "set": "S5",
+  "md5": "1a7db6cdb4a1396660dcc481ec7b777e",
+  "addrs": {
+   "0": "14iaiYbe5HYm2Ewr8NNrwhUXvnuTxREpBF",
+   "1": "15EFYfMgjPiRgWCsHBjYkhLf9n7UV59g8V",
+   "2": "1JDHogUifCovCmGFr2sC5kENo7yHo4zjy5",
+   "5": "1LXa6uiNqmYBJiRLfgFGUiTaURJBB1WMZ6",
+   "6": "136sY4vjptnP1spDqzMdmmYP4ykfnNHMX1",
+   "7": "17N9uQa4J9SoD1qPGTySD5XGWEKpgQn7vT",
+   "44": "1FieDjkG7LtEknJrAZCJPo3qZGGr5RKoua",
+   "76": "1Fpa41Dd2GCHnbSaA5JeNQd177aR5pVFd9",
+   "77": "1M33ecpc8k9nao88jGSmUXzunj8bmU5GdH"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/up/LF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "40911e707214244f12951ac9881f0f1c",
+  "addrs": {
+   "0": "1MWPy3HMFK9BFsuauqW7QRoUyK86AUNGTC",
+   "1": "1Q5Hu5ZEM8wJLtk22NJupZDyCLLd5ay6Ca",
+   "2": "1G6CGJHngxUaF3HXF7bumJSJdJysxXNHi3",
+   "5": "1MNLPAqqMmvuzxLAJoE9r4vHYoMnxqJJ77",
+   "6": "1AY3wdpr7sECmsU9TNYEnBGPc4inDDae8c",
+   "7": "1JNasgPQeKhjvzTWLykGCFJBwKLVMfuiDT",
+   "44": "1JJsgKjtni9tTsCgijwh9oHRgUL9D7L7KH",
+   "76": "1FHXaGY1Tp4hT95jBtACjA6bZCpKwxngop",
+   "77": "1AVpop79rkc233mLEheQ4E9CsQG5B43Pd1"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/up/CRLF",
+  "n": 6,
+  "set": "S5",
+  "md5": "736d5f6d5f29eab555ae2eb196dfce7b",
+  "addrs": {
+   "0": "1NRL8kTFXJrWdrsZvSFeMd1CciEjzyh6gB",
+   "1": "17vZVbjV1o5nTQBsXWqPAR1qCgA8bcmSEn",
+   "2": "1HUTUSNAC16wkWPEmKaUqmrsjQXzP66H3G",
+   "5": "16fqpP2Aa6FPJxYtzdwoCBj3oj5rpUEWCR",
+   "6": "1BpKhEfaacgAnPakriyzs7hFRcBcKHTcPR",
+   "7": "1FChzjLZFeJBmQ2Nwm68h9rK3gP5LDTKdf",
+   "44": "1L2SwtqyVnMCpq96PneREBPtR3auyNaDTA",
+   "76": "15Q87rPwGt3ExbXH2bQfMJRndpWx6EUQbq",
+   "77": "1KxdV9SZJUd6uYkRriXoaS8mGvJuZeUzrP"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/up/CRLF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "78f1328b34b8f037ea83341ec87fba70",
+  "addrs": {
+   "0": "18TUV7dky4HVVst9rSfhtVp5EKzoz1xmtt",
+   "1": "183KYMqk6XjLLLz1oMYafB8HGXDibBfdTE",
+   "2": "19DbTMfx7vBSMg3u1Ke1EBeaB1BW3nTVgU",
+   "5": "1HJjX2Rbe8KTYGgRxZevpFhP5wf9GpcaUP",
+   "6": "19pxeTGvWLYNfbnSncgH5T9KCndULxcc5r",
+   "7": "17o2Q1nSKB1QLWkiPGFK4Jrhx4webtkUqn",
+   "44": "1CSJfTyyac36r11BJyC2UGvif97ZsdZMcW",
+   "76": "12m8eLLVkgK96UkNLb5oJtbKtHt4b8VesX",
+   "77": "12vkme6XGPwnrf3gfDPb2eoocFBFmrBsgA"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both_para/LF",
+  "n": 6,
+  "set": "S5",
+  "md5": "f85252c354818e5b60be50ddc171829f",
+  "addrs": {
+   "0": "1KWgRiF4Vcpdudq7ihWBrtoomPhKyJmBRi",
+   "1": "17h3oCgPBvBUxy3AkqNyvTYAVf3qJnS8cP",
+   "2": "1HE3PNNXiLYmk4yCc6zyQ4vRWi4AwH8wty",
+   "5": "1MUijdfQdSDgajRgL2QcVZVqLoyfvRBshm",
+   "6": "1HBveLEw3585jcQzCFcUs87GAhTZLfdb7X",
+   "7": "17tnfy5ecS7ixo3U58D41KCv6gBZsyzcnj",
+   "44": "15rGYPoqi2BTJEqxrevMMdZjoSDqGCyVhB",
+   "76": "1Ax7UTG6hkWmCYW5UXeFJE3aFojKthFnrN",
+   "77": "1NTV82AWf2tRLR6ZVbhjsaqqg2AkCAHQ2q"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both_para/LF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "b41dbdeee50f7143e17c9bab0fcfb261",
+  "addrs": {
+   "0": "1G8zdW4JPWXkNGwsn9VXjAGCwomWBWvk9C",
+   "1": "15Yi1nUn2uMRJLvuhhcjT7TKe85C15RSuk",
+   "2": "15DJhT1a6iyRrb6jKuK52qAr15Nd4qCokN",
+   "5": "1Dszy3kZFCMNVxoBEhcmdnGpdB31xkJ59b",
+   "6": "1JZMa8CSD9tYYazsHGWSeVCVJHUt9iUMAa",
+   "7": "1T9uM9DduXyTgu2pcRBnnAxKd6CEqNkDM",
+   "44": "1MYYjV3sdkUjGJXpuJU8SxCnnY53TFqMq1",
+   "76": "1LabCLRaN6Paew5fLYUpsLRvZ8a19cXjpc",
+   "77": "1DrodjWm41xH9SCiVfAisygeK9Bdo4CRcZ"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both_para/CRLF",
+  "n": 6,
+  "set": "S5",
+  "md5": "4041b0f4a40f6ecf5a92c112a75ae378",
+  "addrs": {
+   "0": "1pvSCZhRyNdGKU4TnoVifUSU6im8UcyR7",
+   "1": "1GLV5mWuM1iACuAuY82x8urj3XxzgxUwrd",
+   "2": "1CAPpy4f4xbM6zfqtL9yneSTTviDZ9twGj",
+   "5": "1KaWEfNY3bkZ5v2rkuvFJFgkE4vAiwcQFC",
+   "6": "16YmjJ4M3DRV2KBeYCx6QhWUaWSQDyH3jq",
+   "7": "19SS4pbLkHFnxywizqTD4zwu8L3gHLJf2m",
+   "44": "18cV9hwxyGu6vntFZKJZgj8La2YBoHtQbS",
+   "76": "1GTxv3iREvTu6gFnCdm11ihpiJUrRmR4Vs",
+   "77": "1UBg3yEyRhFWatQNCWdySMznpEbdVaD78"
+  },
+  "hits": []
+ },
+ {
+  "tag": "S5/both_para/CRLF+t",
+  "n": 6,
+  "set": "S5",
+  "md5": "6ffadc875a9656f727cef6f5367f3a7c",
+  "addrs": {
+   "0": "19AFq2gBBRJfz4GUbLjQxDKpM9mje2hr2D",
+   "1": "1KUnGfx4Vm8x1fHHQCSK5YoHqUUoiUW5As",
+   "2": "1LehzbKfGxomTi1dwLGknosEGm3PRBDg4b",
+   "5": "1LcvdGyxChfS2bWi58bRtWtDYgbHCrnVQX",
+   "6": "172eZTzj4HUimyUaUNqPwjupkp2JkZY5F9",
+   "7": "1NRiAbxisGFiSGjSjsxo9qDoTQVAGLvhEt",
+   "44": "1GmAHbVwatWgmhAm8tPeEo9yDWKKDV5jro",
+   "76": "1AWEKPHfium5KF94cPDpEU4s8GHZC7wvhE",
+   "77": "1YRgTuuQDozUc4eCzphsiffKbuozNViN6"
+  },
+  "hits": []
+ }
+]

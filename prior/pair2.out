@@ -1,0 +1,30 @@
+endpoint tokens: 544
+  a= 0 tested 543
+  a= 20 tested 11193
+  a= 40 tested 21443
+  a= 60 tested 31293
+  a= 80 tested 40743
+  a= 100 tested 49793
+  a= 120 tested 58443
+  a= 140 tested 66693
+  a= 160 tested 74543
+  a= 180 tested 81993
+  a= 200 tested 89043
+  a= 220 tested 95693
+  a= 240 tested 101943
+  a= 260 tested 107793
+  a= 280 tested 113243
+  a= 300 tested 118293
+  a= 320 tested 122943
+  a= 340 tested 127193
+  a= 360 tested 131043
+  a= 380 tested 134493
+  a= 400 tested 137543
+  a= 420 tested 140193
+  a= 440 tested 142443
+  a= 460 tested 144293
+  a= 480 tested 145743
+  a= 500 tested 146793
+  a= 520 tested 147443
+  a= 540 tested 147693
+done 147696

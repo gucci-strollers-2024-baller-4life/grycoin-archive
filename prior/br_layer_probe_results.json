@@ -1,0 +1,104 @@
+[
+ {
+  "tag": "BR=none/LFsep",
+  "md5": "48d318202691ffb873e00b63196eaf36",
+  "addr0": "14isnRimk9qAzpm85qwiFgLjzxL1387TXL",
+  "hits": []
+ },
+ {
+  "tag": "BR=none/CRLFsep",
+  "md5": "f74e8e0122e114fe13c89a3bba25294a",
+  "addr0": "1D1Scxy6rZYV34Xr1SFRLTsMBHeUiTJbHK",
+  "hits": []
+ },
+ {
+  "tag": "BR=space/LFsep",
+  "md5": "6bc77881b2eeb1298701d771f8330844",
+  "addr0": "1PKJAtwv3yFdgnLBwq45sjawgMVUwpcgrF",
+  "hits": []
+ },
+ {
+  "tag": "BR=space/CRLFsep",
+  "md5": "2979ce16480d92d5f229d7b3dc16aabb",
+  "addr0": "12ZZ1AQSi5zeTPdTPVYW1mYgn6EGXUiKVX",
+  "hits": []
+ },
+ {
+  "tag": "BR=LF/LFsep",
+  "md5": "46a308c279540a33e977ea1f660e8458",
+  "addr0": "1DGrEwbRwANU28BgCnp6HeNhPzB2HbiyUL",
+  "hits": []
+ },
+ {
+  "tag": "BR=LF/CRLFsep",
+  "md5": "bd07e6ee209c5ab65d874bbbcfccda18",
+  "addr0": "1BGh8btgbCSPDfjyESjnkjYyYvoB7xnDDb",
+  "hits": []
+ },
+ {
+  "tag": "BR=CRLF/LFsep",
+  "md5": "52be2f2c6a51020960d50adb470230ea",
+  "addr0": "1C2bbCeYFD5zV45bEfbtwX1kMbw6DDT7r9",
+  "hits": []
+ },
+ {
+  "tag": "BR=CRLF/CRLFsep",
+  "md5": "db11a7fdba7b4867a24445a7a30709b8",
+  "addr0": "1Ph7YoXiFDJtX7nRRArjmYoNhFv2NjYmjC",
+  "hits": []
+ },
+ {
+  "tag": "BR=space/LFsep/S1/both",
+  "md5": "3ca41bbf072e748556ae5748b21317c7",
+  "addr0": "17wjUsgR2p7TJ5CHkzBqCMft7c89amTGAG",
+  "hits": []
+ },
+ {
+  "tag": "BR=space/LFsep/S3/both",
+  "md5": "54ae1eb17a3a3462df678c03912d1cc4",
+  "addr0": "1MvnibZq6zjJiA8UbTVvqGfoa2j8tEapcV",
+  "hits": []
+ },
+ {
+  "tag": "BR=space/LFsep/S4/both",
+  "md5": "ba95f5c4d23fff909b3cd7a7d8b3d753",
+  "addr0": "1A5pr3RXmq6YnTdb71QzNN6TaJe8pnpUG",
+  "hits": []
+ },
+ {
+  "tag": "BR=LF/LFsep/S1/both",
+  "md5": "bdc4edc8b3f3b74b671df4e7b6f1d05a",
+  "addr0": "1Bq3MUpHseTiC1prqHi1ZZBnP2gL7ddQM4",
+  "hits": []
+ },
+ {
+  "tag": "BR=LF/LFsep/S3/both",
+  "md5": "524992ef37374acd71ccdeb6477757eb",
+  "addr0": "1JdvRWLWJdtNGT5Jm9zLEsiZSSmZyRz7ow",
+  "hits": []
+ },
+ {
+  "tag": "BR=LF/LFsep/S4/both",
+  "md5": "b2c599fb90ae56c5946e96802d90fd9d",
+  "addr0": "1LdbdGVfzCQ29uo1WeAk81J5UrNmN9tQcq",
+  "hits": []
+ },
+ {
+  "tag": "BR=CRLF/LFsep/S1/both",
+  "md5": "56c1b9c03d7c65cf9be50aba9eb99e0b",
+  "addr0": "14pDkQVSGekdiqnzrBY1bJ3zHboUS5AaqT",
+  "hits": []
+ },
+ {
+  "tag": "BR=CRLF/LFsep/S3/both",
+  "md5": "8511feb0ba3964e8c94cdee5a1a7fc9a",
+  "addr0": "1Jcry67yBkfCz34EnuFtdWTH9CEKxguGY",
+  "hits": []
+ },
+ {
+  "tag": "BR=CRLF/LFsep/S4/both",
+  "md5": "e749891b984ae3422b4905369cee2bec",
+  "addr0": "1Ldw6AGrXJxrF96cuYrmRWMJ38SZixH53k",
+  "hits": []
+ }
+]

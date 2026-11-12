@@ -1,0 +1,13 @@
+An explosion went off on my boat the other day. I was lucky to escape alive.
+
+Unfortunately, I lost my little paper notebook where I keep records of all my solutions. It is on the bottom of the sea somewhere now. And as a consequence of the shock, I lost my memory as well.
+
+I was barely able to give the last decisive hint for block 42 yesterday. That's because for that block I had the good sense to guard against such an accident by posting the literally exact solution in block 41, before posting block 42. 
+
+But I looked all over the place and can't find the solution for 44 anywhere in the block before it. Or in any of the other blocks. I wonder what that "divide by four" hint may mean I gave before that accident. I hope someone smarter than me can see the light on that one.
+
+Anyway, I am really sorry, but I have no clue on block 44. No solution available from me for his one now. We will have to rely on the combined force of all the smart people attacking it. I don't think it is impossible to solve. Probably just has a very complex solution.
+
+My doctor tells me that this kind of temporary amnesia can be lifted by any random event. I hope the random event in question is successful solving of block 76, but I am not sure of it. It is a very difficult thing to predict with these shock-induced amnesia states.
+
+So again, really sorry. No solution for block 44 from me. For now. It may survive a bit longer without hint, but there will be lots of other way easier blocks which will be helpless to resist the combined power of the players trying to eliminate them.

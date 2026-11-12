@@ -1,0 +1,1485 @@
+{
+ "escrow": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+ "indices": [
+  0,
+  1,
+  2,
+  5,
+  6,
+  7,
+  44,
+  76,
+  77
+ ],
+ "live": {
+  "sets": [
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W2 \u00b693",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W2 \u00b693",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W2 \u00b693",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W2 \u00b693",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W3 \u00b6168",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W3 \u00b6168",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W3 \u00b6168",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W3 \u00b6168",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     220,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   }
+  ],
+  "derivations": 828,
+  "hits": []
+ },
+ "ends": {
+  "sets": [
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     206
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     222
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     223
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     225
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     226
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     227
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     228
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     230
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     206
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     222
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     223
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     225
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     226
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     227
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     228
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     230
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act I|II \u00b688",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     206
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     222
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     223
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     225
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     226
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     227
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     228
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     230
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     206
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     222
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     223
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     225
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     226
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     227
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     228
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     230
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "midpoint \u00b6137",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     206
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     222
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     223
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     225
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     226
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     227
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     228
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     230
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     206
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     220
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     222
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     223
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     225
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     226
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     227
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     228
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     230
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "act II|III \u00b6163",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     20,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     20,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     20,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     20,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     20,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     42,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     42,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     42,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     42,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     42,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     206,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     206,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     206,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     206,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     206,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     220,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     220,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     220,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     220,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     220,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     222,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     222,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     222,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     222,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     222,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     223,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     223,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     223,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     223,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     223,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     225,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     225,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     225,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     225,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     225,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     226,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     226,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     226,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     226,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     226,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     227,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     227,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     227,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     227,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     227,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     228,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     228,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     228,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     228,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     228,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     230,
+     236
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     230,
+     240
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     230,
+     244
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     230,
+     246
+    ],
+    "moved": 2,
+    "derivations": 36
+   },
+   {
+    "split": "W4 \u00b6231",
+    "set": [
+     230,
+     273
+    ],
+    "moved": 2,
+    "derivations": 36
+   }
+  ],
+  "derivations": 5004,
+  "hits": []
+ },
+ "total_derivations": 5832
+}

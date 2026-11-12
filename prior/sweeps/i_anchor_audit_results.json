@@ -1,0 +1,58 @@
+{
+ "tokens": [
+  {
+   "para": 4,
+   "label": "lead-in W1",
+   "first": "I",
+   "last": "in",
+   "last_letter": "n",
+   "chars": 96,
+   "words": 17
+  },
+  {
+   "para": 92,
+   "label": "lead-in W2",
+   "first": "I",
+   "last": "now",
+   "last_letter": "w",
+   "chars": 59,
+   "words": 11
+  },
+  {
+   "para": 167,
+   "label": "lead-in W3",
+   "first": "I",
+   "last": "years",
+   "last_letter": "s",
+   "chars": 200,
+   "words": 38
+  },
+  {
+   "para": 234,
+   "label": "interleaved (named by \u00b6238)",
+   "first": "I",
+   "last": "fascinating",
+   "last_letter": "g",
+   "chars": 370,
+   "words": 63
+  }
+ ],
+ "named": {
+  "chapter": 234,
+  "source": 5
+ },
+ "pentads": {
+  "W1": {
+   "initials": "IFFWW",
+   "finals": "nstnm"
+  },
+  "W2": {
+   "initials": "IFFWW",
+   "finals": "wstnm"
+  },
+  "W3": {
+   "initials": "IFFWW",
+   "finals": "sstnm"
+  }
+ }
+}

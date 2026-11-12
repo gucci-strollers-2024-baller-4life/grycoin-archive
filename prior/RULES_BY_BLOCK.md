@@ -1,0 +1,184 @@
+# Rule statements by block, extracted from the author's own logs
+
+Source parts: 720895205 *Complete Quizchain* (round 1 log, 766 paras) and 742662804 *Complete Second Round*
+(round 2 log, 367 paras). Each line below is a verbatim mechanism statement, grouped by block, so the
+format grammar of the whole experiment can be read in one place. Extraction rule: paragraphs that
+state a format, a method, or a capitalization rule.
+
+## Complete Quizchain
+
+- **b6** (p33): The two words I want need to be input in normal capitalization and a space between them. And there should be a space between the second word and the last three digits of the private key for block 5.
+- **b10** (p50): Question: Four words within Einstein. Format: "word1 word2 word3 word4.fnw". The last three digits from the broken link in block 9 are set as fnw for this block. German words allowed.
+- **b12** (p56): Two words in harmony. Format: word1 word2 gFm (last block private key link).
+- **b13** (p60): Question: What are the first seven words in the hint to block 77? Format: word1 word2 word3 word4 word5 word6 word7 xXJ.
+- **b14** (p64): Question: Two words with harmony. Format: word 1 word 2 xhm.
+- **b17** (p78): No hint. And no, "No hint" is not the answer this time. Format: [solution] [link], with exactly one space between them.
+- **b18** (p81): Question: Start with "offs". Add the missing letters to get the solution string. Format: [solution] [link]. with exactly one space between them.
+- **b20** (p92): Format: [solution] [link] with exactly one space between them and no period anywhere. First letter of solution is capitalized.
+- **b22** (p98): Question: You start out with A O I. Which three words do you expand that to (only English words allowed, all words starting with capital letter).
+- **b22** (p99): Format: [word1 word2 word3] [link] with exactly one space between three words and link.
+- **b23** (p104): Format: [word1 word2 word3 word4 word5 word6.] [link] with exactly one space between solution and link.
+- **b24** (p108): Format: [solution] [link] with exactly one space between.
+- **b26** (p117): Format: [solution] [link] with exactly one space between them.
+- **b27** (p122): Format: [first name] [family name] [link] with one space between each.
+- **b28** (p126): Format: [solution] [link] with one space between.
+- **b29** (p130): Format: [solution] [link] with exactly one space between them. Have fun solving this one and thank you for playing.
+- **b30** (p135): Format: [solution] BotFU [BotFU] [link], see example above. Hint: BotFU for this is two words, both starting with capital letters.
+- **b31** (p139): Format: [solution] BFUB [BFUB] [link] with exactly one space between them and all words in answer capitalized.
+- **b32** (p145): Format: [solution] BFUB [BFUB text] [link]
+- **b33** (p151): Format: [solution] BFUB [BFUB text] [link].
+- **b34** (p155): Format: [solution] BFUB [BFUB text] [link].
+- **b34** (p156): Solution is one word, capitalization will be evident. BFUB text is my favorite Bitcoin address.
+- **b35** (p160): Format: [solution] [link] with exactly one space between them.
+- **b35** (p161): Solution is a string of three words, second one of them Yang.
+- **b36** (p167): Format: [word1 word2 word3 word4] [link] with exactly one space between them.
+- **b37** (p172): Format: [solution] BFUB [BFUB string] [link] with exactly one space between them.
+- **b38** (p176): Format: [solution] BFUB [BFUB] [link]
+- **b38** (p177): BFUB for this are two letters, the second letter of each of the parts of the name. For example, if the solution was James Bond, BFUB would be ao. This defeats any dictionary search that tries only the "James Bond" string, as long as the script is not adapted to include this.
+- **b39** (p181): Format: [solution] BFUB [BFUB] [link]
+- **b39** (p182): BFUB is like last block, second letter of the words in solution. For example, last block's solution was Le Chiffre, so BFUB was eh for that one.
+- **b40** (p186): Format: [solution] BFUB [BFUB] [link] with exactly one space between.
+- **b40** (p187): BFUB is three capital letters. If you found the solution the correct way, you will find those three letters easily.
+- **b41** (p192): Format: [solution] BFUB [BFUB] [link] with exactly one space between.
+- **b41** (p193): Looking for one single capital letter in the solution. BFUB format is [word1] [word2] [word3].
+- **b42** (p196): Question: Of course you all knew the solution to this for a long time. But do you guess the slight twist on it? Format: [solution] BFUB [BFUB] [link]
+- **b43** (p201): Format: [solution] BFUB [BFUB] [link]
+- **b44** (p208): Format: [solution]BFUB [BFUB]
+- **b45** (p213): Format: [solution] BFUB Have fun with this block Da6Sn4J
+- **b46** (p219): Format: [solution] BFUB Think. Think harder. [link]
+- **b48** (p231): Format: [solution] TOMI This one is really easy. No need to bribe anyone to get it. [link]
+- **b49** (p238): Format: [word1 word2 word3] TOMI Good luck with this block [link]
+- **b50** (p247): Format: [solution] TOMI [TOMI] [link]
+- **b51** (p253): Format: [solution] TOMI [TOMI] [link]
+- **b52** (p258): Format: [solution] TOMI means wealth. I hope you find it. [link]
+- **b53** (p263): Format: [solution] TOMI I hope you like this block. [link]
+- **b53** (p264): [solution] is [name word], with the word lower case and the name in normal capitalization.
+- **b54** (p267): Format: [word1 word2 word3 word 4] TOMI Thank you for playing. NRqEsd7
+- **b55** (p271): Format: [solution] TOMI No, not that kind of four letter word. [link]
+- **b56** (p276): Format: [Solution] TOMI [TOMI] [link]
+- **b57** (p280): Format: [solution] TOMI [TOMI] link
+- **b57** (p281): [solution] format is two capital letters. TOMI format is [word1 word2 word3], all words in lower case and no period at the end.
+- **b58** (p285): Format: [solution] TOMI [TOMI] PojFPus
+- **b59** (p291): Format: [solution] TOMI [TOMI] [link]
+- **b60** (p297): Format for [TOMI] is six words, normal capitalization, no period at end.
+- **b61** (p301): Format: [solution] TOMI Atbash [link]
+- **b61** (p302): Solution word is capital letter first letter only.
+- **b62** (p306): Format: [solution] TOMI [TOMI] [link]
+- **b63** (p311): Format: [solution] TOMI If you don't get this, sorry, it is hard [link]
+- **b64** (p314): Question: Looking for one capital letter out of two.
+- **b64** (p315): Format: [solution] TOMI [TOMI] [link]
+- **b65** (p319): Format: [solution] TOMI [word1 word2 number] [link]
+- **b66** (p327): Hint: The SECOND solution is much more promising, since it is the actual capitalization on the story title. As always with multiple choice, do not include leading letter in solution. If you think a) is the right answer (it is not), you would write "Second" and not "a) Second" in the solution field.
+- **b66** (p328): Format: [solution] TOMI [TOMI] [link]
+- **b67** (p333): Format: [solution] TOMI Try your best shot first [link]
+- **b68** (p338): Format: [solution] TOMI Will use puzzle by Satoshi for block 77 [link]
+- **b69** (p343): Format: [solution] TOMI [TOMI] [link]
+- **b69** (p344): Format of TOMI is [word1 word2] with capitalization obvious from the solution method.
+- **b70** (p348): Format: [solution] TOMI Anyone find Satoshi's puzzle yet? [link]
+- **b72** (p358): Format: [solution] TOMI [TOMI] [link]
+- **b73** (p363): Format:[solution] TOMI [TOMI] [link]
+- **b74** (p368): Format: [solution] TOMI [TOMI] [link]
+- **b75** (p373): Format: [solution] TOMI [TOMI] [link]
+- **b76** (p378): Format: [solution] TOMI [TOMI] [link]
+- **b77** (p384): Format: [solution] TOMI omit TOMI [link]
+- **b77** (p385): Solution format is eight items in two sets of four. Two items ciphertext and two items plaintext each, 44 read from left and 44 read from right.
+- **b18** (p396): Solution is name of a famous person with distant relation to Bitcoin.
+- **b1** (p420): Format: [solution] TOMI [TOMI] [link]
+- **b2** (p424): Format: [solution]
+- **b3** (p429): Format: [solution] TOMI [TOMI] [link]
+- **b4** (p434): Format: [solution] TOMI [TOMI]
+- **b5** (p439): Format: [word1 word2 word3 word4 word5]
+- **b6** (p443): Format: [word1 word2 word3 word4 word5 word6]
+- **b7** (p448): Format: [solution] TOMI [TOMI]
+- **b7** (p450): [solution] is capitalized like "Bitcoin", which means only first letter in capitals.
+- **b7** (p451): [Tomi] are three words in alphabetical order [word1 word2 word3], with one of them starting with a capital letter like the solution and the other two in all lower case.
+- **b8** (p455): Format: [word1 word2 word3 word4 word5 word6 word7 word8] [link]
+- **b9** (p469): Format: [solution] TOMI [TOMI]
+- **b4** (p489): Solution was arrowmouth83S, with 83S the last digits of the private key from block 3 and arrow and mouth the two words contained in "know". Explanation: The Chinese symbol (Kanji) for "know" is composed of the two elements "arrow" (to the left) and "mouth" (to the right).
+- **b7** (p499): Update 3: Someone has claimed the prize. Solution was "Satoshi without the consonants."
+- **b10** (p505): Solution was "Moonwalking with ein Stein.fnw"
+- **b16** (p519): Solution was derived from the handle name of my 16th follower at the Twitter feed, which is HE4OBEK.
+- **b20** (p532): Solution was Metamon, which is the Japanese name of the Pokemon Ditto, as can be seen here
+- **b25** (p546): Solution was Y, as the 25th letter in the alphabet, chosen for block 25. Can't do that much longer, so I squeezed it in now.
+- **b28** (p553): Solution was BruteFUFUFUFUFUFUFUFUFU
+- **b31** (p569): A. (one capital letter).
+- **b31** (p570): Method: Look at first letter of Bitcoin, disregard others for B Second. A is first in alphabet, B second.
+- **b33** (p580): Solution was "Think harder BFUB Yang hat".
+- **b36** (p589): Solution for this was "Google only one way", which is a new phrase I mentioned in my hint post. Relation to the question was that the answer from me would be rephrased as "Thank you, I am goof." in a Twitter conversation. Said conversation already happened, and thank you to the friendly people who t
+- **b41** (p600): Solution for this was P, the method behind it was taking the obvious first step "no" and then noticing that the letters in "no" are following each other in the alphabet, which makes P the next one. And "next to no" a fairly obvious BFUB field.
+- **b45** (p615): That is because this time the solution is shifting ALL letters in "Bitcoin" to the letter before in the alphabet, as opposed to shifing only the first in the other block.
+- **b48** (p621): Solution was 0.777 mbtc 1AndrewYangforPresident2o2ozm6Pzd.
+- **b57** (p639): Solution was "AI" and TOMI was "in both names". I am sure you will all agree this is absolutely conclusive evidence for the claim that Satoshi must be someone named Craig. At least that is probably the best evidence for that particular claim that will ever be available.
+- **b58** (p641): Solution method was the Atbash cipher, which substitutes the letter opposing in the alphabet. The three letter word in the question was "all", using the Atbash on that gives "zoo". Actually there are not ever so many words that result in a valid word when encoded with Atbash. And since TOMI is the m
+- **b59** (p644): Solution was another find in the link from the previous block. The private key of 58 was KxgvXT1LidEhei6XizyCpR5zgPbALFYYxT6R1tANmSgPKZeuhs51.
+- **b61** (p649): Solution was Love, since that word can be made from two Atbash pairs, LO and EV. Not many words share that quality, and the other one I noticed is much less beautiful.
+- **b64** (p658): Hoax on this was reading it as one capital letter out of two letters, as opposed to one capital letter out of 2. 2 as second in alphabet points to B and recent massive use of Atbash to solution Y. If one of the items in TOMI is Atbash, 2 seems a logical choice for the second one.
+- **b65** (p660): Solution was found in the timestamp of "blockchain block 65", which was 21:55:03, and the TOMI field was what I just put in quotation marks.
+- **b69** (p677): Solution was WM and TOMI was "When them", which were the first and last words in the second sentence above. The paragraph started with W and ended with m, which was the method for finding WM. Would have been slightly too obvious to write theM there...
+- **b69** (p678): When I posted this, I actually did not notice that the block number 69 was a good Hoax. Once you try capital letters instead of numbers, the solution is not difficult to find. After that it is a question of noticing the first and last letter in the sentence above.
+- **b72** (p687): Solution was "clock", TOMI was "c after b" to indicate that only one letter is replaced with the one after it in the alphabet.
+- **b73** (p689): Solution was the Fibonacci sequence 1123581321. I took this from the book "The Da Vinci Code" where it is used as the number of a bank vault storing the keystone. Similar method to 71 which used a puzzle from LOTR. You will find some Fibonacci numbers in the last block 77 as well...
+- **b76** (p699): Solution was Easter, TOMI field was Second Life. This was rather easy once you realized where exactly the hint was in the Wattpad story. And it does stand out there, as the winner pointed out in comments below, where he described his solving process.
+- **b3** (p723): Solution was "reorg" and TOMI field was "CZ Binance". This used the recent news on the Binance hack and the discussion on doing a BItcoin chain reorg. CZ apologized for using this "dirty word".
+- **b5** (p734): Solution was "bat bot bit bet but". As winner posted in comments, a similar concept was tried in a block of the first run. I think it is fun to note that the "bit" in Bitcoin is a word with almost all vowels, with Y the only exception.
+- **b6** (p736): Solution method was to look in the coleman tool wordlist of the previous block solution, then use the first six words from that word list. The hoax was having a five word bat bot bit bet but puzzle in the block before, getting people to search in that wrong direction.
+- **b9** (p748): Solution was K-9, TOMI field was police dog. Method was replacing the "K" by the number 11 because that is the place of K in the alphabet. K-9 is pronounced like "canine", which is why this code is used in many police forces.
+- **b10** (p750): Solution was ghost, method was to look in the mnemonic of the previous block, which was also used in block 6 of this second run. TOMI field was previous block mnemonic. And the method to take the solution from the previous block was first used in block 68, where I took a 10 digits password from the 
+- **b12** (p761): (I made a mistake in answering a question in comments about the capitalization).
+
+## Complete Second Round of the Quizchain
+
+- **b1** (p4): Format: [solution] TOMI [TOMI] [link]
+- **b2** (p8): Format: [solution]
+- **b3** (p13): Format: [solution] TOMI [TOMI] [link]
+- **b4** (p18): Format: [solution] TOMI [TOMI]
+- **b5** (p23): Format: [word1 word2 word3 word4 word5]
+- **b6** (p27): Format: [word1 word2 word3 word4 word5 word6]
+- **b7** (p32): Format: [solution] TOMI [TOMI]
+- **b7** (p34): [solution] is capitalized like "Bitcoin", which means only first letter in capitals.
+- **b7** (p35): [Tomi] are three words in alphabetical order [word1 word2 word3], with one of them starting with a capital letter like the solution and the other two in all lower case.
+- **b8** (p39): Format: [word1 word2 word3 word4 word5 word6 word7 word8] [link]
+- **b9** (p53): Format: [solution] TOMI [TOMI]
+- **b10** (p67): Format: [solution] TOMI [TOMI]
+- **b11** (p79): Format: [solution] TOMI [TOMI]
+- **b12** (p86): Format: [solution] TOMI [TOMI]
+- **b13** (p93): Format: [Solution] TOMI [TOMI]
+- **b14** (p103): Format: [solution]
+- **b15** (p117): Format: [solution]
+- **b16** (p120): Format: [solution] TOMI [TOMI]
+- **b17** (p130): Format: [solution] TOMI [TOMI]
+- **b18** (p136): Format: [solution] TOMI [TOMI]
+- **b18** (p137): Solution is a number. TOMI field is one word, first letter only in Capital.
+- **b19** (p143): Format: [solution]
+- **b20** (p149): Format: [solution]
+- **b21** (p154): Format: [solution] TOMI [TOMI]
+- **b22** (p168): Format: [solution]
+- **b23** (p173): Format: [solution] TOMI [TOMI]
+- **b24** (p180): Format: [solution] TOMI [TOMI]
+- **b25** (p187): Format: [solution] TOMI [TOMI]
+- **b26** (p194): Format: [solution] TOMI Extremely unfair riddle
+- **b27** (p206): Format: [solution] TOMI [TOMI] First 3 digits of MD5 hash is c3d. I do not indicate first digit of solution only and TOMI field only MD5 hash, since the TOMI field follows clearly and uniquely from the solution.
+- **b28** (p213): Format: [solution] TOMI obvious at first sight
+- **b29** (p218): Format: [solution] TOMI [TOMI]. Solution is one word, with first letter only capital, like "Solution".
+- **b30** (p229): Format: [solution] TOMI [TOMI]
+- **b30** (p230): Solution format is three sets of two capital letters.
+- **b30** (p236): Update 2 (Hint 1): A majority of players requested a hint on the TOMI format. The format for the TOMI field is [Word1] [word2]. Word1 starts with a capital letter, word2 is all lower case. There is one space between the two words.
+- **b31** (p241): Format: [solution] TOMI [TOMI]
+- **b32** (p250): Format: [solution] TOMI [TOMI]
+- **b32** (p251): The solution word starts with a capital letter, like "Solution".
+- **b3** (p272): Solution was "reorg" and TOMI field was "CZ Binance". This used the recent news on the Binance hack and the discussion on doing a BItcoin chain reorg. CZ apologized for using this "dirty word".
+- **b5** (p283): Solution was "bat bot bit bet but". As winner posted in comments, a similar concept was tried in a block of the first run. I think it is fun to note that the "bit" in Bitcoin is a word with almost all vowels, with Y the only exception.
+- **b6** (p285): Solution method was to look in the coleman tool wordlist of the previous block solution, then use the first six words from that word list. The hoax was having a five word bat bot bit bet but puzzle in the block before, getting people to search in that wrong direction.
+- **b9** (p297): Solution was K-9, TOMI field was police dog. Method was replacing the "K" by the number 11 because that is the place of K in the alphabet. K-9 is pronounced like "canine", which is why this code is used in many police forces.
+- **b10** (p299): Solution was ghost, method was to look in the mnemonic of the previous block, which was also used in block 6 of this second run. TOMI field was previous block mnemonic. And the method to take the solution from the previous block was first used in block 68, where I took a 10 digits password from the 
+- **b12** (p310): (I made a mistake in answering a question in comments about the capitalization).
+- **b15** (p316): Not unexpectedly, this was solved and claimed very fast. Solution was TOMI. And that was all. Again, the reason for having such a simple block (which turns into a kind of lottery in the race to confirmation) was to test if the prize will be claimed before I even post the block. In that case, I would
+- **b16** (p319): (Winner's explanation): Solved! Solution was: ELiZABETH TOMI dzGTuQeg2 from a vanity address 1ELiZABETHdzGTuQeg2RnCcWBMVo3ySfTz that was a record 9 characters long found in 2012.
+- **b19** (p327): Solution was Cypherpunks, since that is the mindset where Bitcoin comes from. Bitcoin is one of many projects that want to protect privacy by writing code. It is the first one that is worth serious money to participants, but it shares the values of projects like PGP (pretty good privacy) and TOR.
+- **b20** (p329): Solved on sight by at least two players. Seems to have been a bit too easy. So maybe it is time for a difficulty adjustment upwards. Solution was just "burn address".
+- **b23** (p336): Solution was "P" and TOMI field was "Pretty Good Privacy". I wanted to use this idea because the link to Bitcoin's cypherpunk roots.
+- **b24** (p338): Solved at sight by a player who was aware of the solution by studying Bitcoin history before this block was published. Solution was "RPOW", which is "Reusable proof of work", a previous attempt to build private Internet cash. TOMI was just "proof of work".
+- **b28** (p347): Solution was "Running bitcoin", the famous tweet by Hal Finney.
+- **b29** (p353): Solution for this classic riddle and for this block is "Key". I chose this one out of numerous candidates in this collection for the connection to Bitcoin. The TOMI field was the name of the author (Symphonius) and the number 4 since this is the number of this riddle in his collection.
+- **b30** (p357): Solution was "EU IQ KO" and TOMI field was "Atbash foldover".
+- **b31** (p364): Solution was "black ink marks" and TOMI field was "Veronese riddle".

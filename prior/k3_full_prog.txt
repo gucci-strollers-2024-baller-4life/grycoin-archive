@@ -1,0 +1,2 @@
+n=1549 alpha=1197 triples=285129390
+tested=285129390 hits=69424

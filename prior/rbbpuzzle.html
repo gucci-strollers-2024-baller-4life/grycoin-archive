@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f1220" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%94%91%3C/text%3E%3C/svg%3E" />
+<title>RBB Hash Playground</title>
+<style>
+  :root{--bg:#0f1220;--panel:#171a2b;--fg:#e7e9f3;--mut:#9aa0b8;--acc:#6ea8fe;--ok:#39d98a;--bad:#ff6b6b;--gold:#ffcf5c;--bd:#2a2f4a}
+  *{box-sizing:border-box}
+  html,body{overflow-x:hidden}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;-webkit-text-size-adjust:100%}
+  header{padding:12px 16px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  h1{font-size:15px;margin:0;letter-spacing:.5px}
+  .badge{padding:3px 9px;border-radius:20px;font-size:12px;border:1px solid var(--bd)}
+  .badge.ok{color:var(--ok);border-color:#2b6b4d}.badge.bad{color:var(--bad);border-color:#6b2b2b}
+  .sub{color:var(--mut);font-size:11.5px;flex-basis:100%}
+  main{max-width:1050px;margin:0 auto;padding:16px;display:grid;gap:16px}
+  .card{background:var(--panel);border:1px solid var(--bd);border-radius:12px;padding:14px}
+  label{color:var(--mut);font-size:12px;display:block;margin:0 0 6px}
+  /* 16px form controls prevents iOS zoom-on-focus */
+  textarea,select,input{font-size:16px;background:#0c0f1c;color:var(--fg);border:1px solid var(--bd);border-radius:8px}
+  textarea{width:100%;min-height:220px;padding:12px;font-family:ui-monospace,monospace;line-height:1.5;resize:vertical}
+  textarea:focus,select:focus,input:focus{outline:2px solid var(--acc);outline-offset:0}
+  .row{display:flex;gap:12px;flex-wrap:wrap;align-items:end;margin-top:12px}
+  .row>div{flex:1 1 160px;min-width:0}
+  select,input[type=number],input[type=text]{padding:10px;width:100%}
+  button{background:var(--acc);color:#08101f;border:0;border-radius:8px;padding:12px 18px;font-weight:700;cursor:pointer;font-family:inherit;font-size:15px;min-height:44px;flex:1 1 auto}
+  button.ghost{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+  button:active{transform:translateY(1px)}
+  .mono{font-family:ui-monospace,monospace;overflow-wrap:anywhere;word-break:break-all}
+  .kv{display:grid;grid-template-columns:120px 1fr;gap:6px 12px;margin-top:6px}
+  .kv b{color:var(--mut);font-weight:400}
+  .kv span{overflow-wrap:anywhere;word-break:break-all}
+  /* address result cards (responsive; no horizontal overflow) */
+  .acard{border:1px solid var(--bd);border-radius:10px;padding:10px 12px;margin-top:10px;display:grid;gap:4px}
+  .acard.hit{background:linear-gradient(90deg,#123a24,#0f1220);border-color:#2b6b4d}
+  .acard .top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .idx{background:#0c0f1c;border:1px solid var(--bd);border-radius:6px;padding:1px 8px;font-size:12px;color:var(--mut)}
+  .a{font-size:14px;overflow-wrap:anywhere;word-break:break-all}
+  .w{font-size:12px;color:var(--mut);overflow-wrap:anywhere;word-break:break-all}
+  .tgt{color:var(--gold);font-size:11px}
+  .cp{cursor:pointer;color:var(--acc);border:1px solid var(--bd);background:#0c0f1c;font-size:12px;padding:5px 10px;border-radius:6px;min-height:34px;flex:0 0 auto}
+  .cprow{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+  .banner{display:none;margin-top:12px;padding:14px;border-radius:10px;font-weight:700;overflow-wrap:anywhere}
+  .banner.show{display:block}
+  .muted{color:var(--mut)}
+  details summary{cursor:pointer;color:var(--acc);padding:4px 0}
+  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:8px;max-height:360px;overflow-y:auto}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--bd);white-space:nowrap}
+  th{color:var(--mut);font-weight:600;position:sticky;top:0;background:var(--panel)}
+  td.pre{white-space:normal;min-width:180px;color:var(--mut)}
+  .warn{color:var(--gold);font-size:12px;overflow-wrap:anywhere}
+  @media (max-width:560px){
+    main{padding:12px;gap:12px}.card{padding:12px}
+    .kv{grid-template-columns:1fr;gap:2px 0}.kv b{margin-top:6px}
+    button{flex:1 1 100%}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>RBB HASH PLAYGROUND</h1>
+  <span id="st" class="badge">checking…</span>
+  <span class="sub">MD5 → BIP39 → BIP44 m/44'/0'/0'/0/i → P2PKH</span>
+</header>
+
+<main>
+  <div class="card">
+    <label>Paste the carrier text (paragraphs separated by a blank line). Change capitalization in place, then Compute.</label>
+    <textarea id="text" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off" placeholder="Paste paragraphs here…"></textarea>
+    <div class="row">
+      <div>
+        <label>Assembly mode</label>
+        <select id="mode">
+          <option value="paragraphs">split on blank lines → rejoin</option>
+          <option value="raw">hash exactly what I pasted</option>
+        </select>
+      </div>
+      <div>
+        <label>Paragraph separator</label>
+        <select id="sep">
+          <option value="CRLFCRLF">CRLF CRLF (live escrow)</option>
+          <option value="LFLF">LF LF (Stage One)</option>
+          <option value="LF">LF</option>
+          <option value="CRLF">CRLF</option>
+          <option value="SPACE">single space</option>
+          <option value="NONE">none</option>
+        </select>
+      </div>
+      <div style="flex:0 1 110px">
+        <label>Addresses N</label>
+        <input id="n" type="number" min="1" max="50" value="8" inputmode="numeric" />
+      </div>
+    </div>
+    <div class="row">
+      <button id="go">Compute</button>
+      <button id="load" class="ghost">Load Stage-1 example</button>
+    </div>
+    <div id="banner" class="banner"></div>
+  </div>
+
+  <div class="card" id="out" style="display:none">
+    <div class="kv">
+      <b>bytes</b><span id="bytes" class="mono"></span>
+      <b>MD5</b><span id="md5" class="mono"></span>
+      <b>mnemonic</b><span id="mn" class="mono" style="font-size:13px"></span>
+    </div>
+    <div id="addrs"></div>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Per-paragraph MD5 (compare with Wattpad data-p-id)</summary>
+      <div class="tablewrap"><table id="pp"><thead><tr><th>#</th><th>md5</th><th>1st</th><th>last</th><th>len</th><th>preview</th></tr></thead><tbody></tbody></table></div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Derive straight from an MD5 / entropy (32 hex)</summary>
+      <div class="row">
+        <div style="flex:1 1 100%"><input id="ehex" type="text" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" placeholder="9dd2efb9bc976c2095bd534d7b8d431c" /></div>
+      </div>
+      <div class="row"><button id="ego" class="ghost">Derive</button></div>
+      <div id="eaddrs"></div>
+    </details>
+    <p class="warn">⚠ Private keys are shown so you can sweep a hit yourself.</p>
+  </div>
+</main>
+
+<script>
+const $ = (s)=>document.querySelector(s);
+async function post(url, body){ const r = await fetch(url,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(body)}); return r.json(); }
+async function cp(t,btn){
+  try{ await navigator.clipboard.writeText(t); }
+  catch(e){ const ta=document.createElement("textarea"); ta.value=t; ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); try{document.execCommand("copy");}catch(_){} ta.remove(); }
+  if(btn){ const o=btn.textContent; btn.textContent="copied ✓"; setTimeout(()=>btn.textContent=o,900); }
+}
+function renderAddrs(container, rows){
+  container.innerHTML="";
+  for(const r of rows){
+    const d=document.createElement("div"); d.className="acard"+(r.target?" hit":"");
+    d.innerHTML=`<div class="top"><span class="idx">idx ${r.index}</span>${r.target?`<span class="tgt">◄ ${r.target}</span>`:""}</div>
+      <div class="a mono">${r.address}</div>
+      <div class="w mono">${r.wif}</div>
+      <div class="cprow"><button class="cp" data-c="${r.address}">copy address</button><button class="cp" data-c="${r.wif}">copy key</button></div>`;
+    container.appendChild(d);
+  }
+  container.querySelectorAll(".cp").forEach(b=>b.onclick=()=>cp(b.dataset.c,b));
+}
+function banner(kind,msg){
+  const b=$("#banner");
+  if(!msg){ b.className="banner"; b.textContent=""; return; }
+  b.className="banner show"; b.textContent=msg;
+  if(kind==="win"){ b.style.background="#123a24"; b.style.color="var(--ok)"; b.style.border="1px solid var(--ok)"; }
+  else { b.style.background="#3a1212"; b.style.color="#ff9b9b"; b.style.border="1px solid #6b2b2b"; }
+}
+async function compute(){
+  banner();
+  const res = await post("/api/hash",{text:$("#text").value,sepKey:$("#sep").value,indices:+$("#n").value,mode:$("#mode").value});
+  if(!res.ok){ banner("err","Error: "+res.error); return; }
+  $("#out").style.display="block";
+  $("#bytes").textContent=res.bytes;
+  $("#md5").textContent=res.md5;
+  $("#mn").textContent=res.mnemonic;
+  renderAddrs($("#addrs"), res.rows);
+  const ppb=$("#pp tbody"); ppb.innerHTML="";
+  for(const p of res.perParagraph){
+    const tr=document.createElement("tr");
+    tr.innerHTML=`<td>${p.i}</td><td class="mono" style="font-size:11px;white-space:nowrap">${p.md5}</td><td>${p.first}</td><td>${p.last}</td><td>${p.len}</td><td class="pre">${p.preview.replace(/</g,"&lt;")}</td>`;
+    ppb.appendChild(tr);
+  }
+  if(res.hit) banner("win","🎯 MATCH — an escrow address appeared above. Copy its private key. Do NOT share it.");
+}
+$("#go").onclick=compute;
+$("#ego").onclick=async()=>{
+  const res=await post("/api/entropy",{hex:$("#ehex").value,indices:12});
+  if(!res.ok){ banner("err",res.error); return; }
+  renderAddrs($("#eaddrs"), res.rows);
+};
+$("#load").onclick=()=>{ $("#text").value=STAGE1; $("#sep").value="LFLF"; $("#mode").value="raw"; compute(); window.scrollTo({top:0}); };
+(async()=>{
+  try{
+    const s=await fetch("/api/selftest").then(r=>r.json());
+    const el=$("#st"); el.className="badge "+(s.pass?"ok":"bad");
+    el.textContent=s.pass?"certified ✅":"FAILED ❌";
+  }catch(e){ $("#st").textContent="offline"; }
+})();
+const STAGE1 = `I thought I'd write about the last four years, an eventful time for Bitcoin and me.
+
+for those who don't know me, I'm Hal Finney. I got my start in crypto working on an early version of PGP, working closely with Phil Zimmermann. When Phil decided to start PGP Corporation, I was one of the first hires. I would work on PGP until my retirement. At the same time, I got involved with the Cypherpunks. I ran the first cryptographically based anonymous remailer, among other activitieS.
+
+fast forward to late 2008 and the announcement of Bitcoin. I've noticed that cryptographic graybeards (I was in my mid 50's) tend to get cynical. I was more idealistic; I have always loved crypto, the mystery and the paradox of iT.
+
+when Satoshi announced Bitcoin on the cryptography mailing list, he got a skeptical reception at best. Cryptographers have seen too many grand schemes by clueless noobs. They tend to have a knee jerk reactioN.
+
+I was more positive. I had long been interested in cryptographic payment schemes. Plus I was lucky enough to meet and extensively correspond with both Wei Dai and Nick Szabo, generally acknowledged to have created ideas that would be realized with Bitcoin. I had made an attempt to create my own proof of work based currency, called RPOW. So I found Bitcoin facinating.
+
+when Satoshi announced the first release of the software, I grabbed it right away. I think I was the first person besides Satoshi to run bitcoin. I mined block 70-something, and I was the recipient of the first bitcoin transaction, when Satoshi sent ten coins to me as a test. I carried on an email conversation with Satoshi over the next few days, mostly me reporting bugs and him fixing theM.
+
+Today, Satoshi's true identity has become a mystery. But at the time, I thought I was dealing with a young man of Japanese ancestry who was very smart and sincere. I've had the good fortune to know many brilliant people over the course of my life, so I recognize the signs.
+
+After a few days, bitcoin was running pretty stably, so I left it running. Those were the days when difficulty was 1, and you could find blocks with a CPU, not even a GPU. I mined several blocks over the next days. But I turned it off because it made my computer run hot, and the fan noise bothered me. In retrospect, I wish I had kept it up longer, but on the other hand I was extraordinarily lucky to be there at the beginning. It's one of those glass half full half empty things.
+
+The next I heard of Bitcoin was late 2010, when I was surprised to find that it was not only still going, bitcoins actually had monetary value. I dusted off my old wallet, and was relieved to discover that my bitcoins were still there. As the price climbed up to real money, I transferred the coins into an offline wallet, where hopefully they'll be worth something to my heirs.
+
+Speaking of heirs, I got a surprise in 2009, when I was suddenly diagnosed with a fatal disease. I was in the best shape of my life at the start of that year, I'd lost a lot of weight and taken up distance running. I'd run several half marathons, and I was starting to train for a full marathon. I worked my way up to 20+ mile runs, and I thought I was all set. That's when everything went wrong.
+
+My body began to fail. I slurred my speech, lost strength in my hands, and my legs were slow to recover. In August, 2009, I was given the diagnosis of ALS, also called Lou Gehrig's disease, after the famous baseball player who got it.
+
+ALS is a disease that kills moter neurons, which carry signals from the brain to the muscles. It causes first weakness, then gradually increasing paralysis. It is usually fatal in 2 to 5 years. My symptoms were mild at first and I continued to work, but fatigue and voice problems forced me to retire in early 2011. Since then the disease has continued its inexorable progression.
+
+Today, I am essentially paralyzed. I am fed through a tube, and my breathing is assisted through another tube. I operate the computer using a commercial eyetracker system. It also has a speech synthesizer, so this is my voice now. I spend all day in my power wheelchair. I worked up an interface using an arduino so that I can adjust my wheelchair's position using my eyes.
+
+It has been an adjustment, but my life is not too bad. I can still read, listen to music, and watch TV and movies. I recently discovered that I can even write code. It's very slow, probably 50 times slower than I was before. But I still love programming and it gives me goals. Currently I'm working on something Mike Hearn suggested, using the security features of modern processors, designed to support "Trusted Computing", to harden Bitcoin wallets. It's almost ready to release. I just have to do the documentation.
+
+And of course the price gyrations of bitcoins are entertaining to me. I have skin in the game. But I came by my bitcoins through luck, with little credit to me. I lived through the crash of 2011. So I've seen it before. Easy come, easy go.
+
+That's my story. I'm pretty lucky overall. Even with the ALS, my life is very satisfying. But my life expectancy is limited. Those discussions about inheriting your bitcoins are of more than academic interest. My bitcoins are stored in our safe deposit box, and my son and daughter are tech savvy. I think they're safe enough. I'm comfortable with my legacy.
+[edited slightly]`;
+</script>
+</body>
+</html>

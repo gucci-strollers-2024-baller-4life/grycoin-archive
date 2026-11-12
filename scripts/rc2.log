@@ -1,0 +1,8 @@
+calibration: 19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN OK
+load balance: [9351, 9350, 9350, 9350]
+  group done hits=0 t=159s
+  group done hits=0 t=159s
+  group done hits=0 t=159s
+  group done hits=0 t=160s
+
+RESULT ranges=37401 derivations=299208 hits=0 elapsed=160s

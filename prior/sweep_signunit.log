@@ -1,0 +1,7 @@
+stage-one selftest PASS
+sign sets with new ground: 896
+base certification PASS for all four serialisations
+unique preimages: 10756 derivations: 64536
+  5000/10756 preimages, 30000 derivations, hits=0
+  10000/10756 preimages, 60000 derivations, hits=0
+DERIVATIONS: 64536 HITS: 0 DONE

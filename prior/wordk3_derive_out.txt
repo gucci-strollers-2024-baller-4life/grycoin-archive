@@ -1,0 +1,8 @@
+6596 unique k<=3 word-boundary hits
+  1000/6596 (70s), eta 7 min
+  2000/6596 (140s), eta 5 min
+  3000/6596 (207s), eta 4 min
+  4000/6596 (273s), eta 3 min
+  5000/6596 (344s), eta 2 min
+  6000/6596 (415s), eta 1 min
+no match in word k<=3

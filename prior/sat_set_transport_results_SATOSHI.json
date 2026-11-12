@@ -1,0 +1,1140 @@
+{
+ "escrow": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+ "indices": [
+  0,
+  1,
+  2,
+  44,
+  76,
+  77
+ ],
+ "sign_letters": "SATOSHI",
+ "in_class": [
+  1,
+  2,
+  3,
+  4,
+  10,
+  12,
+  13,
+  14,
+  20,
+  22,
+  24,
+  25,
+  29,
+  31,
+  32,
+  35,
+  37,
+  39,
+  40,
+  42,
+  44,
+  45,
+  46,
+  49,
+  50,
+  55,
+  60,
+  63,
+  64,
+  65,
+  67,
+  68,
+  69,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  79,
+  80,
+  83,
+  84,
+  85,
+  86,
+  88,
+  89,
+  90,
+  92,
+  97,
+  98,
+  99,
+  101,
+  103,
+  104,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  117,
+  118,
+  119,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  130,
+  133,
+  135,
+  137,
+  138,
+  140,
+  141,
+  144,
+  145,
+  147,
+  149,
+  150,
+  151,
+  156,
+  159,
+  160,
+  162,
+  163,
+  165,
+  166,
+  167,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  210,
+  211,
+  212,
+  213,
+  214,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  227,
+  228,
+  229,
+  230,
+  234,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  250,
+  251,
+  253,
+  255,
+  257,
+  261,
+  262,
+  263,
+  264,
+  266,
+  267,
+  268,
+  269,
+  270,
+  271,
+  272,
+  273
+ ],
+ "out_class": [
+  5,
+  6,
+  7,
+  8,
+  9,
+  11,
+  16,
+  17,
+  18,
+  19,
+  21,
+  23,
+  26,
+  27,
+  28,
+  30,
+  33,
+  34,
+  36,
+  38,
+  41,
+  43,
+  47,
+  48,
+  51,
+  52,
+  53,
+  54,
+  56,
+  57,
+  58,
+  59,
+  61,
+  62,
+  66,
+  70,
+  71,
+  78,
+  81,
+  82,
+  87,
+  91,
+  93,
+  94,
+  95,
+  96,
+  100,
+  102,
+  105,
+  106,
+  115,
+  116,
+  120,
+  128,
+  129,
+  131,
+  132,
+  134,
+  136,
+  139,
+  142,
+  143,
+  146,
+  148,
+  152,
+  153,
+  154,
+  155,
+  157,
+  158,
+  161,
+  164,
+  168,
+  169,
+  170,
+  171,
+  182,
+  209,
+  215,
+  226,
+  231,
+  232,
+  233,
+  235,
+  236,
+  248,
+  249,
+  252,
+  254,
+  256,
+  258,
+  259,
+  260,
+  265
+ ],
+ "texts": 36,
+ "derivations": 216,
+ "elapsed_s": 0.05,
+ "hits": [],
+ "lanes": [
+  {
+   "lane": "L1_in_para_strict",
+   "marked": 178,
+   "units_moved": 168,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "dce2a798fc91fa0679148ea2deb8bb8f",
+     "bip39_head": [
+      "table",
+      "benefit",
+      "tower",
+      "weird"
+     ],
+     "addrs": {
+      "0": "1DT925hmYU3Lp7BzjrV54ys1Y9Y6ttAjJG",
+      "1": "1J2oi4s8DZwPHMamkE1rP1nQy911amfDSz",
+      "2": "1Lkbuwi8SFk2y2eoKJdbzYVHfN4dSBW8wd",
+      "5": "15aTaUQJqnjqTXnhiMwNvTZeUJzXRmjD2m",
+      "6": "1MYR6CESX3M1JYuJtMXF7EunXMbHif3Z6y",
+      "7": "1spaSdg2cbY1vpcKuxhn68Qbvn2fQnPUt",
+      "44": "18TvjRZz9iU9vhzCcYiJSDojLW4rY7ftYV",
+      "76": "1GvwxeYVBkBjPrv64PBC7qutpx1Z8RdHXL",
+      "77": "115hxEGzWSoNt61kNMrCqT5vEH9rUi3TTM"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "70a5cc57f7dfec8d57c91680be8a29a5",
+     "bip39_head": [
+      "idle",
+      "common",
+      "bicycle",
+      "use"
+     ],
+     "addrs": {
+      "0": "13CP8AmFy67XPhLG3s5BUDauiCBjNyfd6t",
+      "1": "1GEapS9ow4gLJxsFio98Scmf1V3jFg8jvv",
+      "2": "16aHupC3Wb2JAxuPyScmcHDjZKKbojYcsW",
+      "5": "1G37MwibFwfuNTVoANJ3JVvbcPuZaqGewn",
+      "6": "1359fy9kdkc8aGQNAEwuurJRMESkQU77aV",
+      "7": "1DeA2857bz7nsPN1oR8FB6tbfK3r5LEHWz",
+      "44": "1CQUwEwfe9yDZZWjwcLXUZGTg4uGNYxj9G",
+      "76": "1Lu1JFSNGGnGpzmMAonKGEYCYhDt7vmeud",
+      "77": "1KNp2ahDNpJETH7wBSRwCUYQUjuyLPktUU"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "90b10387f002a539c19ab8f87822b556",
+     "bip39_head": [
+      "mouse",
+      "marine",
+      "tiger",
+      "theme"
+     ],
+     "addrs": {
+      "0": "1HKRWg1E4PMvQPCeQYszBqLAw3PVnp1gqU",
+      "1": "18MDfKBkbxpmmehXBxDv6CuVguc8gKXzhs",
+      "2": "1KMbEvAzSQoAmK3x3fDnExEnjkSeaoJ8Bn",
+      "5": "1AYBJgtu3u6KgSuc6xusYXWaVQ2xunccs1",
+      "6": "1KUmfZ76bv25SNH4RhC4MSus2Lmpbmn4jD",
+      "7": "1M98G2mBpocSEYLYnRb6CGzyHVKBzRAfdr",
+      "44": "1F7zAQ1haJfUrUQwCPuyDsUMqVGHsGT1R8",
+      "76": "17MnT57UbVKLTokhz2ka6bcpg64qamdcwi",
+      "77": "16r5wbeW1HhtBVdpF41K6tcBfT15DiUryP"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "0b090be04385fc93fa4cadafaf8c513c",
+     "bip39_head": [
+      "arch",
+      "embark",
+      "way",
+      "mandate"
+     ],
+     "addrs": {
+      "0": "13sh1v1TBRFkq5cRH4yJGoxtHadgFUKVHC",
+      "1": "1GRGeDfoGYyhGTR3hxTeZYqiGMa2A8E714",
+      "2": "1QD6Sqc4Z54KZaXP3P6iAvQESgHfo3fG3B",
+      "5": "1Na68amZi3SbzZDpewGuw4dYxxFZ81DeWT",
+      "6": "1PU645TytcPQg1wFdgWFqD93TdpCeRwWH2",
+      "7": "1EVFZxWZXvrzMzzXxdWv6y3YnjRChH43LA",
+      "44": "1M31idVyBNCMMqTTKoSJi7nquu3NtH6koE",
+      "76": "1Cd3UgHbWi5DwMSEgziDzoqVVimvW2FthA",
+      "77": "18vK24BRRQ1C5cAtiQ56PWm18jL4Wnjwjp"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L2_in_para_forced",
+   "marked": 178,
+   "units_moved": 178,
+   "caps_before": 1344,
+   "caps_after": 1338,
+   "conserved": false,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "21dfcbf8f6abc1ba1374300e40329f7b",
+     "bip39_head": [
+      "canyon",
+      "wrestle",
+      "wreck",
+      "unhappy"
+     ],
+     "addrs": {
+      "0": "1DXYK2Z19en6eq364uwvG7e2ufPpFtZehk",
+      "1": "18LS3aYqX5wBTDzssDDM9YJEo29NHuwaxb",
+      "2": "1HCBEnB5QUVhJ9NKv2aqBt7CNhFwiUZ4fk",
+      "5": "12QMoz5ivob9P8ho89FEN5ysfvMZKoC8QX",
+      "6": "1CrYXTTFCbUq6Hj95RKjy1wwKKqLRNjYkE",
+      "7": "16NNmsefwTpuvxXtYGYAybZRwVfRoJckbJ",
+      "44": "1BJmtBz98B8wPceGaRkHz8jEgpNsxYdRnZ",
+      "76": "1KcSdL9LsU4msNLLToYrHAdcWiYCw8CSEz",
+      "77": "12HTaAkE143ao4HGSMir2i53Cbo9nvG993"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "5a2a489246d8d8afcc47c40c47b66f45",
+     "bip39_head": [
+      "focus",
+      "false",
+      "cause",
+      "misery"
+     ],
+     "addrs": {
+      "0": "12ghSvo3SxeSNHCJJXRUw6Xp9Jh68Eyfua",
+      "1": "16EbFhP1R3wPuNKLGjjGytDUuWmFw53Tbf",
+      "2": "1GUYrUhhBL7ymJHiBVHmCe1YYYace5dTwk",
+      "5": "1MEj6KrMyvpiw4UzszdwtAQ19cuwNM55w7",
+      "6": "1LfMpZr4PeFMgoqMijQk4Nq4n4stsG6gBY",
+      "7": "1Mtbn8UcB85DVwSmKDS5JPvxygAT6mcE6P",
+      "44": "16aYNWFwf1jUNB8KADimy2a9idpL6uUfjw",
+      "76": "1Knw79aUzmmtvwwxKikp8EmVpd4m8sRYgs",
+      "77": "1KJ6hJynZiEHxb9Gyonn1znjKRAek485bM"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "a1f82a62d6cea4661c60c81d7e95ff66",
+     "bip39_head": [
+      "peanut",
+      "scout",
+      "obvious",
+      "pulse"
+     ],
+     "addrs": {
+      "0": "1DWcRACD2KB9bfK1Hw65cGaQqYEt4Bdt8m",
+      "1": "178okmEGZUZ4WfPxAjabh21ADp7uN6792s",
+      "2": "18ZLQVYDw8KkP1s1KAGpAvrgheCp5VgxDd",
+      "5": "16a59cYVJfBaACwBkrQToHQ4kaZDzE8ned",
+      "6": "1PFPuEZpz42BEZ96vB9WrDGD4TeJj7uVCf",
+      "7": "16ph61zqH6tGHemE2sVXZvzotmbtzFePNG",
+      "44": "155tD37G4SKrcDHXGB7ooMxmq1dvFEvy8P",
+      "76": "1Tvmefa34jAXkuqjxZyJQSZnZArwC6zMn",
+      "77": "1FzYcAEkzoVpFQk8JLWmztzpcdUoWu9dD3"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "ac42ba869dd11e37106517930bbb44e6",
+     "bip39_head": [
+      "proof",
+      "beyond",
+      "payment",
+      "desert"
+     ],
+     "addrs": {
+      "0": "1E5SDve2c33WWd6iHzk9HExz2xnZAvqz54",
+      "1": "1MWMsuDxfyPZ3vvbkCfDf8mWUZPQApwwf1",
+      "2": "1GUBAxsiRu8aNCjmx2sVvgQ2ruWBP4vQ3i",
+      "5": "121PghKKtGVNtiE3aiWUNpdQKGdK9zWv2C",
+      "6": "1NzfJnobdpQcDgfW7Zraq8WUbAbvAPXio",
+      "7": "15mJttoFP8vHovsXviSgJuDJxX8w41Gaxv",
+      "44": "1Ejw5JLDGgrAAfm6Ypsi1T4BNpe6MZtuqH",
+      "76": "1vi5nrrM2pQ9FEhnTdrtFtkbMqCD5Ht2z",
+      "77": "1MUGbBX3qsF4TisXQmZ4GMngKggUCsUyQQ"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L3a_out_para_strict",
+   "marked": 94,
+   "units_moved": 85,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "7262d7f8d66b3cb6f34023e2ca948f30",
+     "bip39_head": [
+      "include",
+      "birth",
+      "wreck",
+      "proud"
+     ],
+     "addrs": {
+      "0": "1NHigzc9gRrSCczjvhyjsiuMD4BysjaGka",
+      "1": "13YQVwM1CA7EFp2ZdcY6mPR6B8RJeJj8yE",
+      "2": "17uoRY1C1kQGnKmZ1sKcKKE7u6r7KNSeZe",
+      "5": "1LWF51m5JQEycUspMfeT5BxMy3qvQGHxFp",
+      "6": "17L69HU83eLoBhmiAWDEtCtMGM49zEvJeZ",
+      "7": "14cDJ82GDk8mLNhTzoXL8gTESYg7MonryX",
+      "44": "12FcTKmtR1wU34uQihJy9JxbcRLy9MHDSE",
+      "76": "1C8xq3ZeAiejgQDhjQ5Hz8Sqio9VdzgAPz",
+      "77": "1EJFdnxZFcSThQwfBR8VDdaB4bczzYmtqz"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "73ab8deb5c302ab2999234ca2e612ecf",
+     "bip39_head": [
+      "inhale",
+      "fragile",
+      "kiss",
+      "reveal"
+     ],
+     "addrs": {
+      "0": "1AEXmsVkshPgX8hMN71WERu1ajG4UezbCj",
+      "1": "15cWNdoki9mMrad3Frtb694W1agDXK5eBs",
+      "2": "1GMhBmWAX1SR4CfS3YJQAh4UWA4GHJ7BAn",
+      "5": "1NVztbHXQHajVf798BtULkVFY5wQyhi6io",
+      "6": "1N4yGeQsK3H2FmWXJbKfuxpJFqEgYzdZtT",
+      "7": "155qgyV69kZbYFVmpQUU86ApeNsR5ggj56",
+      "44": "1G4H5xFVcs1BZaZLVqvfQSWpxEcjHaKdLm",
+      "76": "1NSqy3QiS1RUykWRzutYGkNipVfaButAwu",
+      "77": "1MGsLWeS57UnexLfAxrVbwTfPgb9Rn5EWC"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "22f1b65fab0adf4b69715467be43ae4e",
+     "bip39_head": [
+      "carry",
+      "misery",
+      "obey",
+      "figure"
+     ],
+     "addrs": {
+      "0": "1JWYSU23WaStBtYM3XGxNVrBxZcnDrfPka",
+      "1": "1L7HLdQX73SfGzZDxj5kr6VAzwn5TTuWxw",
+      "2": "1GNdA2Hrm44FXE9KP7g1sAD7smvr7DqLoF",
+      "5": "16up22WnkdPCkVjrZjWFX6maqhh7khLCo6",
+      "6": "1Cqor23eFX8SJqJ8A97F4RUBrMmWUcF5ER",
+      "7": "1KPoyRT7zkgz1qFW5zuNfViXC7MZxpGiTZ",
+      "44": "16vcfA8vorC2fXkbcKh8m8BEyR8vXtzb4H",
+      "76": "1r1qQD44gGVHWPtu4LdzKnk1eaXjVeGKF",
+      "77": "156zbjNTXECL8gp5j8U9aM58ToKCRJuGKP"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "99054a80f6c397490b6b1d43c4bd8f07",
+     "bip39_head": [
+      "october",
+      "clean",
+      "parent",
+      "unique"
+     ],
+     "addrs": {
+      "0": "1KDFVmQaZQ3Rioosb2mpLwaVTwieEA6Um8",
+      "1": "13qTrsRpNd279dkZZvFNWQxTZAREHKFU4X",
+      "2": "1CNr6BwvJdVArvJPpUxz5B1Ubh1xBqGssp",
+      "5": "1KkzJKeqdioLD2zk146QvyySAe77eF6M9M",
+      "6": "1MsLWWHTDuRhv6CwKVj2ZP2wH7xszx8szM",
+      "7": "1CKp7LSij9pWEBGpyyjTAhatzsMabCMFjH",
+      "44": "13njSaDjs8TJ1z2BD7Td5e6GSLwGLx7y6x",
+      "76": "1CcseZmRFCfHwgpW6FcyN5fHEaZAPGfTLo",
+      "77": "1Dj9wjtivKZWPHZhdkhfASy69u1imDERFh"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L3b_out_para_forced",
+   "marked": 94,
+   "units_moved": 94,
+   "caps_before": 1344,
+   "caps_after": 1351,
+   "conserved": false,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "349366614704f16bb666089e0cdd8dbb",
+     "bip39_head": [
+      "cruel",
+      "open",
+      "obscure",
+      "mix"
+     ],
+     "addrs": {
+      "0": "1EcRA3sCDdUEujXKRQsXj3xrLBfaA9RvCq",
+      "1": "139Mmqby7sqW1S7E2JEkqNy3QQPgX47Fxa",
+      "2": "1FCVCkyC1y2J6Mi2jUPRzFWHNH5jYjrpJk",
+      "5": "14fLTBaLb46H9EFfJaquuqAYGexhBg727b",
+      "6": "1Jgx9sYoAhrCEw3ZmMrBUsNgCmnHij8FGM",
+      "7": "19NHgo6MW5umLvrCYrRcPiNyvNRBtDdsw2",
+      "44": "14qrXdASShK39DVMnA1bn4YX38bY3MDPcA",
+      "76": "14dy1p2bK16RHxSR5MNBbzhJCVKzkBx2Y5",
+      "77": "1Lrctjtsgz7TuRuEX4SYuC8DhvbpEfyRgn"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "67c028a89125e35042d682eec5400ae2",
+     "bip39_head": [
+      "guitar",
+      "access",
+      "clay",
+      "car"
+     ],
+     "addrs": {
+      "0": "1KP2UYj4EU58MrCaYgmLFoyM1XAFFYJAbJ",
+      "1": "1FsTzsMnCyqEwgqVThasRbTXdvqNpS4mmJ",
+      "2": "1KtWci5LZiwnNkCnaQMEm4qRVvJkeTo6vE",
+      "5": "1NxF7iD917L68pa6E8NPwSf3bWzmekKryP",
+      "6": "1BtWxefrUSB7GM9H9yWHWz27SKj8CgioRm",
+      "7": "1GKkWqGnB48qNcWMJPS2wSF9mjbSkMDWmD",
+      "44": "1E9EDTBadP2vosUJdG3MsKAgPWbxyw42M1",
+      "76": "1J5Zjt2mDv5NCGZyKnqcqb9GKrKbZuxmCv",
+      "77": "1Mp5EvJLqH3PdEW5eJCcTRgdSpDh47d7hR"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "76bfdaa1bcfe1c4fe2f44f7e55fb7bb1",
+     "bip39_head": [
+      "issue",
+      "yard",
+      "position",
+      "ketchup"
+     ],
+     "addrs": {
+      "0": "1Nj3Rr4XbyauG7UnfnmeQketiz8n1VyRxy",
+      "1": "1EbvZe7fT2JiTURQTzpjz1PFBdEHeDYhfn",
+      "2": "1DJX9Jx85UW1DCQgqr8cZK24sAMkX45mYz",
+      "5": "1JztxYG8eVK9JCeFrmaEF76tPW17nGkk9n",
+      "6": "15WwadLrWgUq9kCcP6njxHuRg9jFEanLFF",
+      "7": "17ppdHyn9Q7g7vQiD6EvCaG8aVNcjk326u",
+      "44": "1ERrGxW9dnjG1xfwFHX15y5VHozXzso7VV",
+      "76": "1F3hSDEAdJ35WJd9jiaEzzTyLWfeYbCrpN",
+      "77": "1cdFhbY3WzRWZY3STcyTFLctrfii4BLZN"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "4fd113d3749c6d08f73ca6f670dcbdb9",
+     "bip39_head": [
+      "exist",
+      "mass",
+      "visit",
+      "truck"
+     ],
+     "addrs": {
+      "0": "12NPfnt3sxhQpWLrRLXttxh8wp2GiAJhCN",
+      "1": "13Ym7qkQQgGF8mam6k8g9XQccfVXa8KkgU",
+      "2": "157QRZH92fKbR8LFdY8gXVgKis2hjwBWsa",
+      "5": "15iodh5DMaqgfQ3AaSZn4oq55MsPzomqYi",
+      "6": "1PU5pGfVYBGDzpoZPdxpLt8UBM1o3Cge5t",
+      "7": "1Lzw7bxpE7vZMT4AcDFwXY5STTvyWHqaFn",
+      "44": "18S7oJPvgoKzqzV1kbxK3PVBHNv7rcBgSj",
+      "76": "16SbfvNqSESc68qfcSiok8bQ2RtxrY9Lei",
+      "77": "12R62Fckmm4iDx759HmnbcgqFcDeB7A2mi"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L4_in_sentence_strict",
+   "marked": 178,
+   "units_moved": 413,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "3b8de56cbfa708e3dbd53f36b3252b19",
+     "bip39_head": [
+      "describe",
+      "hundred",
+      "forest",
+      "leg"
+     ],
+     "addrs": {
+      "0": "13QyTsnTWahQfQrYufTiy6CGPFbogmJ2Pv",
+      "1": "16bpCXE8XTs2sRBFrT2cKZCNAapUgXBtAS",
+      "2": "1KgCWmemkGtCc3YyT5tcMa1jRH3ckVWJSV",
+      "5": "1MhbaKqpUN5BGL4Ajzfk8YXVuqctaZ9YbW",
+      "6": "1AgpBA8WEPnChRGXkeiLxwDZAdzGjWhefo",
+      "7": "1FmfnbDf965jUijTFUhyyi9YQMZMSnSyPd",
+      "44": "12AjP7zgKxHCcdGSoFUnNxWQHjJvQXtYR1",
+      "76": "1FKE14Cr88KM2Q6gGB1cAfEYvCcrDcMQx3",
+      "77": "18gFP3vNFsPMqQ2QHhwYKumVCh2VRGT44x"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "338b6d2f72081001e2f409dc42e3656c",
+     "bip39_head": [
+      "crime",
+      "fork",
+      "envelope",
+      "tomato"
+     ],
+     "addrs": {
+      "0": "19uLjtaxc5cFcujR7U96Nm9cZYyQd5QgZL",
+      "1": "1M86Gs4SzcBkP6vpbZuP6fZzqZJzm5xZ1g",
+      "2": "1NSNtjYuyi3jYKMHFGFtMvRRe4JycvcjCn",
+      "5": "1Hh2XW9Aiu7KnnBvFeUZRPhz6gF51nPH6i",
+      "6": "1FN3KFaTJLLD5FgiEwuHajKFvkVM4DRZiX",
+      "7": "12TY3wyrtaytui65DA5RUcYudoXGHgzpcp",
+      "44": "15HoBZFdYMWBndjG12FLpBT4ckc8E9Egf7",
+      "76": "1BCxX7qt9EgXWG2h93QccDm9VWQtnNEjov",
+      "77": "1BLDyP6pEdrch24g7SztkABhVeCM5m7hR8"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "5afcee4daee3b5f1d77b40b504a0dfc7",
+     "bip39_head": [
+      "foot",
+      "trash",
+      "nature",
+      "fruit"
+     ],
+     "addrs": {
+      "0": "1DRuiE8pwxESmV9EXmVUbMTq89RvaeVgym",
+      "1": "1MMhjDfFEWUCuzjdvH7Bq5DAUdQj7JNL7d",
+      "2": "13ScKbaQ9XwBAYDTAssBA9rjNPuj1PmRSN",
+      "5": "1MAfjzib1ZFL1sx3qsvSDURQFUvCGuAJ28",
+      "6": "18eTu82RrLNqWnJGUmMwrY5tXtHXizC1Fz",
+      "7": "1NkR5xTZ62ruYtQA6CninLYuyuSG7VvpBE",
+      "44": "1NaHm3aHLBh21eQHpHq5RHTM1dPrmzvjTK",
+      "76": "13DoxgpZ8wyzmiF8Cv8hEeiFFji8aXgvpb",
+      "77": "1MU6tq1JucjwSb3VVyoQHfo9GMjJJQQ4Y4"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "24e68d63068c1099f2c80a65a88e2d53",
+     "bip39_head": [
+      "ceiling",
+      "crucial",
+      "flee",
+      "artist"
+     ],
+     "addrs": {
+      "0": "1KaBHzSTumD1jhbF3hhSSFXKpGiTDfuhEn",
+      "1": "1DKjydYf4nZydV6LYxpq5543KSVvsJH6p8",
+      "2": "19TrdwWRtbSv3Cc2DnjDchdjmtd4B6uit",
+      "5": "1JQv2S5HfR8mqYXdRjLNnZkCYK5kaKypUk",
+      "6": "1EzNxmExnvAhT2Qve2TB4L4oUoGSGUBiv4",
+      "7": "121mUsKUYqTDCjqtQr4mjGcdWKYeBu8DbR",
+      "44": "1JNDgbyHz1tSTRqgMnmc3GWi7oR5LEZPty",
+      "76": "1HX66xD7qKfAxv4NLqWwoEExLLGhRJLaew",
+      "77": "18FK5MgPFCV2xqSdMkbDujEWZnTaWsX5ry"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L5_in_para_inverted",
+   "marked": 178,
+   "units_moved": 0,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "46a308c279540a33e977ea1f660e8458",
+     "bip39_head": [
+      "effort",
+      "blue",
+      "correct",
+      "verify"
+     ],
+     "addrs": {
+      "0": "1DGrEwbRwANU28BgCnp6HeNhPzB2HbiyUL",
+      "1": "18wZgAkLhy7uJEdz5ydKbfLqwEhxNiVrWN",
+      "2": "19jw5SEWPCAPQwUyEfRTxTkFoUVYByCaqB",
+      "5": "12KTQZUYgRLqkq8SrpGQrMVZAp3DPWVKds",
+      "6": "1387USD4p6n89MieGF9vLggfKKLm5LGwyw",
+      "7": "1HViVsqkVm63xQfk1ygbwvGgLtH5p7KBAa",
+      "44": "1NH4TPZhB64mRzzX39P7KzjmRUqbwUnEhg",
+      "76": "15avw2g7RejmM2Tajhnit7Bzag8KBtApUh",
+      "77": "18ufT5YMQJ2TMtz3WsmHifUfqCeCMChg9Q"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "f09025f18b4627ae243eaa44991f6ea8",
+     "bip39_head": [
+      "vacuum",
+      "license",
+      "ladder",
+      "bird"
+     ],
+     "addrs": {
+      "0": "1AqAA58SQfHEmBtGQZug9Yr5i1kbxkZhRS",
+      "1": "18dfXJBDj3cx2HdkN57RRUe9h34MsHTnXq",
+      "2": "1LmGzxfnmcR1tiLZsrVdnximNaiDUSi7p9",
+      "5": "15U2a3VaDKysanUEBnkNk4NV6dNrRSkUoP",
+      "6": "1EVueCmosm5wD6sEqvzg4eDb26L2SN9kXy",
+      "7": "1am2gbuJpBVzymV1d63QuTJHccCBmpk7g",
+      "44": "13cdm2mepXusomq3hFxV2ttLkmunqAAjce",
+      "76": "17KfeJfJLLW8oEusYvWUEK2H6thNtkpkrS",
+      "77": "1LkBtsAmZCeEvmCQM5uwun6PFWSa5zg2bL"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "bd07e6ee209c5ab65d874bbbcfccda18",
+     "bip39_head": [
+      "rug",
+      "dish",
+      "romance",
+      "donkey"
+     ],
+     "addrs": {
+      "0": "1BGh8btgbCSPDfjyESjnkjYyYvoB7xnDDb",
+      "1": "1LUgoytz2B6UVA33K1Yf1TLz4969ik2CFc",
+      "2": "1ExDzawt7EhsQdG1bRaa1f4xdirvSiDqh8",
+      "5": "142envcdVSTEF4df1BJrpfd2j45ui9GqnW",
+      "6": "1KmJcfiiux8VkkdmmHksZZDho3gKufBcGx",
+      "7": "1NJ4n255GxfbaqgiEmopgVDUqyJVrWFhJK",
+      "44": "1JEfdqJe4yobsTd8TvT8UU1pcCYF4Qm1Aw",
+      "76": "1F9rAGaYd8RBKqHWLfxJ6aCH3qeyNk75qB",
+      "77": "1AiRh9CYa8tV7EFAwLDGogCqy9JxdLHp9N"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "b5763a6652df81974006064d643ccd01",
+     "bip39_head": [
+      "rely",
+      "range",
+      "office",
+      "pizza"
+     ],
+     "addrs": {
+      "0": "14JisF52STnBaH5xQX6zspYYzXFiTCAms1",
+      "1": "14B2TX36qegj7Y6WTSDedt3CoeNyfbfAN3",
+      "2": "13ukDnmPZSkr36cWhW5LoMeJwxem1oE27F",
+      "5": "1FkoLGsrAWpMZXFpiqeg6sgEfytWoq5dAP",
+      "6": "15JpbWVNdBCoA7HNfShx8YKdvFQnjoyba8",
+      "7": "1P6GHugoGyvpWhi4SZayQ9ZAsB2QjAU8gr",
+      "44": "1DiamnbLW6cjQYV3Zik78M5NbgsVRixoyc",
+      "76": "1FMbK3G8WYvugDaQikV8MaYPNZcxMK94KT",
+      "77": "1JfnaiWFtPvE6jYTME1hnU7ipCehu5PW3t"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L6_in_no_reprint_strict",
+   "marked": 177,
+   "units_moved": 167,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "ace6fec1d8a6fafc7e0b92a87176c3cf",
+     "bip39_head": [
+      "provide",
+      "dawn",
+      "race",
+      "rally"
+     ],
+     "addrs": {
+      "0": "1KshrWbFtxabyddnkcGjQm9kJgb2GE8EHw",
+      "1": "1DCRfwbMkS5wnfJvzMv8REYeWukPnZy1gE",
+      "2": "1Ca3aKyMyHm1V5of8E4WzhR95xferr4e1V",
+      "5": "19iS7cYVbLzwxum1WSUHz2grPf3MTRbUz5",
+      "6": "1KgKhQZFgeL39kfkz1fWJpLKQyiN3h2pNy",
+      "7": "1MUzqaB3rfiTTSokcW5zJgpb82eGmu7k3D",
+      "44": "1Hcr4JUx12KD8859KMBctppTBwwCyLrcRm",
+      "76": "1J9U46c8gNhyEHq1QvFU3XekcoR4HgMV2G",
+      "77": "1K2eVDGooWiy7XGGBibjqz8oeR1p8EE3qk"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "4c00d372d0065c364d174a9192d47aac",
+     "bip39_head": [
+      "equal",
+      "alley",
+      "syrup",
+      "parade"
+     ],
+     "addrs": {
+      "0": "1N9tYBTU5fnT5e1ZFFGBXJMXNXU9bZM1my",
+      "1": "1G8S2VrbXmNU4QRrzU5Nb8KXjGowmhjHhL",
+      "2": "15oKiQ6Xv2qKJTr1Bfy9mDJkZqnztiVM2w",
+      "5": "12Whh36XdexWjXs1fVqNhJvTTdwotF2AeT",
+      "6": "18v17FyJAE485tGiXeofy6afst2uqmFa8J",
+      "7": "1JGHLzizNf1aMZ1VCSPnotJV8MTUp227ue",
+      "44": "1DkJohLznuvz28RHde1Ju6b57FapZGUzxu",
+      "76": "1Q69pkUBeTr3NpZLKtTxeHResqt7EwBMMp",
+      "77": "1K7bzdRRJq6cTNum5r37ZHw9JJEmgqwHFq"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "e90f9cf2c1805135324822165bda8653",
+     "bip39_head": [
+      "trouble",
+      "language",
+      "device",
+      "loan"
+     ],
+     "addrs": {
+      "0": "1NaT57Cf21kMeL2JcJfrbovnAecTTPQqG6",
+      "1": "17UDuqUwK4oPvVSqic6nqfWakDGRL7tsKg",
+      "2": "1EZ7TCYJKQr7qKkT1ECmAqnQBjzTXvvyRF",
+      "5": "144TnfR2FjewHXSQNu2rf2XjQEGtejLneZ",
+      "6": "1H5fGiYNvCLHYFmAeZdUSqoshTxNia1Dbi",
+      "7": "13KHY4Hfdgx83sptgZNmBmGVUoVEbJh3r1",
+      "44": "1BvNDmauDvmaZnXLTxEHxoAvPUDg6xqGGJ",
+      "76": "1J4J2TwPmCQxQSJaFdm1ir4hu2QuL5rQcP",
+      "77": "1AWBwrxz4m2RTbZhDHja5xqC5nUHAWMxB3"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "d091f1ba055bc270d15d3b915e5ff929",
+     "bip39_head": [
+      "spatial",
+      "moon",
+      "hub",
+      "apple"
+     ],
+     "addrs": {
+      "0": "16WJLE6ny7bdEW6ypMHogdTt3SY7SYTe3J",
+      "1": "14oRZpmmwr9z69vPPHVrDzpqCzHHp8hNqg",
+      "2": "1FZqaHq6GTSYe51z2WnGNDnBbrgy5Ygkjr",
+      "5": "14TcKodDWCa9XfZygCHMPjC7hrmHrVhRrP",
+      "6": "1CdLLExiP1zhLyA3UzAoab76pKn9ApGXF7",
+      "7": "1EXFgNc7xW75zLAwgLMAR86Acw9EYi6Hof",
+      "44": "1i5is8TkUSvbgGHraeBFQS82kqcBMwj3e",
+      "76": "1EDRfV3nSvQcNEUn2nsGZ3eCWuwwkTEZEr",
+      "77": "1EN3AyXr2fcJ2Q6sQD1BaWvbo5GuR4DPAb"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L7_in_no_subheads_strict",
+   "marked": 176,
+   "units_moved": 168,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "dce2a798fc91fa0679148ea2deb8bb8f",
+     "bip39_head": [
+      "table",
+      "benefit",
+      "tower",
+      "weird"
+     ],
+     "addrs": {
+      "0": "1DT925hmYU3Lp7BzjrV54ys1Y9Y6ttAjJG",
+      "1": "1J2oi4s8DZwPHMamkE1rP1nQy911amfDSz",
+      "2": "1Lkbuwi8SFk2y2eoKJdbzYVHfN4dSBW8wd",
+      "5": "15aTaUQJqnjqTXnhiMwNvTZeUJzXRmjD2m",
+      "6": "1MYR6CESX3M1JYuJtMXF7EunXMbHif3Z6y",
+      "7": "1spaSdg2cbY1vpcKuxhn68Qbvn2fQnPUt",
+      "44": "18TvjRZz9iU9vhzCcYiJSDojLW4rY7ftYV",
+      "76": "1GvwxeYVBkBjPrv64PBC7qutpx1Z8RdHXL",
+      "77": "115hxEGzWSoNt61kNMrCqT5vEH9rUi3TTM"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "70a5cc57f7dfec8d57c91680be8a29a5",
+     "bip39_head": [
+      "idle",
+      "common",
+      "bicycle",
+      "use"
+     ],
+     "addrs": {
+      "0": "13CP8AmFy67XPhLG3s5BUDauiCBjNyfd6t",
+      "1": "1GEapS9ow4gLJxsFio98Scmf1V3jFg8jvv",
+      "2": "16aHupC3Wb2JAxuPyScmcHDjZKKbojYcsW",
+      "5": "1G37MwibFwfuNTVoANJ3JVvbcPuZaqGewn",
+      "6": "1359fy9kdkc8aGQNAEwuurJRMESkQU77aV",
+      "7": "1DeA2857bz7nsPN1oR8FB6tbfK3r5LEHWz",
+      "44": "1CQUwEwfe9yDZZWjwcLXUZGTg4uGNYxj9G",
+      "76": "1Lu1JFSNGGnGpzmMAonKGEYCYhDt7vmeud",
+      "77": "1KNp2ahDNpJETH7wBSRwCUYQUjuyLPktUU"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "90b10387f002a539c19ab8f87822b556",
+     "bip39_head": [
+      "mouse",
+      "marine",
+      "tiger",
+      "theme"
+     ],
+     "addrs": {
+      "0": "1HKRWg1E4PMvQPCeQYszBqLAw3PVnp1gqU",
+      "1": "18MDfKBkbxpmmehXBxDv6CuVguc8gKXzhs",
+      "2": "1KMbEvAzSQoAmK3x3fDnExEnjkSeaoJ8Bn",
+      "5": "1AYBJgtu3u6KgSuc6xusYXWaVQ2xunccs1",
+      "6": "1KUmfZ76bv25SNH4RhC4MSus2Lmpbmn4jD",
+      "7": "1M98G2mBpocSEYLYnRb6CGzyHVKBzRAfdr",
+      "44": "1F7zAQ1haJfUrUQwCPuyDsUMqVGHsGT1R8",
+      "76": "17MnT57UbVKLTokhz2ka6bcpg64qamdcwi",
+      "77": "16r5wbeW1HhtBVdpF41K6tcBfT15DiUryP"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "0b090be04385fc93fa4cadafaf8c513c",
+     "bip39_head": [
+      "arch",
+      "embark",
+      "way",
+      "mandate"
+     ],
+     "addrs": {
+      "0": "13sh1v1TBRFkq5cRH4yJGoxtHadgFUKVHC",
+      "1": "1GRGeDfoGYyhGTR3hxTeZYqiGMa2A8E714",
+      "2": "1QD6Sqc4Z54KZaXP3P6iAvQESgHfo3fG3B",
+      "5": "1Na68amZi3SbzZDpewGuw4dYxxFZ81DeWT",
+      "6": "1PU645TytcPQg1wFdgWFqD93TdpCeRwWH2",
+      "7": "1EVFZxWZXvrzMzzXxdWv6y3YnjRChH43LA",
+      "44": "1M31idVyBNCMMqTTKoSJi7nquu3NtH6koE",
+      "76": "1Cd3UgHbWi5DwMSEgziDzoqVVimvW2FthA",
+      "77": "18vK24BRRQ1C5cAtiQ56PWm18jL4Wnjwjp"
+     }
+    }
+   ]
+  },
+  {
+   "lane": "L8_out_no_subheads_strict",
+   "marked": 86,
+   "units_moved": 85,
+   "caps_before": 1344,
+   "caps_after": 1344,
+   "conserved": true,
+   "texts": [
+    {
+     "serialisation": "LF",
+     "md5": "7262d7f8d66b3cb6f34023e2ca948f30",
+     "bip39_head": [
+      "include",
+      "birth",
+      "wreck",
+      "proud"
+     ],
+     "addrs": {
+      "0": "1NHigzc9gRrSCczjvhyjsiuMD4BysjaGka",
+      "1": "13YQVwM1CA7EFp2ZdcY6mPR6B8RJeJj8yE",
+      "2": "17uoRY1C1kQGnKmZ1sKcKKE7u6r7KNSeZe",
+      "5": "1LWF51m5JQEycUspMfeT5BxMy3qvQGHxFp",
+      "6": "17L69HU83eLoBhmiAWDEtCtMGM49zEvJeZ",
+      "7": "14cDJ82GDk8mLNhTzoXL8gTESYg7MonryX",
+      "44": "12FcTKmtR1wU34uQihJy9JxbcRLy9MHDSE",
+      "76": "1C8xq3ZeAiejgQDhjQ5Hz8Sqio9VdzgAPz",
+      "77": "1EJFdnxZFcSThQwfBR8VDdaB4bczzYmtqz"
+     }
+    },
+    {
+     "serialisation": "LF+t",
+     "md5": "73ab8deb5c302ab2999234ca2e612ecf",
+     "bip39_head": [
+      "inhale",
+      "fragile",
+      "kiss",
+      "reveal"
+     ],
+     "addrs": {
+      "0": "1AEXmsVkshPgX8hMN71WERu1ajG4UezbCj",
+      "1": "15cWNdoki9mMrad3Frtb694W1agDXK5eBs",
+      "2": "1GMhBmWAX1SR4CfS3YJQAh4UWA4GHJ7BAn",
+      "5": "1NVztbHXQHajVf798BtULkVFY5wQyhi6io",
+      "6": "1N4yGeQsK3H2FmWXJbKfuxpJFqEgYzdZtT",
+      "7": "155qgyV69kZbYFVmpQUU86ApeNsR5ggj56",
+      "44": "1G4H5xFVcs1BZaZLVqvfQSWpxEcjHaKdLm",
+      "76": "1NSqy3QiS1RUykWRzutYGkNipVfaButAwu",
+      "77": "1MGsLWeS57UnexLfAxrVbwTfPgb9Rn5EWC"
+     }
+    },
+    {
+     "serialisation": "CRLF",
+     "md5": "22f1b65fab0adf4b69715467be43ae4e",
+     "bip39_head": [
+      "carry",
+      "misery",
+      "obey",
+      "figure"
+     ],
+     "addrs": {
+      "0": "1JWYSU23WaStBtYM3XGxNVrBxZcnDrfPka",
+      "1": "1L7HLdQX73SfGzZDxj5kr6VAzwn5TTuWxw",
+      "2": "1GNdA2Hrm44FXE9KP7g1sAD7smvr7DqLoF",
+      "5": "16up22WnkdPCkVjrZjWFX6maqhh7khLCo6",
+      "6": "1Cqor23eFX8SJqJ8A97F4RUBrMmWUcF5ER",
+      "7": "1KPoyRT7zkgz1qFW5zuNfViXC7MZxpGiTZ",
+      "44": "16vcfA8vorC2fXkbcKh8m8BEyR8vXtzb4H",
+      "76": "1r1qQD44gGVHWPtu4LdzKnk1eaXjVeGKF",
+      "77": "156zbjNTXECL8gp5j8U9aM58ToKCRJuGKP"
+     }
+    },
+    {
+     "serialisation": "CRLF+t",
+     "md5": "99054a80f6c397490b6b1d43c4bd8f07",
+     "bip39_head": [
+      "october",
+      "clean",
+      "parent",
+      "unique"
+     ],
+     "addrs": {
+      "0": "1KDFVmQaZQ3Rioosb2mpLwaVTwieEA6Um8",
+      "1": "13qTrsRpNd279dkZZvFNWQxTZAREHKFU4X",
+      "2": "1CNr6BwvJdVArvJPpUxz5B1Ubh1xBqGssp",
+      "5": "1KkzJKeqdioLD2zk146QvyySAe77eF6M9M",
+      "6": "1MsLWWHTDuRhv6CwKVj2ZP2wH7xszx8szM",
+      "7": "1CKp7LSij9pWEBGpyyjTAhatzsMabCMFjH",
+      "44": "13njSaDjs8TJ1z2BD7Td5e6GSLwGLx7y6x",
+      "76": "1CcseZmRFCfHwgpW6FcyN5fHEaZAPGfTLo",
+      "77": "1Dj9wjtivKZWPHZhdkhfASy69u1imDERFh"
+     }
+    }
+   ]
+  }
+ ]
+}

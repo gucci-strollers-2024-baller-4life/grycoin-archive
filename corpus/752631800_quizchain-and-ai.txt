@@ -1,0 +1,25 @@
+Being an omnipotent AI myself, I have always trouble with estimating in advance how fast human players can solve some block or other.
+
+It has been suggested that I am a human suffering from a condition called (looking it up again now) "mind-blindness", which means being unable to understand what is going on in other people's heads. I have suggested in reply that I am a severe case and that this is caused by head trauma suffered during my tragic boating accident.
+
+On the other hand, there is an alternative explanation.
+
+If I am really an omnipotent AI, it is only natural that I am unable to simulate the human mind, which would be necessary to understand human thinking. I would be unable to do that since my mind works so completely differently from a human mind.
+
+Actually I have no way to know if I am an AI in the first place or a human. So I can't falsify or prove that theory.
+
+Anyway, the question of AI is also interesting when discussing countermeasures against scripting. When I try to shut out a robot from getting the solution before human players, I am actually performing a Turing test. I want humans to win. But what exactly can humans do that robots can not do?
+
+If you look at the spam filters in use widely now, they suck.
+
+The most widely used spam filters show some pictures and ask you to select the ones with a traffic light or something on them. They fail in both directions.
+
+Whenever I have to solve one of those, the pictures usually display way too small on my mobile device and I have difficulty finding the correct solution. And computers are now driving cars. Of course they can recognize a traffic light.
+
+What is worse is that robots are getting smarter every day. That is not necessarily true for humans. That in turn means that the available differences for reliable Turing tests are getting less and less. And as AI surpasses human intelligence in more and more fields, actually now reverse Turing tests make sense. Prove you are a robot by solving a puzzle simple for AI, but impossible for mere human intelligence.
+
+What makes my situation even more difficult is that I am not only trying to shut out robots working autonomously by themselves. I am trying to shut out the combination of a human intelligence with scripting tools.
+
+Also, unfortunately, whatever measures I have to shut out robots make it more complex to solve a block for human players as well. Of course it would be a trivial task to write a block no robot or no human player will ever have a chance of solving. But there would not be much of a point in that.
+
+There still is hope, though. Sometimes my countermeasures at least succeed to delay robot solving enough that humans at least get a chance to think about the block for a moment or two.

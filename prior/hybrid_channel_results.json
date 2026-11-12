@@ -1,0 +1,329 @@
+{
+ "escrow": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+ "indices": [
+  0,
+  1,
+  2,
+  44,
+  76,
+  77
+ ],
+ "combinations": 8,
+ "texts": 96,
+ "derivations": 864,
+ "hits": [],
+ "rows": [
+  {
+   "set": [
+    20,
+    128,
+    220,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IVAA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    128,
+    220,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IVAA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    128,
+    220,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IVAA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    128,
+    222,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IVTA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    128,
+    222,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IVTA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    128,
+    222,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IVTA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    136,
+    220,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IBAA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    136,
+    220,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IBAA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    136,
+    220,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IBAA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    136,
+    222,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IBTA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    136,
+    222,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IBTA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    20,
+    136,
+    222,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IBTA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    128,
+    220,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IVAA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    128,
+    220,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IVAA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    128,
+    220,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IVAA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    128,
+    222,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IVTA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    128,
+    222,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IVTA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    128,
+    222,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IVTA",
+   "finals": "slss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    136,
+    220,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IBAA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    136,
+    220,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IBAA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    136,
+    220,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IBAA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    136,
+    222,
+    273
+   ],
+   "mode": "edge",
+   "moved": 4,
+   "initials": "IBTA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    136,
+    222,
+    273
+   ],
+   "mode": "repair",
+   "moved": 3,
+   "initials": "IBTA",
+   "finals": "ssss",
+   "derivations": 36
+  },
+  {
+   "set": [
+    42,
+    136,
+    222,
+    273
+   ],
+   "mode": "clean",
+   "moved": 1,
+   "initials": "IBTA",
+   "finals": "ssss",
+   "derivations": 36
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+1023 subsets
+1 hits with 3c6 prefix
+no escrow match among hits

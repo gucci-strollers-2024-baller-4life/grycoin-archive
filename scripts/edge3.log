@@ -1,0 +1,32 @@
+START
+join 0: 544 positions, 147696 pairs
+  join 0 i=0  tot=544 hits=0  1s  572/s
+  join 0 i=40  tot=21484 hits=0  38s  572/s
+  join 0 i=80  tot=40824 hits=0  71s  572/s
+  join 0 i=120  tot=58564 hits=0  102s  571/s
+  join 0 i=160  tot=74704 hits=0  131s  571/s
+  join 0 i=200  tot=89244 hits=0  156s  571/s
+  join 0 i=240  tot=102184 hits=0  179s  571/s
+  join 0 i=280  tot=113524 hits=0  199s  571/s
+  join 0 i=320  tot=123264 hits=0  216s  571/s
+  join 0 i=360  tot=131404 hits=0  230s  571/s
+  join 0 i=400  tot=137944 hits=0  241s  571/s
+  join 0 i=440  tot=142884 hits=0  250s  571/s
+  join 0 i=480  tot=146224 hits=0  256s  571/s
+  join 0 i=520  tot=147964 hits=0  259s  571/s
+join 1: 544 positions, 147696 pairs
+  join 1 i=0  tot=148784 hits=0  260s  571/s
+  join 1 i=40  tot=169724 hits=0  297s  571/s
+  join 1 i=80  tot=189064 hits=0  331s  571/s
+  join 1 i=120  tot=206804 hits=0  362s  571/s
+  join 1 i=160  tot=222944 hits=0  390s  571/s
+  join 1 i=200  tot=237484 hits=0  416s  571/s
+  join 1 i=240  tot=250424 hits=0  438s  571/s
+  join 1 i=280  tot=261764 hits=0  458s  571/s
+  join 1 i=320  tot=271504 hits=0  475s  571/s
+  join 1 i=360  tot=279644 hits=0  490s  571/s
+  join 1 i=400  tot=286184 hits=0  501s  571/s
+  join 1 i=440  tot=291124 hits=0  510s  571/s
+  join 1 i=480  tot=294464 hits=0  516s  571/s
+  join 1 i=520  tot=296204 hits=0  519s  571/s
+DONE tot=296480 hits=0 519s

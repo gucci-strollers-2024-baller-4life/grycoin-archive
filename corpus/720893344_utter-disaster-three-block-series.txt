@@ -1,0 +1,48 @@
+The chain of three blocks from 42 to 44 had multiple massive issues, two of them caused again by my mistakes.
+
+That is excellent news, because the mistakes help to improve the format, which is the purpose of this little experiment.
+
+There were three things that went wrong.
+
+For starters, both block 42 and block 43 got removed on Reddit. That was the first time that happened, so I was confused. Did the Vogons eat block 42?
+
+After some consideration of the issue, I realized the reason. It was that I included a link to this Wattpad page in both blocks. If I understand correctly, Reddit removes certain posts by automoderator. And one of the things that qualify for automoderation is including a link in the compressed Twitter format.
+
+For Reddit, they don't like the fact that their users can't see the domain name they are clicking on in advance. That makes it easier to lure users into clicking malware links or links to content of dubious moral standing. Users who fell for such a ruse will be unhappy about Reddit, so Reddit wants to reduce that risk.
+A human moderator might click on the link, conclude that it is not malware or objectable for other reasons, and let the post pass. The automoderator has no such functionality built in.
+
+So anyway, that is my best guess on what happened. Avoiding this problem from occuring again is easy. I just need to avoid any link in Twitter format in a Reddit post.
+
+Noted for future reference. This particular problem will likely not happen again.
+
+My second mistake is that I managed to forget including the link to block 43 when I hashed for block 44. First time that happened.
+
+Some background on that. I drafted that post for future use at a time I had no idea it would become block 44. And therefore at the time of drafting the idea, I did not include the link because I did not have that info myself.
+
+When using that idea, I was so in love with the idea itself that I overlooked this point. Sorry for that. I have 
+countermeasures in place against that happening again.
+
+As it turns out, that might have actually been a good thing in this case, because of the problems with the preceeding blocks mentioned above. And because of another very interesting problem with block 43.
+I was somewhat surprised to see someone solve block 43 and claim the prize before block 42 was solved. 
+I conclude that someone found the right answer (good job) and then proceeded to test every possible combination of the three digit link.
+
+This is a brute force attack. And it succeeded. Excellent news, because I see a weak point in the format. So I can get rid of that weak point. Which is easy, at just about no cost for human players.
+
+One easy thing I can do is use all digits from the previous private key except the last three. That should make it utterly impossible to brute force a link. And humans will just copypaste the left side of the private key once they find them.
+
+So this format change has the ideal result of making brute forcing a link completely impossible while adding close to zero work for humans.
+
+Again, thank you to whomever did the block 43 link brute force. You have provided valuable help to improve the format. Good job finding the solution too.
+
+It was an interesting coincidence to see that my two mistakes sort of cancelled each other out.. People were able to challenge block 44 even with the fairness of the process for blocks 42 and 43 in question. Having no link actually worked to mitigate damage from that problem. 
+
+I also note that for some reason the Bitcoin addresses for the funds in both block 42 and block 44 start with the same number 8, which is a specially nice fit for block 44, but completely random luck this time. Getting 8 for block 44 is unlikely, and getting 8 for both of these at the same time is even less likely to happen.
+I wonder if I can use that coincidence for a block in the future...
+
+This three block chain has survived much longer as the last one. Obviously both challenges in 42 and 44 are fairly hard to solve. That is bad news for players trying long and hard, but good news for people seeing these blocks only a couple of hours later.
+
+Anyway, I have no way of really knowing in advance how many minutes or hours a block will survive without hints. The only way to find out is to just go ahead an post the block.
+
+I also just introduced a new hint format for these two hard blocks. Don't give hint immediately, but announce in advance. And then make the hint itself a quiz in a tweet storm, with the hint getting increasingly easy to understand as time progresses between tweets.
+
+Thank you for playing. Next three block quizchain will have BFUB format for all three, but the BFUB field in 45 and 46 will be fixed in the question, making those easier to solve.

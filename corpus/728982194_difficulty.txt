@@ -1,0 +1,29 @@
+
+The Bitcoin blockchain increased considerably in difficulty. It is completely based on brute forcing a search for the next block.
+
+In contrast, the difficulty of this quizchain is not necessarily increasing all the time. Some of my ideas may be difficult to see. Some may be comparatively easy.
+
+I mostly have no clue on how hard or easy a block will be before posting it. The only way to find out is to just do it.
+
+That in turn means I don't have a difficulty target, like in the Bitcoin blockchain.
+
+One could imagine having such a target. What I am doing here is setting up a password for a brain wallet and trying to hit the zone where finding it is actually possible, while not trivially done in two minutes. That would give an unfair advantage to whatever player happens to see the block first.
+
+One of the ways a puzzle can be solved trivially is leaving it open to a brute force attack. To block brute force attacks, the puzzle needs a minimum of entropy. One could measure this. Measure the entropy of the solution, then add the extra entropy provided by the TOMI field.
+
+And one could imagine having a entropy goal. 
+
+I don't have one right now. I am relying on my intuition and the little I know about password cracking to avoid having blocks that are easily brute forced. I rely on intuition to avoid blocks that are impossible to solve for human players.
+
+There are two failure modes. One is where I post a block that anyone with scripting ability and experience in cracking passwords can easily brute force before human players get a chance to think about it.
+
+The other one is where brute forcing is blocked, but human players also have no way of finding the solution.
+The former failure mode is more serious. That's because I can always give hints if it turns out that no one sees the light on my puzzle idea.
+
+In contrast, if a block is solved in 30 seconds with some script or other, there is nothing I can do about it. There is no way to increase difficulty after posting a block.
+
+Maybe I should go back and try to estimate the objective difficulty of all blocks until now, measured in combined entropy of solution and TOMI field. Might be of interest to understand the format better.
+
+Anyway, this discussion was partly motivated by recent comments asserting that some of the blocks are too difficult.
+
+I agree. Many blocks are difficult without hint. And they are supposed to be difficult. There are smart and talented wizards challenging these blocks. It would not do to have obvious answers.

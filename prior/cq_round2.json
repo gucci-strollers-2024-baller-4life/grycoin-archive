@@ -1,0 +1,119 @@
+[
+ {
+  "block": 1,
+  "lines": [
+   "Solved fast after second hint. Congrats to the winner of this big block and thank you to everyone for playing. As the winner has explained in comments, solution was U2 (a rather famous band name). And it was derived from the hint by reading M upside down and then W as UU, which is one step away from the solution. TOMI field was just \"upside down\".",
+   "I think it is an interesting coincidence that this name can actually be reduced to one single letter and that said letter has an upside down partner in the alphabet."
+  ]
+ },
+ {
+  "block": 2,
+  "lines": [
+   "Winner also explained his solution in detail in comments below. Thank you for that feedback and congrats for winning one of the big blocks.",
+   "I have not much to add to the explanation. This was just using the puzzle string in the latest Wattpad chapter on quizchain as a password manager in exactly the way it was described there and then pick the second private key under that puzzle string.",
+   "Second private key because this was block 2, or the second block.",
+   "Resistance to solving this depended mainly on people not realizing the connection to the Wattpad chapter, once you got that it was only a question of choosing the right private key with not ever so many plausible candidates.",
+   "(Winner's explanation):",
+   "The key is the wattpad chapter about \"Quizchain as a Password Manager\" [link]. If one uses the example master key from that chapter to do the outlined procedure, one finds the 2nd private key from that brainwallet is the solution to this puzzle.",
+   "IOW the steps are:",
+   "Start with \"BaSCifCatfAaa1i\"Metamon from the wattpadMD5 hash that to get 2941774a2abec9f30c7d6777d1d53d91Generate BIP39 wallet using that entropyTake the 2nd private key from that wallet as the \"strong password\" solution to this block: L5Z66qPmUkTAsWQywjRNHDxHrX6J1X1SQedp6V8QsbaXR7rGd6exMD5 hash that to get 7b44cc11c866ab85b7078c43ad6795e1Generate BIP39 wallet using that entropyPrivate key for this block is KzFB7hBGmLBqm8nqVCVLBmgyd1NxnoJXZUhE377QL4T2iy5rw4Wz",
+   "In step 4, we use the 2nd private key because the 1st one is used for something else according to the wattpad story (I hope it actually is not used as someone's twitter password...)"
+  ]
+ },
+ {
+  "block": 3,
+  "lines": [
+   "Solution was \"reorg\" and TOMI field was \"CZ Binance\". This used the recent news on the Binance hack and the discussion on doing a BItcoin chain reorg. CZ apologized for using this \"dirty word\".",
+   "I have not much to add, except that the \"XA\" in the question was \"CZ\" in Atbash code. Would have been just slightly too obvious without that twist. And if I had wanted a slightly more difficult puzzle, I might have used \"Atbash CZ\" as the TOMI field.",
+   "(Winner's explanation):",
+   "VICTORY IS MINE",
+   "The solve that I decided going with was: \"reorg TOMI CZ Binance L2e6gPSXnq7KJBfkoD7cHGVZuhRUDARJz2Cc9JcSNLsKRZhH552F\"",
+   "This was for a few reasons. First, I knew it wasn't a \"dirty word\" in the traditional sense from this: \" No, not that kind of dirty word, this is safe for work.\" Second, I knew it was going to be related to the crypto community because of this reference: \"It may hurt your feelings thinking of that.\" With this information, I remembered an article I read recently about the CEO of Binance, who apologized for using the \"dirty word\" reorg. Plugging it into an MD5 converter, it spits out an MD5 hash starting with 1. At this point, I know the TOMI was going to be something related to him, so I ran a few different ideas through. Eventually, I decided to try to run his twitter handle through, CZ Binance, and to my surprise, everything was going to plan! Now, armed with my completed solve, I ran that through the MD5 generator, and I actually freaked out when it spit out 5f6 as the first three digits lmao. From there, I followed the rest of the instructions for claiming my prize, which ended up taking me more time to figure out than it took to solve the problem. I had to set up an emergency wallet because my bitcoin wallet was installed at home, not on my work laptop. I clearly must have gotten lucky lol. Cheers to Aoi Nakamoto for setting this up, it was my first puzzle and really enjoyable!"
+  ]
+ },
+ {
+  "block": 4,
+  "lines": [
+   "Once you see the word in the previous block private key, it becomes easy. That is the reason I did not include a link, since it would become too obvious. Another word in a private key, like Hoax and hit earlier. And another one related to our topic, since Bitcoin's original purpose was to keep privacy intact after migrating payments to the Internet. I feel lucky to find these words.",
+   "(Winner's explanation):",
+   "Solved, thanks! solution is \"MasK TOMI previous block private key\". The PK from the previous block was L488KiS3jUut79rDM6gwxUdg7Qm1SXwQnMasKLpzFzb6KrNLsFpT which contains the word MasK. First obvious thing then to try is the actual PK for the TOMI because the twist would be that it actually included a link. But that did not work so you had to try a few more things."
+  ]
+ },
+ {
+  "block": 5,
+  "lines": [
+   "Solution was \"bat bot bit bet but\". As winner posted in comments, a similar concept was tried in a block of the first run. I think it is fun to note that the \"bit\" in Bitcoin is a word with almost all vowels, with Y the only exception."
+  ]
+ },
+ {
+  "block": 6,
+  "lines": [
+   "Solution method was to look in the coleman tool wordlist of the previous block solution, then use the first six words from that word list. The hoax was having a five word bat bot bit bet but puzzle in the block before, getting people to search in that wrong direction."
+  ]
+ },
+ {
+  "block": 7,
+  "lines": [
+   "(Explanation by winner):",
+   "Solved by human thinking. Beep boop! :D",
+   "\"Grycoin TOMI angry Atbash hungry\"",
+   "Finally got it after the hint! Atbash of BIT is YRG. YRG can be rearranged to GRY. Gry is the name of a popular word puzzle (https://en.wikipedia.org/wiki/-gry_puzzle). Gry is also an archaic word that means small amount.",
+   "For the TOMI, the two words that end in -gry are angry and hungry. Since I got to Gry using Atbash, I tried the word Atbash as well, and I organized these words in alphabetical order."
+  ]
+ },
+ {
+  "block": 8,
+  "lines": [
+   "I used the famous passphrase \"correct horse battery staple\" for this one as a challenge to the players that rely on scripts to get their solution. I wanted to see if they catch that and the block is claimed immediately.",
+   "As it turns out the bot players here did not catch it immediately, which left at least a fair chance for human players to think of the solution. That is all I want to achieve with brute force blocking methods.",
+   "I did add a slight twist by repeating that passphrase, but I am pretty sure that outside crackers have that covered already, which is why I shut them out by including a link."
+  ]
+ },
+ {
+  "block": 9,
+  "lines": [
+   "Solution was K-9, TOMI field was police dog. Method was replacing the \"K\" by the number 11 because that is the place of K in the alphabet. K-9 is pronounced like \"canine\", which is why this code is used in many police forces."
+  ]
+ },
+ {
+  "block": 10,
+  "lines": [
+   "Solution was ghost, method was to look in the mnemonic of the previous block, which was also used in block 6 of this second run. TOMI field was previous block mnemonic. And the method to take the solution from the previous block was first used in block 68, where I took a 10 digits password from the previous block private key.",
+   "The twist was not taking the obvious choice (third word from the beginning), but the third word from the end of the list.",
+   "This turned out to be a very unpopular block, maybe the worst received in the whole experiment until now. I got some angry comments."
+  ]
+ },
+ {
+  "block": 11,
+  "lines": [
+   "Solved and prize claimed, unfortunately with zero feedback from winner. For all I know some outside bot has grabbed this prize. That is quite possible since I did not protect the block with a link.",
+   "The method for this was similar to block 11 of the first round. In that block, I added nothing to the question. In this block, the solution is close to nothing (similar to block 44 of the first round).",
+   "Starting from nothing, the two alternatives are one space and one line break. For this block I chose the first alternative, with \"one space\" as the TOMI field. May have been lacking in entropy against outside bots and against script players. Maybe right now some lucky outside bot artist is wondering why he just scored 7 mbtc..."
+  ]
+ },
+ {
+  "block": 12,
+  "lines": [
+   "The three words in brackets are one of the meanings for the word \"coy\" I found online. I thought that was a nice match for a puzzle. The words \"coy ring\" resolve as an anagram to Grycoin. So solution was Grycoin, TOMI field was coy ring anagram.",
+   "I really need to try harder making easier puzzles. Next one coming up tomorrow 10 pm should for the very least be easier than this one.",
+   "Update:. As noted in comments, solution was grycoin, not Grycoin. First mistake of this round. Sorry for that. Big 77 mbtc block coming up for 14.",
+   "(I made a mistake in answering a question in comments about the capitalization)."
+  ]
+ },
+ {
+  "block": 13,
+  "lines": [
+   "I was right for a change, this was an easy block, solved within minutes. Method was using Atbash on the solution Pizza (for Bitcoin Pizza day today). The most difficult part was getting the spelling of the name Laszlo Hanyecz right, which went into the TOMI field. Congrats to the winner and thank you everyone for playing. Stay tuned for the next big 77 mbtc block coming up tomorrow at 5 pm Japanese time."
+  ]
+ },
+ {
+  "block": 14,
+  "lines": [
+   "Solved soon after this second hint. As indicated by the winner, who is totally not me, solution was the first and the last seven digits of the genesis block address, not counting the prefix 1. A1zP1eP7DivfNa. Congrats to the winner, who is definitely not me, and thank you everyone for playing."
+  ]
+ },
+ {
+  "block": 15,
+  "lines": []
+ }
+]

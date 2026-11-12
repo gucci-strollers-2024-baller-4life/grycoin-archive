@@ -1,0 +1,62 @@
+{
+ "R1:1": {
+  "algo": "SHA-256",
+  "input": "Satoshi is an anonymous cypherpunk and the first one to succed building private Internet cash.Pzd",
+  "entropy": "50611e63a52089bc14e38becb1ad8880be6ba8f4aff0e64223f3dbd740adc1b7",
+  "mnemonic": "expire angry ocean engage ancient task fatal imitate uncover miracle giraffe accident trade stamp sport wrap town baby woman response inject finger almost trap",
+  "path": "m/44'/0'/0'/0/0",
+  "priv_hex": "ec144fc9b479846aa03b6b8b0217905039442a82f5058e734efab6c5beac32c5",
+  "wif_compressed": "L58cp8Ex3RsTsiKaaeodmu7SetzDzqQkzfX3bAtjdtmu4KbTpUzp",
+  "address": "16NLaozWwi4JSTRMnMfi3oCkBjXBWVFgYR"
+ },
+ "R1:2": {
+  "algo": "SHA-256",
+  "input": "I posted A similar messaGe to the Basecamp, but had to also come visit You all here oN Reddit.Uzp",
+  "entropy": "e743564b041b97e4d61897cb41f90b83b38105298ccbd36899786b0c742e600d",
+  "mnemonic": "trap boy name amused ride venue flash base slender average drill alter day little plate offer square dynamic fun stock shrug blame lens present",
+  "path": "m/44'/0'/0'/0/0",
+  "priv_hex": "5603ab378320511fd7dcacb15e6237542053f2b2b0509757ac6946ed4c5cf19b",
+  "wif_compressed": "Kz6upYXvTYY7r8uYZsRuuyyhbcRvXe6tKDFusRKco31Vw2TLihBF",
+  "address": "1JP2qF74zzgz6FMzsmk7nxUeYd7aYCAMHc"
+ },
+ "R1:3": {
+  "algo": "SHA-256",
+  "input": "777hBF",
+  "entropy": "4b1f87124aa427ca3f7e7dbf3d8ee8bf7e3985c488be5d7d53e65119b631d743",
+  "mnemonic": "enrich wire setup next draw topic worth soul sand unaware riot leave toe seed banana blind frost tunnel wet peasant opinion body fringe learn",
+  "path": "m/44'/0'/0'/0/0",
+  "priv_hex": "221f28325356859b0bf7852505ee601eaa003ab5d3513fdcfa46f08bb4d7d35c",
+  "wif_compressed": "KxN3DX8bKLTMNhppf6FqjvCKaLBCi5mN5vGyVNQRUxjdwt4o683S",
+  "address": "1Nsi6LxpKqg5CDVrswn6YPNQaGBhdhUCMs"
+ },
+ "R2:1": {
+  "algo": "MD5",
+  "input": "U2 TOMI upside down L2e6gPSXnq7KJBfkoD7cHGVZuhRUDARJz2Cc9JcSNLsKRZhH552F",
+  "entropy": "33c6780dcbd5927d8510d924278a0e4e",
+  "mnemonic": "critic critic address nut float disagree begin brass category detail logic oven",
+  "path": "m/44'/0'/0'/0/0",
+  "priv_hex": "b0c64ecd52c4c7e52ebf0565e31988a6823057e0116bb3f836f6e70d1afa1ab8",
+  "wif_compressed": "L39LYDM5ehxxN9H6MLwQ2duJbsVucNuoHwZJAaYfLhL9RtHVHZAt",
+  "address": "15BbSHKqRsaH9oGk8zfTD5NZfRdXyySvMS"
+ },
+ "R2:2": {
+  "algo": "MD5",
+  "input": "L5Z66qPmUkTAsWQywjRNHDxHrX6J1X1SQedp6V8QsbaXR7rGd6ex",
+  "entropy": "7b44cc11c866ab85b7078c43ad6795e1",
+  "mnemonic": "kitten chapter afford move height security swing various dry hen tornado sell",
+  "path": "m/44'/0'/0'/0/0",
+  "priv_hex": "5a43f7e0df79df0da70bab71b0bdbbeb3f3230f4dddfb39ccf0226b7d6f4d67a",
+  "wif_compressed": "KzFB7hBGmLBqm8nqVCVLBmgyd1NxnoJXZUhE377QL4T2iy5rw4Wz",
+  "address": "13qUHVzMYAneyyBGYvEey4SHy2iMSz3Jzh"
+ },
+ "R2:3": {
+  "algo": "MD5",
+  "input": "reorg TOMI CZ Binance L2e6gPSXnq7KJBfkoD7cHGVZuhRUDARJz2Cc9JcSNLsKRZhH552F",
+  "entropy": "5f6870da0f9c9553647e89c89d79f9a6",
+  "mnemonic": "garage drum custom busy sing predict music spell silk type lazy erase",
+  "path": "m/44'/0'/0'/0/0",
+  "priv_hex": "cdfd3f9cb77cea956dee881ddd0b0a2c6ad0a66e6dcc1433b8a3f6078e87c681",
+  "wif_compressed": "L488KiS3jUut79rDM6gwxUdg7Qm1SXwQnMasKLpzFzb6KrNLsFpT",
+  "address": "1FsYtK22FBG7Ps3K7KZUYDQRs6gDxXjwQX"
+ }
+}

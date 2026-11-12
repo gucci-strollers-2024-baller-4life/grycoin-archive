@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+bnd_*.txt
+ninjaops-puzzle-lanes/
+crypto-puzzle-master-grid/

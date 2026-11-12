@@ -1,0 +1,290 @@
+[
+ {
+  "tag": "W1/windows-final-up/LF",
+  "md5": "b65f856e866a087d66629b2ce83cda8a",
+  "addr0": "1PbuYLv4VVBBghfDHYsjY6vBigzm5QtUY5",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W1/windows-final-up/LF+t",
+  "md5": "1ae9cd1d6f0e64f1a099104935d908c7",
+  "addr0": "1KXb6GT4THT84ZJQk4XKFPbnoSkY5VHGrs",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W1/windows-final-up/CRLF",
+  "md5": "b11376ce1e3ff50591054e4fcc8717dd",
+  "addr0": "1MXPDwzSPd4EyMddWvxbnCuNzjq5qryjbr",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W1/windows-final-up/CRLF+t",
+  "md5": "4a3997e2cbb1dc64a4992259ce6d0250",
+  "addr0": "1JzrmTNBZhSSxbuMKMi6DT5auStZHeajPR",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W2/windows-final-up+init-down/LF",
+  "md5": "e4ec7577e9a80d66a06196f2c6e1182f",
+  "addr0": "17eAJEosbfgS2B4aqK9SvuACja2YvWqRkJ",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W2/windows-final-up+init-down/LF+t",
+  "md5": "1eaab5fd452aaa60dfc1a20ae41af3ff",
+  "addr0": "1PKfFJpT1oJgxfE9kGF6LauHHuppextnum",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W2/windows-final-up+init-down/CRLF",
+  "md5": "e0ef4e5ad41596a16e82e1c9201b67a6",
+  "addr0": "1AhkUFKAz5jr6LGDtvVqeh9epCU8sRtoQ",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W2/windows-final-up+init-down/CRLF+t",
+  "md5": "f6e1502d0d959b1e8a35d5c79b263744",
+  "addr0": "1DKfAdPd7vYBu6mwoErTqZYs1Do9v1aehc",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W3/signs-paras-final-up/LF",
+  "md5": "b8765b3b741d9faefe94f5005a7ff7bf",
+  "addr0": "12ufb7pKvE2HKoBXY2v9N5Fqg8CzzjqURw",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W3/signs-paras-final-up/LF+t",
+  "md5": "baa742eb663f99f4c249d5259b363dce",
+  "addr0": "1CVpw5BrisbxShZuZnmMEzqwSyjMufHJWW",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W3/signs-paras-final-up/CRLF",
+  "md5": "dc39ca0e848020b145d587b6b9cdbbc5",
+  "addr0": "19cpQmbmkSEzA1R6qd8gvj4PVW7HvCT8EP",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W3/signs-paras-final-up/CRLF+t",
+  "md5": "7737e69a78f314321c2d5bd1a8fa79c5",
+  "addr0": "19uxUksiNEKUPoQDwdcTwW7GTt8HE6bY3C",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W4/reprint-final-up/LF",
+  "md5": "1b1ecc7647f65888609c6c45e4885ad2",
+  "addr0": "19wz5gzD6YV5kcYVrc9tG23dQXiVLJCrGX",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W4/reprint-final-up/LF+t",
+  "md5": "ba9ea3c51fd9b270ce336dbba1167ca1",
+  "addr0": "1DMjfJxj8nY3v5Juo1n7eT4DTBUQC8tzhL",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W4/reprint-final-up/CRLF",
+  "md5": "54e6f3425ef035e8f57fc6de36eff046",
+  "addr0": "14CeVPXV12Y1CRbKFhrV5fa87ps3XYRsxD",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W4/reprint-final-up/CRLF+t",
+  "md5": "7e0cb8c5efcda41f2d3f975c01c30bb4",
+  "addr0": "1CY8Sf6Hg99jSv6qn9bfp5sKZvpg24tFPQ",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7a/windows/LF",
+  "md5": "c3fa932e9abaad32942ea2eeb62432f9",
+  "addr0": "1PceAYhiBb4owAfYbQPw8ELrxLuGK7gfmW",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7a/windows/LF+t",
+  "md5": "f94c5cbe0f7b4cd468b126eb6e6ce4d3",
+  "addr0": "1Dj9ruTJuqTeMU6QKxzTvtT7V7Hehf5sMu",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7a/windows/CRLF",
+  "md5": "fb591e31514a1000cd06c436e3bcee83",
+  "addr0": "1J22YueSxsTY2iA64uputCS7qWVkwJLGd2",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7a/windows/CRLF+t",
+  "md5": "2f6b7d6889f88e284f77f8c627a722fb",
+  "addr0": "1KpNKNRuADKn21QFuuBmxkPZExzP74JSp5",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7b/S3/LF",
+  "md5": "e0d864e8f1cfa99f74854ac8c9cf5d36",
+  "addr0": "1ikqJwFyEa6AJGGwCnVkVMnLnBgeyihEj",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7b/S3/LF+t",
+  "md5": "3c3415f66ea103dd306fdf73759e7dc1",
+  "addr0": "1MPFTAkiFrzuvDf1MtVNkGbcjPU1tyNHm4",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7b/S3/CRLF",
+  "md5": "b9ce53a0cc6c6e91da97d7c379f1ad0a",
+  "addr0": "1HMDeLWSL19MnXixQnKZt8YPDRouxaKT7a",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7b/S3/CRLF+t",
+  "md5": "214b7202d842e95b3f0783bdcdb1dd7d",
+  "addr0": "1Bv7N5pmCERshU1RCtzZBjWeD9JncLg4ag",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7c/S5/LF",
+  "md5": "fa0cd73e324efd9f6e20293446cfc09d",
+  "addr0": "1GJNmFCGVTgGx9XPBcvCm6epm5wVEYiwcr",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7c/S5/LF+t",
+  "md5": "4d533dd528b3de9cc8c86eecac9173fb",
+  "addr0": "1G59njC4ZdaAyWwXSNn3P1oAEF8UhxG1qX",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7c/S5/CRLF",
+  "md5": "f1ad03cbc09e801e253705db69515d92",
+  "addr0": "1AyTTPfmYgcZTiHxzXw3ktYP2gBGPhmaWo",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W7c/S5/CRLF+t",
+  "md5": "f40e6774360d0601f4a6ce60eec28e1b",
+  "addr0": "1248WahKM8fcCvwErjvxscNpbhuYNE9eCS",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W5/para222-operand-words-final-up/LF",
+  "md5": "e5a10b75f8f11cd01d52df4befe266a7",
+  "addr0": "1CDQAEnKQ9566dDPba15BZ4qZxbhB8ABvo",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W5/para222-operand-words-final-up/LF+t",
+  "md5": "dcca865ad4e50ce97b1ff1a0b14306dc",
+  "addr0": "1FtqC1jD66DjnUp7jVdfXjWSc3VBYB8awJ",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W5/para222-operand-words-final-up/CRLF",
+  "md5": "e7c589ae71b4fb496f79011bbba7c5fa",
+  "addr0": "1JMqTSBfcr3DcmsyG8wDBQQTv7k6NYzGpN",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W5/para222-operand-words-final-up/CRLF+t",
+  "md5": "078c2c4c029f9b4262af6d8f93d7e5ee",
+  "addr0": "18L8qZUpUKw3cfnCuw5YkE25DfjjYpueqi",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W6/windows-STNM-letter-at-word-edges/LF",
+  "md5": "bbde3908ca451d1f27e32bd091a73927",
+  "addr0": "133PxF84sNGMZnMoFEgc3eixHe4jTotk5Y",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W6/windows-STNM-letter-at-word-edges/LF+t",
+  "md5": "3667d475926755a46de97d490ee59261",
+  "addr0": "1KQ6ZKiaFRSJjga2JYXohRt2SdNd2vARQ7",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W6/windows-STNM-letter-at-word-edges/CRLF",
+  "md5": "bc39c7399bd3adc0e9670b4fb8d226c4",
+  "addr0": "1J13PoWMKBg6BcoBq4QrKy6VaxkDNFay3h",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ },
+ {
+  "tag": "W6/windows-STNM-letter-at-word-edges/CRLF+t",
+  "md5": "72a1af2059d56558bff55b0b10b34a90",
+  "addr0": "1H5TNc1BKeZkQKUtTYHMFiLcetCVQzkHjR",
+  "hits": [],
+  "retired_hits": [],
+  "noop": false
+ }
+]

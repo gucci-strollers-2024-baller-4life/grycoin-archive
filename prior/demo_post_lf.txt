@@ -1,0 +1,23 @@
+I still have not completely given up, here is another block now.
+
+7 mbtc block, funding transaction below. I am pretty sure this one will not be solved by a robot before posting the block, so I will fund the block a couple of days in advance.
+
+https://www.smartbit.com.au/tx/f11eca9925c7809210796a3c8d95677dfaf0becb4f6df4c74e7261c3011a2e3c
+
+Checking a couple of minutes before posting I find my expectation confirmed. The funds are still there at the time of posting.
+
+Still not using a TOMI field, though. Does not need one.
+
+The main point of this block is to give a simple example for the format used in both phases of block 77, slightly developed from what I first used in block 2 and later in block 29 of the first run.
+
+Question:
+
+I thought I would write a bit about the format for block 77, giving a simple example for that.
+
+As is already clear from the reference to block 29, people are supposed to keep the whole long text and change only a couple of letters in their capitalization.
+
+For example, if the letter "n" at the end of the last paragraph was part of the solution, you would be expected to change it to "N" and write "capitalizatioN".
+
+For what it's worth, that "n" is not part of the solution, which is obvious to anyone able to recognize the signs.
+
+I expected otherwise, but actually not many people do recognize the signs in Satoshi's Bitcointalk post outing himself. Even after I explained the method used and the result in detail.

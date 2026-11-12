@@ -1,0 +1,203 @@
+{
+ "m1": {
+  "rows": [
+   [
+    "W1",
+    5,
+    "First",
+    true,
+    "keys",
+    false
+   ],
+   [
+    "W1",
+    6,
+    "For",
+    false,
+    "that",
+    true
+   ],
+   [
+    "W1",
+    7,
+    "When",
+    true,
+    "again",
+    true
+   ],
+   [
+    "W1",
+    8,
+    "When",
+    true,
+    "them",
+    false
+   ],
+   [
+    "W2",
+    93,
+    "For",
+    false,
+    "purposes",
+    false
+   ],
+   [
+    "W2",
+    94,
+    "Fairly",
+    false,
+    "budget",
+    true
+   ],
+   [
+    "W2",
+    95,
+    "When",
+    true,
+    "emission",
+    false
+   ],
+   [
+    "W2",
+    96,
+    "When",
+    true,
+    "them",
+    false
+   ],
+   [
+    "W3",
+    168,
+    "For",
+    false,
+    "this",
+    true
+   ],
+   [
+    "W3",
+    169,
+    "Face",
+    true,
+    "object",
+    true
+   ],
+   [
+    "W3",
+    170,
+    "While",
+    false,
+    "Dorian",
+    false
+   ],
+   [
+    "W3",
+    171,
+    "While",
+    false,
+    "them",
+    false
+   ]
+  ],
+  "init": [
+   "First",
+   "For",
+   "When",
+   "When",
+   "For",
+   "Fairly",
+   "When",
+   "When",
+   "For",
+   "Face",
+   "While",
+   "While"
+  ],
+  "term": [
+   "keys",
+   "that",
+   "again",
+   "them",
+   "purposes",
+   "budget",
+   "emission",
+   "them",
+   "this",
+   "object",
+   "Dorian",
+   "them"
+  ],
+  "acc_init": "FFWWFFWWFFWW",
+  "acc_term": "stnmstnmstnm",
+  "bip_init": 6,
+  "bip_term": 5,
+  "bip_all": 11,
+  "valid_mnemonic_length": true
+ },
+ "m2": {
+  "starts": [
+   5,
+   93,
+   168
+  ],
+  "deltas": [
+   88,
+   75
+  ],
+  "delta_to_reprint": 63,
+  "offsets": {
+   "88": "d coming, an unusual eve",
+   "75": "bout my second coming, a",
+   "63": " I'd write about my seco"
+  }
+ },
+ "leadins": [
+  [
+   "W1",
+   4,
+   "I",
+   "in",
+   "I"
+  ],
+  [
+   "W2",
+   92,
+   "I",
+   "now",
+   "I"
+  ],
+  [
+   "W3",
+   167,
+   "I",
+   "years",
+   "I"
+  ]
+ ],
+ "positions": {
+  "1": [
+   "keys",
+   "purposes",
+   "this"
+  ],
+  "2": [
+   "that",
+   "budget",
+   "object"
+  ],
+  "3": [
+   "again",
+   "emission",
+   "Dorian"
+  ],
+  "4": [
+   "them",
+   "them",
+   "them"
+  ]
+ },
+ "counts": {
+  "first_alpha_uppercased": 119,
+  "first_alpha_raw_case": 121,
+  "raw_index_0": 149
+ }
+}

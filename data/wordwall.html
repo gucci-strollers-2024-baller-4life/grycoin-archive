@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Second — word wall</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#f3eee3; --ink:#1a1712; --mut:#6d6659; --line:#d9d1c0;
+    --acc:#a8331c; --accwash:#eddfd3; --tile:#fbf8f1; --shadow:rgba(26,23,18,.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not(.light){
+      --paper:#14120f; --ink:#efe8da; --mut:#9b9384; --line:#2e2a24;
+      --acc:#e2603f; --accwash:#33201a; --tile:#1b1814; --shadow:rgba(0,0,0,.4);
+    }
+  }
+  :root.dark{
+    --paper:#14120f; --ink:#efe8da; --mut:#9b9384; --line:#2e2a24;
+    --acc:#e2603f; --accwash:#33201a; --tile:#1b1814; --shadow:rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:Inter,system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(circle at 1px 1px, var(--line) 1px, transparent 0);
+    background-size:26px 26px;
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:clamp(18px,4vw,44px) clamp(14px,3vw,32px) 64px}
+  header{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}
+  h1{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:-.015em;
+     font-size:clamp(2rem,6vw,3.4rem);line-height:.98;margin:0 0 6px}
+  h1 .sub{display:block;font-size:clamp(.95rem,2.4vw,1.15rem);font-weight:400;
+     color:var(--mut);letter-spacing:0;margin-top:8px;font-family:Inter,sans-serif}
+  .kicker{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);
+     font-weight:600;margin-bottom:12px}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
+  .chip{
+    font:inherit;font-size:12.5px;padding:6px 12px;border-radius:999px;cursor:pointer;
+    background:transparent;color:var(--mut);border:1px solid var(--line);
+    transition:color .15s,border-color .15s,background .15s;
+  }
+  .chip:hover{color:var(--ink);border-color:var(--mut)}
+  .chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .chip:focus-visible,.tile:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+  .count{font-size:12px;color:var(--mut);margin-left:auto;font-variant-numeric:tabular-nums}
+  .wall{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));
+    gap:clamp(8px,1.4vw,14px);margin:26px 0 30px;
+  }
+  .tile{
+    font:inherit;text-align:left;cursor:pointer;position:relative;
+    background:var(--tile);border:1px solid var(--line);border-radius:3px;
+    padding:14px 13px 12px;color:var(--ink);box-shadow:0 1px 0 var(--shadow);
+    display:flex;flex-direction:column;justify-content:flex-end;min-height:104px;
+    transition:transform .16s ease,border-color .16s,background .16s,color .16s;
+    transform:rotate(var(--tilt,0deg));
+  }
+  .tile:hover{transform:rotate(0deg) translateY(-2px);border-color:var(--mut)}
+  .tile .w{font-family:Fraunces,Georgia,serif;font-weight:600;line-height:1.02;
+    letter-spacing:-.01em;word-break:break-word;overflow-wrap:anywhere}
+  .tile.t1 .w{font-size:clamp(1.5rem,3.6vw,2.2rem)}
+  .tile.t2 .w{font-size:clamp(1.18rem,2.7vw,1.55rem)}
+  .tile.t3 .w{font-size:clamp(1rem,2.2vw,1.2rem)}
+  .tile .ref{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;
+    color:var(--mut);margin-top:8px;letter-spacing:.04em}
+  .tile[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink);transform:rotate(0deg)}
+  .tile[aria-pressed="true"] .ref{color:var(--accwash)}
+  .panel{
+    border-top:2px solid var(--ink);padding-top:18px;display:grid;
+    grid-template-columns:minmax(0,1fr);gap:6px;
+  }
+  @media(min-width:720px){.panel{grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:32px}}
+  .panel .term{font-family:Fraunces,Georgia,serif;font-size:clamp(1.4rem,3.4vw,2rem);
+    font-weight:600;line-height:1.05;word-break:break-word}
+  .panel .meta{font-size:11.5px;color:var(--mut);margin-top:8px;letter-spacing:.03em}
+  .panel .meta b{color:var(--acc);font-weight:600}
+  .quote{font-family:Fraunces,Georgia,serif;font-size:clamp(1.02rem,2.3vw,1.3rem);
+    line-height:1.5;margin:0;max-width:62ch;min-width:0}
+  .quote .src{display:block;font-family:Inter,sans-serif;font-size:11.5px;color:var(--mut);
+    margin-top:12px;letter-spacing:.03em}
+  .empty{color:var(--mut);font-size:13.5px;padding:20px 0}
+  footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);
+    font-size:11.5px;color:var(--mut);line-height:1.6}
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important;animation:none!important}
+    .tile{transform:none}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Chapter Second · 273 paragraphs</div>
+    <h1>Word wall
+      <span class="sub">Seventeen words the chapter makes its own, each with the paragraph where it lives.</span>
+    </h1>
+    <div class="bar" id="chips" role="group" aria-label="Filter by kind of word"></div>
+  </header>
+
+  <main>
+    <div class="wall" id="wall" role="list" aria-label="Word wall"></div>
+    <section class="panel" aria-live="polite">
+      <div>
+        <div class="term" id="pterm">—</div>
+        <div class="meta" id="pmeta"></div>
+      </div>
+      <div>
+        <p class="quote" id="pquote"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Every count and quotation is taken from the certified 273-paragraph text of “Second” (AoiNakamoto, Wattpad), joined by blank lines. Tile size follows how often the word appears in the chapter.
+  </footer>
+</div>
+
+<script>
+const DATA = [
+  {w:`grycoin`,      c:`Currency`, p:88,  n:52, q:`II. Second Layer: Grycoin - A Peer-to-Peer Electronic Message System`},
+  {w:`Satoshi`,      c:`Names`,    p:184, n:47, q:`There is an interesting coincidence."Satoshi" is an almost perfect anagram of "THOMAS".`},
+  {w:`burn`,         c:`Currency`, p:50,  n:23, q:`And they burned fossil fuel to destroy their civilization as well?`},
+  {w:`ALS`,          c:`The body`, p:250, n:17, q:`a) ALS Condition`},
+  {w:`satommi`,      c:`Currency`, p:104, n:14, q:`And while I am at it, I name the basic unit satommi. One hundred million satommis for one grycoin.`},
+  {w:`signs`,        c:`The trail`,p:20,  n:14, q:`I recognize the signs.`},
+  {w:`carbon budget`,c:`Currency`, p:65,  n:10, q:`I can make it clear that humanity is NOT allowed to overshoot the carbon budget.`},
+  {w:`Thomas`,       c:`Names`,    p:6,   n:10, q:`For those who don't know me, I am Thomas, though more people know me under the name I created from that.`},
+  {w:`reverse Turing test`, c:`The machine`, p:71, n:6, q:`3. Reverse Turing Test`},
+  {w:`Aoi`,          c:`Names`,    p:19,  n:5,  q:`How about Aoi?`},
+  {w:`RPOW`,         c:`The trail`,p:217, n:4,  q:`I had made an attempt to make my own proof-of-work based currency, called RPOW.`},
+  {w:`simulation`,   c:`The machine`, p:10, n:3, q:`I wonder if I live in the real world right now or if this is a simulation.`},
+  {w:`singularity`,  c:`The machine`, p:10, n:3, q:`Obviously, the singularity has happened, or I would not be back.`},
+  {w:`Artificial Omnipotent Intelligence`, c:`The machine`, p:22, n:3, q:`Artificial Omnipotent Intelligence, obviously.`},
+  {w:`Bitcointalk`,  c:`The trail`,p:204, n:2,  q:`And who was it again quoting Lois Lane from Superman with exactly that question on bitcointalk?`},
+  {w:`brain wallet`, c:`The body`, p:5,   n:1,  q:`First thing I check is my brain wallet. Oh yes. There they are. All the words I need to use my keys.`},
+  {w:`half marathon`,c:`The body`, p:30,  n:1,  q:`Want to try a half marathon, Tom?`}
+];
+
+const CATS = [`All`].concat([...new Set(DATA.map(d => d.c))]);
+const wall  = document.getElementById(`wall`);
+const chips = document.getElementById(`chips`);
+const pterm = document.getElementById(`pterm`);
+const pmeta = document.getElementById(`pmeta`);
+const pquote= document.getElementById(`pquote`);
+
+let cat = `All`, query = ``, sel = 0;
+
+function tier(n){ return n >= 20 ? 1 : n >= 8 ? 2 : 3; }
+function tilt(i){ return ((i * 37) % 5 - 2) * 0.7; }
+
+function buildChips(){
+  chips.textContent = ``;
+  CATS.forEach(name => {
+    const b = document.createElement(`button`);
+    b.className = `chip`;
+    b.type = `button`;
+    b.textContent = name;
+    b.setAttribute(`aria-pressed`, String(name === cat));
+    b.addEventListener(`click`, () => { cat = name; buildChips(); render(); });
+    chips.appendChild(b);
+  });
+  const tally = document.createElement(`span`);
+  tally.className = `count`;
+  const shown = visible().length;
+  tally.textContent = shown + (shown === 1 ? ` word` : ` words`);
+  chips.appendChild(tally);
+}
+
+function visible(){
+  return DATA.filter(d => cat === `All` || d.c === cat);
+}
+
+function show(idx){
+  const d = DATA[idx];
+  if(!d) return;
+  sel = idx;
+  pterm.textContent = d.w;
+  pmeta.innerHTML = `<b>${d.c}</b> · ${d.n} ${d.n === 1 ? `appearance` : `appearances`} · paragraph ${d.p}`;
+  pquote.innerHTML = ``;
+  pquote.appendChild(document.createTextNode(`“` + d.q + `”`));
+  const src = document.createElement(`span`);
+  src.className = `src`;
+  src.textContent = `Second, ¶${d.p}`;
+  pquote.appendChild(src);
+}
+
+function render(){
+  wall.textContent = ``;
+  const list = visible();
+  const keep = list.findIndex(d => DATA.indexOf(d) === sel);
+  list.forEach((d, i) => {
+    const idx = DATA.indexOf(d);
+    const b = document.createElement(`button`);
+    b.type = `button`;
+    b.className = `tile t` + tier(d.n);
+    b.style.setProperty(`--tilt`, tilt(i) + `deg`);
+    b.setAttribute(`role`, `listitem`);
+    b.setAttribute(`aria-pressed`, String(idx === sel));
+    const w = document.createElement(`span`);
+    w.className = `w`;
+    w.textContent = d.w;
+    const ref = document.createElement(`span`);
+    ref.className = `ref`;
+    ref.textContent = `¶${d.p} · ${d.n}`;
+    b.appendChild(w);
+    b.appendChild(ref);
+    b.addEventListener(`click`, () => { show(idx); render(); });
+    wall.appendChild(b);
+  });
+  if(!list.length){
+    const p = document.createElement(`p`);
+    p.className = `empty`;
+    p.textContent = `Nothing here yet.`;
+    wall.appendChild(p);
+  }
+  if(keep === -1 && list.length) show(DATA.indexOf(list[0]));
+  if(list.length && keep !== -1) show(DATA.indexOf(list[keep]));
+}
+
+buildChips();
+render();
+</script>
+</body>
+</html>

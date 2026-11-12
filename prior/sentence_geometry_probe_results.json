@@ -1,0 +1,130 @@
+[
+ {
+  "mode": "T1",
+  "sep": "LF",
+  "trail": false,
+  "md5": "1a64032bd20e90da5c8e626081bb0103",
+  "addr0": "146REtMYeXy577zoG5AtpiHD2Y7bqzNPgE",
+  "hits": []
+ },
+ {
+  "mode": "T1",
+  "sep": "LF",
+  "trail": true,
+  "md5": "8df66aea1b2f71709d164c0a3657886d",
+  "addr0": "1DiZUNzH1w8XJxVMYfECqHr7F58m1oRx3U",
+  "hits": []
+ },
+ {
+  "mode": "T1",
+  "sep": "CRLF",
+  "trail": false,
+  "md5": "bf16d5d8b6b275cddd19e2ed4003cc0e",
+  "addr0": "1Mcw61RmUbQp2umKEAjZ3EJRpxyLrv9hPJ",
+  "hits": []
+ },
+ {
+  "mode": "T1",
+  "sep": "CRLF",
+  "trail": true,
+  "md5": "5ed54ae01410bf049026c86cd892b397",
+  "addr0": "1C6abu25GosmtKGu7sZh3U4DFvzuKBMMUY",
+  "hits": []
+ },
+ {
+  "mode": "T2",
+  "sep": "LF",
+  "trail": false,
+  "md5": "48d318202691ffb873e00b63196eaf36",
+  "addr0": "14isnRimk9qAzpm85qwiFgLjzxL1387TXL",
+  "hits": []
+ },
+ {
+  "mode": "T2",
+  "sep": "LF",
+  "trail": true,
+  "md5": "0f9090ec09549e7d1f9d185bb3c31bba",
+  "addr0": "1KRigTPfvxXMiuTefFEhZJxmhWGSXGv96Y",
+  "hits": []
+ },
+ {
+  "mode": "T2",
+  "sep": "CRLF",
+  "trail": false,
+  "md5": "f74e8e0122e114fe13c89a3bba25294a",
+  "addr0": "1D1Scxy6rZYV34Xr1SFRLTsMBHeUiTJbHK",
+  "hits": []
+ },
+ {
+  "mode": "T2",
+  "sep": "CRLF",
+  "trail": true,
+  "md5": "5eefdba549ba8c1f40a02e4f0df0197b",
+  "addr0": "1Gj4s6mi4euu3ce1ZXyqLUHCzTqCZkwDEP",
+  "hits": []
+ },
+ {
+  "mode": "T3",
+  "sep": "LF",
+  "trail": false,
+  "md5": "8bf325ca371c564e9581195a39d0df17",
+  "addr0": "1EE6VeaN8LfiEQdxL7hsfnTHBu5xhBaiea",
+  "hits": []
+ },
+ {
+  "mode": "T3",
+  "sep": "LF",
+  "trail": true,
+  "md5": "47e28f944463deef108afaf74db1fa92",
+  "addr0": "1DnwzhBznYoW6yfNDXVMywkVry9ZEGS4WB",
+  "hits": []
+ },
+ {
+  "mode": "T3",
+  "sep": "CRLF",
+  "trail": false,
+  "md5": "00300acdf94db7185e08f26fc3b3d110",
+  "addr0": "16PH8yyR4wZyExdyS1MEcP65sKdtvjFeSi",
+  "hits": []
+ },
+ {
+  "mode": "T3",
+  "sep": "CRLF",
+  "trail": true,
+  "md5": "14bff9daec8dcf7bac14c71c6b2043db",
+  "addr0": "19rukkceH8GGevXUq1gu1fv9mKEatz6RW8",
+  "hits": []
+ },
+ {
+  "mode": "T4",
+  "sep": "LF",
+  "trail": false,
+  "md5": "7e11a999d2d437583a40347bd3e02163",
+  "addr0": "1FYQyH2VwZYYpp2MF4jUjmYVLF3xtJZ1zr",
+  "hits": []
+ },
+ {
+  "mode": "T4",
+  "sep": "LF",
+  "trail": true,
+  "md5": "be943fecc563f335138066dc4cf97d16",
+  "addr0": "12frsa43zoa3B4DG2wm1DoH7y1Gvkmng8u",
+  "hits": []
+ },
+ {
+  "mode": "T4",
+  "sep": "CRLF",
+  "trail": false,
+  "md5": "776548af464fe286c99654b35166d15e",
+  "addr0": "1KSEH5t9A8u39YYmcovCzNf3suHbYtHzCp",
+  "hits": []
+ },
+ {
+  "mode": "T4",
+  "sep": "CRLF",
+  "trail": true,
+  "md5": "8d2761588e82d89f958fd3f350ac2870",
+  "addr0": "1KB4CrHvFBD8aZ7FSbr1uiDnNSnYgBwB2k",
+  "hits": []
+ }
+]

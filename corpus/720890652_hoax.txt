@@ -1,0 +1,88 @@
+"WTF?!!!"
+
+The person seemed angry at me.
+
+"YOU LITERALLY SAID THAT WAS YOUR FAVORITE BITCOIN ADRESS!!!"
+
+He was angry for a reason. That reason was that he fell for my evil, deliberate hoax. I am such an evil person.
+
+When I replied in an angry voice, that was the start of the Great Quizchain Flamewar that raged on most of the 21st Century. Historians are still debating in 2194 what my favorite Bitcoin address really was.
+
+What actually happened?
+
+You see, I am running this experiment called "Quizchain" now. The purpose of the experiment is to find new and interesting ways to use Bitcoin for quiz questions. I would think of some question or other. Someone would see the question. If they find the answer, they can check for themselves and claim the prize for themselves.
+
+That is a very fortunate setup. I am lazy. If I can avoid the work of picking a winner and sending some funds to that winner, that is a very attractive advantage over the previous state of the art. And the way brain wallets on Bitcoin work, it can actually be done. People participating can have fun solving questions, but they also learn about how to use a brain wallet in the process.
+
+For example, in one of the blocks, the answer was Pokemon number 132. Goes under the name of Ditto in English and Metamon in Japanese. If you solved that puzzle or watched someone solving it, you will know that your Pokemon game can be used as a brain wallet. Those six Pokemon you are using in your party could actually be the key to your wallet.
+
+Imagine the scene at the border. You are forced to flee the country. They have taken most of your wealth, but you managed to keep some of it in a brain wallet.
+
+"Switch that smartphone on and push in the key for starting it up."
+
+"Of course, officer. Here you are, officer." Meanwhile your keys are sitting safely in your game cartridge, waiting to fight the next opponent, with the border search police none the wiser.
+
+This does depend on him not having played the quizchain, but there are lots of people who never heard of this obscure little experiment. And of course you could use anything else as a store of your private key. Anyway, one benefit of playing is to find out and learn about brain wallets.
+
+Okay. I am disgressing. Coming to the point now.
+
+When I was writing some blocks for the quizchain yesterday, I noted this Bitcoin address:
+
+137SFKp9MPjymMQVk85oarHoaxUd9QyeiA
+
+It was used as a funding address for one of my blocks, which contained a rather difficult quiz (still unsolved as I write this).
+
+Let's look at that address again.
+
+137SFKp9MPjymMQVk85oarHoaxUd9QyeiA
+
+Beautiful. I was in love with that address. There is a word contained in the address. And that word is related to the art of writing quiz questions. What a lucky find on that unlucky date (April 13th).
+
+No way I pass this up. So I use this for my next block. That's where my evil character comes into play.
+Did I write in that quiz question:
+
+"There is an interesting Bitcoin address in the block before this. Can you find a word in it?"
+
+No. That would be the honest thing to do, but I lied in that quiz. Here it is exactly as published:
+
+"Format: [solution] BFUB [BFUB text] [link].
+
+Solution is one word, capitalization will be evident. BFUB text is my favorite Bitcoin address."
+
+The solution is of course the word Hoax, starting with a capital letter because the address I found had it that way. I won't explain what BFUB is here in detail. Let's just note that the central theme of that is FU, which certainly does not mean anything else than "force user". But I digress again.
+
+Here is the part where I talk about my favorite Bitcoin address in a deliberately misleading way. This is a hoax.
+
+If you don't get it, you probably have not played the quizchain. Right in the first block I use that phrase as well. And when revealing the answer to that post, I wrote this:
+
+"My favorite Bitcoin address is of course 1AndrewYangForPresident2o2o6zmPzd, as is apparent from my posting history here."
+
+That in turn lead people to look at that address when trying to solve this block. A quite deliberate lie on my part, which is actually the definition of the word Hoax.
+
+To be exact, that was actually my favorite Bitcoin address at the time. Before I fell in love with this new one. So technically speaking I was not lying in this block. But the impression I gave was a false one. And I did that on purpose.
+
+So I certainly deserve some anger directed at me.
+
+On the other hand, the alternative would make this way too easy. The solution becomes obvious once you find the address in the next block. So having a bit of misdirection is the only way to keep this from being a block solved in three minutes by whomever happened to be around at the time of posting.
+
+And to be very clear about this point, I definitely reserve the right to mislead people when writing a quiz. Avoiding falling for the Hoax is part of the challenge.
+
+So, how would I imagine the perfect solver for this would proceed. Let's call him Satoshi.
+
+Satoshi sees quiz, immediately goes to block one and the address 1AndrewYangForPresident2o2o6zmPzd. Looks at the address, finds nothing related to the question in this block. Assumes correctly that different blocks may have different solutions and proceeds to look elsewhere. Thinks for himself "hmmm, where might another Bitcoin address be available? Might that be the one in the funding address for the previous block?" Checks that funding address first and walks away with the solution.
+
+My evil side showed when I perpetrated this Hoax. But my friendly side showed when I posted in comments very soon that this was a dead end. So, while I certainly deserve some anger from players who fell for my Hoax, maybe the Great Quizchain Flamewar does not really need to happen.
+
+One other thing was very interesting.
+
+When I found the word, I immediately googled it. The first thing that comes up is of course the Wikipedia article on that word. It contains this: "Zhang Yingyu's The Book of Swindles (ca. 1617)". I may want to read that book to improve my misdirection skills.
+
+So that is where I got my question for this block from.
+
+And when I googled in the other direction (starting from my question) the word Hoax did not come up in the first pages of that search. That is good, since it prevents someone finding the answer with one simple search immediately.
+
+There should be a name for this kind of one way function. I am not aware of any name now, so I go ahead and coin my own. Google only one fay or GOOF. Okay, you are right. I know that the last word is spelled differently, but I like that acronym way too much.
+
+So I found a Hoax in a Bitcoin address, which turned to be a GOOF as well. 
+
+Lucky me on that April 13th.

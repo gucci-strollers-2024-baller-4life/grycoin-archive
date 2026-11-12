@@ -1,0 +1,60 @@
+# demo 3c6 candidates: 248472 swept, 59 with md5 prefix 3c6
+crlfcrlf	none	((1, 8), (5, 42), (9, 135))	3c63c4f22644e4174d9753711ed61261
+crlfcrlf	none	((1, 22), (5, 165), (9, 78))	3c6de76e2a9f4c580b8703d73520350c
+crlfcrlf	none	((1, 49), (5, 62), (9, 34))	3c674c5a36e41c10a8d8c2be9e696020
+crlfcrlf	none	((1, 92), (5, 182), (9, 41))	3c69be740c5eb1b06027afe5136eab1f
+crlfcrlf	none	((5, 33), (9, 24))	3c65ee8b21cb49414f875339deb115ce
+crlfcrlf	p5	((1, 92), (5, 172))	3c66c3e8b20742516e340434d84ab1ce
+crlfcrlf	I-paras	((1, 8), (5, 72), (9, 119))	3c66ad8daf556cde9d2ad4071af1d953
+crlfcrlf	I-paras	((1, 28), (9, 87))	3c6faed6905b89325a112f6d43877bd0
+crlfcrlf	I-paras	((1, 34), (5, 145), (9, 112))	3c622ea3d68f295e84fd45e2049da368
+crlfcrlf	I-paras	((1, 34), (5, 152), (9, 11))	3c627c2be294577f58d04ba51e37756d
+crlfcrlf	I-paras	((1, 68), (9, 68))	3c66fece702fea5c674088f70ceec0fd
+crlfcrlf	A+I-paras	((1, 8), (5, 66), (9, 179))	3c6756c0216ca2289e8fa705a90cf692
+crlfcrlf	A+I-paras	((1, 8), (5, 182), (9, 68))	3c69d713d8fcde7dd16d2329c0dc1fdf
+crlfcrlf	A+I-paras	((1, 16), (5, 19), (9, 112))	3c6449c1965c89f2fb594cc2f85f6f00
+crlfcrlf	A+I-paras	((1, 87), (5, 66), (9, 34))	3c6474b518a6e29a9d600aab2d73c299
+crlfcrlf	A+I-paras	((5, 24), (9, 216))	3c62916eee5dbdd8a2a6e43c901a7812
+crlfcrlf	A+I-paras	((5, 152), (9, 196))	3c6ee98724333f1fc63a4b8042f8868d
+crlfcrlf	nonITASM	((1, 16), (5, 33), (9, 224))	3c67110d90ed15e3ee42da19a6d1f228
+crlfcrlf	nonITASM	((1, 34), (5, 172), (9, 100))	3c63bd8910a9913bb9512f26812ffbbb
+crlfcrlf	nonITASM	((1, 55), (5, 117), (9, 138))	3c6289b7d1705c6223ac7ad428d0247d
+crlfcrlf	nonITASM	((1, 66), (5, 37), (9, 138))	3c655afcfbde92160c8bc33b7cdc4a54
+crlfcrlf	nonITASM	((1, 66), (5, 141), (9, 135))	3c64b9b828e759b5a8b3c986fa0ce488
+crlfcrlf	nonITASM	((1, 75), (5, 75), (9, 216))	3c6c159164268ddcb1e5024dc1770dc7
+crlfcrlf	nonITASM	((1, 92), (5, 109), (9, 187))	3c6d53048cf08f405df4e3731a9421fe
+crlfcrlf	all	((1, 38), (5, 19), (9, 123))	3c63cc6f9dea963597369e262f6b2e7f
+crlfcrlf	all	((1, 49), (5, 175), (9, 44))	3c673c2a148fa415c6b64f777aab1608
+crlfcrlf	all	((1, 68), (5, 145), (9, 11))	3c6dc480fb88993905fdb4c6fa0f33e7
+crlfcrlf	all	((1, 75), (5, 145), (9, 44))	3c63069ff32023b9b8acc6f4430daf83
+crlfcrlf	all	((1, 83), (5, 157), (9, 61))	3c67a672ce2994c5e972d402f3e508a6
+crlfcrlf	all	((5, 123), (9, 210))	3c6ba21784627e993be4208058abfbd4
+lf2	none	((1, 8), (5, 129), (9, 123))	3c6881ab783223914b09b87f63e4e59e
+lf2	none	((1, 34), (5, 129), (9, 100))	3c62ba499a966fcb417f59e66da51aed
+lf2	none	((1, 66), (5, 123), (9, 6))	3c6a6a97974ceaf15801c11152d0bbc5
+lf2	p5	((1, 22), (5, 72), (9, 78))	3c6941c2e44042ad635649fb103de486
+lf2	p5	((1, 28), (5, 33), (9, 216))	3c63bbe1807c7c030b9556372a65123f
+lf2	p5	((1, 87), (5, 37), (9, 104))	3c6ade88bc30f1421e81eee21aa63be0
+lf2	p5	((1, 87), (9, 224))	3c627a642e5c2db73b06bf5a5e3b0fbd
+lf2	I-paras	((1, 28), (5, 33), (9, 224))	3c627f94d057fe386f640aebfdb5a9d6
+lf2	I-paras	((1, 55), (5, 19), (9, 104))	3c6fc85c11c675a1043281bb7039e304
+lf2	I-paras	((1, 75), (5, 123), (9, 173))	3c697bfec9da58b8734ca8d5916de14b
+lf2	I-paras	((1, 92), (5, 37), (9, 119))	3c6ad8d6f5b954aa3d72b4019e29aff9
+lf2	I-paras	((1, 92), (5, 75), (9, 196))	3c645394ba17347e015710c4cf72b0d3
+lf2	A+I-paras	((1, 45), (5, 97), (9, 224))	3c6865265397bd12a0a731978f93b1f3
+lf2	A+I-paras	((1, 55), (5, 24), (9, 220))	3c6e8b1a489c7d5360f62145735979d0
+lf2	A+I-paras	((1, 87), (5, 172), (9, 173))	3c6a7da316d8e9a6ca203ef2a20cd4a5
+lf2	A+I-paras	((5, 75), (9, 202))	3c652bb915c9aa35847214e5a927e663
+lf2	nonITASM	((1, 8), (5, 72), (9, 159))	3c66d75194a48784a609431dedea3c9a
+lf2	nonITASM	((1, 22), (5, 66), (9, 192))	3c62b0982bb513190983648097861b86
+lf2	nonITASM	((1, 24), (5, 52), (9, 144))	3c63665135c930067f9d016827e8667f
+lf2	nonITASM	((1, 49), (5, 19), (9, 6))	3c652066bd250817a0bba3c5fa67bf78
+lf2	nonITASM	((1, 49), (5, 33), (9, 220))	3c6dcf427bede4eaf5c8035861f49423
+lf2	nonITASM	((5, 49), (9, 92))	3c6d7257a1454d1ed27838f88580b424
+lf2	all	((1, 24), (5, 72), (9, 230))	3c6aa8b794c587e9f5fef3ea850b5d11
+lf2	all	((1, 38), (5, 66), (9, 31))	3c652878f62fb4fa222eddc6221df1c7
+lf2	all	((1, 38), (9, 16))	3c6777c2d437949cfba4aa2ba32db6eb
+lf2	all	((1, 49), (5, 37), (9, 31))	3c69a5b1d12ece1bc8f67ac167292435
+lf2	all	((1, 55), (5, 9), (9, 6))	3c61a89de54a16359587bc395112a92f
+lf2	all	((1, 75), (5, 37), (9, 192))	3c653d855bdb17da442ec15b3458f2da
+lf2	all	((1, 87), (5, 165), (9, 6))	3c632099fc6efd52d7291a397426e2ba

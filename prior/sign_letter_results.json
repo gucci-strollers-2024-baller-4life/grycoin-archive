@@ -1,0 +1,726 @@
+{
+ "calibration": {
+  "{I,T,A,S,M}": {
+   "hal": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "demo": [
+    3,
+    4,
+    6,
+    7,
+    8
+   ]
+  },
+  "{S,A,T,O,H,I}": {
+   "hal": [
+    2,
+    3,
+    4,
+    6,
+    11
+   ],
+   "demo": [
+    3,
+    4,
+    7,
+    8
+   ]
+  },
+  "THOMAS+I {A,H,I,M,O,S,T}": {
+   "hal": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "demo": [
+    3,
+    4,
+    7,
+    8
+   ]
+  },
+  "minimal {A,I,M,O,S,T}": {
+   "hal": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "demo": [
+    3,
+    4,
+    7,
+    8
+   ]
+  }
+ },
+ "sizes": {
+  "ITASM": {
+   "carrier": 154,
+   "anomaly": 119
+  },
+  "SATOSHI": {
+   "carrier": 178,
+   "anomaly": 95
+  },
+  "MINIMAL": {
+   "carrier": 169,
+   "anomaly": 104
+  },
+  "UNION": {
+   "carrier": 180,
+   "anomaly": 93
+  }
+ },
+ "letterless": [
+  15
+ ],
+ "runs": [
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "869ea906afa0f02ae7bb690218815888",
+   "live_edits": 294,
+   "idx0": "1CrZddP2s9nd1xXvMSMfkmGKqFxBcbQQ5i"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "a9673f524ae501b700600a8f02bdcd47",
+   "live_edits": 294,
+   "idx0": "1LZToehPoidFXZVvPnHxQFfRnpcugLHyJU"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "38cff4d7a011a5282819e61b4c3fc923",
+   "live_edits": 294,
+   "idx0": "1FMkY8gTn1JJbCmUZkUJCrq2UUxspkz3gM"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "2320d847d22858881e66f62f156a4394",
+   "live_edits": 294,
+   "idx0": "18Fdu4UdW2jjpsnbuJvNu9i2RzFReTzdkw"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "73d32609ff146fdaca49a605dc6d7340",
+   "live_edits": 299,
+   "idx0": "1DUYhHhkh543Bqpi46EdCcnZAQpS8evE4Y"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "7c9b351d00d7edbd0852d346f780a121",
+   "live_edits": 299,
+   "idx0": "184QRiv2L5FXFXqSCpz9jTpPc1MGS5QPAe"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "ec6504f986e36e9b79de627b219069c0",
+   "live_edits": 299,
+   "idx0": "14XBT61azT3Y1EmGXnggUVdgEVXkjvPXso"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "carrier",
+   "n": 154,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "57e36f285abafd39193d47c90c80ed8d",
+   "live_edits": 299,
+   "idx0": "1LtixRY6k5MdoGTqq4Te5oBi1muvJwZzik"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "9f1fef191fe1ba9723874c24cf584f01",
+   "live_edits": 228,
+   "idx0": "1Nj6WUZAhP8MB5ocBy53wX669yQNkojvji"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "768e9268dacb927df24b3bb48e3cfa24",
+   "live_edits": 228,
+   "idx0": "1PaR7bDWfNeJVTJB74YmwMayBGv1aDiu7o"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "2ed8ca3c8492bd2d9d592119ff2445c6",
+   "live_edits": 228,
+   "idx0": "1HyKE2dL1DiHQqSeLRsMe1x8qRAoz13ZW8"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "ce3d2f5a495131bc4ef9403134054f0c",
+   "live_edits": 228,
+   "idx0": "1LG72fxN2WiZ8i3ApCzva5BZYSvPd7cBvE"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "4df41766be4d8b12b4bcc711bbf1f813",
+   "live_edits": 226,
+   "idx0": "1MTmKEgvpe3nVZu55bod5WErMu7os19ppd"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "954b4077f59388aa6bf92405434d1d90",
+   "live_edits": 226,
+   "idx0": "1DVm4QaBwaGMPuNr3YBp4EHRyPLNmi5qJ7"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "7d14a13c457dae497050ff75e3daf553",
+   "live_edits": 226,
+   "idx0": "1QJUad9wFRg2wUFdLwhXut8k5udDk7CRum"
+  },
+  {
+   "alphabet": "ITASM",
+   "set": "anomaly",
+   "n": 119,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "7ed1eaea0b62ea4a2543d8d5f1d32d08",
+   "live_edits": 226,
+   "idx0": "1CAfZQs3pdVHLD3QJAVuxpiZecqwx4kRou"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "e7255eacd4681a4befbb80631ceaa044",
+   "live_edits": 342,
+   "idx0": "12oPtsx15WfSggRMUWEbivCyGKJJu8tyCG"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "3e8b32dd7440908e11ef9f232ee756f6",
+   "live_edits": 342,
+   "idx0": "1A4g3778ityZZeUK3HVaR7S9MDATQ2wgQq"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "a9367bffd40f050a2af03fad9afd61a8",
+   "live_edits": 342,
+   "idx0": "1Kdvt1YZEoDK7qVzXoVzMFh61i9LAaP1ek"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "5d5369c116bc6dce3073ddbcdd2d383b",
+   "live_edits": 342,
+   "idx0": "15EsW6rK2J8cgcdxDecvXptBoKrrGwWr2h"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "21dfcbf8f6abc1ba1374300e40329f7b",
+   "live_edits": 346,
+   "idx0": "1DXYK2Z19en6eq364uwvG7e2ufPpFtZehk"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "5a2a489246d8d8afcc47c40c47b66f45",
+   "live_edits": 346,
+   "idx0": "12ghSvo3SxeSNHCJJXRUw6Xp9Jh68Eyfua"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "a1f82a62d6cea4661c60c81d7e95ff66",
+   "live_edits": 346,
+   "idx0": "1DWcRACD2KB9bfK1Hw65cGaQqYEt4Bdt8m"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "carrier",
+   "n": 178,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "ac42ba869dd11e37106517930bbb44e6",
+   "live_edits": 346,
+   "idx0": "1E5SDve2c33WWd6iHzk9HExz2xnZAvqz54"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "6d2a3c01a654fccedc1d8a1485c5850b",
+   "live_edits": 180,
+   "idx0": "144RKtsevnHVRouehDcn5Cypz1mdtnefnV"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "d6395c914eadae419b9ed5c1af688ed1",
+   "live_edits": 180,
+   "idx0": "158VB14LHkJ5fCnMGYmZ5EBEGs85UVEQYw"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "d4bf70bce60ac677e71db29a3b5f438a",
+   "live_edits": 180,
+   "idx0": "17WJ723xGQmQsNaMqzUWgNRZnVc7ZRn16o"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "b8a121513e2ffdfd313e06c74faae068",
+   "live_edits": 180,
+   "idx0": "1GWcHdxjvNdPfqvtCtEumMfDyJRKUmukWB"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "349366614704f16bb666089e0cdd8dbb",
+   "live_edits": 179,
+   "idx0": "1EcRA3sCDdUEujXKRQsXj3xrLBfaA9RvCq"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "67c028a89125e35042d682eec5400ae2",
+   "live_edits": 179,
+   "idx0": "1KP2UYj4EU58MrCaYgmLFoyM1XAFFYJAbJ"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "76bfdaa1bcfe1c4fe2f44f7e55fb7bb1",
+   "live_edits": 179,
+   "idx0": "1Nj3Rr4XbyauG7UnfnmeQketiz8n1VyRxy"
+  },
+  {
+   "alphabet": "SATOSHI",
+   "set": "anomaly",
+   "n": 95,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "4fd113d3749c6d08f73ca6f670dcbdb9",
+   "live_edits": 179,
+   "idx0": "12NPfnt3sxhQpWLrRLXttxh8wp2GiAJhCN"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "16206147b64a69f3c2c035c464980eb2",
+   "live_edits": 324,
+   "idx0": "1LvLbpGiNSNyUyRd9qtRMMno913Bexnqk4"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "7d906900e6c95734b2e07455d2be527d",
+   "live_edits": 324,
+   "idx0": "1L88eHSLNLVe5JxH4aaSUrJu9Cz6QQBHCR"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "809704628d8e2ca5bb1d6108eb39b81b",
+   "live_edits": 324,
+   "idx0": "1DPS6dAomKXn9psD21zkrkfqAucsod5ucC"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "b2c6c6a3baa571de6621c75c1d335038",
+   "live_edits": 324,
+   "idx0": "1ZwAu18XCbSNrM2186efwEFEXByNmjsbG"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "a6ead970f8c29230562656bd825c570c",
+   "live_edits": 328,
+   "idx0": "1LYHoMDtBrvQbVgCNhZTu1cbbV38LPJikk"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "c5e77c7d2015b3f6d581b9b5b4b26346",
+   "live_edits": 328,
+   "idx0": "1NbZmrL1dC8MzmdTQHPgAVjCKpzgauvqhP"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "de2089d2e7991633b5a71a1c7e83578d",
+   "live_edits": 328,
+   "idx0": "1JLHSHtkz5Z42os9h9wePo5Zr2aB87JHpM"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "carrier",
+   "n": 169,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "e340d69c2e6443cc6d3ff6f9b9090c1d",
+   "live_edits": 328,
+   "idx0": "135abffTDub5USTFgD1ZLPCiHQWoFkKnVp"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "2ff63a8d76ac78b5c2e1f2868c7b9ee0",
+   "live_edits": 198,
+   "idx0": "1BTrKNKcKQbnCqioN2RbACyxkZNAsPQyki"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "a860ce2fd93a00403f22f418e813bf3c",
+   "live_edits": 198,
+   "idx0": "1PrQUWiNGdQQKEnmnaVZu466dhC3dQ2TMi"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "1d8442429808a498c92b237b868dd935",
+   "live_edits": 198,
+   "idx0": "15wctwFn9EDnWgpmZGVZ3AUcVo63XXUtLH"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "67d87a2484e7a8abc7ad18cc08af6435",
+   "live_edits": 198,
+   "idx0": "1Bnn1PUrnoyd482DXE7XLG3pqhfh7TvtqM"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "20295d3412bda2054850989a5671858b",
+   "live_edits": 197,
+   "idx0": "1PvrY2zuGBFMJPztDMCZEqH98Sc9UBRsdZ"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "4d9c17d7f29b64fcae39a3d41735f0a2",
+   "live_edits": 197,
+   "idx0": "17fvbe4Ew7rf2qdEvnofujhg34aRAyjyUB"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "ec9284cf6b7516d7adc45dc640822459",
+   "live_edits": 197,
+   "idx0": "1325Bb5SyuGwWzGdDfkbQH5sfp6CzyF89m"
+  },
+  {
+   "alphabet": "MINIMAL",
+   "set": "anomaly",
+   "n": 104,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "81e8c0d30cbc953f08c43b0d6d278bb0",
+   "live_edits": 197,
+   "idx0": "1EdSR1tuGe32XkQHE5PdtU5RDV7LLRVZAT"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "dba06783f01b686796f8a7c6722deaee",
+   "live_edits": 346,
+   "idx0": "186WtprcCYtC8GmzcYQw7SUpVyMJKpyzNL"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "aeec1f76845b7badbdf3710a99c6d934",
+   "live_edits": 346,
+   "idx0": "1AYZg5PmnBtD4aArdhhW2kqJNk6PqVQYPe"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "bcfc0950be3fe27bec692a28da4aac22",
+   "live_edits": 346,
+   "idx0": "1DmaNwA6n222W4hL836qEceCYXAP41H3d3"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "899e90d0fb046eeb8c7b40f77b9c54a7",
+   "live_edits": 346,
+   "idx0": "17MhFAC36Hrn5bcGJLq7yMgNCAPrQuThL3"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "8b2eec18c109b83e7bf26ff2f50d400b",
+   "live_edits": 350,
+   "idx0": "1H5bCifreEMJby8jF6zG3eRmTcw9ozfiJ1"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "6522bf91bd6042a878ea4c3acdf58e4e",
+   "live_edits": 350,
+   "idx0": "1BRXAr8GMZdvBrLacw7aNsZHEVr7jTfK1r"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "42e65537aaa436d714b6ed6c56821438",
+   "live_edits": 350,
+   "idx0": "1J9TsoZ7r2wFjZT6DKtQP4Md3kLHs8pHpJ"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "carrier",
+   "n": 180,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "d0921965da47cc64506c76fb9f54aef1",
+   "live_edits": 350,
+   "idx0": "1Q9o5BwJnFNR92dfVFVxKsj8BEwV8oEuAs"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "first_sentence",
+   "join": "LF",
+   "md5": "30855822704ae94562b3de5336e214cc",
+   "live_edits": 176,
+   "idx0": "17aBVT3uP6poZDLbEFz4hGSpHAQaj5NT5k"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "first_sentence",
+   "join": "LF+t",
+   "md5": "f2628063c28a77b2fb133b76799e54c9",
+   "live_edits": 176,
+   "idx0": "113CNsHgvrR7rjsMf5cPF6ibesxfs4GUVM"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "first_sentence",
+   "join": "CRLF",
+   "md5": "b8f48f06df295051ce1bf19088f499c4",
+   "live_edits": 176,
+   "idx0": "1PDW8XmixoDZXbHH27xkwaTqkZh3nN2guh"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "first_sentence",
+   "join": "CRLF+t",
+   "md5": "abd9d0c387b481d1913954b87c9b9983",
+   "live_edits": 176,
+   "idx0": "1wFdqYnDXc3JaGfrB9Fb7FrwYRatNcthd"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "paragraph",
+   "join": "LF",
+   "md5": "b063054675d40533a4a1d763c8bae703",
+   "live_edits": 175,
+   "idx0": "1Bsohx5rrCMzQtxpRESzwFp6Bm2bFtPMqP"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "paragraph",
+   "join": "LF+t",
+   "md5": "c836061d1f7c2ebf985af39d008fb6a9",
+   "live_edits": 175,
+   "idx0": "1PRQYuiqBc8gtenDfLUmq9RxMrNrukpX7j"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "paragraph",
+   "join": "CRLF",
+   "md5": "4b77c50c11ac26ffa0a4ea8c274260d8",
+   "live_edits": 175,
+   "idx0": "1FePru4zDhr64jYTEdJah8EjvMyKDZ476j"
+  },
+  {
+   "alphabet": "UNION",
+   "set": "anomaly",
+   "n": 93,
+   "tail": "paragraph",
+   "join": "CRLF+t",
+   "md5": "918809a49ff777471cc2b97e04592bc3",
+   "live_edits": 175,
+   "idx0": "1MZ2QtnvGbKabDMgcoMWVf4X1FuLjd53jp"
+  }
+ ],
+ "hits": []
+}

@@ -1,0 +1,814 @@
+{
+ "escrow": "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W",
+ "indices": [
+  0,
+  1,
+  2,
+  5,
+  6,
+  7,
+  44,
+  76,
+  77
+ ],
+ "by_alphabet": {
+  "AIMOST": {
+   "sections": [
+    {
+     "section": "Second",
+     "start": 1,
+     "end": 1,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "I. Second Life",
+     "start": 2,
+     "end": 2,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "1. Second Coming",
+     "start": 3,
+     "end": 53,
+     "prose": 50,
+     "anomalies": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23,
+      26,
+      27,
+      28,
+      30,
+      33,
+      34,
+      36,
+      38,
+      41,
+      43,
+      44,
+      47,
+      48,
+      51,
+      52,
+      53
+     ],
+     "initials": "FFWWNGWVWGFYNYCWNWWYKNHLWYWY",
+     "finals": "stnmnmdsrsgerhmmttstegtteonl"
+    },
+    {
+     "section": "2. Running",
+     "start": 54,
+     "end": 70,
+     "prose": 16,
+     "anomalies": [
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      64,
+      66,
+      70
+     ],
+     "initials": "YYWYNYHWW",
+     "finals": "nnteedyse"
+    },
+    {
+     "section": "3. Reverse Turing Test",
+     "start": 71,
+     "end": 87,
+     "prose": 16,
+     "anomalies": [
+      74,
+      78,
+      81,
+      82,
+      87
+     ],
+     "initials": "HWVWB",
+     "finals": "ttntn"
+    },
+    {
+     "section": "II. Second Layer",
+     "start": 88,
+     "end": 88,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "Abstract",
+     "start": 89,
+     "end": 90,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "1. Purpose of Grycoin",
+     "start": 91,
+     "end": 114,
+     "prose": 23,
+     "anomalies": [
+      93,
+      94,
+      95,
+      96,
+      100,
+      102,
+      105,
+      106
+     ],
+     "initials": "FFWWFFGF",
+     "finals": "stnmsmse"
+    },
+    {
+     "section": "2. Bitcoin With Two Changes",
+     "start": 115,
+     "end": 129,
+     "prose": 14,
+     "anomalies": [
+      116,
+      120,
+      128,
+      129
+     ],
+     "initials": "GFVE",
+     "finals": "seln",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "3. Incentives",
+     "start": 130,
+     "end": 151,
+     "prose": 21,
+     "anomalies": [
+      131,
+      132,
+      134,
+      136,
+      139,
+      142,
+      143,
+      146,
+      148
+     ],
+     "initials": "GWBBWBPPB",
+     "finals": "srysnsnnn"
+    },
+    {
+     "section": "4. Why Blockchain?",
+     "start": 152,
+     "end": 156,
+     "prose": 4,
+     "anomalies": [
+      153,
+      154,
+      155
+     ],
+     "initials": "BBD",
+     "finals": "etw"
+    },
+    {
+     "section": "5. What Grycoin can do for Bitcoin",
+     "start": 157,
+     "end": 160,
+     "prose": 3,
+     "anomalies": [
+      158
+     ],
+     "initials": "G",
+     "finals": "n"
+    },
+    {
+     "section": "6. Conclusion",
+     "start": 161,
+     "end": 162,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "III. Second Identity",
+     "start": 163,
+     "end": 163,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "1. My Identity",
+     "start": 164,
+     "end": 174,
+     "prose": 10,
+     "anomalies": [
+      168,
+      169,
+      170,
+      171
+     ],
+     "initials": "FFWW",
+     "finals": "stnm",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "2. The Satoshi Code",
+     "start": 175,
+     "end": 175,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "a) Satoshi's birthday",
+     "start": 176,
+     "end": 181,
+     "prose": 5,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "b) THOMAS and Satoshi",
+     "start": 182,
+     "end": 208,
+     "prose": 26,
+     "anomalies": [
+      205
+     ],
+     "initials": "H",
+     "finals": "l"
+    },
+    {
+     "section": "c) BITcoin is actually AHScoin",
+     "start": 209,
+     "end": 214,
+     "prose": 5,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "d) Outing himself on Bitcointalk",
+     "start": 215,
+     "end": 246,
+     "prose": 31,
+     "anomalies": [
+      216,
+      221,
+      230,
+      231,
+      232,
+      233,
+      235,
+      236
+     ],
+     "initials": "HHHFFWWW",
+     "finals": "ksnstnmh"
+    },
+    {
+     "section": "3. Other evidence",
+     "start": 247,
+     "end": 249,
+     "prose": 2,
+     "anomalies": [
+      248,
+      249
+     ],
+     "initials": "EB",
+     "finals": "me"
+    },
+    {
+     "section": "a) ALS Condition",
+     "start": 250,
+     "end": 251,
+     "prose": 1,
+     "anomalies": [
+      251
+     ],
+     "initials": "H",
+     "finals": "e"
+    },
+    {
+     "section": "b) Previous Experience",
+     "start": 252,
+     "end": 253,
+     "prose": 1,
+     "anomalies": [
+      253
+     ],
+     "initials": "H",
+     "finals": "e"
+    },
+    {
+     "section": "c) Mail Conversation With Himself",
+     "start": 254,
+     "end": 255,
+     "prose": 1,
+     "anomalies": [
+      255
+     ],
+     "initials": "H",
+     "finals": "n"
+    },
+    {
+     "section": "d) Not Citing RPOW",
+     "start": 256,
+     "end": 257,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "e) Coding Style",
+     "start": 258,
+     "end": 259,
+     "prose": 1,
+     "anomalies": [
+      259
+     ],
+     "initials": "W",
+     "finals": "c"
+    },
+    {
+     "section": "f) Overheating Computer",
+     "start": 260,
+     "end": 264,
+     "prose": 4,
+     "anomalies": [
+      261
+     ],
+     "initials": "H",
+     "finals": "g"
+    },
+    {
+     "section": "4. What Does it Mean?",
+     "start": 265,
+     "end": 273,
+     "prose": 8,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    }
+   ],
+   "four_anomaly_sections": [
+    {
+     "section": "2. Bitcoin With Two Changes",
+     "start": 115,
+     "end": 129,
+     "prose": 14,
+     "anomalies": [
+      116,
+      120,
+      128,
+      129
+     ],
+     "initials": "GFVE",
+     "finals": "seln",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "1. My Identity",
+     "start": 164,
+     "end": 174,
+     "prose": 10,
+     "anomalies": [
+      168,
+      169,
+      170,
+      171
+     ],
+     "initials": "FFWW",
+     "finals": "stnm",
+     "units_moved": 4,
+     "derivations": 36
+    }
+   ]
+  },
+  "AIMOSTH": {
+   "sections": [
+    {
+     "section": "Second",
+     "start": 1,
+     "end": 1,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "I. Second Life",
+     "start": 2,
+     "end": 2,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "1. Second Coming",
+     "start": 3,
+     "end": 53,
+     "prose": 50,
+     "anomalies": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      16,
+      17,
+      18,
+      19,
+      21,
+      23,
+      26,
+      27,
+      28,
+      30,
+      33,
+      34,
+      36,
+      38,
+      41,
+      43,
+      47,
+      48,
+      51,
+      52,
+      53
+     ],
+     "initials": "FFWWNGWVWGFYNYCWNWWYKNLWYWY",
+     "finals": "stnmnmdsrsgerhmmttstegteonl"
+    },
+    {
+     "section": "2. Running",
+     "start": 54,
+     "end": 70,
+     "prose": 16,
+     "anomalies": [
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      66,
+      70
+     ],
+     "initials": "YYWYNYWW",
+     "finals": "nnteedse"
+    },
+    {
+     "section": "3. Reverse Turing Test",
+     "start": 71,
+     "end": 87,
+     "prose": 16,
+     "anomalies": [
+      78,
+      81,
+      82,
+      87
+     ],
+     "initials": "WVWB",
+     "finals": "tntn",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "II. Second Layer",
+     "start": 88,
+     "end": 88,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "Abstract",
+     "start": 89,
+     "end": 90,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "1. Purpose of Grycoin",
+     "start": 91,
+     "end": 114,
+     "prose": 23,
+     "anomalies": [
+      93,
+      94,
+      95,
+      96,
+      100,
+      102,
+      105,
+      106
+     ],
+     "initials": "FFWWFFGF",
+     "finals": "stnmsmse"
+    },
+    {
+     "section": "2. Bitcoin With Two Changes",
+     "start": 115,
+     "end": 129,
+     "prose": 14,
+     "anomalies": [
+      116,
+      120,
+      128,
+      129
+     ],
+     "initials": "GFVE",
+     "finals": "seln",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "3. Incentives",
+     "start": 130,
+     "end": 151,
+     "prose": 21,
+     "anomalies": [
+      131,
+      132,
+      134,
+      136,
+      139,
+      142,
+      143,
+      146,
+      148
+     ],
+     "initials": "GWBBWBPPB",
+     "finals": "srysnsnnn"
+    },
+    {
+     "section": "4. Why Blockchain?",
+     "start": 152,
+     "end": 156,
+     "prose": 4,
+     "anomalies": [
+      153,
+      154,
+      155
+     ],
+     "initials": "BBD",
+     "finals": "etw"
+    },
+    {
+     "section": "5. What Grycoin can do for Bitcoin",
+     "start": 157,
+     "end": 160,
+     "prose": 3,
+     "anomalies": [
+      158
+     ],
+     "initials": "G",
+     "finals": "n"
+    },
+    {
+     "section": "6. Conclusion",
+     "start": 161,
+     "end": 162,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "III. Second Identity",
+     "start": 163,
+     "end": 163,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "1. My Identity",
+     "start": 164,
+     "end": 174,
+     "prose": 10,
+     "anomalies": [
+      168,
+      169,
+      170,
+      171
+     ],
+     "initials": "FFWW",
+     "finals": "stnm",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "2. The Satoshi Code",
+     "start": 175,
+     "end": 175,
+     "prose": 0,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "a) Satoshi's birthday",
+     "start": 176,
+     "end": 181,
+     "prose": 5,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "b) THOMAS and Satoshi",
+     "start": 182,
+     "end": 208,
+     "prose": 26,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "c) BITcoin is actually AHScoin",
+     "start": 209,
+     "end": 214,
+     "prose": 5,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "d) Outing himself on Bitcointalk",
+     "start": 215,
+     "end": 246,
+     "prose": 31,
+     "anomalies": [
+      231,
+      232,
+      233,
+      235,
+      236
+     ],
+     "initials": "FFWWW",
+     "finals": "stnmh"
+    },
+    {
+     "section": "3. Other evidence",
+     "start": 247,
+     "end": 249,
+     "prose": 2,
+     "anomalies": [
+      248,
+      249
+     ],
+     "initials": "EB",
+     "finals": "me"
+    },
+    {
+     "section": "a) ALS Condition",
+     "start": 250,
+     "end": 251,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "b) Previous Experience",
+     "start": 252,
+     "end": 253,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "c) Mail Conversation With Himself",
+     "start": 254,
+     "end": 255,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "d) Not Citing RPOW",
+     "start": 256,
+     "end": 257,
+     "prose": 1,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "e) Coding Style",
+     "start": 258,
+     "end": 259,
+     "prose": 1,
+     "anomalies": [
+      259
+     ],
+     "initials": "W",
+     "finals": "c"
+    },
+    {
+     "section": "f) Overheating Computer",
+     "start": 260,
+     "end": 264,
+     "prose": 4,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    },
+    {
+     "section": "4. What Does it Mean?",
+     "start": 265,
+     "end": 273,
+     "prose": 8,
+     "anomalies": [],
+     "initials": "",
+     "finals": ""
+    }
+   ],
+   "four_anomaly_sections": [
+    {
+     "section": "3. Reverse Turing Test",
+     "start": 71,
+     "end": 87,
+     "prose": 16,
+     "anomalies": [
+      78,
+      81,
+      82,
+      87
+     ],
+     "initials": "WVWB",
+     "finals": "tntn",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "2. Bitcoin With Two Changes",
+     "start": 115,
+     "end": 129,
+     "prose": 14,
+     "anomalies": [
+      116,
+      120,
+      128,
+      129
+     ],
+     "initials": "GFVE",
+     "finals": "seln",
+     "units_moved": 4,
+     "derivations": 36
+    },
+    {
+     "section": "1. My Identity",
+     "start": 164,
+     "end": 174,
+     "prose": 10,
+     "anomalies": [
+      168,
+      169,
+      170,
+      171
+     ],
+     "initials": "FFWW",
+     "finals": "stnm",
+     "units_moved": 4,
+     "derivations": 36
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,450 @@
+[
+ {
+  "tag": "WHOLE",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "6a9d61b74cffbaef1bfa36cd73157472",
+  "addr0": "1JQ4JdSYrnGASSwHruiaguhvPPuY3qj179",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "bf4e4c1844c1010b44bf6310b5b89d42",
+  "addr0": "13W8MDK5PiKrhVr46z9hTYWEQeAEyvAvNP",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "c7b316928948671e255a58ec7fbe3541",
+  "addr0": "1E7TKUQoQvxH1YAVdXSqmvz6dZR1qupkKc",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "3bc1e6a2823559094bef9564b7238500",
+  "addr0": "1Brfip351WxHiPpDMmJ3Yt5SataRFg6HrU",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "892f502b083423612cbcc746d4667ac4",
+  "addr0": "18AkiLrqea8ntvAjQK6HjZaBiQEg2MEYeh",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "3493c3bb5d306e81d1a8d869c6b26832",
+  "addr0": "1Q7j6iVA6bXyMRLtarpsReLNVtpRtxitKP",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "c96187e54ecd5a139bc1438700bd456d",
+  "addr0": "1NpT5EaCeHxi6xGtUe8gZrBNWd4QDc59UE",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "f53973b6382df73e0d3ad1ef347563e4",
+  "addr0": "137Lf1Nn3ohmetyVySHEnKAMAPfnKZpyC5",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "4a9634fe58f1d7f7703807ec5c95a3fe",
+  "addr0": "12FAKqrgDmN11LxYGyVhyeZZDUTep6yANu",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "6f0e0a4d52015686d9f16a7b8ddb8656",
+  "addr0": "1Bnut8jg31v2mGBgJbBXvcruVP5LpsNSpJ",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "6193c56793cbdd8d43793dce17a268d6",
+  "addr0": "1GmCz7KZGuzKF4D1CGu6VXsNPCHwL6X6Jq",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "faaa2cb328c60ba51b03a8a37d1c9afc",
+  "addr0": "16hxuvzTpS8zz97kx6oaezFiBgZuPcQkRB",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "cfca998d21262dc790da551a4392875e",
+  "addr0": "1EwBiBqqZbNgpkQZp4SoBf6KjcXovsx28Q",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "a0d4630d8838577873546eb11d8864b8",
+  "addr0": "14LnUNm4pudgbLKdKhYH9rp9ckn5CpvtmP",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "fd48deabd4e318419d305c99550f2029",
+  "addr0": "1MsAZAKUJ76rdrt2qSoNRpXBurTWn28mNd",
+  "hits": []
+ },
+ {
+  "tag": "WHOLE/no-title",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "93d1e22523356ca13664b122694c826c",
+  "addr0": "14R3cFQDsfrUDt3gLbK9CjbCEVHnMeK5eZ",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "9ece40eb2bbeb1b6727a4b7f080ebc86",
+  "addr0": "16WEiEKXbKLrrZu8CYRBmq2twcLzWRxu9S",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "fb7127475a50389c17746cc818dc0866",
+  "addr0": "1K8pje64b6vycKjYh9RhppU2AXG4QcxfSV",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "af8939bc0210f8d31305948bc52d42b9",
+  "addr0": "18ca1MFh4qKA68TY28dHPdzbUYUMAz4zHw",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "d9b4a7a9ce210b60f9768f0b9a5a1ddc",
+  "addr0": "1A93pkA73SE9tMWUQ1c6e62SpEM1p8Vot9",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "7f41e0530ed099f8787f98e3456a148b",
+  "addr0": "1CC4yP1AuDqCZ2pvZnpE1HHchus5k8ARdk",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "0e8e193b1ef16871cda2dba8062594da",
+  "addr0": "1QsCs67DRBmSRxDEF5Pqkd4Nh1ExPbNAp",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "b94b1c4cd59299d3778d399b7f98f8ee",
+  "addr0": "16oCYmqCANAmP8U7F8jZ4KGGZuwgR18mjJ",
+  "hits": []
+ },
+ {
+  "tag": "PART-III/body",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "bc3ef6f3bb49e426c29e8cbb14d507d3",
+  "addr0": "15h1mHwLsK2BZgTKJ8n6fTSYs3rciERMon",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "bd9c7dc26eae7620514cec99e9a3615b",
+  "addr0": "14kdWFXXhNLi595FTDmJVtcVVNZhavpwWt",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "70260c1baef39e39fc07dd8432d45e16",
+  "addr0": "1FM4RJ1EKeAyagJebcdhSrB9tjts16ktEm",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "725fe72ce6952b3d836fa21346bb6f85",
+  "addr0": "13fQqMuUzJgL5GDzLxdwULvjStGNxcTvxi",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "ccb1213ff2fcd5db4375cb17d43c93f0",
+  "addr0": "1FAspzdBtWC1dxK4bJMTC9oS2VWKXVCAon",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "13409b63867ad2ae6c5a5175f85d68a0",
+  "addr0": "1NU6QBi6Nwsoyyf4EzovznGV5gUkM27Hkh",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "fd13ebb10d88f997a1e4f2303445f6da",
+  "addr0": "1MUhFbvqhk1N22CeaHDrG7hPLoJKZeWffo",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "dccc77cfab1e35c331f110770ebe9c25",
+  "addr0": "13FeY6L7hgfvxtir13ZhEFYR1kkVpkTaqd",
+  "hits": []
+ },
+ {
+  "tag": "III-2/body",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "0e9e241c0326fe0e280920455dbfbb12",
+  "addr0": "1K4ChDWaBdWLzHtBpADaFkVMy1ZD6Gmgr6",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "c64f6ee3f02d7f427eeb8a13866429a3",
+  "addr0": "1PdnzPGhiGcTPqVWduMbU2QSGGuMDXfbin",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "b5e39f6114f1f2cafd3d26b1acf2cd18",
+  "addr0": "1EMZtqHrQaBjJG7mwrZr2yxDqYaRFJyoNc",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "324da63d59ded9f04f758c7b1717d05c",
+  "addr0": "12ErCTBRiu52oJgt3LEAN51uMAwB7ytpa2",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "fc7c3e20a7d53ff307093a4510da135a",
+  "addr0": "18Nvwy54rNGPtXr9jcWQob2W4FV1ANaSar",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "6c45d5b74ddace8032c5f569fb774197",
+  "addr0": "17zReUKpojDtEMivUEN4XqkwPrFBg8EB8X",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "d5cadce86cbb107be8256da8ca6dae01",
+  "addr0": "1LqYTWXtYuKjqPg1jGMjGyj5EQkYRdivzf",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "76e8e58874c6a0c2d47db075e3726f3d",
+  "addr0": "1GEsXFmU87rVTyDzAWi2sxY7B1UoFhHgZi",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "851a7096d8e17f8acc90e9c939ceef30",
+  "addr0": "1PHNKSWVaXWB875WaawuCXGqrGs1KHxncd",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "fd8db86ae5f62ec298f7c5823ea5d483",
+  "addr0": "18zQrWECfgN911wRyLsN4u8H4RCcLfKxu",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "e80ba611b4a81d067b6d88b296fd5404",
+  "addr0": "1Bcz1MTWd8QUFr29oSbY91Jpf26Xc4FeDB",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "60e1a236cfce2d0c9bb4e2db5a47c5d3",
+  "addr0": "1A6toPX6xud129btnxetHVo17shfxBjDyH",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "f976a26cecfa57144af1a482d33d0419",
+  "addr0": "1BGuuKrLjradBF5rFpL5VQWf83se1QEh2Y",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "5a39939222a9670a7b0a18ffecb8885a",
+  "addr0": "1NHiKDbhQaPBfgX6qbrRi4KJSeqCWattpT",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "f144ef04da3fe3d70d6d065a48318981",
+  "addr0": "1KpF77to4Ki6GHfcpvu9NZxVTGZuQnU7eS",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "749c3444b5d034803c3dee885b9b1490",
+  "addr0": "1Dc7Qx7Qoo9c85dEbppKn3vMkdxv6N9yLz",
+  "hits": []
+ },
+ {
+  "tag": "III-2d/Outing/body",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "f8a2efe67efa96568c431fee7500ee43",
+  "addr0": "12JsAFziS7RwJ3sKjCY5L2HGw7HDgjRNoB",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "plain",
+  "ser": "LF1",
+  "md5": "4e78766e3cac8a48780c9f0e5e1c7167",
+  "addr0": "12nAyJ8GNVmkinZPnPTXKeWC7huAdQJzqX",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "geom",
+  "ser": "LF1",
+  "md5": "edfd3699cda5b094ded86289d84e183b",
+  "addr0": "13whX7nwSNNdJGJtXiQ4Wiie8f8T1YjrBS",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "plain",
+  "ser": "LF1+t",
+  "md5": "0d81269f03a2e990145e6fd513cae7fc",
+  "addr0": "1QB8Hfzf2yS4JyGWv6ihKuwkeU7ommWyFb",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "geom",
+  "ser": "LF1+t",
+  "md5": "a8f984a2a86bd870e5d62117efed13e2",
+  "addr0": "1CTt5FivnydHXxj9VzeL8z1wxfCDu4afmM",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "plain",
+  "ser": "CRLF1",
+  "md5": "440f07664eed8adfe6849e7c26852a3c",
+  "addr0": "1NjjrC8DHE4iogXccTMusJr21fTALiJcbt",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "geom",
+  "ser": "CRLF1",
+  "md5": "74edd741f2a771df2df3764eb7cdccbb",
+  "addr0": "1CX57d5VVWgUCfcj1v5787d7rzWJUyVvPn",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "plain",
+  "ser": "CRLF1+t",
+  "md5": "666ec06f80a600a3460bb17fc9248c01",
+  "addr0": "15Kmv9r7UvLjuczwsJwFxg6EcTAvhsFofT",
+  "hits": []
+ },
+ {
+  "tag": "RULEBOOK",
+  "rule": "geom",
+  "ser": "CRLF1+t",
+  "md5": "6f699f20f266ea4aff4c375b1a6bf8c8",
+  "addr0": "1L3hUK6VWR8muRxRXQ9c67B2P8ZiK3GEqR",
+  "hits": []
+ }
+]
