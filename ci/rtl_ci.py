@@ -165,7 +165,7 @@ def main():
         import mega
         mega.main()
         return
-    if _RAW == "SENT":
+    if _RAW.startswith("SENT"):
         # Sentence-unit class family: 670 sentences, 22 initial letters, 2^22 masks.
         # The certifies mechanic applied to sentences instead of paragraphs. See ci/sent.py.
         import sent

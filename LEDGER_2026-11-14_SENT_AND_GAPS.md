@@ -45,3 +45,21 @@ Mega run 43578710933 (viol 2^25 on the as-is base, class family on six cleaned b
 variants, tail-only) still has 15 of 20 shards in progress at 15:25 UTC. Shard 8's
 violator lane is a certified negative: 1,677,721 masks, indices 0, zero hits, 1,429
 derivations/s.
+
+## Run accounting, corrected (accepted)
+
+Valid, gated coverage of the 2^25 violator lane is **46,137,344 derivations**, not
+88,207,360:
+
+- `43570563558` (fix commit's own run): 2^25 masks at index 0, CRLF only, because the LF
+  join prints "skip duplicate join under V1" = 33,554,432 derivations.
+- `43574235865`: 4,194,304 masks x indices 0,1,2 = 12,582,912 derivations.
+- `43567789115` and `43568736664` are **void**: the splice bug
+  `flip[vm] if (mask >> vm) & 1 else norm[i]` appends the wrong paragraph whenever a bit
+  is set, and neither calls `gate(P)`. Their 33,554,400 + 16,777,216 come off the books.
+- K2 (`43576012943`) is cancelled, 20/20, no coverage.
+
+The index point stands as the user states it: the harness increments `n` before the index
+loop, so `n` counts masks and the printed rate is masks/s. A shard at 330 masks/s with
+three indices is 990 derivations/s, consistent with the 917-954 derivation/s the violator
+lanes measure; at index 0 alone the same wall clock would have shown ~950 masks/s.
