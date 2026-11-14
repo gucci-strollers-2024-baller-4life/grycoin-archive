@@ -47,8 +47,12 @@ assert len(set(VIOL)) == N
 Hc = 0x80000000
 
 _RAW = os.environ.get("RTL_SUFFIX", " RTL")
+# The dispatch token can edit ci/ but not .github/workflows/, so the suffix input is the
+# control channel (the same trick that selected V1): "CLS" selects the class-mode sweep
+# and implies no suffix.
+MODE = os.environ.get("RTL_MODE", "CLASS" if _RAW == "CLS" else "VIOL")
 V1 = (_RAW == "V1")
-SUF = b"" if _RAW in ("NONE", "V1") else _RAW.encode()
+SUF = b"" if _RAW in ("NONE", "V1", "CLS") else _RAW.encode()
 
 CERT = {b"\n\n": "46a308c279540a33e977ea1f660e8458",
         b"\r\n\r\n": "bd07e6ee209c5ab65d874bbbcfccda18",
@@ -84,6 +88,15 @@ def gate(P):
     for sep, want in CERT.items():
         got = hashlib.md5(sep.join(norm)).hexdigest()
         assert got == want, "base drift %r %s != %s" % (sep, got, want)
+    if MODE == "CLASS":
+        probes = [0, 1, (1 << 20), (1 << 21) - 1, 0b10101010101010101010]
+        for mask in probes:
+            a = b"\r\n".join(flip[i] if (LETBIT[i] is not None and not (mask >> LETBIT[i]) & 1)
+                              else norm[i] for i in range(273))
+            b = "\r\n".join(flips(P[i]) if (LETBIT[i] is not None and not (mask >> LETBIT[i]) & 1)
+                              else P[i] for i in range(273)).encode()
+            assert a == b, "CLASS construction mismatch at mask %d" % mask
+        return
     probes = [0, 1, (1 << 3) | (1 << 12), (1 << 13) | (1 << 14) | (1 << 15),
               (1 << 16), (1 << 24) - 1]
     for mask in probes:
@@ -97,6 +110,30 @@ def gate(P):
           " fourth replica tails %r" % tails, flush=True)
 
 
+LETBIT = [None] * 273
+LETTERS = []
+
+
+def build_class_axes(P):
+    """Every paragraph's initial, as an independent class-membership bit.
+
+    Marking rule is the certified one read backwards: a paragraph is marked when its
+    initial is NOT a member of the class. Enumerating membership over the letters the
+    chapter actually uses as initials therefore enumerates every class-rule document
+    the chapter can produce, including classes that contain F or W (FINNEY, GRYCOIN,
+    SATOSHI NAKAMOTO), which stage one's calibration excludes.
+    """
+    global LETBIT, LETTERS
+    LETTERS = sorted({next((c.upper() for c in p if c.isalpha()), None) for p in P} - {None})
+    idx = {c: k for k, c in enumerate(LETTERS)}
+    LETBIT = [None] * len(P)
+    for i, p in enumerate(P):
+        c = next((c.upper() for c in p if c.isalpha()), None)
+        if c is not None:
+            LETBIT[i] = idx[c]
+    print("class axes n=%d %s" % (len(LETTERS), "".join(LETTERS)), flush=True)
+
+
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
@@ -108,6 +145,27 @@ def main():
     norm = [p.encode() for p in P]
     flip = [flips(p).encode() for p in P]
     gate(P)
+    if MODE == "CLASS":
+        build_class_axes(P)
+        # marked when the paragraph's letter bit is 0 ("not a member of the class")
+        triples = [(f, z, b) for f, z, b in zip(flip, norm, LETBIT)]
+        nmasks = 1 << len(LETTERS)
+        print("axes n=%d letters=%s join=%r indices=%s masks=%d"
+              % (len(LETTERS), "".join(LETTERS), sep, idxs, nmasks), flush=True)
+        t0 = time.time(); n = 0; hits = 0
+        for mask in range(start, min(end, nmasks)):
+            body = sep.join([z if (b is None or (mask >> b) & 1) else f for f, z, b in triples]) + SUF
+            d = hashlib.md5(body).hexdigest()
+            n += 1
+            for ix in idxs:
+                if addr(d, ix) == (V1T if V1 else ESC):
+                    hits += 1
+                    print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
+                    open("HIT_%s_%d_%d.txt" % (join, mask, ix), "wb").write(body)
+            if n % 50000 == 0:
+                print("n=%d mask=%d rate=%.0f/s" % (n, mask, n / (time.time() - t0)), flush=True)
+        print("DONE %s %d..%d n=%d hits=%d in %ds" % (join, start, end, n, hits, time.time() - t0), flush=True)
+        return
     axbit = [0] * 273
     for v, i in enumerate(VIOL):
         axbit[i] = 1 << v
