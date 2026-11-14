@@ -165,6 +165,12 @@ def main():
         import mega
         mega.main()
         return
+    if _RAW == "SENT":
+        # Sentence-unit class family: 670 sentences, 22 initial letters, 2^22 masks.
+        # The certifies mechanic applied to sentences instead of paragraphs. See ci/sent.py.
+        import sent
+        sent.run(start, end, join, idxs)
+        return
     if _RAW == "GAPS":
         # L1 head-selected/tail-only, L2 head-selected/head-only, L3 tail-selected/head-only.
         # Three selector/mutation pairings the hunt has never covered; see ci/gaps.py.
