@@ -170,6 +170,11 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
+    if _RAW == "MSG":
+        # Message-first inversion over paragraph tails. See ci/msg_sweep.py.
+        import msg_sweep
+        msg_sweep.run(start, end, idxs)
+        return
     if _RAW.startswith("SENT"):
         # Sentence-unit class family: 670 sentences, 22 initial letters, 2^22 masks.
         # The certifies mechanic applied to sentences instead of paragraphs. See ci/sent.py.
