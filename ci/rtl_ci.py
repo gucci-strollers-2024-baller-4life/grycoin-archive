@@ -165,6 +165,11 @@ def main():
         import mega
         mega.main()
         return
+    if _RAW in ("NFINNEY", "NTHOMAS", "NGRYCOIN"):
+        # Name marking on the demo, block-2/29 shape. See ci/name_sweep.py.
+        import name_sweep
+        name_sweep.run(start, end, idxs)
+        return
     if _RAW.startswith("SENT"):
         # Sentence-unit class family: 670 sentences, 22 initial letters, 2^22 masks.
         # The certifies mechanic applied to sentences instead of paragraphs. See ci/sent.py.
