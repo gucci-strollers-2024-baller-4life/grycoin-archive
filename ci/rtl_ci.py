@@ -51,7 +51,7 @@ _RAW = os.environ.get("RTL_SUFFIX", " RTL")
 # control channel (the same trick that selected V1): "CLS" selects the class-mode sweep
 # and implies no suffix.
 MODE = os.environ.get("RTL_MODE",
-                      "CLASS" if _RAW in ("CLS", "CLSN", "CLSS", "CLDB", "CLPX", "CLCR") else "VIOL")
+                      "CLASS" if _RAW in ("CLS", "CLSN", "CLSS", "CLDB", "CLPX", "CLCR", "CLWS") else "VIOL")
 # Base-variant axis. The only file of hers we hold at byte level (safudev_stage1.txt,
 # md5 9dd2efb9) is pure ASCII: no U+00A0, no trailing space on any line. The chapter base
 # carries 23 characters her own file would not have (6 NBSP, 17 trailing spaces), so every
@@ -65,9 +65,12 @@ VAR = {"CLSN": "nbsp", "CLSS": "nbsp+trail",
        "CLDB": "debreak:space", "CLPX": "debreak:deleted",
        # A Windows browser copy turns the inner <br/> into CRLF: 46,010 bytes (db11a7fd),
        # which is exactly base_chapter_crlf.txt, and which no sweep has hashed.
-       "CLCR": "debreak:crlf"}.get(_RAW)
+       "CLCR": "debreak:crlf",
+       # CLWS: the same inner-CRLF base, but with paragraphs separated by a single CRLF.
+       # That is the only serialization a Windows browser produces at 45,466 bytes (f1368eb5).
+       "CLWS": "debreak:crlf"}.get(_RAW)
 V1 = (_RAW == "V1")
-SUF = b"" if _RAW in ("NONE", "V1", "CLS", "CLSN", "CLSS", "CLDB", "CLPX", "CLCR") else _RAW.encode()
+SUF = b"" if _RAW in ("NONE", "V1", "CLS", "CLSN", "CLSS", "CLDB", "CLPX", "CLCR", "CLWS") else _RAW.encode()
 
 CERT = {b"\n\n": "46a308c279540a33e977ea1f660e8458",
         b"\r\n\r\n": "bd07e6ee209c5ab65d874bbbcfccda18",
@@ -172,7 +175,10 @@ def main():
         procs = int(os.environ.get("K2_PROCS", "4"))
         k2_sweep.run(start + off, end + off, procs)
         return
-    sep = b"\r\n" if V1 else (b"\r\n\r\n" if join == "crlf" else b"\n\n")
+    sep = b"\r\n" if (V1 or _RAW == "CLWS") else (b"\r\n\r\n" if join == "crlf" else b"\n\n")
+    if _RAW == "CLWS" and join == "crlf":
+        print("skip duplicate join under CLWS (single CRLF is forced)", flush=True)
+        return
     if V1 and join == "lf":
         print("skip duplicate join under V1")
         return
