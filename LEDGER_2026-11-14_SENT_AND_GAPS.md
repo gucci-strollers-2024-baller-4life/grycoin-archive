@@ -63,3 +63,28 @@ The index point stands as the user states it: the harness increments `n` before 
 loop, so `n` counts masks and the printed rate is masks/s. A shard at 330 masks/s with
 three indices is 990 derivations/s, consistent with the 917-954 derivation/s the violator
 lanes measure; at index 0 alone the same wall clock would have shown ~950 masks/s.
+
+## Local content-and-word families, 15:35-15:45 UTC (all zero, both escrows)
+
+The chapter was swept along the axis no arithmetic sweep touches: which paragraphs you
+would *recognise* as carrying the sign. Every family below was derived at indices 0-2 on
+LF, CRLF2 and single-CRLF, comparing against `14zMk` and `1EFojcAo`.
+
+| family | selection rule | documents | derivations |
+|---|---|---|---|
+| words | set of paragraphs containing a given word (1,704 distinct sets, with complements) x 3 mark modes x 3 joins | 15,336 | 46,008 |
+| phrases | paragraphs containing a given bigram (1,016 sets, with complements) | 9,144 | 27,432 |
+| names | every occurrence of each letter of AOI, YANG, FINNEY, HAL, SATOSHI, NAKAMOTO, AOINAKAMOTO, HALFINNEY, GRYCOIN, SATOMI, THOMAS, STNM, AOIN, OI, GREEN, FOWLER, upper and normalised | 102 | 306 |
+| features | 27 structural predicates (ends with ? ! or "; opens with a quote; digits; colons; length <60, >600, ==44; contains Satoshi, Finney, identity, sign, crypt, hash, letter, name, proof, Grycoin, ellipsis, quote mark) x in/out x 3 modes | 432 | 1,296 |
+| word marks | for each of 1,493 word types, upper the last letter / upper the first / upper the first occurrence only (the block-29 shape: "change the o and i in 'voice'") | 13,434 | 40,302 |
+| sentence content | 1,444 word types selecting sentences inside the 670-sentence parse, 3 modes | 8,664 | 25,992 |
+| word windows | first and last k=1..5 words of each paragraph (paragraph 242's "first four and last four words"), heads/tails/both, plus the four FFWW windows, plus the chapter's own first and last four words | 192 | 576 |
+| hint paragraphs | the two paragraphs that end "recognize the signs" (222, 273), 244, 241, the 14 signs paragraphs, each with 3 modes and the 4-word window | 126 | 378 |
+
+Total 47,430 documents, 142,290 derivations, zero hits.
+
+Reading: the marks are neither an arithmetic class (closed earlier) nor a content keyword,
+a word-shape, a name's own letters, a punctuation feature, a length class, or the paragraph
+242 word window. Those are the only selection rules the chapter's own text licenses, so the
+selection is judgement, not a rule, and no further structured sweep on this text is going to
+find it.
