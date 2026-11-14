@@ -51,7 +51,7 @@ _RAW = os.environ.get("RTL_SUFFIX", " RTL")
 # control channel (the same trick that selected V1): "CLS" selects the class-mode sweep
 # and implies no suffix.
 MODE = os.environ.get("RTL_MODE",
-                      "CLASS" if _RAW in ("CLS", "CLSN", "CLSS", "CLDB", "CLPX") else "VIOL")
+                      "CLASS" if _RAW in ("CLS", "CLSN", "CLSS", "CLDB", "CLPX", "CLCR") else "VIOL")
 # Base-variant axis. The only file of hers we hold at byte level (safudev_stage1.txt,
 # md5 9dd2efb9) is pure ASCII: no U+00A0, no trailing space on any line. The chapter base
 # carries 23 characters her own file would not have (6 NBSP, 17 trailing spaces), so every
@@ -62,9 +62,12 @@ VAR = {"CLSN": "nbsp", "CLSS": "nbsp+trail",
        # paragraph; chapter_paras_exact deletes them (fusing "to"+"the"), and no sweep
        # has ever controlled this variable. CLDB reads the break as the space a plain-text
        # paste produces; CLPX reads it as deleted, reproducing chapter_paras_exact.
-       "CLDB": "debreak:space", "CLPX": "debreak:deleted"}.get(_RAW)
+       "CLDB": "debreak:space", "CLPX": "debreak:deleted",
+       # A Windows browser copy turns the inner <br/> into CRLF: 46,010 bytes (db11a7fd),
+       # which is exactly base_chapter_crlf.txt, and which no sweep has hashed.
+       "CLCR": "debreak:crlf"}.get(_RAW)
 V1 = (_RAW == "V1")
-SUF = b"" if _RAW in ("NONE", "V1", "CLS", "CLSN", "CLSS", "CLDB", "CLPX") else _RAW.encode()
+SUF = b"" if _RAW in ("NONE", "V1", "CLS", "CLSN", "CLSS", "CLDB", "CLPX", "CLCR") else _RAW.encode()
 
 CERT = {b"\n\n": "46a308c279540a33e977ea1f660e8458",
         b"\r\n\r\n": "bd07e6ee209c5ab65d874bbbcfccda18",
@@ -152,6 +155,12 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW == "TL":
+        if join == "crlf":
+            print("tail: single pass, join handled inside", flush=True)
+        import tail_sweep
+        tail_sweep.run(start, end, join, idxs)
+        return
     if _RAW.startswith("K2"):
         # Exhaustive two-letter case-toggle space over the certified LF base (46a308c2).
         # K2A: global pairs 0 .. 2^29-1.  K2B: 2^29 .. 2^30-1 (clipped at 641,697,400).
@@ -176,6 +185,8 @@ def main():
             P = [p.replace("\u00a0", " ") for p in P]
         if VAR == "debreak:space":
             P = [p.replace("\n", " ") for p in P]
+        if VAR == "debreak:crlf":
+            P = [p.replace("\n", "\r\n") for p in P]
         if VAR == "debreak:deleted":
             P = [p.replace("\n", "") for p in P]
         if "trail" in VAR:
