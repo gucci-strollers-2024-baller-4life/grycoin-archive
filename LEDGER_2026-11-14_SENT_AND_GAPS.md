@@ -121,3 +121,37 @@ can be recomputed from the artifact after the fact.
 
 No further work is stacked on the queue, per instruction. The eight runs in flight or
 queued are the mega, GAPS, SENT, SENTT, CLWS, NFINNEY, NTHOMAS, NGRYCOIN and MSG.
+
+## The demo, three new closures (2019 thread evidence + derived)
+
+The demo's own thread supplies a sentence the hunt had not used. Asked what letters the
+demo changes, the author wrote on 2019-08-03: "The question of what letters to change in
+capitalization is obvious if you know the solution to Satoshi's bitcointalk puzzle, which I
+revealed already. The question of how to go from that to claiming the prize is not, not even
+to me." So the mark *choice* is the revealed puzzle solution (the FFWW / STNM signature) and
+the author himself never had the derivation path. That reframes the demo as a known-answer
+instance for the letters only.
+
+1. **The literal illustration is dead at any index.** `I`→`i` at ¶5's head plus
+   `himself`→`himselF` at its tail, four serializations (LF, CRLF2, and each with a trailing
+   newline), derived at **indices 0 through 4,999**: 20,000 derivations, zero hits on
+   `1tzieUf…`. The earlier note had only reached index 5. So the demo answer is not the two
+   flips the demo describes, at any plausible derivation index, in any of the four byte forms.
+
+2. **STNM cannot be spelled by the demo's paragraph tails at all.** The demo's ten paragraph
+   tails are `T N N S L I F D E D` and its heads `I A F F I O W W I A`. There is no T after the
+   S, so "STNM" has **zero** in-order embeddings at paragraph granularity. That is why every
+   demo sweep built on paragraph-edge selection is structurally empty for this message, and it
+   is independent evidence that the demo's unit is not the paragraph.
+
+3. **Letters-level STNM is negative.** Uppercasing one in-order occurrence each of S, T, N, M
+   anywhere in the demo (694,082 embeddings), in two variants (plain, and with the head of every
+   paragraph containing a mark lowered to the certified mechanic's shape), on LF and CRLF2:
+   2,776,328 documents, 10,833 at `3c`, 684 at `3c6` (chance is 678), 32,499 derivations at
+   indices 0-2, **zero** hits. So the demo's marks are not "one in-order occurrence of the
+   signature anywhere in the text" either.
+
+Together with the earlier closures (all 1,024 paragraph subsets x 9 modes, all 32 sign-set
+subsets x first/last/both, 717,003 one- and two-character flips screened on the prefix), the
+demo now has no reading left that this hunt can test without the derivation path that the
+author says he never had.
