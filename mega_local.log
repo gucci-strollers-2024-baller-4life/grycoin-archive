@@ -1,0 +1,3 @@
+gate OK [MEGA]: bases 46a308c2 (LF) / bd07e6ee (CRLF) / e7f3720c (single CR) reproduced; targets LIVE(14zMk)+V1(1EFojcAo)
+variant CLSN b'\n\n' 0d2c86ff axes=ABCDEFGHIKLMNOPRSTVWY
+variant CLSN b'\r\n\r\n' 8d3d6de1 axes=ABCDEFGHIKLMNOPRSTVWY

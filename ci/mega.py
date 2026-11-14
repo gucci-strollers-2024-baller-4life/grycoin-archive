@@ -63,7 +63,49 @@ def flips_tail(p):
     return "".join(b)
 
 
-def sweep(norm, flip, bits, start, end, seps, label, hits):
+def _chunk(job):
+    (norm, flip, bits, seps, start, end) = job
+    n = 0
+    out = []
+    for sep in seps:
+        for mask in range(start, end):
+            body = sep.join([norm[i] if (bits[i] is None or (mask >> bits[i]) & 1) else flip[i]
+                             for i in range(len(norm))])
+            d = hashlib.md5(body).hexdigest()
+            n += 1
+            for ix in IDX:
+                a = R.addr(d, ix)
+                if a in R.TARGETS:
+                    out.append(dict(sep=repr(sep), mask=mask, idx=ix, md5=d, escrow=R.TARGETS[a]))
+                    open("HIT_MEGA_%d_%d.txt" % (mask, ix), "wb").write(body)
+    return n, out
+
+
+def sweep(norm, flip, bits, start, end, seps, label, hits, procs=1):
+    if procs > 1:
+        lo = min(end, 1 << len(bits))
+        step = max(1, (lo - start) // procs)
+        jobs, a = [], start
+        while a < lo:
+            jobs.append((norm, flip, bits, seps, a, min(lo, a + step)))
+            a += step
+        import multiprocessing as mp
+        with mp.Pool(len(jobs)) as pool:
+            res = pool.map(_chunk, jobs)
+        n = sum(r[0] for r in res)
+        for r in res:
+            hits.extend(r[1])
+            for h in r[1]:
+                print("***HIT", h, flush=True)
+        print("DONE %-22s start=%d end=%d n=%d procs=%d" % (label, start, end, n, len(jobs)), flush=True)
+        try:
+            st = json.load(open("mega_progress.json"))
+        except Exception:
+            st = {"total": 0, "families": {}}
+        st["total"] = st.get("total", 0) + n
+        st["families"][label] = st["families"].get(label, 0) + n
+        json.dump(st, open("mega_progress.json", "w"), indent=1)
+        return n
     n = 0
     for sep in seps:
         for mask in range(start, min(end, 1 << len(bits))):
@@ -109,13 +151,16 @@ def main():
         viol_ranges = [(vs, ve)]
     hits = []
     total = 0
+    # A GitHub runner has more than one core; the shard step cannot pass extra env, so
+    # shard mode defaults to four workers and local mode stays single-process.
+    PROCS = int(os.environ.get("MEGA_PROCS", "4" if os.environ.get("MEGA_MODE") != "local" else "1"))
     SEPS = (b"\n\n", b"\r\n\r\n")
     # 1. violator space, as-is base, index 0
     norm = [p.encode() for p in P0]
     flip = [R.flips(p).encode() for p in P0]
     if not os.environ.get("MEGA_SKIP_VIOL"):
         for vs, ve in viol_ranges:
-            total += sweep(norm, flip, [None] * 273, vs, ve, SEPS, "viol-as-is", hits)
+            total += sweep(norm, flip, [None] * 273, vs, ve, SEPS, "viol-as-is", hits, PROCS)
     # 2. class family on each base variant
     for v in VARIANTS:
         PV = apply_variant(P0, v)
@@ -125,14 +170,14 @@ def main():
         for sep2 in (b"\n\n", b"\r\n\r\n"):
             print("variant %s %r %s axes=%s" % (v, sep2, hashlib.md5(sep2.join(norm)).hexdigest()[:8], "".join(let)), flush=True)
         for cs, ce in class_ranges:
-            total += sweep(norm, flip, bits, cs, ce, SEPS, "class-" + v, hits)
+            total += sweep(norm, flip, bits, cs, ce, SEPS, "class-" + v, hits, PROCS)
     # 3. tail-only family
     norm = [p.encode() for p in P0]
     flip = [flips_tail(p).encode() for p in P0]
     let, bits = tail_axes(P0)
     print("tail axes n=%d %s" % (len(let), "".join(let)), flush=True)
     for cs, ce in class_ranges:
-        total += sweep(norm, flip, bits, cs, ce, SEPS, "tail-only", hits)
+        total += sweep(norm, flip, bits, cs, ce, SEPS, "tail-only", hits, PROCS)
     print("MEGA DONE total=%d hits=%d" % (total, len(hits)), flush=True)
     json.dump(dict(total=total, hits=hits, mode=mode), open("mega_results.json", "w"), indent=1)
 
