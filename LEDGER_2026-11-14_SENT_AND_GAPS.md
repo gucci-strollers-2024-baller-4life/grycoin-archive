@@ -155,3 +155,48 @@ Together with the earlier closures (all 1,024 paragraph subsets x 9 modes, all 3
 subsets x first/last/both, 717,003 one- and two-character flips screened on the prefix), the
 demo now has no reading left that this hunt can test without the derivation path that the
 author says he never had.
+
+## The author's numbered posts in r/real_big_block_discussion (never mined before)
+
+Fifteen comments by the author in that thread, numbered by him "for later reference". Two matter
+directly:
+
+- **1.** "When I posted the real big block at the Wattpad site, I added extra line breaks between
+  paragraphs. This information is needed to solve the block."
+- **7.** "I took back the prize for a moment and sent it again to a new address, hashing with a
+  slightly different solution… It has multiple paragraphs and **two line breaks between each of
+  them**." Clarified when asked what that looks like in ASCII: "Hit enter twice. This displays in
+  Ascii as 13 10 13 10."
+
+So **CRLF2 (`\r\n\r\n`, i.e. 13 10 13 10) is the authoritative answer serialization**, stated by the
+author twice, and the second escrow differs from the first by that serialization alone, with the
+mark set unchanged. That is exactly the V1/LIVE split the target map already encodes
+(`1EFojcAo` single 13 10, `14zMk` 13 10 13 10), and it means a hit on either escrow confirms the same
+marks. Every lane that runs both joins is aligned with his own description; LF-only lanes are not.
+
+Also from the stage-one thread, on how the selection is hinted: "Actually there is a hint on how to
+solve this right in the post by Hal. Much like the Aa in the genesis block address hinted at the
+solution." So the class of hint is a *visible case anomaly* in the text.
+
+## Case-anomaly repair reading (new family, zero)
+
+Scanning the chapter for the analogous anomalies turns up exactly twelve mixed-case tokens, the only
+places in 45,450 bytes where a capital sits inside a word after a lowercase or before one:
+
+| ¶ | token |
+|---|---|
+| 73 | `ppM` |
+| 106, 112 | `WorldWideAbsoluteCarbonBudget` |
+| 107 | `FUCKFuckFUCKFuckFUCKFuckFUCKX`, `AndrewYangForPresident`, `oXXX` |
+| 126 | `abcdefghijkLmnopqruvwxyz`, `abcdefghijkLmnopqrstuvwxyz` |
+| 128 | `VIrgin` |
+| 136 | `BItcoin` |
+| 209 | `BITcoin`, `AHScoin` |
+
+Note ¶126's *first* alphabet example omits exactly **s** and **t** (`…pqruvwxyz`), the two letters of
+the signature's tail, and the second repeats the same capital `L`.
+
+Tested: every one of the 256 subsets of those twelve paragraphs with their internal capitals
+lowercased (the repair reading, the opposite direction from every previous sweep), on LF and CRLF2,
+at indices 0-2: 512 documents, **zero** hits. So the answer is not "repair the anomalies", and the
+anomalies are therefore ordinary authoring artefacts rather than the signs themselves.
