@@ -1,27 +1,59 @@
 #!/usr/bin/env python3
 """RTL-suffixed subset sweep, shardable. Usage: rtl_ci.py START END JOIN IDX,IDX
-Space: integer masks over the 24 F/W sign-violating paragraphs. Certified mechanic
-(head letter down, terminal letter up) applied to the selected paragraphs, join,
-append the literal suffix " RTL", md5, BIP39, BIP32, P2PKH, compare to the escrow."""
+
+Space: integer masks over the case-violating paragraphs (VIOL). Certified mechanic
+(head alpha lowered, terminal alpha raised) applied to the selected paragraphs, join,
+append the literal suffix, md5, BIP39, BIP32, P2PKH, compare to the escrow.
+
+Repaired 2026-11-14 after audit:
+  1. SPLICE BUG. The old code used flip[VM] (the violator index 0..N-1) instead of
+     flip[i] (the paragraph index 0..272), so every non-empty mask REPLACED the
+     selected paragraph with a different paragraph's flipped text (3,336 bytes lost
+     on the all-bits mask). Only mask 0 was a real document; 2^24-1 of the 2^24
+     enumerated texts were not documents at all.
+  2. FOURTH REPLICA. The four FFWW/stnm runs are {4,5,6,7}, {92,93,94,95},
+     {167,168,169,170}, {230,231,232,234} (0-indexed). The old list had
+     {231,232,234,235} = F,W,W,W with tails t,n,m,h, dropping paragraph 230
+     ("For those who don't know me, I'm Hal Finney...") which stage one flips, and
+     adding 235 which belongs to no replica. Both readings are now axes (25 total).
+  3. GATE. No candidate is derived unless the three certified base hashes reproduce
+     and the masked document is byte-identical to a plain per-paragraph string rebuild.
+"""
 import sys, os, hashlib, time
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import btc
 from coincurve import PrivateKey
 
+
 def _pub(k):
     x, y = PrivateKey(k.to_bytes(32, 'big')).public_key.point()
     return (x, y)
+
+
 btc.pubkey = _pub
 
 ESC = "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W"
 V1T = "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
-VIOL = [4,5,6,7,69,92,93,94,95,99,101,105,119,131,138,167,168,169,170,231,232,234,235,258]
+
+# 16 replica members (0-indexed) + 8 prose F/W singles + 235 (kept so both readings
+# of the fourth replica stay inside one space). 25 axes = 33,554,432 masks.
+VIOL = [4, 5, 6, 7, 92, 93, 94, 95, 167, 168, 169, 170,
+        230, 231, 232, 234, 235,
+        69, 99, 101, 105, 119, 131, 138, 258]
 N = len(VIOL)
+assert len(set(VIOL)) == N
+Hc = 0x80000000
+
 _RAW = os.environ.get("RTL_SUFFIX", " RTL")
 V1 = (_RAW == "V1")
 SUF = b"" if _RAW in ("NONE", "V1") else _RAW.encode()
-Hc = 0x80000000
+
+CERT = {b"\n\n": "46a308c279540a33e977ea1f660e8458",
+        b"\r\n\r\n": "bd07e6ee209c5ab65d874bbbcfccda18",
+        b"\r\n": "e7f3720c6f9c95afe37efb0b78ebc8ac"}
+
 
 def flips(p):
     a = [i for i, c in enumerate(p) if c.isalpha()]
@@ -32,41 +64,69 @@ def flips(p):
     c[a[-1]] = c[a[-1]].upper()
     return "".join(c)
 
+
 def addr(d, ix):
-    n = int(btc.entropy_to_mnemonic(bytes.fromhex(d)).replace(" ", "\x00").split("\x00")[0]) if False else None
     m = btc.entropy_to_mnemonic(bytes.fromhex(d))
-    k = btc.derive_path(btc.mnemonic_seed(m, ""), (44+Hc, 0+Hc, 0+Hc, 0, ix))
+    k = btc.derive_path(btc.mnemonic_seed(m, ""), (44 + Hc, 0 + Hc, 0 + Hc, 0, ix))
     return btc.p2pkh(_pub(k))
+
+
+def load():
+    P = open(os.path.join(HERE, "base_chapter_lf.txt"), encoding="utf-8").read().split("\n\n")
+    assert len(P) == 273, len(P)
+    assert sum(len(p) for p in P) + 2 * (len(P) - 1) == 45450, "substrate drift"
+    return P
+
+
+def gate(P):
+    norm = [p.encode() for p in P]
+    flip = [flips(p).encode() for p in P]
+    for sep, want in CERT.items():
+        got = hashlib.md5(sep.join(norm)).hexdigest()
+        assert got == want, "base drift %r %s != %s" % (sep, got, want)
+    probes = [0, 1, (1 << 3) | (1 << 12), (1 << 13) | (1 << 14) | (1 << 15),
+              (1 << 16), (1 << 24) - 1]
+    for mask in probes:
+        sel = set(VIOL[v] for v in range(N) if (mask >> v) & 1)
+        a = b"\r\n".join(flip[i] if i in sel else norm[i] for i in range(273))
+        b = "\r\n".join(flips(P[i]) if i in sel else P[i] for i in range(273)).encode()
+        assert a == b, "construction mismatch at mask %d (%d vs %d bytes)" % (mask, len(a), len(b))
+    tails = "".join(next((c for c in reversed(P[i]) if c.isalpha()), "") for i in (230, 231, 232, 234))
+    assert tails == "stnm", tails
+    print("gate OK: bases 46a308c2 / bd07e6ee / e7f3720c; construction byte-identical;"
+          " fourth replica tails %r" % tails, flush=True)
+
 
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
-    join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(',')]
-    sep = b"\r\n" if V1 else (b"\r\n\r\n" if join == 'crlf' else b"\n\n")
-    if V1 and join == 'lf':
-        print('skip duplicate join under V1'); return
-    P = open(os.path.join(HERE, 'base_chapter_lf.txt'), encoding='utf-8').read().split("\n\n")
-    assert len(P) == 273
-    assert sum(len(p) for p in P) + 2*(len(P)-1) == 45450, "substrate drift"
+    join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    sep = b"\r\n" if V1 else (b"\r\n\r\n" if join == "crlf" else b"\n\n")
+    if V1 and join == "lf":
+        print("skip duplicate join under V1")
+        return
+    P = load()
     norm = [p.encode() for p in P]
     flip = [flips(p).encode() for p in P]
-    t0 = time.time(); n = 0
+    gate(P)
+    axbit = [0] * 273
+    for v, i in enumerate(VIOL):
+        axbit[i] = 1 << v
+    triples = list(zip(flip, norm, axbit))
+    print("axes n=%d %s join=%r suffix=%r indices=%s" % (N, VIOL, sep, SUF, idxs), flush=True)
+    t0 = time.time(); n = 0; hits = 0
     for mask in range(start, min(end, 1 << N)):
-        full = []
-        vm = 0
-        for i in range(273):
-            if vm < N and i == VIOL[vm]:
-                full.append(flip[vm] if (mask >> vm) & 1 else norm[i]); vm += 1
-            else:
-                full.append(norm[i])
-        body = sep.join(full) + SUF
+        body = sep.join([f if (mask & b) else z for f, z, b in triples]) + SUF
         d = hashlib.md5(body).hexdigest()
         n += 1
         for ix in idxs:
             if addr(d, ix) == (V1T if V1 else ESC):
+                hits += 1
                 print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
-        if n % 25000 == 0:
-            print("n=%d mask=%d rate=%.0f/s" % (n, mask, n/(time.time()-t0)), flush=True)
-    print("DONE %s %d..%d n=%d in %ds" % (join, start, end, n, time.time()-t0), flush=True)
+                open("HIT_%s_%d_%d.txt" % (join, mask, ix), "wb").write(body)
+        if n % 50000 == 0:
+            print("n=%d mask=%d rate=%.0f/s" % (n, mask, n / (time.time() - t0)), flush=True)
+    print("DONE %s %d..%d n=%d hits=%d in %ds" % (join, start, end, n, hits, time.time() - t0), flush=True)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
