@@ -50,9 +50,15 @@ _RAW = os.environ.get("RTL_SUFFIX", " RTL")
 # The dispatch token can edit ci/ but not .github/workflows/, so the suffix input is the
 # control channel (the same trick that selected V1): "CLS" selects the class-mode sweep
 # and implies no suffix.
-MODE = os.environ.get("RTL_MODE", "CLASS" if _RAW == "CLS" else "VIOL")
+MODE = os.environ.get("RTL_MODE", "CLASS" if _RAW in ("CLS", "CLSN", "CLSS") else "VIOL")
+# Base-variant axis. The only file of hers we hold at byte level (safudev_stage1.txt,
+# md5 9dd2efb9) is pure ASCII: no U+00A0, no trailing space on any line. The chapter base
+# carries 23 characters her own file would not have (6 NBSP, 17 trailing spaces), so every
+# sweep to date has hashed a web rendering. CLSN cleans nothing but the NBSPs, CLSS cleans
+# the NBSPs and the trailing spaces.
+VAR = {"CLSN": "nbsp", "CLSS": "nbsp+trail"}.get(_RAW)
 V1 = (_RAW == "V1")
-SUF = b"" if _RAW in ("NONE", "V1", "CLS") else _RAW.encode()
+SUF = b"" if _RAW in ("NONE", "V1", "CLS", "CLSN", "CLSS") else _RAW.encode()
 
 CERT = {b"\n\n": "46a308c279540a33e977ea1f660e8458",
         b"\r\n\r\n": "bd07e6ee209c5ab65d874bbbcfccda18",
@@ -156,6 +162,15 @@ def main():
     norm = [p.encode() for p in P]
     flip = [flips(p).encode() for p in P]
     gate(P)
+    if VAR:
+        if "nbsp" in VAR:
+            P = [p.replace("\u00a0", " ") for p in P]
+        if "trail" in VAR:
+            P = ["\n".join(ln.rstrip(" ") for ln in p.split("\n")) for p in P]
+        norm = [p.encode() for p in P]
+        flip = [flips(p).encode() for p in P]
+        for sep2 in (b"\n\n", b"\r\n\r\n"):
+            print("cleaned base %s %r %s" % (VAR, sep2, hashlib.md5(sep2.join(norm)).hexdigest()), flush=True)
     if MODE == "CLASS":
         build_class_axes(P)
         # marked when the paragraph's letter bit is 0 ("not a member of the class")
