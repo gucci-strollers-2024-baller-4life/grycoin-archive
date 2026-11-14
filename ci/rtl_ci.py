@@ -102,6 +102,9 @@ def gate(P):
             b = "\r\n".join(flips(P[i]) if (LETBIT[i] is not None and not (mask >> LETBIT[i]) & 1)
                               else P[i] for i in range(273)).encode()
             assert a == b, "CLASS construction mismatch at mask %d" % mask
+        print("gate OK [CLASS]: bases 46a308c2 (LF) / bd07e6ee (CRLF) / e7f3720c (single CR) "
+              "reproduced; %d class axes; construction byte-identical at %d probes; base variant %r"
+              % (len(LETTERS), len(probes), VAR), flush=True)
         return
     probes = [0, 1, (1 << 3) | (1 << 12), (1 << 13) | (1 << 14) | (1 << 15),
               (1 << 16), (1 << 24) - 1]
