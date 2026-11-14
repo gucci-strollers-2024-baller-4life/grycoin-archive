@@ -17,7 +17,8 @@ btc.pubkey = _pub
 ESC = "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W"
 VIOL = [4,5,6,7,69,92,93,94,95,99,101,105,119,131,138,167,168,169,170,231,232,234,235,258]
 N = len(VIOL)
-SUF = b" RTL"
+_RAW = os.environ.get("RTL_SUFFIX", " RTL")
+SUF = b"" if _RAW == "NONE" else _RAW.encode()
 Hc = 0x80000000
 
 def flips(p):
