@@ -54,14 +54,24 @@ gate(P)
 def run(start, end, join, idxs):
     sep = b"\r\n\r\n" if join == "crlf" else b"\n\n"
     nmasks = 1 << len(LET)
+    hi = min(end, nmasks)
     hits = 0
-    for mask in range(start, min(end, nmasks)):
+    n = 0
+    if start >= nmasks:
+        print("DONE tail %s %d..%d n=0 derivations=0 hits=0 (space is 2^%d)"
+              % (join, start, end, len(LET)), flush=True)
+        return
+    for mask in range(start, hi):
         body = sep.join([NORM[i] if (TBIT[i] is None or (mask >> TBIT[i]) & 1) else TFLIP[i]
                          for i in range(273)])
         d = hashlib.md5(body).hexdigest()
+        n += 1
         for ix in idxs:
-            if R.addr(d, ix) in R.TARGETS:
+            a = R.addr(d, ix)
+            if a in R.TARGETS:
                 hits += 1
-                print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
+                print("***HIT mask=%d join=%s idx=%d md5=%s escrow=%s"
+                      % (mask, join, ix, d, R.TARGETS[a]), flush=True)
                 open("HIT_tail_%s_%d_%d.txt" % (join, mask, ix), "wb").write(body)
-    print("DONE tail %s %d..%d n=%d hits=%d" % (join, start, end, 0, hits), flush=True)
+    print("DONE tail %s %d..%d n=%d derivations=%d hits=%d"
+          % (join, start, hi, n, n * len(idxs), hits), flush=True)
