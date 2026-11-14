@@ -161,6 +161,10 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW == "MEGA":
+        import mega
+        mega.main()
+        return
     if _RAW == "TL":
         if join == "crlf":
             print("tail: single pass, join handled inside", flush=True)
