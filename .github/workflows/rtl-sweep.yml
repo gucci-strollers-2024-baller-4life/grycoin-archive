@@ -1,0 +1,62 @@
+name: rtl-suffix-sweep
+on:
+  workflow_dispatch:
+    inputs:
+      space_bits:
+        description: 'subset bits (24 = full power set of the sign violators)'
+        default: '24'
+      indices:
+        description: 'derivation indices, comma separated'
+        default: '0'
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: install
+        run: pip install --quiet coincurve
+      - name: calibrate
+        run: |
+          python - <<'PY'
+          import sys, hashlib
+          sys.path.insert(0,'ci')
+          import rtl_ci
+          a=rtl_ci.addr('9dd2efb9bc976c2095bd534d7b8d431c',0)
+          assert a=='19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN', a
+          b=rtl_ci.addr(hashlib.md5(b'EMERGENCY TOMI climate EMERGENCY').hexdigest(),0)
+          assert b=='13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd', b
+          print("both calibrations pass")
+          PY
+      - name: shard
+        env:
+          SHARD: ${{ matrix.shard }}
+          INDICES: ${{ github.event.inputs.indices }}
+        run: |
+          SPACE=$(( 1 << ${{ github.event.inputs.space_bits }} ))
+          N=20
+          SPAN=$(( SPACE / N ))
+          START=$(( SHARD * SPAN ))
+          END=$(( START + SPAN ))
+          if [ "$SHARD" = "19" ]; then END=$SPACE; fi
+          echo "shard $SHARD masks $START..$END"
+          for J in crlf lf; do
+            python ci/rtl_ci.py $START $END $J "$INDICES" | tee out_${J}_${SHARD}.txt
+            if grep -q '\*\*\*HIT' out_${J}_${SHARD}.txt; then
+              echo "::error::HIT FOUND shard $SHARD join $J"
+            fi
+          done
+      - name: upload
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rtl-shard-${{ matrix.shard }}
+          path: out_*.txt
+          retention-days: 7
