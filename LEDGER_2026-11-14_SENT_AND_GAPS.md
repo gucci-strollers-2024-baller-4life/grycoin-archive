@@ -88,3 +88,36 @@ a word-shape, a name's own letters, a punctuation feature, a length class, or th
 242 word window. Those are the only selection rules the chapter's own text licenses, so the
 selection is judgement, not a rule, and no further structured sweep on this text is going to
 find it.
+
+## Name lane 4030e56: case direction and what a demo hit would transfer
+
+**Case direction, confirmed from the committed source.** `mark()` is
+`b[p] = c - 32 if 97 <= c <= 122 else c` and nothing else: it rewrites a lowercase letter
+to its uppercase form at each chosen position. There is no lowering branch anywhere in the
+file, and a chosen position that is already uppercase is a no-op, leaving the document
+byte-identical to the base at that offset. So 4030e56 tests **lowercase → uppercase only**;
+the demo's own worked example (`I` → `i`, lowercased, plus `f` → `F`) is a two-direction
+rule and is **not** covered by this lane. Those two directions are covered elsewhere and
+separately: the paragraph-edge and sentence-edge families lower the first alphabetic of a
+selected unit and raise the last, and the local word-mark family ran `first` (lower) as well
+as `last` (upper) over all 1,493 word types at every occurrence. What this lane adds is the
+block-2/29 device specifically: a name spelled by uppercasing one occurrence of each of its
+letters, with nothing lowered.
+
+**Expectation on a cleczc hit.** FINNEY on this 1,549-byte demo has 92,104,718 in-order
+embeddings; the same name on the 45,450-byte chapter has on the order of 1e14, so the demo
+result alone does not transfer. It transfers only if the winning placement is structurally
+tight, because a tight placement is a rule that can be re-run on the chapter while a
+scattered one is an arbitrary offset. Every hit therefore prints a containment report:
+paragraphs, distinct words, distinct sentences, the span, the spread, the largest gap, and
+`all_one_word` / `all_one_sentence`. Probes on the demo come out scattered
+(`paragraphs=4 words=6 sentences=4 span=47..1084 spread=1037`), which is the shape that
+would *not* transfer; the shape that would is `words=1` or `sentences=1` with a small span.
+
+The three runs already dispatched (`43611136238` NFINNEY, `43611141897` NTHOMAS,
+`43611146983` NGRYCOIN) are pinned to 4030e56 and predate this diagnostic, but each hit
+writes its full text to `HIT_NAME_<name>_<ordinal>_<join>_<idx>.txt`, so the same report
+can be recomputed from the artifact after the fact.
+
+No further work is stacked on the queue, per instruction. The eight runs in flight or
+queued are the mega, GAPS, SENT, SENTT, CLWS, NFINNEY, NTHOMAS, NGRYCOIN and MSG.

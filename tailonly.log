@@ -1,0 +1,3 @@
+targets LIVE(14zMk)+V1(1EFojcAo)
+gate OK [TAIL]: bases 46a308c2 (LF) / bd07e6ee (CRLF) / e7f3720c (single CR) reproduced; construction byte-identical at 4 probes; mutation tail-only (last_alpha.upper(), heads untouched); 18 tail axes CDEFGHIKLMNOPRSTWY
+Terminated

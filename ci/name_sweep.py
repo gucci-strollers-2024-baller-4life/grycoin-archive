@@ -91,6 +91,40 @@ def mark(positions):
     return bytes(b)
 
 
+def describe(positions):
+    """Containment report for a winning placement.
+
+    A hit on cleczc only transfers to the chapter if the winning placement is tight: on
+    45,450 bytes FINNEY has about 1e14 in-order embeddings, so only a placement that sits
+    inside one sentence, one word, or one short adjacent span narrows the chapter's space
+    to something enumerable. Printed with every hit so the transfer question is answerable
+    from the log alone.
+    """
+    para = sum(1 for i in range(L) if raw[max(0, i - 1):i + 1] == b"\n\n")
+    pb = [0]
+    for i in range(L - 1):
+        if raw[i:i + 2] == b"\n\n":
+            pb.append(i + 2)
+    def para_of(p):
+        return max(k for k, st in enumerate(pb) if st <= p)
+    import re as _re
+    words = [(m.start(), m.end()) for m in _re.finditer(rb"[A-Za-z]+", raw)]
+    sents = []
+    start = 0
+    for m in _re.finditer(rb"[.!?][ \n]+", raw):
+        sents.append((start, m.start()))
+        start = m.end()
+    sents.append((start, L))
+    wpar = set(para_of(p) for p in positions)
+    wsp = set(k for p in positions for k, (a, b) in enumerate(words) if a <= p < b)
+    wse = set(k for p in positions for k, (a, b) in enumerate(sents) if a <= p <= b)
+    gaps = [positions[i + 1] - positions[i] for i in range(len(positions) - 1)]
+    return ("paragraphs=%d words=%d sentences=%d span=%d..%d spread=%d maxgap=%d all_one_word=%s "
+            "all_one_sentence=%s" % (len(wpar), len(wsp), len(wse), positions[0], positions[-1],
+                                     positions[-1] - positions[0], max(gaps),
+                                     len(wsp) == 1, len(wse) == 1))
+
+
 def gate():
     for probe in (0, 1, TOTAL // 3, TOTAL - 1, TOTAL // 2):
         pos = unrank(probe)
@@ -137,8 +171,8 @@ def run(start, end, idxs):
                 a = R.addr(d, ix)
                 if a == DEMO:
                     hits += 1
-                    print("***HIT name=%s ordinal=%d join=%s idx=%d md5=%s escrow=%s"
-                          % (NAME, ordinal, tag, ix, d, DEMO), flush=True)
+                    print("***HIT name=%s ordinal=%d join=%s idx=%d md5=%s escrow=%s %s"
+                          % (NAME, ordinal, tag, ix, d, DEMO, describe(unrank(ordinal))), flush=True)
                     open("HIT_NAME_%s_%d_%s_%d.txt" % (NAME, ordinal, tag, ix), "wb").write(text)
         if n % 200000 == 0:
             print("n=%d ordinal=%d pfx3c=%d pfx3c6=%d deriv=%d rate=%.0f/s"
