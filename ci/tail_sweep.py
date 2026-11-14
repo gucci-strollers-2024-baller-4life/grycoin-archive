@@ -34,6 +34,7 @@ def gate(P):
         b = "\r\n".join(flips_tail(P[i]) if (TBIT[i] is not None and not (mask >> TBIT[i]) & 1)
                         else P[i] for i in range(273)).encode()
         assert a == b, "tail construction mismatch at mask %d" % mask
+    print("targets %s" % "+".join(R.TARGETS.values()), flush=True)
     print("gate OK [TAIL]: bases 46a308c2 (LF) / bd07e6ee (CRLF) / e7f3720c (single CR) "
           "reproduced; construction byte-identical at %d probes; mutation tail-only "
           "(last_alpha.upper(), heads untouched); %d tail axes %s"
@@ -59,7 +60,7 @@ def run(start, end, join, idxs):
                          for i in range(273)])
         d = hashlib.md5(body).hexdigest()
         for ix in idxs:
-            if R.addr(d, ix) == R.ESC:
+            if R.addr(d, ix) in R.TARGETS:
                 hits += 1
                 print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
                 open("HIT_tail_%s_%d_%d.txt" % (join, mask, ix), "wb").write(body)

@@ -36,6 +36,9 @@ btc.pubkey = _pub
 
 ESC = "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W"
 V1T = "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
+# Both escrows are checked on every candidate. The single-CRLF base is the 07-23 escrow's
+# own format, so a run on that substrate that only watched 14zMk would miss its own answer.
+TARGETS = {ESC: "LIVE(14zMk)", V1T: "V1(1EFojcAo)"}
 
 # 16 replica members (0-indexed) + 8 prose F/W singles + 235 (kept so both readings
 # of the fourth replica stay inside one space). 25 axes = 33,554,432 masks.
@@ -206,17 +209,20 @@ def main():
         # marked when the paragraph's letter bit is 0 ("not a member of the class")
         triples = [(f, z, b) for f, z, b in zip(flip, norm, LETBIT)]
         nmasks = 1 << len(LETTERS)
-        print("axes n=%d letters=%s join=%r indices=%s masks=%d"
-              % (len(LETTERS), "".join(LETTERS), sep, idxs, nmasks), flush=True)
+        print("axes n=%d letters=%s join=%r indices=%s masks=%d targets=%s"
+              % (len(LETTERS), "".join(LETTERS), sep, idxs, nmasks,
+                 "+".join(TARGETS.values())), flush=True)
         t0 = time.time(); n = 0; hits = 0
         for mask in range(start, min(end, nmasks)):
             body = sep.join([z if (b is None or (mask >> b) & 1) else f for f, z, b in triples]) + SUF
             d = hashlib.md5(body).hexdigest()
             n += 1
             for ix in idxs:
-                if addr(d, ix) == (V1T if V1 else ESC):
+                a = addr(d, ix)
+                if a in TARGETS:
                     hits += 1
-                    print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
+                    print("***HIT mask=%d join=%s idx=%d md5=%s escrow=%s"
+                          % (mask, join, ix, d, TARGETS[a]), flush=True)
                     open("HIT_%s_%d_%d.txt" % (join, mask, ix), "wb").write(body)
             if n % 50000 == 0:
                 print("n=%d mask=%d rate=%.0f/s" % (n, mask, n / (time.time() - t0)), flush=True)
@@ -233,7 +239,7 @@ def main():
         d = hashlib.md5(body).hexdigest()
         n += 1
         for ix in idxs:
-            if addr(d, ix) == (V1T if V1 else ESC):
+            if addr(d, ix) in TARGETS:
                 hits += 1
                 print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
                 open("HIT_%s_%d_%d.txt" % (join, mask, ix), "wb").write(body)
