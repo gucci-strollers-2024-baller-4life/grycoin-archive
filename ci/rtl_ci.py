@@ -137,6 +137,17 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW.startswith("K2"):
+        # Exhaustive two-letter case-toggle space over the certified LF base (46a308c2).
+        # K2A: global pairs 0 .. 2^29-1.  K2B: 2^29 .. 2^30-1 (clipped at 641,697,400).
+        if join == "crlf":
+            print("k2: single pass, lf only")
+            return
+        import k2_sweep
+        off = 0 if _RAW == "K2A" else (1 << 29)
+        procs = int(os.environ.get("K2_PROCS", "4"))
+        k2_sweep.run(start + off, end + off, procs)
+        return
     sep = b"\r\n" if V1 else (b"\r\n\r\n" if join == "crlf" else b"\n\n")
     if V1 and join == "lf":
         print("skip duplicate join under V1")
