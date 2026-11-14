@@ -15,10 +15,12 @@ def _pub(k):
 btc.pubkey = _pub
 
 ESC = "14zMkTgaVXJcxdh4JdWi29MLRR44iUSG9W"
+V1T = "1EFojcAo2vbhRGCGCa7q8Wwvzss28mhQYC"
 VIOL = [4,5,6,7,69,92,93,94,95,99,101,105,119,131,138,167,168,169,170,231,232,234,235,258]
 N = len(VIOL)
 _RAW = os.environ.get("RTL_SUFFIX", " RTL")
-SUF = b"" if _RAW == "NONE" else _RAW.encode()
+V1 = (_RAW == "V1")
+SUF = b"" if _RAW in ("NONE", "V1") else _RAW.encode()
 Hc = 0x80000000
 
 def flips(p):
@@ -39,7 +41,9 @@ def addr(d, ix):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(',')]
-    sep = b"\r\n\r\n" if join == 'crlf' else b"\n\n"
+    sep = b"\r\n" if V1 else (b"\r\n\r\n" if join == 'crlf' else b"\n\n")
+    if V1 and join == 'lf':
+        print('skip duplicate join under V1'); return
     P = open(os.path.join(HERE, 'base_chapter_lf.txt'), encoding='utf-8').read().split("\n\n")
     assert len(P) == 273
     assert sum(len(p) for p in P) + 2*(len(P)-1) == 45450, "substrate drift"
@@ -58,7 +62,7 @@ def main():
         d = hashlib.md5(body).hexdigest()
         n += 1
         for ix in idxs:
-            if addr(d, ix) == ESC:
+            if addr(d, ix) == (V1T if V1 else ESC):
                 print("***HIT mask=%d join=%s idx=%d md5=%s" % (mask, join, ix, d), flush=True)
         if n % 25000 == 0:
             print("n=%d mask=%d rate=%.0f/s" % (n, mask, n/(time.time()-t0)), flush=True)
