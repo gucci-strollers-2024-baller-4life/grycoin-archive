@@ -165,6 +165,12 @@ def main():
         import mega
         mega.main()
         return
+    if _RAW == "GAPS":
+        # L1 head-selected/tail-only, L2 head-selected/head-only, L3 tail-selected/head-only.
+        # Three selector/mutation pairings the hunt has never covered; see ci/gaps.py.
+        import gaps
+        gaps.run(start, end, join, idxs)
+        return
     if _RAW == "TL":
         if join == "crlf":
             print("tail: single pass, join handled inside", flush=True)
