@@ -161,6 +161,13 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW.startswith("PAIRS"):
+        # Exhaustive two-case-flip ("a couple of letters") closure of the chapter.
+        # Suffix carries the block offset: PAIRS0, PAIRS134217728, ...
+        import pairs_sweep
+        off = int(_RAW[5:] or 0)
+        pairs_sweep.run(start + off, end + off, join, idxs)
+        return
     if _RAW == "MEGA":
         import mega
         mega.main()
