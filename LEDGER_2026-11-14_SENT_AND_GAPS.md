@@ -200,3 +200,33 @@ Tested: every one of the 256 subsets of those twelve paragraphs with their inter
 lowercased (the repair reading, the opposite direction from every previous sweep), on LF and CRLF2,
 at indices 0-2: 512 documents, **zero** hits. So the answer is not "repair the anomalies", and the
 anomalies are therefore ordinary authoring artefacts rather than the signs themselves.
+
+## Overnight audit: all eight queued runs settled, 921.6M documents, zero hits
+
+Pulled every shard log rather than trusting the run conclusions. Per run: documents counted from the
+harness's own `n` (which counts documents, both joins), hits from `***HIT` lines, gate line from the raw
+log.
+
+| run | lane | documents | derivations | gate | hits |
+|---|---|---|---|---|---|
+| 43578710933 | mega, 20 shards | 96,468,992 | (masks) | OK, 20/20 | 0 |
+| 43609600805 | GAPS L1/L2/L3 | 8,912,896 | — | OK | 0 |
+| 43609896672 | SENT | 8,388,608 | — | OK | 0 |
+| 43610061023 | SENTT | 4,194,304 | — | OK | 0 |
+| 43610745382 | CLWS, single-CRLF base | 2,097,152 | — | OK | 0 |
+| 43611136238 | NFINNEY | 184,209,436 | 2,162,712 | OK | 0 |
+| 43611141897 | NTHOMAS | 354,117,806 | 4,150,410 | OK | 0 |
+| 43611146983 | NGRYCOIN | 247,121,970 | 2,894,514 | OK | 0 |
+| 43611493228 | MSG | 16,777,216 | 50,331,648 | OK | 0 |
+
+Total 921,607,380 documents, zero hits. The name lanes are exhaustive: FINNEY 92,104,718 x 2 joins =
+184,209,436, THOMAS 177,058,903 x 2 = 354,117,806, GRYCOIN 123,560,985 x 2 = 247,121,970. So the demo's
+block-2/29 name-marking device is closed for all three large names at every in-order placement, both
+joins, indices 0-2, under the 3c* filter: 9,207,636 derivations in total.
+
+**One real coverage gap found in MSG.** The gate line reports 363 messages and 8,743,576 embeddings
+(the dispatch ran with the default length 2..6, not the 2..5 I sized the grid for), while the 2^23 grid
+reaches only 8,388,608. Uncovered: the last 207,437 embeddings of `SYSTEM`, plus `THEORY`, `THINGS`,
+`TITLED`, `TRYING`, `WISHES`, `WONDER`, `WRITES` entirely. Dispatched **43684830750** (`MSG2`, commit
+`2b5a1be`, space_bits 19 with a 2^23 offset) to close exactly that tail: 354,968 ordinals, 709,936
+documents, ~2.1M derivations, about four minutes.
