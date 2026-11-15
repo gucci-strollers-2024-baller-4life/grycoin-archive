@@ -230,3 +230,32 @@ reaches only 8,388,608. Uncovered: the last 207,437 embeddings of `SYSTEM`, plus
 `TITLED`, `TRYING`, `WISHES`, `WONDER`, `WRITES` entirely. Dispatched **43684830750** (`MSG2`, commit
 `2b5a1be`, space_bits 19 with a 2^23 offset) to close exactly that tail: 354,968 ordinals, 709,936
 documents, ~2.1M derivations, about four minutes.
+
+## Re-read of the chapter's own walkthrough (¶228-246): the algorithm in the author's words
+
+Stage one's rule is stated outright in "Second", not inferred:
+
+- **¶228** "Turns out, there are some signs we recognize from the Satoshi anagram. The letters I, T, A, S
+  and M as first letters of each paragraph of this post."
+- **¶230** "Having seen the signs before, we are directed to look at those four paragraphs, the only ones
+  where we don't recognize the signs."
+- **¶236** "We are directed to look at the last letter of each of these. Because we are directed by the
+  fact that the 'recognize the signs' instruction comes last in the paragraph."
+- **¶240** "And it dovetails nicely with 'Nm ST' as a way used to sign in the genesis block. Exactly the
+  same signature."
+
+So the selection is: paragraphs whose first letter is **not** in the sign class {I,T,A,S,M}; mark = lower
+the first, raise the last. That is the certified 8-flip calibration exactly.
+
+**Arithmetic now kills the transfer of that rule to the chapter, independently of any sweep.** The
+chapter has 273 paragraphs over **21 distinct initials** (A36 B11 C4 D3 E3 F14 G6 H11 I47 K1 L1 M2 N5
+O15 P3 R2 S19 T50 V3 W27 Y9). For the analogue of stage one to hold, the marked set would have to be
+exactly 4 paragraphs, which requires the sign class to contain the initials of the other 269, i.e. at
+least 17 letters. A 5-letter class cannot. Concretely, {I,T,A,S,M} selects **118 of 273** paragraphs, not
+4. So no initial-class sign set of stage one's size can produce a "couple of letters" on the chapter, and
+the whole class lane is dead by counting rather than by having missed a subset.
+
+That leaves "signs" as a **per-paragraph property** (what the paragraph does or contains), which is
+exactly the family the name lane and the message-first lanes test. Full verification of the message list:
+`STNM` and `FFWW` are both among the 363 messages, so the signature-as-message reading is covered on tails
+(run 43611493228 + 43684830750, exhaustive, zero) and is running now on heads (43685708179).
