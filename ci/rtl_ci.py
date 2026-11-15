@@ -170,10 +170,13 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
-    if _RAW == "MSG":
+    if _RAW in ("MSG", "MSG2"):
         # Message-first inversion over paragraph tails. See ci/msg_sweep.py.
+        # MSG2 continues past the 2^23 grid: run 43611493228 covered ordinals 0..8388608
+        # of the 8743576-embedding space, so the length-6 tail was left uncovered.
         import msg_sweep
-        msg_sweep.run(start, end, idxs)
+        off = (1 << 23) if _RAW == "MSG2" else 0
+        msg_sweep.run(start + off, end + off, idxs)
         return
     if _RAW.startswith("SENT"):
         # Sentence-unit class family: 670 sentences, 22 initial letters, 2^22 masks.
