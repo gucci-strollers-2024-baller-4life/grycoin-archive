@@ -170,6 +170,11 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
+    if _RAW == "D3":
+        # Demo global three-flip closure: every case toggle at any three alpha positions.
+        import d3_sweep
+        d3_sweep.run(start, end, idxs)
+        return
     if _RAW == "DMSG":
         # Demo letter level: in-order letter placements spelling a word of the demo's own
         # vocabulary, filtered on the published 3c prefix, against the demo escrow.
