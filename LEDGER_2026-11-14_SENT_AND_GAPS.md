@@ -259,3 +259,25 @@ That leaves "signs" as a **per-paragraph property** (what the paragraph does or 
 exactly the family the name lane and the message-first lanes test. Full verification of the message list:
 `STNM` and `FFWW` are both among the 363 messages, so the signature-as-message reading is covered on tails
 (run 43611493228 + 43684830750, exhaustive, zero) and is running now on heads (43685708179).
+
+## Whole-word case changes and the demo's letter-level signature (all zero)
+
+Two families closed locally, both cheap and both plausible readings of the manual's block-29 shape
+("just change the o and i in 'voice'"):
+
+- **Every occurrence of one word type re-cased.** All 1,482 word types of the chapter, four modes
+  each (all letters uppercased, all lowercased, inner letters only, final letter only), both joins,
+  indices 0-2: 11,856 documents, 35,568 derivations, zero. So the answer is not "one word of the
+  chapter uniformly re-cased", which is the naive generalisation of block 29.
+- **The demo at letter level for the signature's own spellings.** In-order placements, both joins,
+  deriving only the 3c6-prefixed candidates: `YANG` 130,203 placements (59 at 3c6), `FFWW` 20,033
+  (10), `WWFF` 13,468 (3), `UUUU` 58,905 (33), `NMST` 360,876 (146), `TNMS` 887,678 (474). Together
+  260,406 + 1.5M documents, zero hits against `1tzieUf…`. Together with the earlier `STNM` closure
+  (694,082 placements), every spelling of the certified signature is now negative on the demo at
+  letter level, which is the unit its author points at ("obvious if you know the solution to
+  Satoshi's bitcointalk puzzle").
+
+Two new lanes dispatched from this: **K3** (43685930762, exhaustive three-paragraph reading,
+C(273,3) = 3,353,896 selections, certified mechanic, both joins, targets LIVE+V1) and **DMSG**
+(demo letter level over all 56 words of its own vocabulary of length 2..4, 35,522,273 in-order
+placements, filtered at 3c with pfx3c6 counted, against the demo escrow).

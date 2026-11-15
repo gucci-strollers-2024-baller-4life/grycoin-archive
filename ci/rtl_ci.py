@@ -170,6 +170,12 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
+    if _RAW == "DMSG":
+        # Demo letter level: in-order letter placements spelling a word of the demo's own
+        # vocabulary, filtered on the published 3c prefix, against the demo escrow.
+        import dmsg_sweep
+        dmsg_sweep.run(start, end, idxs)
+        return
     if _RAW == "K3":
         # Exhaustive three-paragraph reading: C(273,3) selections, certified mechanic.
         import k3_sweep
