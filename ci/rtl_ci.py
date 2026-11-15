@@ -170,6 +170,11 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
+    if _RAW == "K3":
+        # Exhaustive three-paragraph reading: C(273,3) selections, certified mechanic.
+        import k3_sweep
+        k3_sweep.run(start, end, idxs)
+        return
     if _RAW == "MSGH":
         import os as _os
         _os.environ["MSG_UNIT"] = "HEAD"
