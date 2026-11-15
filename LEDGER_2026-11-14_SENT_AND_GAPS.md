@@ -281,3 +281,32 @@ Two new lanes dispatched from this: **K3** (43685930762, exhaustive three-paragr
 C(273,3) = 3,353,896 selections, certified mechanic, both joins, targets LIVE+V1) and **DMSG**
 (demo letter level over all 56 words of its own vocabulary of length 2..4, 35,522,273 in-order
 placements, filtered at 3c with pfx3c6 counted, against the demo escrow).
+
+## All five overnight lanes settled: 716,164,266 more documents, zero hits
+
+| run | lane | documents | result |
+|---|---|---|---|
+| 43685708179 | MSGH, messages read from paragraph heads | 4,632,080 | 0 hits, gate OK |
+| 43685930762 | K3, all C(273,3) paragraph triples | 6,707,792 | 0 hits, gate OK |
+| 43686016268 | DMSG, demo letter level, own vocabulary | 12,898,886 | 0 hits, gate OK |
+| 43686436514 | D3, demo global three-flip closure | 570,258,780 | 0 hits, gate OK |
+| 43687489128 | chapter pairs | 134,217,728 | 0 hits, gate OK |
+
+**D3 is the important one.** All C(1197,3) = 285,129,390 triples x both joins = 570,258,780
+documents, 2,208,014 of them at a `3c` prefix and 137,937 at `3c6`, 6,624,042 derivations against the
+demo escrow, zero. That is a boundary shift, not another empty lane: the demo's answer differs from
+the served slice `7759227d` by **at least four case changes anywhere**, or the substrate differs.
+It also retires a reading of the cleczc thread: the author's "first seven digits of that MD5 hash are
+7759227, with three numbers 7" is about the *question slice* people must reproduce before hashing
+(the value `CORRECTION_demo_base` established), not about the answer, whose published prefix is `3c6`.
+
+## The gap the class sweep left: class size
+
+Stage one's class {I,T,A,S,M} is five letters only because Hal's post has seven distinct initials.
+On the chapter the same arithmetic inverts: 21 initials over 273 paragraphs, so a five-letter class
+marks 118 paragraphs and a seventeen-letter class marks four. The old sweep covered C(26,5) = 65,780
+five-letter classes and nothing else. Ran the plausible tail locally first: every class whose
+complement is 16 paragraphs or fewer (1,216 distinct selections, three mark modes, both joins,
+indices 0-2 = 7,296 documents), zero. Dispatched **CLS** to close the whole space at once: all
+2^21 = 2,097,152 subsets of the 21 initials that actually occur, certified mechanic, both joins,
+indices 0-2 = 4,194,304 documents, 12,582,912 derivations, about 8 minutes a shard.

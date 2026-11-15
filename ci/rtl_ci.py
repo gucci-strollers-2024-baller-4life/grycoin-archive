@@ -177,6 +177,11 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
+    if _RAW == "CLS":
+        # Exhaustive initial-class sign space: all 2^21 subsets of the chapter's 21 initials.
+        import cls_sweep
+        cls_sweep.run(start, end, idxs)
+        return
     if _RAW == "D3":
         # Demo global three-flip closure: every case toggle at any three alpha positions.
         import d3_sweep
