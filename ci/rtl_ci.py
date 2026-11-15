@@ -170,6 +170,12 @@ def main():
         import name_sweep
         name_sweep.run(start, end, idxs)
         return
+    if _RAW == "MSGH":
+        import os as _os
+        _os.environ["MSG_UNIT"] = "HEAD"
+        import msg_sweep
+        msg_sweep.run(start, end, idxs)
+        return
     if _RAW in ("MSG", "MSG2"):
         # Message-first inversion over paragraph tails. See ci/msg_sweep.py.
         # MSG2 continues past the 2^23 grid: run 43611493228 covered ordinals 0..8388608

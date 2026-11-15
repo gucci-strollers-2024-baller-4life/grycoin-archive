@@ -36,6 +36,10 @@ for p in P:
     FIRST.append(a[0] if a else None)
     LAST.append(a[-1] if a else None)
 TAIL = [P[i][LAST[i]].upper() if LAST[i] is not None else None for i in range(N)]
+# MSG_UNIT=HEAD reads the message from paragraph heads instead of tails. Stage one's lowered heads
+# spelled FFWW as a dedication message (para 241), so the head sequence is a message carrier too.
+if os.environ.get("MSG_UNIT") == "HEAD":
+    TAIL = [P[i][FIRST[i]].upper() if FIRST[i] is not None else None for i in range(N)]
 ALPHA = sorted({c for c in TAIL if c})
 POS = {c: [i for i in range(N) if TAIL[i] == c] for c in ALPHA}
 
@@ -137,10 +141,11 @@ def gate():
                 (lambda c: "".join(c).encode())(_flip(P[i], FIRST[i], LAST[i])) if i in sel else P[i].encode()
                 for i in range(N))
             assert doc == ref, "construction mismatch"
-    print("gate OK [MSG]: bases 46a308c2 (LF) / bd07e6ee (CRLF) / e7f3720c (single CR) reproduced; "
+    print("gate OK [%s]: bases 46a308c2 (LF) / bd07e6ee (CRLF) / e7f3720c (single CR) reproduced; "
           "construction verified at 3 probes; %d messages len 2..%d; %d in-order embeddings; "
-          "tail alphabet %s; targets %s"
-          % (len(MSGS), MAXLEN, TOTAL, "".join(ALPHA), "+".join(R.TARGETS.values())), flush=True)
+          "%s alphabet %s; targets %s"
+          % (os.environ.get("MSG_UNIT", "TAIL"), len(MSGS), MAXLEN, TOTAL, os.environ.get("MSG_UNIT", "TAIL").lower(),
+             "".join(ALPHA), "+".join(R.TARGETS.values())), flush=True)
 
 
 def _flip(p, f, l):
