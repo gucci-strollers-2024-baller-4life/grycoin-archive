@@ -198,6 +198,13 @@ def main():
         import k3_sweep
         k3_sweep.run(start, end, idxs)
         return
+    if _RAW == "MSGS":
+        # Signature-string message family: the tails spell ISTNM / STNMI / TNMS and variants.
+        import os as _os2
+        _os2.environ["MSG_SET"] = "SIG"
+        import msg_sweep
+        msg_sweep.run(start, end, idxs)
+        return
     if _RAW == "MSGH":
         import os as _os
         _os.environ["MSG_UNIT"] = "HEAD"

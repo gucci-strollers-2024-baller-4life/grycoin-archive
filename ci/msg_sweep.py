@@ -48,7 +48,14 @@ for p in P:
     for w in re.findall(r"[A-Za-z]+", p):
         vocab.add(w.upper())
 vocab |= set(EXTRA)
-MSGS = [w for w in vocab if 2 <= len(w) <= MAXLEN and set(w) <= set(ALPHA)]
+# MSG_SET=SIG restricts the message list to the chapter's own signature strings.  Para 239 writes
+# the reading as "I STNM" and para 240 calls the tails "the same signature" as the genesis block,
+# so the candidate messages are the I-prefixed variants of the certified four-letter tail string.
+SIG = ["ISTNM", "ISTN", "ISTNMI", "ISTNMS", "ISTNME", "ISTNMST",
+       "STNMI", "STNMS", "STNMST", "NMS", "TNMS", "NMST"]
+if os.environ.get("MSG_SET") == "SIG":
+    vocab = set(SIG)
+MSGS = [w for w in vocab if 2 <= len(w) <= max(MAXLEN, 6) and set(w) <= set(ALPHA)]
 MSGS.sort(key=lambda w: (len(w), w))
 
 
