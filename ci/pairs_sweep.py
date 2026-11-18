@@ -49,6 +49,7 @@ def addr(d, ix):
 
 
 CERT_CRLF2 = "bd07e6ee209c5ab65d874bbbcfccda18"
+CERT_CLEAN = "8cdb9bc8685f83f0415ab7278890743d"
 SUBSTRATE = os.environ.get("PAIRS_SUBSTRATE", "lf")
 
 
@@ -56,7 +57,15 @@ def load():
     if SUBSTRATE == "crlf2":
         base = open(os.path.join(HERE, "base_chapter_crlf2.txt"), "rb").read()
         want = CERT_CRLF2
+    elif SUBSTRATE == "clean":
+        # The author's own certified files are pure ASCII with no NBSP and no trailing spaces
+        # (safudev_stage1.txt and demo_base.txt both measure 0 and 0), while the served chapter
+        # carries 6 NBSP and 17 trailing-space lines. If his copy was normalised the way his own
+        # files are, the preimage is this substrate, md5 8cdb9bc8.
+        base = open(os.path.join(HERE, "base_chapter_clean.txt"), "rb").read()
+        want = CERT_CLEAN
     else:
+        assert SUBSTRATE == "lf", "unknown substrate %r" % SUBSTRATE
         base = open(os.path.join(HERE, "base_chapter_lf.txt"), "rb").read()
         want = CERT_LF
     got = hashlib.md5(base).hexdigest()

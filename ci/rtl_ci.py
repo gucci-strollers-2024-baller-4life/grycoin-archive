@@ -175,6 +175,15 @@ def main():
         off = int(_RAW[6:] or 0)
         demo_k5.run(start + off, end + off, join, idxs)
         return
+    if _RAW.startswith("PAIRSK"):
+        # Pair space on the CLEANED substrate (8cdb9bc8): NBSP normalised to space, trailing spaces
+        # stripped, matching the conventions of the author's own certified files.
+        import os as _o4
+        _o4.environ["PAIRS_SUBSTRATE"] = "clean"
+        import pairs_sweep
+        off = int(_RAW[6:] or 0)
+        pairs_sweep.run(start + off, end + off, join, idxs)
+        return
     if _RAW.startswith("PAIRSC"):
         # Same exhaustive pair space on the CRLF2 substrate (bd07e6ee): the author's re-funding
         # note says the block is now "hashed with two line breaks between paragraphs", which the
