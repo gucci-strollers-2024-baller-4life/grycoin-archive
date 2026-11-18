@@ -194,6 +194,14 @@ def main():
         off = int(_RAW[6:] or 0)
         pairs_sweep.run(start + off, end + off, join, idxs)
         return
+    if _RAW.startswith("PAIRSB"):
+        # Two-flip space on the ONE-line-break substrate (e7f3720c): the pre-twist serialisation,
+        # which is the one that pairs with the earlier escrow 1EFojcAo. Suffix carries the block
+        # offset, e.g. PAIRSB134217728.
+        import pairs_sb
+        off = int(_RAW[6:] or 0)
+        pairs_sb.run(start + off, end + off, join, idxs)
+        return
     if _RAW.startswith("PAIRS"):
         # Exhaustive two-case-flip ("a couple of letters") closure of the chapter.
         # Suffix carries the block offset: PAIRS0, PAIRS134217728, ...
