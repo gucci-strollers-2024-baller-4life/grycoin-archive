@@ -1,0 +1,74 @@
+name: pairs-single-break
+
+# Real Big Block: exhaustive two-case-flip space on the ONE-line-break substrate (e7f3720c).
+# The author added the extra line breaks on 2019-07-25 and re-funded on 2019-07-31 "hashing with a
+# slightly different solution", so the earlier escrow 1EFojcAo pairs with the single-break
+# serialisation. A two-flip document on this base is not a document on any other base.
+#
+# Dispatch:  space_bits 27 (134,217,728 ordinals per run), offset in `offset`, indices "0".
+# The full space is C(35,825,2) = 641,697,400, so five runs at offsets 0, 134217728, 268435456,
+# 402653184 and 536870912 tile it exactly.
+
+on:
+  workflow_dispatch:
+    inputs:
+      space_bits:
+        description: 'ordinal block size as a power of two'
+        default: '27'
+      offset:
+        description: 'ordinal offset of this block'
+        default: '0'
+      indices:
+        description: 'derivation indices, comma separated'
+        default: '0'
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: install
+        run: pip install --quiet coincurve
+      - name: calibrate
+        run: |
+          python - <<'PY'
+          import sys, hashlib
+          sys.path.insert(0,'ci')
+          import pairs_sb
+          a = pairs_sb.addr('9dd2efb9bc976c2095bd534d7b8d431c', 0)
+          assert a == '19TbyN5KCg1Lg7qHwezifsLVcdSa2Rj5KN', a
+          b = pairs_sb.addr(hashlib.md5(b'EMERGENCY TOMI climate EMERGENCY').hexdigest(), 0)
+          assert b == '13Cv6SXUnzGDT8JHqzzJ8xMPtsSdhJA4wd', b
+          print('both calibrations pass')
+          PY
+      - name: shard
+        env:
+          SHARD: ${{ matrix.shard }}
+          INDICES: ${{ github.event.inputs.indices }}
+          OFFSET: ${{ github.event.inputs.offset }}
+          BITS: ${{ github.event.inputs.space_bits }}
+        run: |
+          SPACE=$(( 1 << BITS ))
+          SPAN=$(( SPACE / 20 ))
+          START=$(( OFFSET + SHARD * SPAN ))
+          END=$(( START + SPAN ))
+          if [ "$SHARD" = "19" ]; then END=$(( OFFSET + SPACE )); fi
+          echo "shard $SHARD pairs $START..$END"
+          python ci/pairs_sb.py $START $END lf "$INDICES" | tee out_$SHARD.txt
+          if grep -q '\*\*\*HIT' out_$SHARD.txt; then
+            echo "::error::HIT FOUND shard $SHARD"
+          fi
+      - name: upload
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pairs-sb-shard-${{ matrix.shard }}
+          path: out_*.txt
+          retention-days: 7
