@@ -161,6 +161,13 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW.startswith("DEMOB4"):
+        # Demo oracle at four case flips over ALL 548 word-boundary positions (not just the 296
+        # case-appropriate ones), C(548,4) = 3,716,599,705.
+        import demo_b4
+        off = int(_RAW[6:] or 0)
+        demo_b4.run(start + off, end + off, join, idxs)
+        return
     if _RAW.startswith("DEMOK5"):
         # Demo oracle at five mechanical flips: C(296,5) = 18,303,337,304 documents.
         # Suffix carries the block offset, e.g. DEMOK517179869184.
