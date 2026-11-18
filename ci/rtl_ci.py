@@ -194,6 +194,13 @@ def main():
         off = int(_RAW[6:] or 0)
         pairs_sweep.run(start + off, end + off, join, idxs)
         return
+    if _RAW.startswith("K4D"):
+        # Unrestricted four-flip closure of the demo. Suffix carries the ordinal offset:
+        # K4D0, K4D17179869184, ...
+        import k4d_sweep
+        off = int(_RAW[3:] or 0)
+        k4d_sweep.run(start + off, end + off, join, idxs)
+        return
     if _RAW.startswith("PAIRS"):
         # Exhaustive two-case-flip ("a couple of letters") closure of the chapter.
         # Suffix carries the block offset: PAIRS0, PAIRS134217728, ...
