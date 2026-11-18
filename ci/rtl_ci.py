@@ -161,6 +161,16 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW.startswith("PAIRSC"):
+        # Same exhaustive pair space on the CRLF2 substrate (bd07e6ee): the author's re-funding
+        # note says the block is now "hashed with two line breaks between paragraphs", which the
+        # CRLF2 serialisation also satisfies, so both substrates must be closed.
+        import os as _o3
+        _o3.environ["PAIRS_SUBSTRATE"] = "crlf2"
+        import pairs_sweep
+        off = int(_RAW[6:] or 0)
+        pairs_sweep.run(start + off, end + off, join, idxs)
+        return
     if _RAW.startswith("PAIRS"):
         # Exhaustive two-case-flip ("a couple of letters") closure of the chapter.
         # Suffix carries the block offset: PAIRS0, PAIRS134217728, ...

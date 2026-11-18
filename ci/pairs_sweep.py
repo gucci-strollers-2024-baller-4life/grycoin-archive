@@ -48,10 +48,19 @@ def addr(d, ix):
     return btc.p2pkh(_pub(k))
 
 
+CERT_CRLF2 = "bd07e6ee209c5ab65d874bbbcfccda18"
+SUBSTRATE = os.environ.get("PAIRS_SUBSTRATE", "lf")
+
+
 def load():
-    base = open(os.path.join(HERE, "base_chapter_lf.txt"), "rb").read()
+    if SUBSTRATE == "crlf2":
+        base = open(os.path.join(HERE, "base_chapter_crlf2.txt"), "rb").read()
+        want = CERT_CRLF2
+    else:
+        base = open(os.path.join(HERE, "base_chapter_lf.txt"), "rb").read()
+        want = CERT_LF
     got = hashlib.md5(base).hexdigest()
-    assert got == CERT_LF, "base drift %s != %s" % (got, CERT_LF)
+    assert got == want, "base drift %s != %s" % (got, want)
     pos = [i for i, c in enumerate(base) if 65 <= c <= 90 or 97 <= c <= 122]
     assert len(pos) == 35825, len(pos)
     return base, pos
@@ -69,8 +78,8 @@ def gate(base, pos):
     s[p0] = s[p0] ^ 0x20
     s[p1] = s[p1] ^ 0x20
     assert bytes(b) == bytes(s)
-    print("gate OK: base 46a308c2, 35825 alpha positions, stage-one calibration 19TbyN5, "
-          "pair space C(n,2)=%d, targets %s" % (len(pos) * (len(pos) - 1) // 2,
+    print("gate OK: substrate %s, 35825 alpha positions, stage-one calibration 19TbyN5, "
+          "pair space C(n,2)=%d, targets %s" % (SUBSTRATE, len(pos) * (len(pos) - 1) // 2,
                                                 "+".join(TARGETS.values())), flush=True)
 
 
