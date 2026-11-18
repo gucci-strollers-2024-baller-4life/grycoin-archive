@@ -161,6 +161,13 @@ def build_class_axes(P):
 def main():
     start = int(sys.argv[1]); end = int(sys.argv[2])
     join = sys.argv[3]; idxs = [int(x) for x in sys.argv[4].split(",")]
+    if _RAW.startswith("DEMOK5"):
+        # Demo oracle at five mechanical flips: C(296,5) = 18,303,337,304 documents.
+        # Suffix carries the block offset, e.g. DEMOK517179869184.
+        import demo_k5
+        off = int(_RAW[6:] or 0)
+        demo_k5.run(start + off, end + off, join, idxs)
+        return
     if _RAW.startswith("PAIRSC"):
         # Same exhaustive pair space on the CRLF2 substrate (bd07e6ee): the author's re-funding
         # note says the block is now "hashed with two line breaks between paragraphs", which the
